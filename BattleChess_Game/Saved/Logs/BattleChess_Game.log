@@ -1264,3 +1264,42 @@ Purging the undo buffer...
 [2020.10.18-19.39.47:996][187]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
 [2020.10.18-19.39.48:522][187]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
 [2020.10.18-19.39.51:523][187]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.10.18-19.39.52:107][187]LogExit: Preparing to exit.
+[2020.10.18-19.40.02:893][187]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.10.18-19.40.02:893][187]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.10.18-19.40.02:893][187]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.10.18-19.40.02:894][187]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.10.18-19.40.02:894][187]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.10.18-19.40.02:894][187]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.10.18-19.40.02:894][187]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.10.18-19.40.02:894][187]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.10.18-19.40.02:894][187]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.10.18-19.40.02:894][187]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.10.18-19.40.02:894][187]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.10.18-19.40.02:894][187]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.10.18-19.40.02:894][187]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.10.18-19.40.02:894][187]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.10.18-19.40.02:894][187]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.10.18-19.40.02:894][187]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.10.18-19.40.02:894][187]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.10.18-19.40.02:894][187]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.10.18-19.40.02:894][187]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.10.18-19.40.02:894][187]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.10.18-19.40.02:894][187]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.10.18-19.40.02:894][187]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.10.18-19.40.02:923][187]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.10.18-19.40.02:923][187]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.10.18-19.40.02:923][187]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.10.18-19.40.02:923][187]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.10.18-19.40.02:923][187]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.10.18-19.40.02:923][187]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.10.18-19.40.02:923][187]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.10.18-19.40.02:923][187]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.10.18-19.40.02:924][187]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.10.18-19.40.02:924][187]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.10.18-19.40.02:924][187]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.10.18-19.40.02:924][187]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.10.18-19.40.02:924][187]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.10.18-19.40.04:724][187]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.10.18-19.40.05:708][187]LogExit: Editor shut down
+[2020.10.18-19.40.05:806][187]LogExit: Transaction tracking system shut down
