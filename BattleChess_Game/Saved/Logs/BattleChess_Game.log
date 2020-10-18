@@ -1253,3 +1253,14 @@ Purging the undo buffer...
 [2020.10.18-19.37.45:589][453]LogPlayLevel: Display: Destroying online subsystem :Context_15
 [2020.10.18-19.37.46:507][508]Cmd: SELECT NONE
 [2020.10.18-19.37.47:013][536]LogEditorViewport: Clicking Background
+[2020.10.18-19.39.42:544][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2020.10.18-19.39.43:820][141]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu/MainMenu" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/MainMenu/MainMenu.uasset" SILENT=true
+[2020.10.18-19.39.43:862][141]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/MainMenuE0098C8D4B733AD8CC13CDA065D76A40.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/MainMenu/MainMenu.uasset'
+[2020.10.18-19.39.43:878][141]AssetCheck: New page: Asset Save: MainMenu
+[2020.10.18-19.39.43:878][141]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/MainMenu/MainMenu.MainMenu
+[2020.10.18-19.39.44:799][186]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2020.10.18-19.39.45:471][186]LogSlate: Window 'BattleChess_Game - Unreal Editor' being destroyed
+[2020.10.18-19.39.47:996][187]Cmd: QUIT_EDITOR
+[2020.10.18-19.39.47:996][187]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.10.18-19.39.48:522][187]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.10.18-19.39.51:523][187]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
