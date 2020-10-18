@@ -1303,3 +1303,10 @@ Purging the undo buffer...
 [2020.10.18-19.40.04:724][187]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
 [2020.10.18-19.40.05:708][187]LogExit: Editor shut down
 [2020.10.18-19.40.05:806][187]LogExit: Transaction tracking system shut down
+[2020.10.18-19.40.12:120][187]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002D40ED10200), frame # 150187
+[2020.10.18-19.40.12:416][187]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (000002D36D8DB080), frame # 150187
+[2020.10.18-19.40.12:416][187]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002D36D877740), frame # 150187
+[2020.10.18-19.40.12:429][187]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002D36D8D5C00), frame # 150187
+[2020.10.18-19.40.15:195][187]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002D319A02700), frame # 150187
+[2020.10.18-19.40.15:942][187]LogExit: Object subsystem successfully closed.
+[2020.10.18-19.40.17:739][187]LogShaderCompilers: Display: Shaders left to compile 0
