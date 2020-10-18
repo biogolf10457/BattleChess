@@ -814,3 +814,244 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.18-18.46.21:230][696]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/MainMenuD7A33B1D4C4F243E787C44B5DB575854.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/MainMenu.umap'
 [2020.10.18-18.46.21:274][696]AssetCheck: New page: Asset Save: MainMenu
 [2020.10.18-18.46.21:274][696]LogContentValidation: Display: Validating World /Game/Maps/MainMenu.MainMenu
+[2020.10.18-18.52.54:223][139]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/Blueprints/AllLevels/PlayerInfo.PlayerInfo
+[2020.10.18-18.55.39:713][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AllLevels/PlayerInfo" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/AllLevels/PlayerInfo.uasset" SILENT=true
+[2020.10.18-18.55.39:811][380]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/PlayerInfo0066F725450DC26DA92F179EE762C95B.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/AllLevels/PlayerInfo.uasset'
+[2020.10.18-18.55.39:880][380]AssetCheck: New page: Asset Save: PlayerInfo
+[2020.10.18-18.55.39:880][380]LogContentValidation: Display: Validating UserDefinedStruct /Game/Blueprints/AllLevels/PlayerInfo.PlayerInfo
+[2020.10.18-18.56.20:037][246]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AllLevels/PlayerInfo" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/AllLevels/PlayerInfo.uasset" SILENT=true
+[2020.10.18-18.56.20:048][246]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/PlayerInfoF8E3EAD64BA2C26AB010B3A0CD12A30B.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/AllLevels/PlayerInfo.uasset'
+[2020.10.18-18.56.20:101][246]AssetCheck: New page: Asset Save: PlayerInfo
+[2020.10.18-18.56.20:101][246]LogContentValidation: Display: Validating UserDefinedStruct /Game/Blueprints/AllLevels/PlayerInfo.PlayerInfo
+[2020.10.18-18.56.23:265][358]LogSlate: Window 'PlayerInfo' being destroyed
+[2020.10.18-18.56.23:271][358]LogSlate: Window 'PlayerInfo' being destroyed
+[2020.10.18-18.56.27:623][488]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AllLevels/PlayerSaveGame.PlayerSaveGame
+[2020.10.18-18.56.39:461][858]LogSlate: Window 'PlayerSaveGame' being destroyed
+[2020.10.18-18.56.39:585][858]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.10.18-18.56.39:609][858]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.18-18.56.40:717][902]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AllLevels/PlayerSaveGame.PlayerSaveGame
+[2020.10.18-18.56.46:344][196]LogSlate: Window 'PlayerSaveGame' being destroyed
+[2020.10.18-18.56.46:351][196]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.10.18-18.56.46:351][196]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.18-18.56.46:462][196]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AllLevels/PlayerSaveGame.PlayerSaveGame
+[2020.10.18-18.57.28:474][673]BlueprintLog: New page: Compile PlayerSaveGame
+[2020.10.18-18.57.28:675][673]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2020.10.18-18.57.38:100][951]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/PlayerSaveGame6F667C744DE324F06E760DB85C336AB2.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/AllLevels/PlayerSaveGame.uasset'
+[2020.10.18-18.57.38:128][951]AssetCheck: New page: Asset Save: PlayerSaveGame
+[2020.10.18-18.57.38:128][951]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/AllLevels/PlayerSaveGame.PlayerSaveGame
+[2020.10.18-18.57.40:137][ 69]LogSlate: Window 'PlayerSaveGame' being destroyed
+[2020.10.18-18.57.40:145][ 69]LogSlate: Window 'PlayerSaveGame' being destroyed
+[2020.10.18-18.57.40:166][ 69]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.10.18-18.57.40:166][ 69]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.18-18.58.09:162][523]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/AreanaTest.AreanaTest
+[2020.10.18-18.58.09:315][523]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2020.10.18-18.58.09:346][523]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/AreanaTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.18-18.58.09:403][523]LightingResults: New page: Lighting Build
+[2020.10.18-18.58.09:442][523]LoadErrors: New page: Loading map: AreanaTest.umap
+[2020.10.18-18.58.09:565][523]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2020.10.18-18.58.09:641][523]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.18-18.58.09:651][523]MapCheck: New page: Map Check
+[2020.10.18-18.58.09:651][523]LightingResults: New page: Lighting Build
+[2020.10.18-18.58.10:071][523]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002D3631EDD00), frame # 104523
+[2020.10.18-18.58.10:109][523]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002D373665800), frame # 104523
+[2020.10.18-18.58.10:181][523]LogUObjectHash: Compacting FUObjectHashTables data took  15.19ms
+[2020.10.18-18.58.12:245][523]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.18-18.58.12:245][523]LogAIModule: Creating AISystem for world AreanaTest
+[2020.10.18-18.58.12:268][523]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002D391F52200), frame # 104523
+[2020.10.18-18.58.12:278][523]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002D319A02C00), frame # 104523
+[2020.10.18-18.58.12:568][523]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2020.10.18-18.58.12:660][523]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.18-18.58.12:660][523]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.367ms to complete.
+[2020.10.18-18.58.12:660][523]LogFileHelpers: Loading map 'AreanaTest' took 3.342
+[2020.10.18-18.58.24:394][839]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2020.10.18-18.58.29:296][993]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.10.18-18.58.48:572][396]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.10.18-18.58.50:148][481]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.10.18-18.58.51:334][534]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AreanaTest" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/AreanaTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.18-18.58.51:423][534]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2020.10.18-18.58.51:679][534]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/AreanaTest6374247242F33CD93BF628B599CC6879.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/AreanaTest.umap'
+[2020.10.18-18.58.51:750][534]AssetCheck: New page: Asset Save: AreanaTest
+[2020.10.18-18.58.51:750][534]LogContentValidation: Display: Validating World /Game/Maps/AreanaTest.AreanaTest
+[2020.10.18-18.59.10:379][822]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.10.18-18.59.11:711][896]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.10.18-18.59.20:627][ 33]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.10.18-18.59.22:444][112]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.10.18-18.59.37:744][316]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AreanaTest" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/AreanaTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.18-18.59.37:770][316]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2020.10.18-18.59.37:804][316]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/AreanaTest375550074E6DA5C208451B9272DC8BF9.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/AreanaTest.umap'
+[2020.10.18-18.59.37:843][316]AssetCheck: New page: Asset Save: AreanaTest
+[2020.10.18-18.59.37:843][316]LogContentValidation: Display: Validating World /Game/Maps/AreanaTest.AreanaTest
+[2020.10.18-19.01.21:079][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AreanaTest" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/AreanaTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.18-19.01.21:104][810]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.10.18-19.01.21:155][810]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/AreanaTest943886C44D9D48FDFA73718502052B50.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/AreanaTest.umap'
+[2020.10.18-19.01.21:200][810]AssetCheck: New page: Asset Save: AreanaTest
+[2020.10.18-19.01.21:201][810]LogContentValidation: Display: Validating World /Game/Maps/AreanaTest.AreanaTest
+[2020.10.18-19.01.59:875][ 40]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/AreanaTest.AreanaTest
+[2020.10.18-19.01.59:898][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2020.10.18-19.02.01:858][ 40]LogSlate: Window 'Save Content' being destroyed
+[2020.10.18-19.02.01:880][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Gameplay/GameplayGM" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Gameplay/GameplayGM.uasset" SILENT=true
+[2020.10.18-19.02.01:950][ 40]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/GameplayGM9CF7CF24456E300FC64526851358CEDC.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Gameplay/GameplayGM.uasset'
+[2020.10.18-19.02.01:952][ 40]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/AreanaTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.18-19.02.01:952][ 40]LightingResults: New page: Lighting Build
+[2020.10.18-19.02.01:952][ 40]LoadErrors: New page: Loading map: AreanaTest.umap
+[2020.10.18-19.02.02:052][ 40]LogWorld: UWorld::CleanupWorld for AreanaTest, bSessionEnded=true, bCleanupResources=true
+[2020.10.18-19.02.02:052][ 40]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.18-19.02.02:052][ 40]MapCheck: New page: Map Check
+[2020.10.18-19.02.02:052][ 40]LightingResults: New page: Lighting Build
+[2020.10.18-19.02.02:139][ 40]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002D319A02C00), frame # 107040
+[2020.10.18-19.02.02:139][ 40]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002D391F52200), frame # 107040
+[2020.10.18-19.02.02:198][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2020.10.18-19.02.02:321][ 40]LogAIModule: Creating AISystem for world AreanaTest
+[2020.10.18-19.02.02:321][ 40]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002D3A329D600), frame # 107040
+[2020.10.18-19.02.02:321][ 40]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002D31ABE7240), frame # 107040
+[2020.10.18-19.02.02:531][ 40]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.18-19.02.02:557][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2020.10.18-19.02.02:586][ 40]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.18-19.02.02:587][ 40]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.164ms to complete.
+[2020.10.18-19.02.02:587][ 40]LogFileHelpers: Loading map 'AreanaTest' took 0.634
+[2020.10.18-19.02.02:663][ 40]AssetCheck: New page: Asset Save: GameplayGM
+[2020.10.18-19.02.02:663][ 40]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Gameplay/GameplayGM.GameplayGM
+[2020.10.18-19.03.52:974][486]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Lobby.Lobby
+[2020.10.18-19.03.53:003][486]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2020.10.18-19.03.53:005][486]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Lobby.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.18-19.03.53:005][486]LightingResults: New page: Lighting Build
+[2020.10.18-19.03.53:005][486]LoadErrors: New page: Loading map: Lobby.umap
+[2020.10.18-19.03.53:007][486]LogWorld: UWorld::CleanupWorld for AreanaTest, bSessionEnded=true, bCleanupResources=true
+[2020.10.18-19.03.53:012][486]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.18-19.03.53:012][486]MapCheck: New page: Map Check
+[2020.10.18-19.03.53:012][486]LightingResults: New page: Lighting Build
+[2020.10.18-19.03.53:050][486]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002D31ABE7240), frame # 107486
+[2020.10.18-19.03.53:050][486]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002D3A329D600), frame # 107486
+[2020.10.18-19.03.53:053][486]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2020.10.18-19.03.53:154][486]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.18-19.03.53:154][486]LogAIModule: Creating AISystem for world Lobby
+[2020.10.18-19.03.53:154][486]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002D31FC96C00), frame # 107486
+[2020.10.18-19.03.53:154][486]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002D32D0F3740), frame # 107486
+[2020.10.18-19.03.53:175][486]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2020.10.18-19.03.53:204][486]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.18-19.03.53:204][486]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.078ms to complete.
+[2020.10.18-19.03.53:204][486]LogFileHelpers: Loading map 'Lobby' took 0.199
+[2020.10.18-19.05.22:948][949]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.10.18-19.05.24:526][ 35]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.10.18-19.05.34:198][217]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.10.18-19.05.35:439][285]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.10.18-19.05.40:349][394]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.10.18-19.06.53:626][952]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.10.18-19.07.07:664][764]Cmd: EDIT COPY
+[2020.10.18-19.07.08:901][764]Cmd: EDIT PASTE
+[2020.10.18-19.07.09:132][764]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.11:178][871]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.13:513][  6]Cmd: EDIT COPY
+[2020.10.18-19.07.13:747][ 20]Cmd: EDIT PASTE
+[2020.10.18-19.07.13:753][ 20]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.13:753][ 20]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.16:048][155]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.16:048][155]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.18:067][275]Cmd: EDIT COPY
+[2020.10.18-19.07.18:267][287]Cmd: EDIT PASTE
+[2020.10.18-19.07.18:286][287]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.19:788][376]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.24:933][682]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.24:933][682]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.24:933][682]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.24:933][682]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.24:933][682]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.27:557][838]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.27:557][838]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.27:557][838]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.27:557][838]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.27:557][838]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.28:797][911]Cmd: EDIT COPY
+[2020.10.18-19.07.29:047][926]Cmd: EDIT PASTE
+[2020.10.18-19.07.29:069][926]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.29:070][926]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.29:070][926]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.29:070][926]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.29:070][926]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.30:756][ 26]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.30:756][ 26]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.30:756][ 26]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.30:757][ 26]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.30:757][ 26]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.35:243][282]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.35:243][282]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.35:243][282]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.35:244][282]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.35:244][282]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.37:613][423]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.37:613][423]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.37:613][423]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.37:613][423]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.37:613][423]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.41:227][639]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.41:227][639]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.41:228][639]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.41:228][639]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.41:228][639]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.45:421][889]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.45:422][889]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.45:422][889]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.45:422][889]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.45:422][889]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.10.18-19.07.46:023][924]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.10.18-19.07.46:798][952]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Lobby.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.18-19.07.46:879][952]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2020.10.18-19.07.47:029][952]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Lobby08D1815045E3B34A3C1EA39B1223CF62.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Lobby.umap'
+[2020.10.18-19.07.47:076][952]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby_BuiltData" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Lobby_BuiltData.uasset" SILENT=true
+[2020.10.18-19.07.47:218][952]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Lobby_BuiltData2FF19BDC46969BDE098B0CB613EA5B10.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Lobby_BuiltData.uasset'
+[2020.10.18-19.07.47:266][952]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.18-19.07.47:266][952]LogContentValidation: Display: Validating World /Game/Maps/Lobby.Lobby
+[2020.10.18-19.07.47:266][952]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Lobby_BuiltData.Lobby_BuiltData
+[2020.10.18-19.08.51:631][120]Cmd: EDIT COPY
+[2020.10.18-19.08.51:915][137]Cmd: EDIT PASTE
+[2020.10.18-19.09.18:738][302]Cmd: EDIT COPY
+[2020.10.18-19.09.18:939][311]Cmd: EDIT PASTE
+[2020.10.18-19.09.24:701][622]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.10.18-19.09.25:174][646]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Lobby.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.18-19.09.25:203][646]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2020.10.18-19.09.25:247][646]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyDE5CFCAB4D44EC5617A36B97DC8EB650.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Lobby.umap'
+[2020.10.18-19.09.25:285][646]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby_BuiltData" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Lobby_BuiltData.uasset" SILENT=true
+[2020.10.18-19.09.25:302][646]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Lobby_BuiltData108CC29A47C035DB00CDA08C89FD15DE.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Lobby_BuiltData.uasset'
+[2020.10.18-19.09.25:323][646]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.18-19.09.25:323][646]LogContentValidation: Display: Validating World /Game/Maps/Lobby.Lobby
+[2020.10.18-19.09.25:323][646]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Lobby_BuiltData.Lobby_BuiltData
+[2020.10.18-19.10.18:645][864]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.18-19.11.00:167][988]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.18-19.11.37:253][260]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Lobby.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.18-19.11.37:282][260]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2020.10.18-19.11.37:310][260]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Lobby001739774C2DE9AEBDF6259BF05B0EDA.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Lobby.umap'
+[2020.10.18-19.11.37:341][260]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby_BuiltData" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Lobby_BuiltData.uasset" SILENT=true
+[2020.10.18-19.11.37:356][260]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Lobby_BuiltDataE0D29DEE4D420722986DEFA963480A53.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Lobby_BuiltData.uasset'
+[2020.10.18-19.11.37:373][260]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.18-19.11.37:373][260]LogContentValidation: Display: Validating World /Game/Maps/Lobby.Lobby
+[2020.10.18-19.11.37:373][260]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Lobby_BuiltData.Lobby_BuiltData
+[2020.10.18-19.12.08:935][478]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/MainMenu.MainMenu
+[2020.10.18-19.12.08:953][478]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2020.10.18-19.12.10:190][478]LogSlate: Window 'Save Content' being destroyed
+[2020.10.18-19.12.10:219][478]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyGM" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyGM.uasset" SILENT=true
+[2020.10.18-19.12.10:290][478]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyGM9D3FD7B04CCE3DEE8F5575B0353BA95D.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyGM.uasset'
+[2020.10.18-19.12.10:305][478]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.18-19.12.10:305][478]LightingResults: New page: Lighting Build
+[2020.10.18-19.12.10:305][478]LoadErrors: New page: Loading map: MainMenu.umap
+[2020.10.18-19.12.10:321][478]LogWorld: UWorld::CleanupWorld for Lobby, bSessionEnded=true, bCleanupResources=true
+[2020.10.18-19.12.10:321][478]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.18-19.12.10:321][478]MapCheck: New page: Map Check
+[2020.10.18-19.12.10:322][478]LightingResults: New page: Lighting Build
+[2020.10.18-19.12.10:469][478]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002D32D0F3740), frame # 117478
+[2020.10.18-19.12.10:469][478]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002D31FC96C00), frame # 117478
+[2020.10.18-19.12.10:472][478]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2020.10.18-19.12.10:602][478]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.18-19.12.10:602][478]LogAIModule: Creating AISystem for world MainMenu
+[2020.10.18-19.12.10:602][478]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002D40EFB2A00), frame # 117478
+[2020.10.18-19.12.10:602][478]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002D387CDBEC0), frame # 117478
+[2020.10.18-19.12.10:624][478]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2020.10.18-19.12.10:655][478]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.18-19.12.10:656][478]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.078ms to complete.
+[2020.10.18-19.12.10:656][478]LogFileHelpers: Loading map 'MainMenu' took 0.351
+[2020.10.18-19.12.10:720][478]AssetCheck: New page: Asset Save: LobbyGM
+[2020.10.18-19.12.10:720][478]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Lobby/LobbyGM.LobbyGM
+[2020.10.18-19.12.14:730][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.18-19.12.14:755][553]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2020.10.18-19.12.14:816][553]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/MainMenu1E64638D44AEE002805F84B2A846612D.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/MainMenu.umap'
+[2020.10.18-19.12.14:867][553]AssetCheck: New page: Asset Save: MainMenu
+[2020.10.18-19.12.14:867][553]LogContentValidation: Display: Validating World /Game/Maps/MainMenu.MainMenu
