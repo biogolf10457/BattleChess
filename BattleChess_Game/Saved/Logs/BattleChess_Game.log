@@ -1323,3 +1323,10 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.18-08.19.02:669][763]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/MainMenuD4391CF549D72F9909BC8687BE0B8343.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/MainMenu.umap'
 [2020.10.18-08.19.02:716][763]AssetCheck: New page: Asset Save: MainMenu
 [2020.10.18-08.19.02:716][763]LogContentValidation: Display: Validating World /Game/Maps/MainMenu.MainMenu
+[2020.10.18-08.26.43:085][816]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AllLevels/GameInfoInstance.GameInfoInstance
+[2020.10.18-08.26.48:622][816]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.1142 seconds. Added 125 classes and 0 folders.
+[2020.10.18-08.26.55:219][816]LogSlate: Took 0.016376 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.10.18-08.27.02:200][120]LogSlate: Took 0.033860 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.10.18-08.27.25:570][647]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/GameInfoInstance3577AA8E4DDC264510EAC9B988FEE88D.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/AllLevels/GameInfoInstance.uasset'
+[2020.10.18-08.27.25:667][647]AssetCheck: New page: Asset Save: GameInfoInstance
+[2020.10.18-08.27.25:667][647]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/AllLevels/GameInfoInstance.GameInfoInstance
