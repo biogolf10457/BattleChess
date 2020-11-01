@@ -810,3 +810,51 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.11.01-08.27.44:629][113]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyMenu28169CF04F683CABAA4326BBFE6F866F.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/LobbyMenu.uasset'
 [2020.11.01-08.27.44:651][113]AssetCheck: New page: Asset Save: LobbyMenu
 [2020.11.01-08.27.44:651][113]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Lobby/LobbyMenu.LobbyMenu
+[2020.11.01-08.43.19:805][936]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.01-08.43.19:805][936]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.01-08.43.30:251][ 54]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2020.11.01-08.43.33:932][ 54]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyMenuC445A85F47D2562E262326808E321D68.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/LobbyMenu.uasset'
+[2020.11.01-08.43.36:864][ 54]AssetCheck: New page: Asset Save: LobbyMenu
+[2020.11.01-08.43.36:864][ 54]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Lobby/LobbyMenu.LobbyMenu
+[2020.11.01-08.43.39:199][ 55]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.11.01-08.43.39:354][ 55]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.01-08.43.40:386][ 55]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.11.01-08.43.40:386][ 55]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.01-08.43.49:461][240]LogSlate: Window 'GameSetting' being destroyed
+[2020.11.01-08.43.49:528][240]LogSlate: Window 'GameSetting' being destroyed
+[2020.11.01-08.43.50:062][240]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.11.01-08.43.50:062][240]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.01-08.43.50:728][240]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.11.01-08.43.50:728][240]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.01-08.43.50:749][240]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.11.01-08.43.50:749][240]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.01-08.43.50:960][240]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.11.01-08.43.50:960][240]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.11.01-08.43.50:960][240]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.01-08.43.51:175][240]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.11.01-08.43.51:175][240]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.01-08.43.51:200][240]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.11.01-08.43.51:200][240]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.01-08.43.53:126][287]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2020.11.01-08.43.55:636][414]LogUObjectHash: Compacting FUObjectHashTables data took   4.17ms
+[2020.11.01-08.43.57:111][495]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2020.11.01-08.43.58:206][560]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2020.11.01-08.43.59:905][655]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.11.01-08.44.00:841][655]LogSlate: Window 'BattleChess_Game - Unreal Editor' being destroyed
+[2020.11.01-08.44.00:844][655]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.01-08.44.05:327][656]Cmd: QUIT_EDITOR
+[2020.11.01-08.44.05:327][656]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.11.01-08.44.05:870][656]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.11.01-08.44.08:394][656]LogExit: Preparing to exit.
+[2020.11.01-08.44.12:813][656]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.11.01-08.44.12:813][656]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.11.01-08.44.12:813][656]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.11.01-08.44.12:848][656]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.11.01-08.44.12:848][656]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.11.01-08.44.12:848][656]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.11.01-08.44.12:848][656]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.11.01-08.44.12:848][656]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.11.01-08.44.14:165][656]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.11.01-08.44.15:565][656]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.11.01-08.44.15:842][656]LogExit: Editor shut down
+[2020.11.01-08.44.15:844][656]LogExit: Transaction tracking system shut down
