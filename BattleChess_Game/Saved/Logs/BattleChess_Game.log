@@ -957,3 +957,84 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.11.01-06.15.06:295][736]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2020.11.01-06.21.13:514][917]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
 [2020.11.01-06.21.15:168][993]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2020.11.01-06.22.51:898][518]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Lobby/LobbyPC.LobbyPC
+[2020.11.01-06.23.04:748][738]LogSlate: Window 'LobbyPC' being destroyed
+[2020.11.01-06.23.04:761][738]LogSlate: Window 'LobbyPC' being destroyed
+[2020.11.01-06.23.05:003][738]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.11.01-06.23.05:003][738]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.01-06.23.13:078][971]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Lobby/LobbyMenu.LobbyMenu
+[2020.11.01-06.23.33:084][388]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/MainMenu/MainMenu.MainMenu
+[2020.11.01-06.24.06:894][240]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.11.01-06.24.06:894][240]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.01-06.24.06:917][240]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.11.01-06.24.06:917][240]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.01-06.27.08:269][200]BlueprintLog: New page: Compile LobbyMenu
+[2020.11.01-06.27.08:365][200]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2020.11.01-06.27.08:940][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2020.11.01-06.27.09:056][216]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyMenu325E20924EC1548A00B3488687AE4D86.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/LobbyMenu.uasset'
+[2020.11.01-06.27.09:082][216]AssetCheck: New page: Asset Save: LobbyMenu
+[2020.11.01-06.27.09:082][216]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Lobby/LobbyMenu.LobbyMenu
+[2020.11.01-06.28.16:758][875]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2020.11.01-06.28.16:762][875]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainMenu' took 0.067
+[2020.11.01-06.28.16:762][875]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Lobby/LobbyMenu] ([1] browsable assets)...
+[2020.11.01-06.28.16:762][875]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Lobby/LobbyMenu]
+[2020.11.01-06.28.16:785][875]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyMenu_Auto464BB00E14277DE789F45ECB317BB71DD.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto4.uasset'
+[2020.11.01-06.28.16:785][875]LogFileHelpers: Auto-saving content packages took 0.023
+[2020.11.01-06.29.00:420][835]BlueprintLog: New page: Compile LobbyMenu
+[2020.11.01-06.29.00:468][835]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2020.11.01-06.29.01:047][857]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2020.11.01-06.29.01:135][857]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyMenu165C463D40B0FA09669CB6A753B0E7F1.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/LobbyMenu.uasset'
+[2020.11.01-06.29.01:157][857]AssetCheck: New page: Asset Save: LobbyMenu
+[2020.11.01-06.29.01:157][857]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Lobby/LobbyMenu.LobbyMenu
+[2020.11.01-06.43.13:941][446]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.01-06.43.13:941][446]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.01-06.43.22:615][864]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.01-06.43.22:615][864]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.01-06.46.57:832][296]BlueprintLog: New page: Compile LobbyMenu
+[2020.11.01-06.46.57:895][296]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2020.11.01-06.46.58:804][316]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2020.11.01-06.46.59:051][316]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyMenu7167A2BE41A226CC5EA3EBA6EEE54723.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/LobbyMenu.uasset'
+[2020.11.01-06.46.59:069][316]AssetCheck: New page: Asset Save: LobbyMenu
+[2020.11.01-06.46.59:069][316]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Lobby/LobbyMenu.LobbyMenu
+[2020.11.01-06.47.34:596][981]LogUObjectHash: Compacting FUObjectHashTables data took   4.02ms
+[2020.11.01-06.47.34:599][981]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainMenu' took 0.039
+[2020.11.01-06.47.34:604][981]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Lobby/LobbyMenu] ([1] browsable assets)...
+[2020.11.01-06.47.34:604][981]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Lobby/LobbyMenu]
+[2020.11.01-06.47.34:674][981]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyMenu_Auto5510116274EB5965B459CB6942F477126.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto5.uasset'
+[2020.11.01-06.47.34:727][981]LogFileHelpers: Auto-saving content packages took 0.126
+[2020.11.01-06.49.33:731][482]BlueprintLog: New page: Compile LobbyMenu
+[2020.11.01-06.49.33:799][482]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2020.11.01-06.49.34:352][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2020.11.01-06.49.34:441][503]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyMenu8A9004C04633B70835ABDFA5A9DE29A4.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/LobbyMenu.uasset'
+[2020.11.01-06.49.34:460][503]AssetCheck: New page: Asset Save: LobbyMenu
+[2020.11.01-06.49.34:460][503]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Lobby/LobbyMenu.LobbyMenu
+[2020.11.01-06.50.56:739][680]BlueprintLog: New page: Compile LobbyMenu
+[2020.11.01-06.50.56:791][680]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2020.11.01-06.50.57:255][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2020.11.01-06.50.57:417][702]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyMenuC162920343DE9BEF8C3CF5827BE0A8FA.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/LobbyMenu.uasset'
+[2020.11.01-06.50.57:435][702]AssetCheck: New page: Asset Save: LobbyMenu
+[2020.11.01-06.50.57:435][702]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Lobby/LobbyMenu.LobbyMenu
+[2020.11.01-06.55.15:418][ 20]BlueprintLog: New page: Compile LobbyMenu
+[2020.11.01-06.55.15:468][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2020.11.01-06.55.16:174][ 46]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2020.11.01-06.55.16:344][ 46]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyMenuB5DABDB548F76775363573849867D3E8.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/LobbyMenu.uasset'
+[2020.11.01-06.55.16:361][ 46]AssetCheck: New page: Asset Save: LobbyMenu
+[2020.11.01-06.55.16:362][ 46]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Lobby/LobbyMenu.LobbyMenu
+[2020.11.01-06.55.33:695][241]BlueprintLog: New page: Compile LobbyMenu
+[2020.11.01-06.55.33:744][241]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2020.11.01-06.55.34:333][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2020.11.01-06.55.34:360][266]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyMenu6BC13DC0425068D9BEA6D88722FE4570.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/LobbyMenu.uasset'
+[2020.11.01-06.55.34:376][266]AssetCheck: New page: Asset Save: LobbyMenu
+[2020.11.01-06.55.34:376][266]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Lobby/LobbyMenu.LobbyMenu
+[2020.11.01-06.56.28:896][236]BlueprintLog: New page: Compile LobbyMenu
+[2020.11.01-06.56.28:967][236]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2020.11.01-06.56.29:497][263]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2020.11.01-06.56.29:524][263]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyMenu3E6665944F43B31BC9D23886FAB18877.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/LobbyMenu.uasset'
+[2020.11.01-06.56.29:540][263]AssetCheck: New page: Asset Save: LobbyMenu
+[2020.11.01-06.56.29:540][263]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Lobby/LobbyMenu.LobbyMenu
+[2020.11.01-07.13.18:741][310]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.01-07.13.18:838][310]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.01-07.13.21:693][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2020.11.01-07.13.22:089][421]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyMenu1665183047E53BAC7A6EDDB1F93AFDE5.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/LobbyMenu.uasset'
+[2020.11.01-07.13.22:702][421]AssetCheck: New page: Asset Save: LobbyMenu
+[2020.11.01-07.13.22:702][421]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Lobby/LobbyMenu.LobbyMenu
