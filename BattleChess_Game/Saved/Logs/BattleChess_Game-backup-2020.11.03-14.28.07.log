@@ -1,0 +1,1904 @@
+﻿Log file open, 11/03/20 20:35:52
+LogInit: Display: Running engine for game: BattleChess_Game
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 7.745907
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +7:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemSteam
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamShared
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogSteamShared: Display: Loading Steam SDK 1.47
+LogSteamShared: Steam SDK Loaded!
+LogOnline: OSS: Creating online subsystem instance for: Steam
+LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogOnline: OSS: Unable to create OnlineSubsystem module Steam
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx  , GPU: AMD Radeon(TM) RX Vega 10 Graphics
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Program File/Epic game/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.11.03-13.35.57:745][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.11.03-13.35.57:745][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.11.03-13.35.57:745][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Config/Windows/Engine.ini]
+[2020.11.03-13.35.57:745][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.11.03-13.35.57:745][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Config/Windows/Engine.ini]
+[2020.11.03-13.35.57:745][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Config/Windows/Engine.ini]
+[2020.11.03-13.35.57:745][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.11.03-13.35.57:745][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.11.03-13.35.57:745][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.11.03-13.35.57:745][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.11.03-13.35.57:745][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.11.03-13.35.57:745][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.11.03-13.35.57:745][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.11.03-13.35.57:745][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.11.03-13.35.57:745][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.11.03-13.35.57:745][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.11.03-13.35.57:745][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.11.03-13.35.57:745][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.11.03-13.35.57:745][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.11.03-13.35.57:746][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.11.03-13.35.57:746][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Config/Windows/Engine.ini]
+[2020.11.03-13.35.57:746][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.11.03-13.35.57:746][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.11.03-13.35.57:746][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.11.03-13.35.57:746][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.11.03-13.35.57:746][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.11.03-13.35.57:746][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.11.03-13.35.57:746][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.11.03-13.35.57:746][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.11.03-13.35.57:746][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.11.03-13.35.57:746][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.11.03-13.35.57:746][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.11.03-13.35.57:746][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.11.03-13.35.57:746][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.11.03-13.35.57:746][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Config/Windows/Engine.ini]
+[2020.11.03-13.35.57:746][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Config/Windows/Engine.ini]
+[2020.11.03-13.35.57:824][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.11.03-13.35.57:824][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.03-13.35.57:824][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.03-13.35.57:825][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.03-13.35.57:826][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.03-13.35.57:826][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.03-13.35.57:826][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.03-13.35.57:826][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.03-13.35.57:826][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.03-13.35.57:826][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.03-13.35.57:826][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.03-13.35.57:826][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.03-13.35.57:826][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.03-13.35.57:826][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.03-13.35.57:826][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.03-13.35.57:826][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.03-13.35.57:826][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.03-13.35.57:826][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.03-13.35.57:826][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.03-13.35.57:826][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.03-13.35.57:826][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.03-13.35.57:826][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.03-13.35.57:826][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.03-13.35.57:826][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.03-13.35.57:826][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.03-13.35.57:826][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.11.03-13.35.57:826][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.03-13.35.57:826][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.03-13.35.57:826][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.11.03-13.35.57:826][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.03-13.35.57:826][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.03-13.35.57:826][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.03-13.35.57:826][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.03-13.35.57:826][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.03-13.35.57:826][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.03-13.35.57:826][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.03-13.35.57:850][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.03-13.35.57:856][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.11.03-13.35.57:868][  0]LogHAL: Display: Platform has ~ 8 GB [7985590272 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.11.03-13.35.57:868][  0]LogInit: Going up to parent DeviceProfile []
+[2020.11.03-13.35.57:874][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.11.03-13.35.57:874][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.03-13.35.57:874][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.03-13.35.57:874][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.11.03-13.35.57:874][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.03-13.35.57:874][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.11.03-13.35.57:874][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.03-13.35.57:874][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.03-13.35.57:874][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.03-13.35.57:874][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.03-13.35.57:874][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.03-13.35.57:874][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.03-13.35.57:874][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.03-13.35.57:874][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.03-13.35.57:874][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.03-13.35.57:874][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.03-13.35.57:874][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.03-13.35.57:874][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.03-13.35.57:874][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.03-13.35.57:874][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.03-13.35.57:874][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.03-13.35.57:874][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.03-13.35.57:874][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.03-13.35.57:874][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.03-13.35.57:874][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.11.03-13.35.57:874][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.03-13.35.57:874][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.03-13.35.57:874][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.03-13.35.57:874][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.03-13.35.57:874][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.03-13.35.57:874][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.03-13.35.57:875][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.03-13.35.57:876][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.03-13.35.57:876][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.03-13.35.57:876][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.03-13.35.57:876][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.03-13.35.57:876][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.03-13.35.57:876][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.03-13.35.57:876][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.11.03-13.35.57:876][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.03-13.35.57:876][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.03-13.35.57:876][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.11.03-13.35.57:876][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.03-13.35.57:876][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.03-13.35.57:876][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.03-13.35.57:876][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.03-13.35.57:876][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.03-13.35.57:876][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.03-13.35.57:876][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.03-13.35.57:876][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.11.03-13.35.57:914][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.11.03-13.35.57:914][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.11.03-13.35.57:914][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.11.03-13.35.57:914][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Config/Windows/Engine.ini]
+[2020.11.03-13.35.57:959][  0]LogInit: Computer: LAPTOP-NUI87G2V
+[2020.11.03-13.35.57:959][  0]LogInit: User: anuch
+[2020.11.03-13.35.57:959][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.11.03-13.35.57:959][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.11.03-13.35.57:960][  0]LogMemory: Memory total: Physical=7.4GB (8GB approx)
+[2020.11.03-13.35.57:980][  0]LogMemory: Platform Memory Stats for Windows
+[2020.11.03-13.35.57:980][  0]LogMemory: Process Physical Memory: 113.99 MB used, 113.99 MB peak
+[2020.11.03-13.35.57:980][  0]LogMemory: Process Virtual Memory: 96.06 MB used, 96.06 MB peak
+[2020.11.03-13.35.57:980][  0]LogMemory: Physical Memory: 6843.81 MB used,  771.84 MB free, 7615.65 MB total
+[2020.11.03-13.35.57:980][  0]LogMemory: Virtual Memory: 5145.09 MB used,  134212584.00 MB free, 134217728.00 MB total
+[2020.11.03-13.35.57:988][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.11.03-13.35.59:281][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.11.03-13.35.59:304][  0]LogInit: Using OS detected language (en-US).
+[2020.11.03-13.35.59:304][  0]LogInit: Using OS detected locale (en-US).
+[2020.11.03-13.35.59:402][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.11.03-13.36.00:291][  0]LogInit: Setting process to per monitor DPI aware
+[2020.11.03-13.36.00:991][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.11.03-13.36.00:991][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.11.03-13.36.07:471][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.03-13.36.07:471][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.11.03-13.36.07:471][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.11.03-13.36.07:471][  0]LogD3D11RHI: D3D11 adapters:
+[2020.11.03-13.36.07:721][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1660 Ti' (Feature Level 11_0)
+[2020.11.03-13.36.07:721][  0]LogD3D11RHI:       5991/0/3807 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.11.03-13.36.07:795][  0]LogD3D11RHI:    1. 'AMD Radeon(TM) RX Vega 10 Graphics' (Feature Level 11_0)
+[2020.11.03-13.36.07:795][  0]LogD3D11RHI:       496/0/3807 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1002
+[2020.11.03-13.36.07:799][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.11.03-13.36.07:799][  0]LogD3D11RHI:       0/0/3807 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.11.03-13.36.07:799][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.11.03-13.36.07:992][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.11.03-13.36.07:993][  0]LogD3D11RHI:     GPU DeviceId: 0x2191 (for the marketing name, search the web for "GPU Device Id")
+[2020.11.03-13.36.07:993][  0]LogWindows: EnumDisplayDevices:
+[2020.11.03-13.36.07:995][  0]LogWindows:    0. 'AMD Radeon(TM) RX Vega 10 Graphics' (P:1 D:1)
+[2020.11.03-13.36.07:998][  0]LogWindows:    1. 'AMD Radeon(TM) RX Vega 10 Graphics' (P:0 D:0)
+[2020.11.03-13.36.07:999][  0]LogWindows:    2. 'AMD Radeon(TM) RX Vega 10 Graphics' (P:0 D:0)
+[2020.11.03-13.36.08:000][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
+[2020.11.03-13.36.08:001][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2020.11.03-13.36.08:002][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1660 Ti
+[2020.11.03-13.36.08:002][  0]LogD3D11RHI:   Driver Version: 457.09 (internal:27.21.14.5709, unified:457.09)
+[2020.11.03-13.36.08:002][  0]LogD3D11RHI:      Driver Date: 10-22-2020
+[2020.11.03-13.36.08:003][  0]LogRHI: Texture pool is 4193 MB (70% of 5991 MB)
+[2020.11.03-13.36.08:245][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.11.03-13.36.08:264][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.11.03-13.36.08:264][  0]LogD3D11RHI: Async texture creation enabled
+[2020.11.03-13.36.08:264][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.11.03-13.36.09:051][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.11.03-13.36.11:071][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.11.03-13.36.11:190][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.11.03-13.36.11:190][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.11.03-13.36.11:190][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.11.03-13.36.11:190][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.11.03-13.36.11:190][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.11.03-13.36.11:190][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.11.03-13.36.11:190][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.11.03-13.36.11:190][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.11.03-13.36.11:190][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.11.03-13.36.11:190][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.11.03-13.36.11:428][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.11.03-13.36.11:428][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.11.03-13.36.11:539][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.11.03-13.36.11:602][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.11.03-13.36.11:652][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.11.03-13.36.11:713][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.11.03-13.36.11:758][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.11.03-13.36.11:800][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.11.03-13.36.11:836][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.11.03-13.36.11:927][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.11.03-13.36.11:927][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.11.03-13.36.11:978][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.11.03-13.36.11:978][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.11.03-13.36.12:027][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.11.03-13.36.12:076][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.11.03-13.36.12:133][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.11.03-13.36.12:188][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.11.03-13.36.12:188][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.11.03-13.36.12:485][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.11.03-13.36.13:967][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Intermediate/Shaders/WorkingDirectory/18420/).
+[2020.11.03-13.36.13:967][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/anuch/AppData/Local/Temp/UnrealShaderWorkingDir/814EB7914812606DDE481EB9971DE299/'.
+[2020.11.03-13.36.13:984][  0]LogXGEController: Cleaning working directory: C:/Users/anuch/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.11.03-13.36.13:988][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.11.03-13.36.13:989][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.11.03-13.36.13:989][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.11.03-13.36.28:275][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.11.03-13.36.28:552][  0]LogDerivedDataCache: Loaded boot cache 0.28s 75MB C:/Users/anuch/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.03-13.36.28:552][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/anuch/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.11.03-13.36.28:552][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.11.03-13.36.28:553][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.11.03-13.36.28:553][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.03-13.36.28:553][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.11.03-13.36.28:793][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.11.03-13.36.28:794][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.03-13.36.28:794][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.11.03-13.36.28:801][  0]LogDerivedDataCache: Using Local data cache path C:/Users/anuch/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.11.03-13.36.28:801][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.11.03-13.36.28:801][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.11.03-13.36.29:089][  0]LogSlate: Using FreeType 2.10.0
+[2020.11.03-13.36.29:263][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.11.03-13.36.30:977][  0]LogAssetRegistry: FAssetRegistry took 0.0143 seconds to start up
+[2020.11.03-13.36.40:629][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.03-13.36.43:987][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.11.03-13.36.43:987][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.11.03-13.36.43:987][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.11.03-13.36.43:987][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.11.03-13.36.43:988][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.11.03-13.36.44:990][  0]LogNetVersion: BattleChess_Game 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 631773850)
+[2020.11.03-13.37.09:409][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001863FD7E980), frame # 0
+[2020.11.03-13.37.09:409][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018640BE91C0), frame # 0
+[2020.11.03-13.37.09:419][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018640C35C00), frame # 0
+[2020.11.03-13.37.10:845][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.376469 seconds
+[2020.11.03-13.37.10:928][  0]LogUObjectArray: 15925 objects as part of root set at end of initial load.
+[2020.11.03-13.37.10:939][  0]LogUObjectAllocator: 3977056 out of 0 bytes used by permanent object pool.
+[2020.11.03-13.37.10:939][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.11.03-13.37.28:014][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.11.03-13.37.28:215][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.11.03-13.37.29:957][  0]LogLinker: Warning: Failed to load '/Game/FirstPersonBP/FirstPersonOverview': Can't find file.
+[2020.11.03-13.37.29:990][  0]LogLinker: Warning: Failed to load '/Game/FirstPersonBP/FirstPersonOverview': Can't find file.
+[2020.11.03-13.37.29:990][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2020.11.03-13.37.31:335][  0]SourceControl: Source control is disabled
+[2020.11.03-13.37.31:337][  0]SourceControl: Source control is disabled
+[2020.11.03-13.37.31:505][  0]SourceControl: Source control is disabled
+[2020.11.03-13.37.31:578][  0]SourceControl: Source control is disabled
+[2020.11.03-13.37.31:720][  0]SourceControl: Source control is disabled
+[2020.11.03-13.37.31:956][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.11.03-13.37.31:957][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.11.03-13.37.40:144][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.11.03-13.37.40:481][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.03-13.37.40:481][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.03-13.37.41:733][  0]LogOcInput: OculusInput pre-init called
+[2020.11.03-13.37.41:892][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.11.03-13.37.41:892][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.11.03-13.37.46:842][  0]LogAutomationTest: Warning: Smoke tests took > 2s to run: 2.69s
+[2020.11.03-13.37.47:065][  0]LogEngine: Initializing Engine...
+[2020.11.03-13.37.47:315][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.03-13.37.47:333][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.11.03-13.37.47:504][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.031 s
+[2020.11.03-13.37.48:818][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.11.03-13.37.50:282][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.11.03-13.37.50:282][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001864E153C00), frame # 0
+[2020.11.03-13.37.50:283][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001864E14FB00), frame # 0
+[2020.11.03-13.37.50:502][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.03-13.37.50:502][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.03-13.37.50:502][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.03-13.37.50:502][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.03-13.37.50:502][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.03-13.37.50:502][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.03-13.37.50:502][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.03-13.37.50:502][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.03-13.37.50:509][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.03-13.37.50:509][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.03-13.37.50:720][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.03-13.37.50:720][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.11.03-13.37.50:846][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.11.03-13.37.50:866][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.03-13.37.50:891][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.03-13.37.50:891][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.03-13.37.50:927][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.03-13.37.50:931][  0]LogInit: FAudioDevice initialized.
+[2020.11.03-13.37.50:942][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.11.03-13.37.51:096][  0]LogDerivedDataCache: Saved boot cache 0.15s 75MB C:/Users/anuch/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.03-13.37.51:106][  0]LogInit: Texture streaming: Enabled
+[2020.11.03-13.37.51:509][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.11.03-13.37.51:509][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.11.03-13.37.51:553][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.11.03-13.37.52:908][  0]LogInit: Transaction tracking system initialized
+[2020.11.03-13.37.53:629][  0]BlueprintLog: New page: Editor Load
+[2020.11.03-13.37.58:050][  0]LocalizationService: Localization service is disabled
+[2020.11.03-13.38.01:937][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.11.03-13.38.01:940][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.11.03-13.38.08:976][  0]LogFileCache: Scanning file cache for directory 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Content/' took 0.07s
+[2020.11.03-13.38.09:000][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.11.03-13.38.09:005][  0]LogCook: Display: Mobile HDR setting 1
+[2020.11.03-13.38.28:613][  0]SourceControl: Source control is disabled
+[2020.11.03-13.38.28:636][  0]LogUnrealEdMisc: Loading editor; pre map load, took 178.148
+[2020.11.03-13.38.28:675][  0]Cmd: MAP LOAD FILE="C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.03-13.38.28:707][  0]LightingResults: New page: Lighting Build
+[2020.11.03-13.38.29:010][  0]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.11.03-13.38.29:010][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-13.38.29:214][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-13.38.29:317][  0]MapCheck: New page: Map Check
+[2020.11.03-13.38.29:317][  0]LightingResults: New page: Lighting Build
+[2020.11.03-13.38.30:556][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001864E153C00), frame # 0
+[2020.11.03-13.38.30:556][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001864E14FB00), frame # 0
+[2020.11.03-13.38.30:594][  0]LogUObjectHash: Compacting FUObjectHashTables data took  20.19ms
+[2020.11.03-13.38.32:813][  0]LogAIModule: Creating AISystem for world MainMenu
+[2020.11.03-13.38.32:813][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000186342EA000), frame # 0
+[2020.11.03-13.38.32:814][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001864E9BB240), frame # 0
+[2020.11.03-13.38.33:240][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2020.11.03-13.38.33:421][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2020.11.03-13.38.33:467][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.03-13.38.33:484][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 15.277ms to complete.
+[2020.11.03-13.38.33:485][  0]LogFileHelpers: Loading map 'MainMenu' took 4.826
+[2020.11.03-13.38.37:533][  0]LogUnrealEdMisc: Total Editor Startup Time, took 187.045
+[2020.11.03-13.38.39:806][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-13.38.39:837][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-13.38.39:856][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-13.38.39:877][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-13.38.40:225][  0]LogCollectionManager: Loaded 0 collections in 0.024545 seconds
+[2020.11.03-13.38.40:764][  0]LogFileCache: Scanning file cache for directory 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Collections/' took 0.01s
+[2020.11.03-13.38.40:764][  0]LogFileCache: Scanning file cache for directory 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Content/Developers/anuch/Collections/' took 0.00s
+[2020.11.03-13.38.40:764][  0]LogFileCache: Scanning file cache for directory 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Content/Collections/' took 0.00s
+[2020.11.03-13.38.40:764][  0]LogContentBrowser: Native class hierarchy populated in 0.1015 seconds. Added 3430 classes and 825 folders.
+[2020.11.03-13.38.41:091][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.11.03-13.38.43:998][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.11.03-13.38.44:094][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 2 classes and 0 folders.
+[2020.11.03-13.38.46:299][  0]LogSlate: Took 0.083461 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.11.03-13.38.46:371][  0]LogSlate: Took 0.025297 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.11.03-13.38.46:523][  0]LogSlate: Took 0.080983 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.11.03-13.38.48:145][  0]LogRenderer: Reallocating scene render targets to support 980x572 Format 10 NumSamples 1 (Frame:1).
+[2020.11.03-13.38.50:124][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.11.03-13.38.50:167][  0]LogLoad: (Engine Initialization) Total time: 199.67 seconds
+[2020.11.03-13.38.50:167][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.11.03-13.38.51:564][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.11.03-13.38.53:484][  4]LogSlate: Took 0.086008 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.03-13.38.53:545][  5]LogAssetRegistry: Asset discovery search completed in 142.5764 seconds
+[2020.11.03-13.38.53:733][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.036368 seconds (updated 0 objects)
+[2020.11.03-13.38.56:761][ 15]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.03-13.38.56:763][ 15]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.03-13.40.31:250][131]LogSlate: Took 0.027857 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.03-13.40.33:619][131]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/anuch/Downloads/Running.fbx)
+[2020.11.03-13.40.35:024][131]LogFbx: Loading FBX Scene from C:/Users/anuch/Downloads/Running.fbx
+[2020.11.03-13.40.35:479][131]LogFbx: FBX Scene Loaded Succesfully
+[2020.11.03-13.40.54:339][131]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.11.03-13.41.26:432][131]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.11.03-13.41.53:523][158]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/anuch/Desktop/modeltest/modeltest.obj)
+[2020.11.03-13.41.54:613][158]LogFbx: Loading FBX Scene from C:/Users/anuch/Desktop/modeltest/modeltest.obj
+[2020.11.03-13.41.56:044][158]LogFbx: FBX Scene Loaded Succesfully
+[2020.11.03-13.42.43:546][158]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.03-13.42.43:547][158]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.03-13.42.46:852][158]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.11.03-13.43.37:929][158]LogTexture: Display: Building textures: modeltest_packed0_diffuse (AutoDXT, 2048X2048)
+[2020.11.03-13.43.46:595][158]LogMaterial: Display: Missing cached shader map for material PackedMaterial0, compiling. 
+[2020.11.03-13.43.54:667][158]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2020.11.03-13.43.54:667][158]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.11.03-13.43.54:667][158]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.11.03-13.43.54:667][158]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2020.11.03-13.43.58:510][158]LogStaticMesh: Building static mesh modeltest_Body...
+[2020.11.03-13.44.00:712][158]LogStaticMesh: Built static mesh [2.77s] /Game/Character_Beta/modeltest_Body.modeltest_Body
+[2020.11.03-13.44.08:545][158]LogStaticMesh: Building static mesh modeltest_Bottoms...
+[2020.11.03-13.44.08:575][158]LogStaticMesh: Built static mesh [0.03s] /Game/Character_Beta/modeltest_Bottoms.modeltest_Bottoms
+[2020.11.03-13.44.08:853][158]LogStaticMesh: Building static mesh modeltest_Eyelashes...
+[2020.11.03-13.44.08:859][158]LogStaticMesh: Built static mesh [0.01s] /Game/Character_Beta/modeltest_Eyelashes.modeltest_Eyelashes
+[2020.11.03-13.44.08:971][158]LogStaticMesh: Building static mesh modeltest_Eyes...
+[2020.11.03-13.44.09:003][158]LogStaticMesh: Built static mesh [0.03s] /Game/Character_Beta/modeltest_Eyes.modeltest_Eyes
+[2020.11.03-13.44.09:057][158]LogStaticMesh: Building static mesh modeltest_Hair...
+[2020.11.03-13.44.09:130][158]LogStaticMesh: Built static mesh [0.07s] /Game/Character_Beta/modeltest_Hair.modeltest_Hair
+[2020.11.03-13.44.09:170][158]LogStaticMesh: Building static mesh modeltest_Shoes...
+[2020.11.03-13.44.09:202][158]LogStaticMesh: Built static mesh [0.03s] /Game/Character_Beta/modeltest_Shoes.modeltest_Shoes
+[2020.11.03-13.44.09:237][158]LogStaticMesh: Building static mesh modeltest_Tops...
+[2020.11.03-13.44.09:291][158]LogStaticMesh: Built static mesh [0.05s] /Game/Character_Beta/modeltest_Tops.modeltest_Tops
+[2020.11.03-13.44.11:863][158]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.11.03-13.44.31:158][158]LogSlate: Window 'Message' being destroyed
+[2020.11.03-13.44.31:994][158]Message dialog closed, result: YesAll, title: Message, text: Do you want to overwrite the existing asset?
+
+An asset already exists at the import location: /Game/Character_Beta/modeltest_packed0_diffuse
+[2020.11.03-13.44.32:519][158]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/anuch/Desktop/modeltest/modeltest_packed0_diffuse.png)
+[2020.11.03-13.44.34:710][158]LogSlate: Window 'Message' being destroyed
+[2020.11.03-13.44.34:716][158]Message dialog closed, result: YesAll, title: Message, text: You are about to import 'modeltest_packed0_diffuse' over an existing texture. Would you like to overwrite the existing settings?
+
+Yes or Yes to All: Overwrite the existing settings.
+No or No to All: Preserve the existing settings.
+Cancel: Abort the operation.
+[2020.11.03-13.44.36:903][158]LogTexture: Display: Building textures: modeltest_packed0_diffuse (AutoDXT, 2048X2048)
+[2020.11.03-13.44.38:714][158]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/anuch/Desktop/modeltest/modeltest_packed0_gloss.png)
+[2020.11.03-13.44.38:809][158]LogTexture: Display: Building textures: modeltest_packed0_gloss (AutoDXT, 2048X2048)
+[2020.11.03-13.44.39:283][158]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/anuch/Desktop/modeltest/modeltest_packed0_normal.png)
+[2020.11.03-13.44.41:959][158]LogTexture: Display: Building textures: modeltest_packed0_normal (BC5, 2048X2048)
+[2020.11.03-13.45.34:949][158]LogSlate: Took 0.783796 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.11.03-13.46.13:706][188]LogSlate: Window 'Message Log' being destroyed
+[2020.11.03-13.46.13:716][188]LogSlate: Window 'Message Log' being destroyed
+[2020.11.03-13.46.34:903][714]LogSlate: Took 0.656767 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.11.03-13.46.35:036][714]LogSlate: Last resort fallback font was requested. Font: '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf', Character: 'ฟ (U+0e1f)'
+[2020.11.03-13.46.35:641][714]LogSlate: Took 0.603175 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2020.11.03-13.46.39:485][892]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.03-13.46.39:485][892]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.03-13.46.59:107][604]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/anuch/Downloads/Running.fbx)
+[2020.11.03-13.46.59:252][604]LogFbx: Loading FBX Scene from C:/Users/anuch/Downloads/Running.fbx
+[2020.11.03-13.46.59:295][604]LogFbx: FBX Scene Loaded Succesfully
+[2020.11.03-13.47.07:430][604]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.11.03-13.47.50:785][423]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.03-13.47.50:785][423]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.03-13.48.58:266][387]LogUObjectHash: Compacting FUObjectHashTables data took  64.94ms
+[2020.11.03-13.49.04:095][387]LogSlate: Window 'Delete Assets' being destroyed
+[2020.11.03-13.49.10:285][387]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.11.03-13.49.24:272][524]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/anuch/Desktop/modeltest/modeltest.obj)
+[2020.11.03-13.49.24:997][524]LogFbx: Loading FBX Scene from C:/Users/anuch/Desktop/modeltest/modeltest.obj
+[2020.11.03-13.49.26:252][524]LogFbx: FBX Scene Loaded Succesfully
+[2020.11.03-13.49.31:426][524]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.11.03-13.49.37:712][524]LogTexture: Display: Building textures: modeltest_packed0_diffuse (AutoDXT, 2048X2048)
+[2020.11.03-13.49.41:759][524]LogMaterial: Display: Missing cached shader map for material PackedMaterial0, compiling. 
+[2020.11.03-13.49.45:956][524]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2020.11.03-13.49.45:956][524]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.11.03-13.49.45:956][524]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.11.03-13.49.45:956][524]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2020.11.03-13.49.46:469][524]LogStaticMesh: Building static mesh modeltest_Body...
+[2020.11.03-13.49.47:184][524]LogStaticMesh: Built static mesh [0.77s] /Game/Character_Beta/modeltest_Body.modeltest_Body
+[2020.11.03-13.49.51:506][524]LogStaticMesh: Building static mesh modeltest_Bottoms...
+[2020.11.03-13.49.51:533][524]LogStaticMesh: Built static mesh [0.03s] /Game/Character_Beta/modeltest_Bottoms.modeltest_Bottoms
+[2020.11.03-13.49.51:552][524]LogStaticMesh: Building static mesh modeltest_Eyelashes...
+[2020.11.03-13.49.51:562][524]LogStaticMesh: Built static mesh [0.01s] /Game/Character_Beta/modeltest_Eyelashes.modeltest_Eyelashes
+[2020.11.03-13.49.51:599][524]LogStaticMesh: Building static mesh modeltest_Eyes...
+[2020.11.03-13.49.51:627][524]LogStaticMesh: Built static mesh [0.03s] /Game/Character_Beta/modeltest_Eyes.modeltest_Eyes
+[2020.11.03-13.49.51:696][524]LogStaticMesh: Building static mesh modeltest_Hair...
+[2020.11.03-13.49.51:770][524]LogStaticMesh: Built static mesh [0.08s] /Game/Character_Beta/modeltest_Hair.modeltest_Hair
+[2020.11.03-13.49.51:819][524]LogStaticMesh: Building static mesh modeltest_Shoes...
+[2020.11.03-13.49.51:854][524]LogStaticMesh: Built static mesh [0.04s] /Game/Character_Beta/modeltest_Shoes.modeltest_Shoes
+[2020.11.03-13.49.51:893][524]LogStaticMesh: Building static mesh modeltest_Tops...
+[2020.11.03-13.49.51:957][524]LogStaticMesh: Built static mesh [0.06s] /Game/Character_Beta/modeltest_Tops.modeltest_Tops
+[2020.11.03-13.49.52:606][524]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.11.03-13.50.02:519][737]LogSlate: Window 'Message Log' being destroyed
+[2020.11.03-13.50.02:533][737]LogSlate: Window 'Message Log' being destroyed
+[2020.11.03-13.50.08:992][758]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2020.11.03-13.50.09:000][758]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainMenu' took 0.253
+[2020.11.03-13.50.10:078][758]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character_Beta/modeltest_Tops] ([1] browsable assets)...
+[2020.11.03-13.50.10:376][758]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Character_Beta/modeltest_Tops.modeltest_Tops]
+[2020.11.03-13.50.10:376][758]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character_Beta/modeltest_Tops]
+[2020.11.03-13.50.15:755][758]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/modeltest_Tops_Auto19C45419F42B0B8DB48F89BA33CE51E54.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Autosaves/Game/Character_Beta/modeltest_Tops_Auto1.uasset'
+[2020.11.03-13.50.16:942][758]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character_Beta/modeltest_Body] ([1] browsable assets)...
+[2020.11.03-13.50.16:978][758]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Character_Beta/modeltest_Body.modeltest_Body]
+[2020.11.03-13.50.16:978][758]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character_Beta/modeltest_Body]
+[2020.11.03-13.50.17:061][758]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/modeltest_Body_Auto13C4CED0D4EFCD751CB539F8AD8EEBAAB.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Autosaves/Game/Character_Beta/modeltest_Body_Auto1.uasset'
+[2020.11.03-13.50.17:064][758]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character_Beta/PackedMaterial0] ([1] browsable assets)...
+[2020.11.03-13.50.17:094][758]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Character_Beta/PackedMaterial0.PackedMaterial0]
+[2020.11.03-13.50.17:094][758]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character_Beta/PackedMaterial0]
+[2020.11.03-13.50.17:983][758]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/PackedMaterial0_Auto167AD8DB448A1933B893323B94EBCC802.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Autosaves/Game/Character_Beta/PackedMaterial0_Auto1.uasset'
+[2020.11.03-13.50.17:985][758]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character_Beta/modeltest_packed0_diffuse] ([1] browsable assets)...
+[2020.11.03-13.50.17:994][758]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Character_Beta/modeltest_packed0_diffuse.modeltest_packed0_diffuse]
+[2020.11.03-13.50.17:995][758]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character_Beta/modeltest_packed0_diffuse]
+[2020.11.03-13.50.18:034][758]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/modeltest_packed0_diffuse_Auto1B3376586419602C4D861DE9D8F81195F.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Autosaves/Game/Character_Beta/modeltest_packed0_diffuse_Auto1.uasset'
+[2020.11.03-13.50.18:036][758]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character_Beta/modeltest_Bottoms] ([1] browsable assets)...
+[2020.11.03-13.50.18:073][758]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Character_Beta/modeltest_Bottoms.modeltest_Bottoms]
+[2020.11.03-13.50.18:073][758]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character_Beta/modeltest_Bottoms]
+[2020.11.03-13.50.18:120][758]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/modeltest_Bottoms_Auto139C79F894E735648EE48F282D6701400.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Autosaves/Game/Character_Beta/modeltest_Bottoms_Auto1.uasset'
+[2020.11.03-13.50.18:121][758]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character_Beta/modeltest_Eyelashes] ([1] browsable assets)...
+[2020.11.03-13.50.18:155][758]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Character_Beta/modeltest_Eyelashes.modeltest_Eyelashes]
+[2020.11.03-13.50.18:157][758]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character_Beta/modeltest_Eyelashes]
+[2020.11.03-13.50.18:200][758]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/modeltest_Eyelashes_Auto15392E991427511EB5E173C97E270D217.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Autosaves/Game/Character_Beta/modeltest_Eyelashes_Auto1.uasset'
+[2020.11.03-13.50.18:205][758]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character_Beta/modeltest_Eyes] ([1] browsable assets)...
+[2020.11.03-13.50.18:238][758]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Character_Beta/modeltest_Eyes.modeltest_Eyes]
+[2020.11.03-13.50.18:238][758]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character_Beta/modeltest_Eyes]
+[2020.11.03-13.50.18:316][758]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/modeltest_Eyes_Auto16EBD218847FE14735F85B7927F4F25D5.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Autosaves/Game/Character_Beta/modeltest_Eyes_Auto1.uasset'
+[2020.11.03-13.50.18:319][758]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character_Beta/modeltest_Hair] ([1] browsable assets)...
+[2020.11.03-13.50.18:350][758]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Character_Beta/modeltest_Hair.modeltest_Hair]
+[2020.11.03-13.50.18:351][758]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character_Beta/modeltest_Hair]
+[2020.11.03-13.50.18:400][758]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/modeltest_Hair_Auto15C7649FD4A75C259830FCAACB9027939.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Autosaves/Game/Character_Beta/modeltest_Hair_Auto1.uasset'
+[2020.11.03-13.50.18:403][758]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character_Beta/modeltest_Shoes] ([1] browsable assets)...
+[2020.11.03-13.50.18:427][758]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Character_Beta/modeltest_Shoes.modeltest_Shoes]
+[2020.11.03-13.50.18:427][758]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character_Beta/modeltest_Shoes]
+[2020.11.03-13.50.18:463][758]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/modeltest_Shoes_Auto1938FCAC04BE05DF329F45F8DF95DD609.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Autosaves/Game/Character_Beta/modeltest_Shoes_Auto1.uasset'
+[2020.11.03-13.50.18:464][758]LogFileHelpers: Auto-saving content packages took 9.457
+[2020.11.03-13.50.39:434][818]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.11.03-13.54.56:338][561]LogUObjectHash: Compacting FUObjectHashTables data took  37.28ms
+[2020.11.03-13.55.07:195][561]LogSlate: Window 'Delete Assets' being destroyed
+[2020.11.03-13.55.13:430][561]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2020.11.03-13.55.49:835][894]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.03-13.55.49:975][894]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.03-13.56.10:116][459]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/anuch/Downloads/kachujin_g_rosales.fbx)
+[2020.11.03-13.56.12:107][459]LogFbx: Loading FBX Scene from C:/Users/anuch/Downloads/kachujin_g_rosales.fbx
+[2020.11.03-13.56.13:280][459]LogFbx: FBX Scene Loaded Succesfully
+[2020.11.03-13.57.06:011][459]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.11.03-13.57.12:544][459]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node Kachujin : The relative matrices do not match
+[2020.11.03-13.57.12:545][459]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2020.11.03-13.57.12:582][459]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Kachujin
+[2020.11.03-13.57.12:582][459]LogFbx: Warning: Recreating bind pose succeeded.
+[2020.11.03-13.57.13:760][459]LogMaterial: Display: Material /Game/Character_Beta/CharMoTest1/kachujin_MAT.kachujin_MAT needed to have new flag set bUsedWithSkeletalMesh !
+[2020.11.03-13.57.17:248][459]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.11.03-13.57.17:249][459]LogMaterial: Display: Missing cached shader map for material kachujin_MAT, compiling. 
+[2020.11.03-13.57.18:759][459]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 39
+[2020.11.03-13.57.18:759][459]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 29
+[2020.11.03-13.57.18:759][459]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 19
+[2020.11.03-13.57.18:759][459]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.11.03-13.57.24:145][459]LogTexture: Display: Building textures: Kachujin_diffuse (AutoDXT, 2048X2048)
+[2020.11.03-13.57.30:028][459]LogTexture: Display: Building textures: Kachujin_specular (AutoDXT, 2048X2048)
+[2020.11.03-13.57.31:222][459]LogTexture: Display: Building textures: Kachujin_normal (BC5, 2048X2048)
+[2020.11.03-13.57.33:594][459]LogTexture: Display: Building textures: Kachujin_diffuse (AutoDXT, 2048X2048)
+[2020.11.03-13.57.36:901][459]LogMaterial: Display: Missing cached shader map for material kachujin_MAT, compiling. 
+[2020.11.03-13.57.41:323][459]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 87
+[2020.11.03-13.57.41:323][459]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 77
+[2020.11.03-13.57.41:323][459]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 67
+[2020.11.03-13.57.41:323][459]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 57
+[2020.11.03-13.57.41:323][459]LogFbx: Triangulating skeletal mesh Kachujin
+[2020.11.03-13.57.43:934][459]LogFbx: Warning: Bones digested - 65  Depth of hierarchy - 12
+[2020.11.03-13.57.47:513][459]LogSkeletalMesh: Section 0: 7668 vertices, 53 active bones
+[2020.11.03-13.57.47:573][459]LogSkeletalMesh: Section 0: Material=0, 12610 triangles
+[2020.11.03-13.57.50:241][459]LogSkeletalMesh: Building Skeletal Mesh kachujin_g_rosales...
+[2020.11.03-13.57.50:916][459]LogSkeletalMesh: Section 0: 7668 vertices, 53 active bones
+[2020.11.03-13.57.50:918][459]LogSkeletalMesh: Section 0: Material=0, 12610 triangles
+[2020.11.03-13.57.52:125][459]LogSkeletalMesh: Built Skeletal Mesh [2.81s] /Game/Character_Beta/CharMoTest1/kachujin_g_rosales.kachujin_g_rosales
+[2020.11.03-13.57.54:586][459]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 47
+[2020.11.03-13.57.54:586][459]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 37
+[2020.11.03-13.57.54:586][459]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 27
+[2020.11.03-13.58.02:354][459]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 20
+[2020.11.03-13.58.03:253][459]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 14
+[2020.11.03-13.58.04:429][459]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 10
+[2020.11.03-13.58.09:323][459]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.11.03-13.58.09:323][459]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2020.11.03-13.58.09:323][459]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2020.11.03-13.58.09:323][459]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2020.11.03-13.58.09:719][459]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-13.58.10:105][459]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2020.11.03-13.58.10:105][459]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-13.58.12:494][459]LogFbx: SortedLinks :(0) Hips
+[2020.11.03-13.58.12:494][459]LogFbx: SortedLinks :(1) Spine
+[2020.11.03-13.58.12:494][459]LogFbx: SortedLinks :(2) Spine1
+[2020.11.03-13.58.12:494][459]LogFbx: SortedLinks :(3) Spine2
+[2020.11.03-13.58.12:494][459]LogFbx: SortedLinks :(4) Neck
+[2020.11.03-13.58.12:494][459]LogFbx: SortedLinks :(5) Head
+[2020.11.03-13.58.12:494][459]LogFbx: SortedLinks :(6) HeadTop_End
+[2020.11.03-13.58.12:494][459]LogFbx: SortedLinks :(7) LeftShoulder
+[2020.11.03-13.58.12:494][459]LogFbx: SortedLinks :(8) LeftArm
+[2020.11.03-13.58.12:494][459]LogFbx: SortedLinks :(9) LeftForeArm
+[2020.11.03-13.58.12:494][459]LogFbx: SortedLinks :(10) LeftHand
+[2020.11.03-13.58.12:494][459]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2020.11.03-13.58.12:494][459]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2020.11.03-13.58.12:494][459]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2020.11.03-13.58.12:494][459]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2020.11.03-13.58.12:494][459]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2020.11.03-13.58.12:494][459]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2020.11.03-13.58.12:494][459]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2020.11.03-13.58.12:494][459]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2020.11.03-13.58.12:494][459]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(23) LeftHandRing1
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(24) LeftHandRing2
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(25) LeftHandRing3
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(26) LeftHandRing4
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(31) RightShoulder
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(32) RightArm
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(33) RightForeArm
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(34) RightHand
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(35) RightHandIndex1
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(36) RightHandIndex2
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(37) RightHandIndex3
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(38) RightHandIndex4
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(39) RightHandThumb1
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(40) RightHandThumb2
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(41) RightHandThumb3
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(42) RightHandThumb4
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(47) RightHandRing1
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(48) RightHandRing2
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(49) RightHandRing3
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(50) RightHandRing4
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(51) RightHandPinky1
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(52) RightHandPinky2
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(53) RightHandPinky3
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(54) RightHandPinky4
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(55) LeftUpLeg
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(56) LeftLeg
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(57) LeftFoot
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(58) LeftToeBase
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(59) LeftToe_End
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(60) RightUpLeg
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(61) RightLeg
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(62) RightFoot
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(63) RightToeBase
+[2020.11.03-13.58.12:495][459]LogFbx: SortedLinks :(64) RightToe_End
+[2020.11.03-13.58.12:516][459]LogFbx: SortedLinks :(0) Hips
+[2020.11.03-13.58.12:516][459]LogFbx: SortedLinks :(1) Spine
+[2020.11.03-13.58.12:516][459]LogFbx: SortedLinks :(2) Spine1
+[2020.11.03-13.58.12:516][459]LogFbx: SortedLinks :(3) Spine2
+[2020.11.03-13.58.12:516][459]LogFbx: SortedLinks :(4) Neck
+[2020.11.03-13.58.12:516][459]LogFbx: SortedLinks :(5) Head
+[2020.11.03-13.58.12:516][459]LogFbx: SortedLinks :(6) HeadTop_End
+[2020.11.03-13.58.12:516][459]LogFbx: SortedLinks :(7) LeftShoulder
+[2020.11.03-13.58.12:516][459]LogFbx: SortedLinks :(8) LeftArm
+[2020.11.03-13.58.12:516][459]LogFbx: SortedLinks :(9) LeftForeArm
+[2020.11.03-13.58.12:516][459]LogFbx: SortedLinks :(10) LeftHand
+[2020.11.03-13.58.12:516][459]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2020.11.03-13.58.12:516][459]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2020.11.03-13.58.12:516][459]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2020.11.03-13.58.12:516][459]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2020.11.03-13.58.12:516][459]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2020.11.03-13.58.12:516][459]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2020.11.03-13.58.12:516][459]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2020.11.03-13.58.12:516][459]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2020.11.03-13.58.12:516][459]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2020.11.03-13.58.12:516][459]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2020.11.03-13.58.12:516][459]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2020.11.03-13.58.12:516][459]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2020.11.03-13.58.12:516][459]LogFbx: SortedLinks :(23) LeftHandRing1
+[2020.11.03-13.58.12:516][459]LogFbx: SortedLinks :(24) LeftHandRing2
+[2020.11.03-13.58.12:516][459]LogFbx: SortedLinks :(25) LeftHandRing3
+[2020.11.03-13.58.12:516][459]LogFbx: SortedLinks :(26) LeftHandRing4
+[2020.11.03-13.58.12:516][459]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2020.11.03-13.58.12:516][459]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2020.11.03-13.58.12:516][459]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2020.11.03-13.58.12:516][459]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2020.11.03-13.58.12:516][459]LogFbx: SortedLinks :(31) RightShoulder
+[2020.11.03-13.58.12:516][459]LogFbx: SortedLinks :(32) RightArm
+[2020.11.03-13.58.12:516][459]LogFbx: SortedLinks :(33) RightForeArm
+[2020.11.03-13.58.12:516][459]LogFbx: SortedLinks :(34) RightHand
+[2020.11.03-13.58.12:516][459]LogFbx: SortedLinks :(35) RightHandIndex1
+[2020.11.03-13.58.12:516][459]LogFbx: SortedLinks :(36) RightHandIndex2
+[2020.11.03-13.58.12:517][459]LogFbx: SortedLinks :(37) RightHandIndex3
+[2020.11.03-13.58.12:517][459]LogFbx: SortedLinks :(38) RightHandIndex4
+[2020.11.03-13.58.12:517][459]LogFbx: SortedLinks :(39) RightHandThumb1
+[2020.11.03-13.58.12:517][459]LogFbx: SortedLinks :(40) RightHandThumb2
+[2020.11.03-13.58.12:517][459]LogFbx: SortedLinks :(41) RightHandThumb3
+[2020.11.03-13.58.12:517][459]LogFbx: SortedLinks :(42) RightHandThumb4
+[2020.11.03-13.58.12:517][459]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2020.11.03-13.58.12:517][459]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2020.11.03-13.58.12:517][459]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2020.11.03-13.58.12:517][459]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2020.11.03-13.58.12:517][459]LogFbx: SortedLinks :(47) RightHandRing1
+[2020.11.03-13.58.12:517][459]LogFbx: SortedLinks :(48) RightHandRing2
+[2020.11.03-13.58.12:517][459]LogFbx: SortedLinks :(49) RightHandRing3
+[2020.11.03-13.58.12:517][459]LogFbx: SortedLinks :(50) RightHandRing4
+[2020.11.03-13.58.12:517][459]LogFbx: SortedLinks :(51) RightHandPinky1
+[2020.11.03-13.58.12:517][459]LogFbx: SortedLinks :(52) RightHandPinky2
+[2020.11.03-13.58.12:517][459]LogFbx: SortedLinks :(53) RightHandPinky3
+[2020.11.03-13.58.12:517][459]LogFbx: SortedLinks :(54) RightHandPinky4
+[2020.11.03-13.58.12:517][459]LogFbx: SortedLinks :(55) LeftUpLeg
+[2020.11.03-13.58.12:517][459]LogFbx: SortedLinks :(56) LeftLeg
+[2020.11.03-13.58.12:517][459]LogFbx: SortedLinks :(57) LeftFoot
+[2020.11.03-13.58.12:517][459]LogFbx: SortedLinks :(58) LeftToeBase
+[2020.11.03-13.58.12:517][459]LogFbx: SortedLinks :(59) LeftToe_End
+[2020.11.03-13.58.12:517][459]LogFbx: SortedLinks :(60) RightUpLeg
+[2020.11.03-13.58.12:517][459]LogFbx: SortedLinks :(61) RightLeg
+[2020.11.03-13.58.12:517][459]LogFbx: SortedLinks :(62) RightFoot
+[2020.11.03-13.58.12:517][459]LogFbx: SortedLinks :(63) RightToeBase
+[2020.11.03-13.58.12:517][459]LogFbx: SortedLinks :(64) RightToe_End
+[2020.11.03-13.58.13:656][459]LogFbx: Parsing AnimStack Take 001
+[2020.11.03-13.58.18:631][459]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character_Beta/CharMoTest1/kachujin_g_rosales_Anim_Take_001.kachujin_g_rosales_Anim_Take_001
+[2020.11.03-13.58.18:645][459]LogFbx: Parsing AnimStack mixamo.com
+[2020.11.03-13.58.18:921][459]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character_Beta/CharMoTest1/kachujin_g_rosales_Anim_mixamo_com.kachujin_g_rosales_Anim_mixamo_com
+[2020.11.03-13.58.19:411][459]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.11.03-14.00.01:849][467]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.11.03-14.00.22:403][ 77]LogUObjectHash: Compacting FUObjectHashTables data took  28.25ms
+[2020.11.03-14.00.22:567][ 77]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainMenu' took 2.553
+[2020.11.03-14.00.22:690][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character_Beta/CharMoTest1/kachujin_g_rosales] ([1] browsable assets)...
+[2020.11.03-14.00.22:843][ 77]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Character_Beta/CharMoTest1/kachujin_g_rosales.kachujin_g_rosales]
+[2020.11.03-14.00.22:843][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character_Beta/CharMoTest1/kachujin_g_rosales]
+[2020.11.03-14.00.23:448][ 77]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/kachujin_g_rosales_Auto2A79171E5440949B0CBF372B0F8146C27.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Autosaves/Game/Character_Beta/CharMoTest1/kachujin_g_rosales_Auto2.uasset'
+[2020.11.03-14.00.23:482][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character_Beta/CharMoTest1/kachujin_MAT] ([1] browsable assets)...
+[2020.11.03-14.00.23:513][ 77]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Character_Beta/CharMoTest1/kachujin_MAT.kachujin_MAT]
+[2020.11.03-14.00.23:513][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character_Beta/CharMoTest1/kachujin_MAT]
+[2020.11.03-14.00.23:639][ 77]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/kachujin_MAT_Auto2C94CDD37432F756E3E521F95CAF3A66A.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Autosaves/Game/Character_Beta/CharMoTest1/kachujin_MAT_Auto2.uasset'
+[2020.11.03-14.00.23:640][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character_Beta/CharMoTest1/Kachujin_diffuse] ([1] browsable assets)...
+[2020.11.03-14.00.23:649][ 77]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Character_Beta/CharMoTest1/Kachujin_diffuse.Kachujin_diffuse]
+[2020.11.03-14.00.23:649][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character_Beta/CharMoTest1/Kachujin_diffuse]
+[2020.11.03-14.00.23:691][ 77]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Kachujin_diffuse_Auto2261D6C174F2B2F9A7DA9C8ABDAFDD28C.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Autosaves/Game/Character_Beta/CharMoTest1/Kachujin_diffuse_Auto2.uasset'
+[2020.11.03-14.00.23:696][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character_Beta/CharMoTest1/Kachujin_specular] ([1] browsable assets)...
+[2020.11.03-14.00.23:709][ 77]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Character_Beta/CharMoTest1/Kachujin_specular.Kachujin_specular]
+[2020.11.03-14.00.23:709][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character_Beta/CharMoTest1/Kachujin_specular]
+[2020.11.03-14.00.23:785][ 77]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Kachujin_specular_Auto22E68F92A4D262AAD4F57DA8172257BA4.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Autosaves/Game/Character_Beta/CharMoTest1/Kachujin_specular_Auto2.uasset'
+[2020.11.03-14.00.23:786][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character_Beta/CharMoTest1/Kachujin_normal] ([1] browsable assets)...
+[2020.11.03-14.00.23:796][ 77]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Character_Beta/CharMoTest1/Kachujin_normal.Kachujin_normal]
+[2020.11.03-14.00.23:796][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character_Beta/CharMoTest1/Kachujin_normal]
+[2020.11.03-14.00.23:858][ 77]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Kachujin_normal_Auto2621DA0224B5A1C744E02CBBEDEEBD554.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Autosaves/Game/Character_Beta/CharMoTest1/Kachujin_normal_Auto2.uasset'
+[2020.11.03-14.00.23:859][ 77]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Character_Beta/CharMoTest1/kachujin_g_rosales_Skeleton] ([1] browsable assets)...
+[2020.11.03-14.00.23:859][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character_Beta/CharMoTest1/kachujin_g_rosales_Skeleton]
+[2020.11.03-14.00.23:876][ 77]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/kachujin_g_rosales_Skeleton_Auto0FE0DEFC450B0930A300BA98CA6342DF.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Autosaves/Game/Character_Beta/CharMoTest1/kachujin_g_rosales_Skeleton_Auto2.uasset'
+[2020.11.03-14.00.23:877][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character_Beta/CharMoTest1/kachujin_g_rosales_PhysicsAsset] ([1] browsable assets)...
+[2020.11.03-14.00.23:898][ 77]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/Character_Beta/CharMoTest1/kachujin_g_rosales_PhysicsAsset.kachujin_g_rosales_PhysicsAsset]
+[2020.11.03-14.00.23:898][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character_Beta/CharMoTest1/kachujin_g_rosales_PhysicsAsset]
+[2020.11.03-14.00.23:989][ 77]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/kachujin_g_rosales_PhysicsAsset_46C74A6344B0E073267B89B0B617E1A9.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Autosaves/Game/Character_Beta/CharMoTest1/kachujin_g_rosales_PhysicsAsset_Auto2.uasset'
+[2020.11.03-14.00.23:990][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character_Beta/CharMoTest1/kachujin_g_rosales_Anim_Take_001] ([1] browsable assets)...
+[2020.11.03-14.00.24:014][ 77]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Character_Beta/CharMoTest1/kachujin_g_rosales_Anim_Take_001.kachujin_g_rosales_Anim_Take_001]
+[2020.11.03-14.00.24:015][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character_Beta/CharMoTest1/kachujin_g_rosales_Anim_Take_001]
+[2020.11.03-14.00.24:124][ 77]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/kachujin_g_rosales_Anim_Take_0014F2F4396402CA618092579A16714E7E0.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Autosaves/Game/Character_Beta/CharMoTest1/kachujin_g_rosales_Anim_Take_001_Auto2.uasset'
+[2020.11.03-14.00.24:125][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character_Beta/CharMoTest1/kachujin_g_rosales_Anim_mixamo_com] ([1] browsable assets)...
+[2020.11.03-14.00.24:146][ 77]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Character_Beta/CharMoTest1/kachujin_g_rosales_Anim_mixamo_com.kachujin_g_rosales_Anim_mixamo_com]
+[2020.11.03-14.00.24:146][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character_Beta/CharMoTest1/kachujin_g_rosales_Anim_mixamo_com]
+[2020.11.03-14.00.24:171][ 77]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/kachujin_g_rosales_Anim_mixamo_cF1D4577245D943656B51538ECC0F9AEB.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Autosaves/Game/Character_Beta/CharMoTest1/kachujin_g_rosales_Anim_mixamo_com_Auto2.uasset'
+[2020.11.03-14.00.24:172][ 77]LogFileHelpers: Auto-saving content packages took 1.587
+[2020.11.03-14.00.57:302][735]LogSlate: Window 'Message Log' being destroyed
+[2020.11.03-14.00.57:308][735]LogSlate: Window 'Message Log' being destroyed
+[2020.11.03-14.01.03:100][860]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/anuch/Downloads/Running.fbx)
+[2020.11.03-14.01.03:307][860]LogFbx: Loading FBX Scene from C:/Users/anuch/Downloads/Running.fbx
+[2020.11.03-14.01.03:365][860]LogFbx: FBX Scene Loaded Succesfully
+[2020.11.03-14.01.08:000][860]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(0) Hips
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(1) Spine
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(2) Spine1
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(3) Spine2
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(4) Neck
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(5) Head
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(6) HeadTop_End
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(7) LeftShoulder
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(8) LeftArm
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(9) LeftForeArm
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(10) LeftHand
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(23) LeftHandRing1
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(24) LeftHandRing2
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(25) LeftHandRing3
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(26) LeftHandRing4
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(31) RightShoulder
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(32) RightArm
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(33) RightForeArm
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(34) RightHand
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(35) RightHandThumb1
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(36) RightHandThumb2
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(37) RightHandThumb3
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(38) RightHandThumb4
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(39) RightHandIndex1
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(40) RightHandIndex2
+[2020.11.03-14.01.08:108][860]LogFbx: SortedLinks :(41) RightHandIndex3
+[2020.11.03-14.01.08:109][860]LogFbx: SortedLinks :(42) RightHandIndex4
+[2020.11.03-14.01.08:109][860]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2020.11.03-14.01.08:109][860]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2020.11.03-14.01.08:109][860]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2020.11.03-14.01.08:109][860]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2020.11.03-14.01.08:109][860]LogFbx: SortedLinks :(47) RightHandRing1
+[2020.11.03-14.01.08:109][860]LogFbx: SortedLinks :(48) RightHandRing2
+[2020.11.03-14.01.08:109][860]LogFbx: SortedLinks :(49) RightHandRing3
+[2020.11.03-14.01.08:109][860]LogFbx: SortedLinks :(50) RightHandRing4
+[2020.11.03-14.01.08:109][860]LogFbx: SortedLinks :(51) RightHandPinky1
+[2020.11.03-14.01.08:109][860]LogFbx: SortedLinks :(52) RightHandPinky2
+[2020.11.03-14.01.08:109][860]LogFbx: SortedLinks :(53) RightHandPinky3
+[2020.11.03-14.01.08:109][860]LogFbx: SortedLinks :(54) RightHandPinky4
+[2020.11.03-14.01.08:109][860]LogFbx: SortedLinks :(55) LeftUpLeg
+[2020.11.03-14.01.08:109][860]LogFbx: SortedLinks :(56) LeftLeg
+[2020.11.03-14.01.08:109][860]LogFbx: SortedLinks :(57) LeftFoot
+[2020.11.03-14.01.08:109][860]LogFbx: SortedLinks :(58) LeftToeBase
+[2020.11.03-14.01.08:109][860]LogFbx: SortedLinks :(59) LeftToe_End
+[2020.11.03-14.01.08:109][860]LogFbx: SortedLinks :(60) RightUpLeg
+[2020.11.03-14.01.08:109][860]LogFbx: SortedLinks :(61) RightLeg
+[2020.11.03-14.01.08:109][860]LogFbx: SortedLinks :(62) RightFoot
+[2020.11.03-14.01.08:109][860]LogFbx: SortedLinks :(63) RightToeBase
+[2020.11.03-14.01.08:109][860]LogFbx: SortedLinks :(64) RightToe_End
+[2020.11.03-14.01.08:110][860]LogFbx: Parsing AnimStack mixamo.com
+[2020.11.03-14.01.08:364][860]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character_Beta/CharMoTest1/Animation/Running.Running
+[2020.11.03-14.01.08:365][860]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character_Beta/CharMoTest1/Animation/Running.Running
+[2020.11.03-14.01.10:074][952]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Character_Beta/CharMoTest1/Animation/Running.Running
+[2020.11.03-14.01.11:372][952]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0450 seconds. Added 1 classes and 2 folders.
+[2020.11.03-14.01.12:999][952]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.11.03-14.01.13:039][952]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0027 seconds. Added 1 classes and 0 folders.
+[2020.11.03-14.01.14:374][952]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.11.03-14.01.18:293][952]LogRenderer: Reallocating scene render targets to support 1144x572 Format 10 NumSamples 1 (Frame:1).
+[2020.11.03-14.01.18:293][952]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.11.03-14.01.22:796][158]LogSlate: Window 'Running' being destroyed
+[2020.11.03-14.01.22:800][158]LogSlate: Window 'Running' being destroyed
+[2020.11.03-14.01.22:830][158]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-14.01.22:830][158]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-14.01.23:090][158]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-14.01.23:090][158]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-14.01.23:650][158]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-14.01.23:650][158]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-14.02.02:310][624]LogSlate: Window 'Pick Skeleton' being destroyed
+[2020.11.03-14.02.18:985][804]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace /Game/Character_Beta/CharMoTest1/Animation/NewBlendSpace.NewBlendSpace
+[2020.11.03-14.02.18:995][804]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.11.03-14.02.19:147][804]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.11.03-14.02.19:960][804]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.11.03-14.04.11:621][322]LogEditorViewport: Clicking Background
+[2020.11.03-14.05.15:276][779]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.11.03-14.06.04:938][995]LogSlate: Window 'NewBlendSpace' being destroyed
+[2020.11.03-14.06.05:003][995]LogSlate: Window 'NewBlendSpace' being destroyed
+[2020.11.03-14.06.05:627][995]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-14.06.05:708][995]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-14.06.14:331][995]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-14.06.14:331][995]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-14.06.24:742][ 30]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/anuch/Downloads/Female Walk.fbx)
+[2020.11.03-14.06.25:010][ 30]LogFbx: Loading FBX Scene from C:/Users/anuch/Downloads/Female Walk.fbx
+[2020.11.03-14.06.25:098][ 30]LogFbx: FBX Scene Loaded Succesfully
+[2020.11.03-14.06.30:645][ 30]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.11.03-14.06.30:913][ 30]LogFbx: SortedLinks :(0) Hips
+[2020.11.03-14.06.30:913][ 30]LogFbx: SortedLinks :(1) Spine
+[2020.11.03-14.06.30:913][ 30]LogFbx: SortedLinks :(2) Spine1
+[2020.11.03-14.06.30:913][ 30]LogFbx: SortedLinks :(3) Spine2
+[2020.11.03-14.06.30:913][ 30]LogFbx: SortedLinks :(4) Neck
+[2020.11.03-14.06.30:913][ 30]LogFbx: SortedLinks :(5) Head
+[2020.11.03-14.06.30:913][ 30]LogFbx: SortedLinks :(6) HeadTop_End
+[2020.11.03-14.06.30:913][ 30]LogFbx: SortedLinks :(7) LeftShoulder
+[2020.11.03-14.06.30:913][ 30]LogFbx: SortedLinks :(8) LeftArm
+[2020.11.03-14.06.30:913][ 30]LogFbx: SortedLinks :(9) LeftForeArm
+[2020.11.03-14.06.30:913][ 30]LogFbx: SortedLinks :(10) LeftHand
+[2020.11.03-14.06.30:913][ 30]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2020.11.03-14.06.30:913][ 30]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2020.11.03-14.06.30:913][ 30]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2020.11.03-14.06.30:913][ 30]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2020.11.03-14.06.30:913][ 30]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2020.11.03-14.06.30:913][ 30]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2020.11.03-14.06.30:913][ 30]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2020.11.03-14.06.30:913][ 30]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2020.11.03-14.06.30:913][ 30]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2020.11.03-14.06.30:913][ 30]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2020.11.03-14.06.30:913][ 30]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2020.11.03-14.06.30:913][ 30]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2020.11.03-14.06.30:913][ 30]LogFbx: SortedLinks :(23) LeftHandRing1
+[2020.11.03-14.06.30:913][ 30]LogFbx: SortedLinks :(24) LeftHandRing2
+[2020.11.03-14.06.30:914][ 30]LogFbx: SortedLinks :(25) LeftHandRing3
+[2020.11.03-14.06.30:914][ 30]LogFbx: SortedLinks :(26) LeftHandRing4
+[2020.11.03-14.06.30:914][ 30]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2020.11.03-14.06.30:914][ 30]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2020.11.03-14.06.30:914][ 30]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2020.11.03-14.06.30:914][ 30]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2020.11.03-14.06.30:914][ 30]LogFbx: SortedLinks :(31) RightShoulder
+[2020.11.03-14.06.30:914][ 30]LogFbx: SortedLinks :(32) RightArm
+[2020.11.03-14.06.30:914][ 30]LogFbx: SortedLinks :(33) RightForeArm
+[2020.11.03-14.06.30:914][ 30]LogFbx: SortedLinks :(34) RightHand
+[2020.11.03-14.06.30:914][ 30]LogFbx: SortedLinks :(35) RightHandIndex1
+[2020.11.03-14.06.30:914][ 30]LogFbx: SortedLinks :(36) RightHandIndex2
+[2020.11.03-14.06.30:914][ 30]LogFbx: SortedLinks :(37) RightHandIndex3
+[2020.11.03-14.06.30:914][ 30]LogFbx: SortedLinks :(38) RightHandIndex4
+[2020.11.03-14.06.30:914][ 30]LogFbx: SortedLinks :(39) RightHandThumb1
+[2020.11.03-14.06.30:914][ 30]LogFbx: SortedLinks :(40) RightHandThumb2
+[2020.11.03-14.06.30:914][ 30]LogFbx: SortedLinks :(41) RightHandThumb3
+[2020.11.03-14.06.30:914][ 30]LogFbx: SortedLinks :(42) RightHandThumb4
+[2020.11.03-14.06.30:914][ 30]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2020.11.03-14.06.30:914][ 30]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2020.11.03-14.06.30:914][ 30]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2020.11.03-14.06.30:914][ 30]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2020.11.03-14.06.30:914][ 30]LogFbx: SortedLinks :(47) RightHandRing1
+[2020.11.03-14.06.30:914][ 30]LogFbx: SortedLinks :(48) RightHandRing2
+[2020.11.03-14.06.30:914][ 30]LogFbx: SortedLinks :(49) RightHandRing3
+[2020.11.03-14.06.30:914][ 30]LogFbx: SortedLinks :(50) RightHandRing4
+[2020.11.03-14.06.30:914][ 30]LogFbx: SortedLinks :(51) RightHandPinky1
+[2020.11.03-14.06.30:914][ 30]LogFbx: SortedLinks :(52) RightHandPinky2
+[2020.11.03-14.06.30:914][ 30]LogFbx: SortedLinks :(53) RightHandPinky3
+[2020.11.03-14.06.30:914][ 30]LogFbx: SortedLinks :(54) RightHandPinky4
+[2020.11.03-14.06.30:914][ 30]LogFbx: SortedLinks :(55) LeftUpLeg
+[2020.11.03-14.06.30:914][ 30]LogFbx: SortedLinks :(56) LeftLeg
+[2020.11.03-14.06.30:914][ 30]LogFbx: SortedLinks :(57) LeftFoot
+[2020.11.03-14.06.30:915][ 30]LogFbx: SortedLinks :(58) LeftToeBase
+[2020.11.03-14.06.30:915][ 30]LogFbx: SortedLinks :(59) LeftToe_End
+[2020.11.03-14.06.30:915][ 30]LogFbx: SortedLinks :(60) RightUpLeg
+[2020.11.03-14.06.30:915][ 30]LogFbx: SortedLinks :(61) RightLeg
+[2020.11.03-14.06.30:915][ 30]LogFbx: SortedLinks :(62) RightFoot
+[2020.11.03-14.06.30:915][ 30]LogFbx: SortedLinks :(63) RightToeBase
+[2020.11.03-14.06.30:915][ 30]LogFbx: SortedLinks :(64) RightToe_End
+[2020.11.03-14.06.30:951][ 30]LogFbx: Parsing AnimStack mixamo.com
+[2020.11.03-14.06.32:077][ 30]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character_Beta/CharMoTest1/Animation/Female_Walk.Female_Walk
+[2020.11.03-14.06.32:295][ 30]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character_Beta/CharMoTest1/Animation/Female_Walk.Female_Walk
+[2020.11.03-14.06.32:295][ 30]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:/Users/anuch/Downloads/Idle.fbx)
+[2020.11.03-14.06.32:382][ 30]LogFbx: Loading FBX Scene from C:/Users/anuch/Downloads/Idle.fbx
+[2020.11.03-14.06.32:454][ 30]LogFbx: FBX Scene Loaded Succesfully
+[2020.11.03-14.06.36:130][ 30]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.11.03-14.06.36:301][ 30]LogFbx: SortedLinks :(0) Hips
+[2020.11.03-14.06.36:301][ 30]LogFbx: SortedLinks :(1) Spine
+[2020.11.03-14.06.36:301][ 30]LogFbx: SortedLinks :(2) Spine1
+[2020.11.03-14.06.36:301][ 30]LogFbx: SortedLinks :(3) Spine2
+[2020.11.03-14.06.36:301][ 30]LogFbx: SortedLinks :(4) Neck
+[2020.11.03-14.06.36:301][ 30]LogFbx: SortedLinks :(5) Head
+[2020.11.03-14.06.36:301][ 30]LogFbx: SortedLinks :(6) HeadTop_End
+[2020.11.03-14.06.36:301][ 30]LogFbx: SortedLinks :(7) LeftShoulder
+[2020.11.03-14.06.36:302][ 30]LogFbx: SortedLinks :(8) LeftArm
+[2020.11.03-14.06.36:302][ 30]LogFbx: SortedLinks :(9) LeftForeArm
+[2020.11.03-14.06.36:302][ 30]LogFbx: SortedLinks :(10) LeftHand
+[2020.11.03-14.06.36:302][ 30]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2020.11.03-14.06.36:302][ 30]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2020.11.03-14.06.36:302][ 30]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2020.11.03-14.06.36:302][ 30]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2020.11.03-14.06.36:302][ 30]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2020.11.03-14.06.36:302][ 30]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2020.11.03-14.06.36:302][ 30]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2020.11.03-14.06.36:302][ 30]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2020.11.03-14.06.36:302][ 30]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2020.11.03-14.06.36:302][ 30]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2020.11.03-14.06.36:302][ 30]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2020.11.03-14.06.36:302][ 30]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2020.11.03-14.06.36:302][ 30]LogFbx: SortedLinks :(23) LeftHandRing1
+[2020.11.03-14.06.36:302][ 30]LogFbx: SortedLinks :(24) LeftHandRing2
+[2020.11.03-14.06.36:302][ 30]LogFbx: SortedLinks :(25) LeftHandRing3
+[2020.11.03-14.06.36:302][ 30]LogFbx: SortedLinks :(26) LeftHandRing4
+[2020.11.03-14.06.36:302][ 30]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2020.11.03-14.06.36:302][ 30]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2020.11.03-14.06.36:303][ 30]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2020.11.03-14.06.36:303][ 30]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2020.11.03-14.06.36:303][ 30]LogFbx: SortedLinks :(31) RightShoulder
+[2020.11.03-14.06.36:303][ 30]LogFbx: SortedLinks :(32) RightArm
+[2020.11.03-14.06.36:303][ 30]LogFbx: SortedLinks :(33) RightForeArm
+[2020.11.03-14.06.36:303][ 30]LogFbx: SortedLinks :(34) RightHand
+[2020.11.03-14.06.36:303][ 30]LogFbx: SortedLinks :(35) RightHandIndex1
+[2020.11.03-14.06.36:303][ 30]LogFbx: SortedLinks :(36) RightHandIndex2
+[2020.11.03-14.06.36:303][ 30]LogFbx: SortedLinks :(37) RightHandIndex3
+[2020.11.03-14.06.36:303][ 30]LogFbx: SortedLinks :(38) RightHandIndex4
+[2020.11.03-14.06.36:303][ 30]LogFbx: SortedLinks :(39) RightHandThumb1
+[2020.11.03-14.06.36:303][ 30]LogFbx: SortedLinks :(40) RightHandThumb2
+[2020.11.03-14.06.36:303][ 30]LogFbx: SortedLinks :(41) RightHandThumb3
+[2020.11.03-14.06.36:303][ 30]LogFbx: SortedLinks :(42) RightHandThumb4
+[2020.11.03-14.06.36:303][ 30]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2020.11.03-14.06.36:303][ 30]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2020.11.03-14.06.36:303][ 30]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2020.11.03-14.06.36:303][ 30]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2020.11.03-14.06.36:303][ 30]LogFbx: SortedLinks :(47) RightHandRing1
+[2020.11.03-14.06.36:303][ 30]LogFbx: SortedLinks :(48) RightHandRing2
+[2020.11.03-14.06.36:303][ 30]LogFbx: SortedLinks :(49) RightHandRing3
+[2020.11.03-14.06.36:304][ 30]LogFbx: SortedLinks :(50) RightHandRing4
+[2020.11.03-14.06.36:304][ 30]LogFbx: SortedLinks :(51) RightHandPinky1
+[2020.11.03-14.06.36:304][ 30]LogFbx: SortedLinks :(52) RightHandPinky2
+[2020.11.03-14.06.36:304][ 30]LogFbx: SortedLinks :(53) RightHandPinky3
+[2020.11.03-14.06.36:304][ 30]LogFbx: SortedLinks :(54) RightHandPinky4
+[2020.11.03-14.06.36:304][ 30]LogFbx: SortedLinks :(55) LeftUpLeg
+[2020.11.03-14.06.36:304][ 30]LogFbx: SortedLinks :(56) LeftLeg
+[2020.11.03-14.06.36:304][ 30]LogFbx: SortedLinks :(57) LeftFoot
+[2020.11.03-14.06.36:304][ 30]LogFbx: SortedLinks :(58) LeftToeBase
+[2020.11.03-14.06.36:304][ 30]LogFbx: SortedLinks :(59) LeftToe_End
+[2020.11.03-14.06.36:304][ 30]LogFbx: SortedLinks :(60) RightUpLeg
+[2020.11.03-14.06.36:304][ 30]LogFbx: SortedLinks :(61) RightLeg
+[2020.11.03-14.06.36:304][ 30]LogFbx: SortedLinks :(62) RightFoot
+[2020.11.03-14.06.36:304][ 30]LogFbx: SortedLinks :(63) RightToeBase
+[2020.11.03-14.06.36:304][ 30]LogFbx: SortedLinks :(64) RightToe_End
+[2020.11.03-14.06.36:307][ 30]LogFbx: Parsing AnimStack mixamo.com
+[2020.11.03-14.06.37:235][ 30]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character_Beta/CharMoTest1/Animation/Idle.Idle
+[2020.11.03-14.06.37:337][ 30]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character_Beta/CharMoTest1/Animation/Idle.Idle
+[2020.11.03-14.06.44:292][101]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace /Game/Character_Beta/CharMoTest1/Animation/NewBlendSpace.NewBlendSpace
+[2020.11.03-14.06.45:917][101]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.11.03-14.06.47:234][101]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.11.03-14.06.49:722][102]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.11.03-14.06.53:944][143]LogSlate: Window 'Create New Animation Object' being destroyed
+[2020.11.03-14.09.26:704][350]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/NewBlendSpace1F1352AC42B0F84E33802DA514BDBFF4.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Content/Character_Beta/CharMoTest1/Animation/NewBlendSpace.uasset'
+[2020.11.03-14.09.26:814][350]AssetCheck: New page: Asset Save: NewBlendSpace
+[2020.11.03-14.09.26:817][350]LogContentValidation: Display: Validating BlendSpace /Game/Character_Beta/CharMoTest1/Animation/NewBlendSpace.NewBlendSpace
+[2020.11.03-14.09.27:846][393]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/NewBlendSpace9EE7155041783CCB500F24A7B9854C56.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Content/Character_Beta/CharMoTest1/Animation/NewBlendSpace.uasset'
+[2020.11.03-14.09.27:861][393]AssetCheck: New page: Asset Save: NewBlendSpace
+[2020.11.03-14.09.27:861][393]LogContentValidation: Display: Validating BlendSpace /Game/Character_Beta/CharMoTest1/Animation/NewBlendSpace.NewBlendSpace
+[2020.11.03-14.09.32:739][490]LogSlate: Window 'NewBlendSpace' being destroyed
+[2020.11.03-14.09.32:753][490]LogSlate: Window 'NewBlendSpace' being destroyed
+[2020.11.03-14.09.32:755][490]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-14.09.32:755][490]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-14.09.33:178][490]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-14.09.33:178][490]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-14.09.42:061][735]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2020.11.03-14.09.53:244][735]LogSlate: Window 'Create Animation Blueprint' being destroyed
+[2020.11.03-14.10.06:677][410]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Character_Beta/CharMoTest1/Animation/model1_PB.model1_PB
+[2020.11.03-14.10.06:762][410]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.11.03-14.10.09:116][410]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0876 seconds. Added 125 classes and 0 folders.
+[2020.11.03-14.10.12:391][410]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.11.03-14.10.13:511][410]LogSlate: Took 0.073040 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.11.03-14.10.14:315][411]LogSlate: Took 0.032193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.11.03-14.10.34:554][748]LogUObjectHash: Compacting FUObjectHashTables data took  13.04ms
+[2020.11.03-14.10.34:686][748]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainMenu' took 1.680
+[2020.11.03-14.10.34:716][748]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character_Beta/CharMoTest1/Animation/Running] ([1] browsable assets)...
+[2020.11.03-14.10.34:761][748]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Character_Beta/CharMoTest1/Animation/Running.Running]
+[2020.11.03-14.10.34:761][748]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character_Beta/CharMoTest1/Animation/Running]
+[2020.11.03-14.10.34:868][748]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Running_Auto36D7F30344499C327BF477D8AD65C2498.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Autosaves/Game/Character_Beta/CharMoTest1/Animation/Running_Auto3.uasset'
+[2020.11.03-14.10.34:874][748]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character_Beta/CharMoTest1/Animation/Female_Walk] ([1] browsable assets)...
+[2020.11.03-14.10.34:897][748]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Character_Beta/CharMoTest1/Animation/Female_Walk.Female_Walk]
+[2020.11.03-14.10.34:897][748]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character_Beta/CharMoTest1/Animation/Female_Walk]
+[2020.11.03-14.10.34:925][748]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Female_Walk_Auto35F4D1C234EF2E5FC9393F4AFF505AC1F.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Autosaves/Game/Character_Beta/CharMoTest1/Animation/Female_Walk_Auto3.uasset'
+[2020.11.03-14.10.34:927][748]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character_Beta/CharMoTest1/Animation/Idle] ([1] browsable assets)...
+[2020.11.03-14.10.34:951][748]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Character_Beta/CharMoTest1/Animation/Idle.Idle]
+[2020.11.03-14.10.34:952][748]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character_Beta/CharMoTest1/Animation/Idle]
+[2020.11.03-14.10.34:978][748]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Idle_Auto36C6AE0F44039A5BF92E8DEB1F24F8561.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Autosaves/Game/Character_Beta/CharMoTest1/Animation/Idle_Auto3.uasset'
+[2020.11.03-14.10.34:980][748]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character_Beta/CharMoTest1/Animation/model1_PB] ([1] browsable assets)...
+[2020.11.03-14.10.35:004][748]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Character_Beta/CharMoTest1/Animation/model1_PB.model1_PB]
+[2020.11.03-14.10.35:004][748]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character_Beta/CharMoTest1/Animation/model1_PB]
+[2020.11.03-14.10.35:215][748]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/model1_PB_Auto3A76EC6DA451657D642F5C59C5138C3D9.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Autosaves/Game/Character_Beta/CharMoTest1/Animation/model1_PB_Auto3.uasset'
+[2020.11.03-14.10.35:217][748]LogFileHelpers: Auto-saving content packages took 0.529
+[2020.11.03-14.11.04:044][998]LogSlate: Took 0.033826 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.11.03-14.11.49:965][837]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.11.03-14.12.18:212][431]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP
+[2020.11.03-14.12.19:592][431]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.11.03-14.12.20:356][431]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.11.03-14.13.19:512][177]LogEditorTransaction: Undo Delete current selection
+[2020.11.03-14.13.19:993][177]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.11.03-14.13.20:060][177]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.11.03-14.13.20:171][177]LogEditorTransaction: Undo Delete current selection
+[2020.11.03-14.13.20:447][177]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.11.03-14.13.20:450][177]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.11.03-14.13.20:455][177]LogEditorTransaction: Undo Delete current selection
+[2020.11.03-14.13.20:728][177]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.11.03-14.13.20:730][177]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.11.03-14.13.20:733][177]LogEditorTransaction: Undo Delete current selection
+[2020.11.03-14.13.21:025][177]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.11.03-14.13.21:027][177]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.11.03-14.13.33:940][816]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/model1_PBA5E8D93E4CFD371EAB61B8BD4DFBD826.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Content/Character_Beta/CharMoTest1/Animation/model1_PB.uasset'
+[2020.11.03-14.13.35:776][816]AssetCheck: New page: Asset Save: model1_PB
+[2020.11.03-14.13.35:777][816]LogContentValidation: Display: Validating AnimBlueprint /Game/Character_Beta/CharMoTest1/Animation/model1_PB.model1_PB
+[2020.11.03-14.13.36:567][817]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/ThirdPerson_AnimBPF55D296E4E2D17AF28C7858CE27E27BC.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset'
+[2020.11.03-14.13.36:597][817]AssetCheck: New page: Asset Save: ThirdPerson_AnimBP
+[2020.11.03-14.13.36:597][817]LogContentValidation: Display: Validating AnimBlueprint /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP
+[2020.11.03-14.17.16:981][933]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Model1_AnimaF2BC7CD24BD9173DC78FE087E2089CB1.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Content/Character_Beta/CharMoTest1/Animation/Model1_Anima.uasset'
+[2020.11.03-14.17.19:158][933]LogUObjectHash: Compacting FUObjectHashTables data took  32.96ms
+[2020.11.03-14.17.19:346][933]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2020.11.03-14.17.19:377][933]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.11.03-14.17.19:859][933]AssetCheck: New page: Asset Save: Model1_Anima
+[2020.11.03-14.17.19:859][933]LogContentValidation: Display: Validating BlendSpace /Game/Character_Beta/CharMoTest1/Animation/Model1_Anima.Model1_Anima
+[2020.11.03-14.17.47:695][601]BlueprintLog: New page: Compile model1_PB
+[2020.11.03-14.17.48:269][601]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2020.11.03-14.17.49:427][637]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/model1_PB6AF07A0D48DBCABC2F4A89BBA2711F86.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Content/Character_Beta/CharMoTest1/Animation/model1_PB.uasset'
+[2020.11.03-14.17.49:489][637]AssetCheck: New page: Asset Save: model1_PB
+[2020.11.03-14.17.49:489][637]LogContentValidation: Display: Validating AnimBlueprint /Game/Character_Beta/CharMoTest1/Animation/model1_PB.model1_PB
+[2020.11.03-14.17.50:041][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu" FILE="C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Content/Maps/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.11.03-14.17.50:125][657]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2020.11.03-14.17.50:220][657]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/MainMenu3CE7B91F4FF83FAFC61DEDBC4C7D901F.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Content/Maps/MainMenu.umap'
+[2020.11.03-14.17.50:345][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu_BuiltData" FILE="C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Content/Maps/MainMenu_BuiltData.uasset" SILENT=true
+[2020.11.03-14.17.50:381][657]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/MainMenu_BuiltDataE93AA88B46D23A01BBC29D816BAE382A.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Content/Maps/MainMenu_BuiltData.uasset'
+[2020.11.03-14.17.50:409][657]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.03-14.17.50:409][657]LogContentValidation: Display: Validating World /Game/Maps/MainMenu.MainMenu
+[2020.11.03-14.17.50:409][657]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/MainMenu_BuiltData.MainMenu_BuiltData
+[2020.11.03-14.17.59:326][754]LogSlate: Window 'ThirdPerson_AnimBP' being destroyed
+[2020.11.03-14.17.59:344][754]LogSlate: Window 'ThirdPerson_AnimBP' being destroyed
+[2020.11.03-14.17.59:724][754]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-14.17.59:746][754]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-14.18.00:086][754]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-14.18.00:086][754]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-14.18.02:284][754]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-14.18.02:284][754]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-14.18.02:545][754]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-14.18.02:545][754]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-14.18.02:564][754]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-14.18.02:564][754]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-14.18.03:689][754]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-14.18.03:690][754]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-14.18.10:678][873]LogTemp: Repeating last play command: Standalone Game
+[2020.11.03-14.18.11:385][873]LogUObjectHash: Compacting FUObjectHashTables data took   4.36ms
+[2020.11.03-14.18.22:280][873]LogSlate: Window 'Save Content' being destroyed
+[2020.11.03-14.18.22:398][873]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Female_Walk1779AB574DBA2267D1B27BAAD2B32CB8.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Content/Character_Beta/CharMoTest1/Animation/Female_Walk.uasset'
+[2020.11.03-14.18.22:439][873]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Idle3E9B9CD7401734C7AEEB4B91FA94FF1F.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Content/Character_Beta/CharMoTest1/Animation/Idle.uasset'
+[2020.11.03-14.18.22:472][873]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Running6103FE2843D06FB54413AFBFAB75DDAF.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Content/Character_Beta/CharMoTest1/Animation/Running.uasset'
+[2020.11.03-14.18.23:063][873]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Kachujin_diffuse201697914CF9B2BC84DCFC9A6073E42D.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Content/Character_Beta/CharMoTest1/Kachujin_diffuse.uasset'
+[2020.11.03-14.18.23:350][873]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/kachujin_g_rosales76395A7E45EF481518C86F884C9C2671.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Content/Character_Beta/CharMoTest1/kachujin_g_rosales.uasset'
+[2020.11.03-14.18.23:397][873]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/kachujin_g_rosales_Anim_mixamo_cC263A8064B764695E54FF4B53CCBE25C.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Content/Character_Beta/CharMoTest1/kachujin_g_rosales_Anim_mixamo_com.uasset'
+[2020.11.03-14.18.23:432][873]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/kachujin_g_rosales_Anim_Take_001B1F4B3544B6CC7E705578F8108BD3A76.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Content/Character_Beta/CharMoTest1/kachujin_g_rosales_Anim_Take_001.uasset'
+[2020.11.03-14.18.23:486][873]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/kachujin_g_rosales_PhysicsAsset0DD733634E97149E5B65B49BD2C490D7.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Content/Character_Beta/CharMoTest1/kachujin_g_rosales_PhysicsAsset.uasset'
+[2020.11.03-14.18.23:525][873]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/kachujin_g_rosales_Skeleton5FB306944343AA924AE0D4BC6D1E4E45.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Content/Character_Beta/CharMoTest1/kachujin_g_rosales_Skeleton.uasset'
+[2020.11.03-14.18.23:567][873]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/kachujin_MAT3832651F4F50AA8D083FE2A635DF08B1.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Content/Character_Beta/CharMoTest1/kachujin_MAT.uasset'
+[2020.11.03-14.18.24:080][873]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Kachujin_normalF22733FE41D6985620254287BD68F79C.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Content/Character_Beta/CharMoTest1/Kachujin_normal.uasset'
+[2020.11.03-14.18.24:467][873]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/Kachujin_specular7A38A92C4C594D71037878A5FC889D88.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Content/Character_Beta/CharMoTest1/Kachujin_specular.uasset'
+[2020.11.03-14.18.24:806][874]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.03-14.18.24:806][874]LogContentValidation: Display: Validating AnimSequence /Game/Character_Beta/CharMoTest1/Animation/Female_Walk.Female_Walk
+[2020.11.03-14.18.24:806][874]LogContentValidation: Display: Validating AnimSequence /Game/Character_Beta/CharMoTest1/Animation/Idle.Idle
+[2020.11.03-14.18.24:806][874]LogContentValidation: Display: Validating AnimSequence /Game/Character_Beta/CharMoTest1/Animation/Running.Running
+[2020.11.03-14.18.24:806][874]LogContentValidation: Display: Validating Texture2D /Game/Character_Beta/CharMoTest1/Kachujin_diffuse.Kachujin_diffuse
+[2020.11.03-14.18.24:806][874]LogContentValidation: Display: Validating SkeletalMesh /Game/Character_Beta/CharMoTest1/kachujin_g_rosales.kachujin_g_rosales
+[2020.11.03-14.18.24:806][874]LogContentValidation: Display: Validating AnimSequence /Game/Character_Beta/CharMoTest1/kachujin_g_rosales_Anim_mixamo_com.kachujin_g_rosales_Anim_mixamo_com
+[2020.11.03-14.18.24:806][874]LogContentValidation: Display: Validating AnimSequence /Game/Character_Beta/CharMoTest1/kachujin_g_rosales_Anim_Take_001.kachujin_g_rosales_Anim_Take_001
+[2020.11.03-14.18.24:806][874]LogContentValidation: Display: Validating PhysicsAsset /Game/Character_Beta/CharMoTest1/kachujin_g_rosales_PhysicsAsset.kachujin_g_rosales_PhysicsAsset
+[2020.11.03-14.18.24:806][874]LogContentValidation: Display: Validating Skeleton /Game/Character_Beta/CharMoTest1/kachujin_g_rosales_Skeleton.kachujin_g_rosales_Skeleton
+[2020.11.03-14.18.24:806][874]LogContentValidation: Display: Validating Material /Game/Character_Beta/CharMoTest1/kachujin_MAT.kachujin_MAT
+[2020.11.03-14.18.24:806][874]LogContentValidation: Display: Validating Texture2D /Game/Character_Beta/CharMoTest1/Kachujin_normal.Kachujin_normal
+[2020.11.03-14.18.24:806][874]LogContentValidation: Display: Validating Texture2D /Game/Character_Beta/CharMoTest1/Kachujin_specular.Kachujin_specular
+[2020.11.03-14.19.29:802][714]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2020.11.03-14.20.35:929][279]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton kachujin_g_rosales_Skeleton, removing AnimBP from actor.
+[2020.11.03-14.20.35:945][279]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton kachujin_g_rosales_Skeleton, removing AnimBP from actor.
+[2020.11.03-14.20.35:945][279]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton kachujin_g_rosales_Skeleton, removing AnimBP from actor.
+[2020.11.03-14.21.00:349][773]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.11.03-14.22.33:256][478]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2020.11.03-14.22.36:228][478]LogUObjectHash: Compacting FUObjectHashTables data took  45.98ms
+[2020.11.03-14.22.37:094][478]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2020.11.03-14.22.37:303][478]LogUObjectHash: Compacting FUObjectHashTables data took   6.43ms
+[2020.11.03-14.22.41:148][536]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/ThirdPersonCharacter422291DB41D6692E57CBDDAA0EF8B75F.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2020.11.03-14.22.41:357][536]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2020.11.03-14.22.41:359][536]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2020.11.03-14.22.42:989][570]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2020.11.03-14.22.43:029][570]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2020.11.03-14.22.43:396][570]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-14.22.43:429][570]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-14.22.46:868][604]LogTemp: Repeating last play command: Standalone Game
+[2020.11.03-14.22.47:203][604]LogUObjectHash: Compacting FUObjectHashTables data took   4.88ms
+[2020.11.03-14.24.32:361][359]LogSlate: Window 'New Level' being destroyed
+[2020.11.03-14.24.32:414][359]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.03-14.24.32:584][359]LightingResults: New page: Lighting Build
+[2020.11.03-14.24.32:666][359]LoadErrors: New page: Loading map: Template_Default.umap
+[2020.11.03-14.24.32:820][359]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-14.24.32:906][359]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-14.24.32:915][359]MapCheck: New page: Map Check
+[2020.11.03-14.24.32:915][359]LightingResults: New page: Lighting Build
+[2020.11.03-14.24.33:240][359]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000186342EA000), frame # 37359
+[2020.11.03-14.24.33:241][359]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001864E9BB240), frame # 37359
+[2020.11.03-14.24.33:258][359]LogUObjectHash: Compacting FUObjectHashTables data took  15.73ms
+[2020.11.03-14.24.34:118][359]LogAIModule: Creating AISystem for world Untitled_1
+[2020.11.03-14.24.34:119][359]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000186C4417E00), frame # 37359
+[2020.11.03-14.24.34:121][359]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000187294E9300), frame # 37359
+[2020.11.03-14.24.36:245][359]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.03-14.24.36:503][359]LogUObjectHash: Compacting FUObjectHashTables data took   4.47ms
+[2020.11.03-14.24.36:570][359]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.03-14.24.36:594][359]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.338ms to complete.
+[2020.11.03-14.24.36:594][359]LogFileHelpers: Loading map 'Template_Default' took 4.180
+[2020.11.03-14.24.44:471][437]LogSlate: Window 'New Level' being destroyed
+[2020.11.03-14.24.47:128][505]LogTemp: Repeating last play command: Standalone Game
+[2020.11.03-14.24.56:493][505]LogSlate: Window 'Save Level As' being destroyed
+[2020.11.03-14.24.56:743][505]LogPlayLevel: Warning: PIE failed because map save was canceled
+[2020.11.03-14.24.56:743][505]PIE: Warning: PIE failed because map save was canceled
+[2020.11.03-14.24.58:385][572]LogSlate: Window 'Message Log' being destroyed
+[2020.11.03-14.24.58:389][572]LogSlate: Window 'Message Log' being destroyed
+[2020.11.03-14.25.00:486][692]LogTemp: Repeating last play command: Standalone Game
+[2020.11.03-14.25.16:528][692]LogSlate: Window 'Save Level As' being destroyed
+[2020.11.03-14.25.16:815][692]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/111" FILE="C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Content/Maps/111.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.11.03-14.25.17:323][692]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2020.11.03-14.25.17:526][692]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/1117D9C3FEB49115EFAA880F3ADCCD6EBF1.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Content/Maps/111.umap'
+[2020.11.03-14.25.17:659][692]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/111_BuiltData" FILE="C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Content/Maps/111_BuiltData.uasset" SILENT=true
+[2020.11.03-14.25.17:737][692]LogSavePackage: Moving 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Saved/111_BuiltDataCC4063FF4029AA6A3A84109E5062982D.tmp' to 'C:/Users/anuch/Desktop/github multi/BattleChess/BattleChess_Game/Content/Maps/111_BuiltData.uasset'
+[2020.11.03-14.25.17:767][692]LogFileHelpers: Saving map '111' took 1.184
+[2020.11.03-14.25.17:997][692]LogUObjectHash: Compacting FUObjectHashTables data took  14.99ms
+[2020.11.03-14.25.22:420][693]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.03-14.25.22:420][693]LogContentValidation: Display: Validating World /Game/Maps/111.111
+[2020.11.03-14.25.22:420][693]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/111_BuiltData.111_BuiltData
+[2020.11.03-14.25.34:986][923]LogTemp: Repeating last play command: Standalone Game
+[2020.11.03-14.25.35:048][923]LogUObjectHash: Compacting FUObjectHashTables data took   4.35ms
+[2020.11.03-14.27.39:172][780]LogObjectTools: Deleting 1 worlds: /Game/Maps/111.111
+[2020.11.03-14.27.39:172][780]LogObjectTools: Currently 10 active worlds: /Game/Maps/111.111, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_3, /Engine/Transient.World_4, /Engine/Transient.World_5, /Engine/Transient.World_9, /Engine/Transient.World_14, /Engine/Transient.World_21, /Engine/Transient.World_23
+[2020.11.03-14.27.41:886][780]LogSlate: Window 'Unable to delete level' being destroyed
+[2020.11.03-14.27.41:924][780]Message dialog closed, result: Ok, title: Unable to delete level, text: Unable to delete level while it is open
+[2020.11.03-14.27.45:508][991]LogObjectTools: Deleting 1 worlds: /Game/Maps/111.111
+[2020.11.03-14.27.45:509][991]LogObjectTools: Currently 10 active worlds: /Game/Maps/111.111, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_3, /Engine/Transient.World_4, /Engine/Transient.World_5, /Engine/Transient.World_9, /Engine/Transient.World_14, /Engine/Transient.World_21, /Engine/Transient.World_23
+[2020.11.03-14.27.47:916][991]LogSlate: Window 'Unable to delete level' being destroyed
+[2020.11.03-14.27.47:925][991]Message dialog closed, result: Ok, title: Unable to delete level, text: Unable to delete level while it is open
+[2020.11.03-14.27.52:903][283]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.11.03-14.27.53:231][283]LogSlate: Window 'BattleChess_Game - Unreal Editor' being destroyed
+[2020.11.03-14.27.55:225][284]Cmd: QUIT_EDITOR
+[2020.11.03-14.27.55:231][284]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.11.03-14.27.55:314][284]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.11.03-14.27.55:848][284]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.03-14.27.55:893][284]LogExit: Preparing to exit.
+[2020.11.03-14.27.56:429][284]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-14.27.56:448][284]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-14.27.56:452][284]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-14.27.56:457][284]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-14.27.56:461][284]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-14.27.56:465][284]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-14.27.56:469][284]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-14.27.56:472][284]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-14.27.56:478][284]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-14.27.56:673][284]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.11.03-14.27.56:837][284]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-14.27.56:904][284]LogExit: Editor shut down
+[2020.11.03-14.27.56:912][284]LogExit: Transaction tracking system shut down
+[2020.11.03-14.27.57:944][284]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (000001863FD7E980), frame # 39284
+[2020.11.03-14.27.57:944][284]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018640BE91C0), frame # 39284
+[2020.11.03-14.27.57:945][284]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018640C35C00), frame # 39284
+[2020.11.03-14.27.59:493][284]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000187294E9300), frame # 39284
+[2020.11.03-14.27.59:494][284]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000186C4417E00), frame # 39284
+[2020.11.03-14.28.00:141][284]LogExit: Object subsystem successfully closed.
+[2020.11.03-14.28.00:245][284]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.11.03-14.28.02:685][284]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (808)
+[2020.11.03-14.28.02:704][284]LogModuleManager: Shutting down and abandoning module NewLevelDialog (806)
+[2020.11.03-14.28.02:719][284]LogModuleManager: Shutting down and abandoning module BlueprintGraph (804)
+[2020.11.03-14.28.02:738][284]LogModuleManager: Shutting down and abandoning module SequencerWidgets (802)
+[2020.11.03-14.28.02:756][284]LogModuleManager: Shutting down and abandoning module PinnedCommandList (800)
+[2020.11.03-14.28.02:758][284]LogModuleManager: Shutting down and abandoning module SkeletonEditor (798)
+[2020.11.03-14.28.02:830][284]LogModuleManager: Shutting down and abandoning module AnimationEditor (796)
+[2020.11.03-14.28.02:859][284]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (794)
+[2020.11.03-14.28.02:860][284]LogModuleManager: Shutting down and abandoning module SceneOutliner (792)
+[2020.11.03-14.28.02:886][284]LogModuleManager: Shutting down and abandoning module AddContentDialog (790)
+[2020.11.03-14.28.02:986][284]LogModuleManager: Shutting down and abandoning module WidgetCarousel (789)
+[2020.11.03-14.28.02:986][284]LogModuleManager: Shutting down and abandoning module EditorWidgets (786)
+[2020.11.03-14.28.02:996][284]LogModuleManager: Shutting down and abandoning module CollectionManager (784)
+[2020.11.03-14.28.02:996][284]LogModuleManager: Shutting down and abandoning module StatsViewer (782)
+[2020.11.03-14.28.03:028][284]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (780)
+[2020.11.03-14.28.03:028][284]LogModuleManager: Shutting down and abandoning module FoliageEdit (778)
+[2020.11.03-14.28.03:056][284]LogModuleManager: Shutting down and abandoning module LandscapeEditor (776)
+[2020.11.03-14.28.03:097][284]LogModuleManager: Shutting down and abandoning module MeshPaintMode (774)
+[2020.11.03-14.28.03:097][284]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (772)
+[2020.11.03-14.28.03:097][284]LogModuleManager: Shutting down and abandoning module ActorPickerMode (770)
+[2020.11.03-14.28.03:097][284]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (768)
+[2020.11.03-14.28.03:124][284]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (766)
+[2020.11.03-14.28.03:124][284]LogModuleManager: Shutting down and abandoning module AutomationWorker (764)
+[2020.11.03-14.28.03:124][284]LogModuleManager: Shutting down and abandoning module SteamVREditor (762)
+[2020.11.03-14.28.03:141][284]LogModuleManager: Shutting down and abandoning module OculusMR (760)
+[2020.11.03-14.28.03:142][284]LogModuleManager: Shutting down and abandoning module GooglePADEditor (758)
+[2020.11.03-14.28.03:142][284]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (756)
+[2020.11.03-14.28.03:153][284]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (754)
+[2020.11.03-14.28.03:229][284]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (752)
+[2020.11.03-14.28.03:286][284]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (750)
+[2020.11.03-14.28.03:304][284]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (748)
+[2020.11.03-14.28.03:338][284]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (746)
+[2020.11.03-14.28.03:339][284]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (744)
+[2020.11.03-14.28.03:339][284]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (742)
+[2020.11.03-14.28.03:339][284]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (740)
+[2020.11.03-14.28.03:339][284]LogModuleManager: Shutting down and abandoning module WebMMedia (738)
+[2020.11.03-14.28.03:339][284]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (736)
+[2020.11.03-14.28.03:364][284]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (734)
+[2020.11.03-14.28.03:383][284]LogModuleManager: Shutting down and abandoning module SequenceRecorder (733)
+[2020.11.03-14.28.03:383][284]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (730)
+[2020.11.03-14.28.03:383][284]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (728)
+[2020.11.03-14.28.03:383][284]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (726)
+[2020.11.03-14.28.03:383][284]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (724)
+[2020.11.03-14.28.03:383][284]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (722)
+[2020.11.03-14.28.03:383][284]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (720)
+[2020.11.03-14.28.03:383][284]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (718)
+[2020.11.03-14.28.03:383][284]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (716)
+[2020.11.03-14.28.03:383][284]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (714)
+[2020.11.03-14.28.03:383][284]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (712)
+[2020.11.03-14.28.03:383][284]LogModuleManager: Shutting down and abandoning module PlanarCut (710)
+[2020.11.03-14.28.03:383][284]LogModuleManager: Shutting down and abandoning module CharacterAI (708)
+[2020.11.03-14.28.03:383][284]LogModuleManager: Shutting down and abandoning module TextureAlignMode (706)
+[2020.11.03-14.28.03:383][284]LogModuleManager: Shutting down and abandoning module BspMode (704)
+[2020.11.03-14.28.03:413][284]LogModuleManager: Shutting down and abandoning module PlacementMode (703)
+[2020.11.03-14.28.03:413][284]LogModuleManager: Shutting down and abandoning module GeometryMode (700)
+[2020.11.03-14.28.03:413][284]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (698)
+[2020.11.03-14.28.03:415][284]LogModuleManager: Shutting down and abandoning module SmartSnapping (696)
+[2020.11.03-14.28.03:415][284]LogModuleManager: Shutting down and abandoning module SessionServices (694)
+[2020.11.03-14.28.03:415][284]LogModuleManager: Shutting down and abandoning module MeshPaint (692)
+[2020.11.03-14.28.03:434][284]LogModuleManager: Shutting down and abandoning module ViewportSnapping (690)
+[2020.11.03-14.28.03:451][284]LogModuleManager: Shutting down and abandoning module ViewportInteraction (688)
+[2020.11.03-14.28.03:451][284]LogModuleManager: Shutting down and abandoning module ClothPainter (686)
+[2020.11.03-14.28.03:489][284]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (685)
+[2020.11.03-14.28.03:502][284]LogModuleManager: Shutting down and abandoning module LogVisualizer (682)
+[2020.11.03-14.28.03:540][284]LogModuleManager: Shutting down and abandoning module IntroTutorials (680)
+[2020.11.03-14.28.03:590][284]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (679)
+[2020.11.03-14.28.03:640][284]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (676)
+[2020.11.03-14.28.03:640][284]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (674)
+[2020.11.03-14.28.03:640][284]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (672)
+[2020.11.03-14.28.03:640][284]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (671)
+[2020.11.03-14.28.04:908][284]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (668)
+[2020.11.03-14.28.04:908][284]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (666)
+[2020.11.03-14.28.04:908][284]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (664)
+[2020.11.03-14.28.04:908][284]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (662)
+[2020.11.03-14.28.04:908][284]LogModuleManager: Shutting down and abandoning module TraceInsights (660)
+[2020.11.03-14.28.05:003][284]LogModuleManager: Shutting down and abandoning module TraceServices (659)
+[2020.11.03-14.28.05:009][284]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (656)
+[2020.11.03-14.28.05:009][284]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (654)
+[2020.11.03-14.28.05:025][284]LogModuleManager: Shutting down and abandoning module InputBindingEditor (652)
+[2020.11.03-14.28.05:037][284]LogModuleManager: Shutting down and abandoning module MergeActors (650)
+[2020.11.03-14.28.05:044][284]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (648)
+[2020.11.03-14.28.05:052][284]LogModuleManager: Shutting down and abandoning module LocalizationService (647)
+[2020.11.03-14.28.05:069][284]LogModuleManager: Shutting down and abandoning module HardwareTargeting (644)
+[2020.11.03-14.28.05:078][284]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (642)
+[2020.11.03-14.28.05:089][284]LogModuleManager: Shutting down and abandoning module UndoHistory (640)
+[2020.11.03-14.28.05:115][284]LogModuleManager: Shutting down and abandoning module XmlParser (638)
+[2020.11.03-14.28.05:125][284]LogModuleManager: Shutting down and abandoning module Blutility (636)
+[2020.11.03-14.28.05:135][284]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (634)
+[2020.11.03-14.28.05:149][284]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (633)
+[2020.11.03-14.28.05:162][284]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (630)
+[2020.11.03-14.28.05:164][284]LogModuleManager: Shutting down and abandoning module SettingsEditor (628)
+[2020.11.03-14.28.05:214][284]LogModuleManager: Shutting down and abandoning module ProjectLauncher (626)
+[2020.11.03-14.28.05:249][284]LogModuleManager: Shutting down and abandoning module SessionFrontend (624)
+[2020.11.03-14.28.05:272][284]LogModuleManager: Shutting down and abandoning module ProfilerClient (622)
+[2020.11.03-14.28.05:293][284]LogModuleManager: Shutting down and abandoning module DeviceManager (620)
+[2020.11.03-14.28.05:343][284]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (619)
+[2020.11.03-14.28.05:404][284]LogModuleManager: Shutting down and abandoning module AutomationController (616)
+[2020.11.03-14.28.05:404][284]LogModuleManager: Shutting down and abandoning module AutomationWindow (614)
+[2020.11.03-14.28.05:421][284]LogModuleManager: Shutting down and abandoning module Layers (612)
+[2020.11.03-14.28.05:451][284]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (610)
+[2020.11.03-14.28.05:451][284]LogModuleManager: Shutting down and abandoning module DetailCustomizations (608)
+[2020.11.03-14.28.05:481][284]LogModuleManager: Shutting down and abandoning module PackagesDialog (606)
+[2020.11.03-14.28.05:483][284]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (604)
+[2020.11.03-14.28.05:505][284]LogModuleManager: Shutting down and abandoning module Persona (602)
+[2020.11.03-14.28.05:552][284]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (601)
+[2020.11.03-14.28.05:569][284]LogModuleManager: Shutting down and abandoning module AnimGraph (599)
+[2020.11.03-14.28.05:586][284]LogModuleManager: Shutting down and abandoning module Kismet (596)
+[2020.11.03-14.28.05:676][284]LogModuleManager: Shutting down and abandoning module KismetWidgets (595)
+[2020.11.03-14.28.05:691][284]LogModuleManager: Shutting down and abandoning module GraphEditor (592)
+[2020.11.03-14.28.05:745][284]LogModuleManager: Shutting down and abandoning module StructViewer (590)
+[2020.11.03-14.28.05:764][284]LogModuleManager: Shutting down and abandoning module ClassViewer (588)
+[2020.11.03-14.28.05:799][284]LogModuleManager: Shutting down and abandoning module Toolbox (586)
+[2020.11.03-14.28.05:812][284]LogModuleManager: Shutting down and abandoning module ModuleUI (584)
+[2020.11.03-14.28.05:820][284]LogModuleManager: Shutting down and abandoning module OutputLog (582)
+[2020.11.03-14.28.05:836][284]LogModuleManager: Shutting down and abandoning module GammaUI (580)
+[2020.11.03-14.28.05:852][284]LogModuleManager: Shutting down and abandoning module Documentation (578)
+[2020.11.03-14.28.05:862][284]LogModuleManager: Shutting down and abandoning module LiveCoding (576)
+[2020.11.03-14.28.05:863][284]LogModuleManager: Shutting down and abandoning module LevelSequence (574)
+[2020.11.03-14.28.05:863][284]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (572)
+[2020.11.03-14.28.05:863][284]LogModuleManager: Shutting down and abandoning module MovieScene (570)
+[2020.11.03-14.28.05:863][284]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (568)
+[2020.11.03-14.28.05:863][284]LogModuleManager: Shutting down and abandoning module LauncherPlatform (566)
+[2020.11.03-14.28.05:863][284]LogModuleManager: Shutting down and abandoning module AnalyticsET (564)
+[2020.11.03-14.28.05:863][284]LogModuleManager: Shutting down and abandoning module PortalServices (562)
+[2020.11.03-14.28.05:863][284]LogModuleManager: Shutting down and abandoning module PortalRpc (560)
+[2020.11.03-14.28.05:863][284]LogModuleManager: Shutting down and abandoning module MessagingRpc (558)
+[2020.11.03-14.28.05:863][284]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (556)
+[2020.11.03-14.28.05:863][284]LogModuleManager: Shutting down and abandoning module AudioMixerCore (555)
+[2020.11.03-14.28.05:863][284]LogModuleManager: Shutting down and abandoning module AIModule (552)
+[2020.11.03-14.28.05:863][284]LogModuleManager: Shutting down and abandoning module GameplayDebugger (551)
+[2020.11.03-14.28.05:863][284]LogModuleManager: Shutting down and abandoning module AITestSuite (549)
+[2020.11.03-14.28.05:863][284]LogModuleManager: Shutting down and abandoning module NavigationSystem (547)
+[2020.11.03-14.28.05:863][284]LogModuleManager: Shutting down and abandoning module ProfilerService (544)
+[2020.11.03-14.28.05:891][284]LogModuleManager: Shutting down and abandoning module TaskGraph (542)
+[2020.11.03-14.28.05:891][284]LogModuleManager: Shutting down and abandoning module ScreenshotTools (540)
+[2020.11.03-14.28.05:891][284]LogModuleManager: Shutting down and abandoning module SynthesisEditor (538)
+[2020.11.03-14.28.05:891][284]LogModuleManager: Shutting down and abandoning module Synthesis (536)
+[2020.11.03-14.28.05:891][284]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (534)
+[2020.11.03-14.28.05:892][284]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (532)
+[2020.11.03-14.28.05:892][284]LogModuleManager: Shutting down and abandoning module OculusEditor (530)
+[2020.11.03-14.28.05:892][284]LogModuleManager: Shutting down and abandoning module OculusInput (528)
+[2020.11.03-14.28.05:892][284]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (526)
+[2020.11.03-14.28.05:892][284]LogModuleManager: Shutting down and abandoning module GooglePAD (524)
+[2020.11.03-14.28.05:892][284]LogModuleManager: Shutting down and abandoning module EditableMesh (522)
+[2020.11.03-14.28.05:892][284]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (520)
+[2020.11.03-14.28.05:892][284]LogModuleManager: Shutting down and abandoning module CableComponent (518)
+[2020.11.03-14.28.05:892][284]LogModuleManager: Shutting down and abandoning module AudioCapture (516)
+[2020.11.03-14.28.05:892][284]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (515)
+[2020.11.03-14.28.05:892][284]LogModuleManager: Shutting down and abandoning module AssetTags (512)
+[2020.11.03-14.28.05:892][284]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (510)
+[2020.11.03-14.28.05:892][284]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (508)
+[2020.11.03-14.28.05:892][284]LogModuleManager: Shutting down and abandoning module AppleImageUtils (506)
+[2020.11.03-14.28.05:892][284]LogModuleManager: Shutting down and abandoning module AndroidPermission (504)
+[2020.11.03-14.28.05:892][284]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (502)
+[2020.11.03-14.28.05:892][284]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (500)
+[2020.11.03-14.28.05:892][284]LogModuleManager: Shutting down and abandoning module TemplateSequence (498)
+[2020.11.03-14.28.05:892][284]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (496)
+[2020.11.03-14.28.05:892][284]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (494)
+[2020.11.03-14.28.05:892][284]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (492)
+[2020.11.03-14.28.05:892][284]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (490)
+[2020.11.03-14.28.05:892][284]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (489)
+[2020.11.03-14.28.05:892][284]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (486)
+[2020.11.03-14.28.05:908][284]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (484)
+[2020.11.03-14.28.05:909][284]LogModuleManager: Shutting down and abandoning module MediaCompositing (482)
+[2020.11.03-14.28.05:909][284]LogModuleManager: Shutting down and abandoning module ImgMedia (480)
+[2020.11.03-14.28.05:909][284]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (478)
+[2020.11.03-14.28.05:909][284]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (476)
+[2020.11.03-14.28.05:909][284]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (474)
+[2020.11.03-14.28.05:909][284]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (472)
+[2020.11.03-14.28.05:909][284]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (470)
+[2020.11.03-14.28.05:909][284]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (468)
+[2020.11.03-14.28.05:952][284]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (466)
+[2020.11.03-14.28.05:952][284]LogModuleManager: Shutting down and abandoning module MeshConversion (464)
+[2020.11.03-14.28.05:952][284]LogModuleManager: Shutting down and abandoning module DynamicMesh (462)
+[2020.11.03-14.28.05:953][284]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (460)
+[2020.11.03-14.28.05:953][284]LogModuleManager: Shutting down and abandoning module GeometricObjects (458)
+[2020.11.03-14.28.05:953][284]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (456)
+[2020.11.03-14.28.05:953][284]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (455)
+[2020.11.03-14.28.05:953][284]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (452)
+[2020.11.03-14.28.05:964][284]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (450)
+[2020.11.03-14.28.05:964][284]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (448)
+[2020.11.03-14.28.05:964][284]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (446)
+[2020.11.03-14.28.05:964][284]LogModuleManager: Shutting down and abandoning module ChaosNiagara (444)
+[2020.11.03-14.28.05:964][284]LogModuleManager: Shutting down and abandoning module FractureEditor (442)
+[2020.11.03-14.28.05:976][284]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (440)
+[2020.11.03-14.28.05:976][284]LogModuleManager: Shutting down and abandoning module ChaosCloth (438)
+[2020.11.03-14.28.05:976][284]LogModuleManager: Shutting down and abandoning module BackChannel (436)
+[2020.11.03-14.28.05:976][284]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (434)
+[2020.11.03-14.28.05:976][284]LogModuleManager: Shutting down and abandoning module AutomationUtils (432)
+[2020.11.03-14.28.05:976][284]LogModuleManager: Shutting down and abandoning module AlembicImporter (430)
+[2020.11.03-14.28.05:977][284]LogModuleManager: Shutting down and abandoning module AlembicLibrary (429)
+[2020.11.03-14.28.05:977][284]LogModuleManager: Shutting down and abandoning module GeometryCache (428)
+[2020.11.03-14.28.05:977][284]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (427)
+[2020.11.03-14.28.05:977][284]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (422)
+[2020.11.03-14.28.05:990][284]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (420)
+[2020.11.03-14.28.05:998][284]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (418)
+[2020.11.03-14.28.05:999][284]LogModuleManager: Shutting down and abandoning module PluginBrowser (416)
+[2020.11.03-14.28.06:032][284]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (414)
+[2020.11.03-14.28.06:041][284]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (412)
+[2020.11.03-14.28.06:051][284]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (410)
+[2020.11.03-14.28.06:064][284]LogModuleManager: Shutting down and abandoning module CurveEditorTools (408)
+[2020.11.03-14.28.06:094][284]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (406)
+[2020.11.03-14.28.06:110][284]LogModuleManager: Shutting down and abandoning module CryptoKeys (404)
+[2020.11.03-14.28.06:110][284]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (402)
+[2020.11.03-14.28.06:110][284]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (400)
+[2020.11.03-14.28.06:110][284]LogModuleManager: Shutting down and abandoning module UObjectPlugin (398)
+[2020.11.03-14.28.06:110][284]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (396)
+[2020.11.03-14.28.06:110][284]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (394)
+[2020.11.03-14.28.06:110][284]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (392)
+[2020.11.03-14.28.06:126][284]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (390)
+[2020.11.03-14.28.06:126][284]LogModuleManager: Shutting down and abandoning module GitSourceControl (388)
+[2020.11.03-14.28.06:137][284]LogModuleManager: Shutting down and abandoning module SourceControl (387)
+[2020.11.03-14.28.06:138][284]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (384)
+[2020.11.03-14.28.06:138][284]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (382)
+[2020.11.03-14.28.06:138][284]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (380)
+[2020.11.03-14.28.06:146][284]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (378)
+[2020.11.03-14.28.06:146][284]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (376)
+[2020.11.03-14.28.06:153][284]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (374)
+[2020.11.03-14.28.06:153][284]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (372)
+[2020.11.03-14.28.06:162][284]LogModuleManager: Shutting down and abandoning module Paper2DEditor (370)
+[2020.11.03-14.28.06:202][284]LogModuleManager: Shutting down and abandoning module SoundFields (368)
+[2020.11.03-14.28.06:202][284]LogModuleManager: Shutting down and abandoning module SignificanceManager (366)
+[2020.11.03-14.28.06:202][284]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (364)
+[2020.11.03-14.28.06:202][284]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (362)
+[2020.11.03-14.28.06:202][284]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (358)
+[2020.11.03-14.28.06:203][284]LogModuleManager: Shutting down and abandoning module ActorSequence (356)
+[2020.11.03-14.28.06:203][284]LogModuleManager: Shutting down and abandoning module UdpMessaging (354)
+[2020.11.03-14.28.06:304][284]LogModuleManager: Shutting down and abandoning module TcpMessaging (352)
+[2020.11.03-14.28.06:405][284]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (350)
+[2020.11.03-14.28.06:405][284]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (348)
+[2020.11.03-14.28.06:405][284]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (346)
+[2020.11.03-14.28.06:405][284]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (344)
+[2020.11.03-14.28.06:405][284]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (342)
+[2020.11.03-14.28.06:405][284]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2020.11.03-14.28.06:405][284]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (340)
+[2020.11.03-14.28.06:405][284]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (338)
+[2020.11.03-14.28.06:405][284]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (336)
+[2020.11.03-14.28.06:413][284]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (334)
+[2020.11.03-14.28.06:414][284]LogModuleManager: Shutting down and abandoning module MagicLeapController (332)
+[2020.11.03-14.28.06:415][284]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.11.03-14.28.06:416][284]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (330)
+[2020.11.03-14.28.06:417][284]LogModuleManager: Shutting down and abandoning module MagicLeapAR (328)
+[2020.11.03-14.28.06:417][284]LogModuleManager: Shutting down and abandoning module AugmentedReality (327)
+[2020.11.03-14.28.06:417][284]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (324)
+[2020.11.03-14.28.06:417][284]LogModuleManager: Shutting down and abandoning module Niagara (322)
+[2020.11.03-14.28.06:417][284]LogModuleManager: Shutting down and abandoning module SignalProcessing (321)
+[2020.11.03-14.28.06:417][284]LogModuleManager: Shutting down and abandoning module NiagaraEditor (319)
+[2020.11.03-14.28.06:418][284]LogModuleManager: Shutting down and abandoning module NiagaraCore (316)
+[2020.11.03-14.28.06:418][284]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (314)
+[2020.11.03-14.28.06:439][284]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (312)
+[2020.11.03-14.28.06:449][284]LogModuleManager: Shutting down and abandoning module FacialAnimation (310)
+[2020.11.03-14.28.06:449][284]LogModuleManager: Shutting down and abandoning module DataValidation (308)
+[2020.11.03-14.28.06:465][284]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (306)
+[2020.11.03-14.28.06:480][284]LogModuleManager: Shutting down and abandoning module LevelEditor (305)
+[2020.11.03-14.28.06:532][284]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (304)
+[2020.11.03-14.28.06:588][284]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (302)
+[2020.11.03-14.28.06:589][284]LogModuleManager: Shutting down and abandoning module MainFrame (300)
+[2020.11.03-14.28.06:611][284]LogModuleManager: Shutting down and abandoning module HotReload (299)
+[2020.11.03-14.28.06:664][284]LogModuleManager: Shutting down and abandoning module ToolMenus (295)
+[2020.11.03-14.28.06:664][284]LogModuleManager: Shutting down and abandoning module TreeMap (293)
+[2020.11.03-14.28.06:665][284]LogModuleManager: Shutting down and abandoning module AnimationSharing (290)
+[2020.11.03-14.28.06:665][284]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (288)
+[2020.11.03-14.28.06:665][284]LogModuleManager: Shutting down and abandoning module Paper2D (286)
+[2020.11.03-14.28.06:665][284]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (284)
+[2020.11.03-14.28.06:712][284]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (282)
+[2020.11.03-14.28.06:712][284]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (280)
+[2020.11.03-14.28.06:712][284]LogModuleManager: Shutting down and abandoning module PacketHandler (278)
+[2020.11.03-14.28.06:712][284]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (276)
+[2020.11.03-14.28.06:712][284]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (274)
+[2020.11.03-14.28.06:713][284]LogModuleManager: Shutting down and abandoning module MediaAssets (272)
+[2020.11.03-14.28.06:713][284]LogModuleManager: Shutting down and abandoning module Overlay (270)
+[2020.11.03-14.28.06:713][284]LogModuleManager: Shutting down and abandoning module OverlayEditor (269)
+[2020.11.03-14.28.06:713][284]LogModuleManager: Shutting down and abandoning module VREditor (266)
+[2020.11.03-14.28.06:713][284]LogModuleManager: Shutting down and abandoning module StringTableEditor (264)
+[2020.11.03-14.28.06:713][284]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (262)
+[2020.11.03-14.28.06:713][284]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (260)
+[2020.11.03-14.28.06:713][284]LogModuleManager: Shutting down and abandoning module FunctionalTesting (258)
+[2020.11.03-14.28.06:713][284]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (256)
+[2020.11.03-14.28.06:714][284]LogModuleManager: Shutting down and abandoning module UMG (254)
+[2020.11.03-14.28.06:724][284]LogModuleManager: Shutting down and abandoning module UMGEditor (253)
+[2020.11.03-14.28.06:725][284]LogModuleManager: Shutting down and abandoning module MessageLog (251)
+[2020.11.03-14.28.06:725][284]LogModuleManager: Shutting down and abandoning module MaterialEditor (249)
+[2020.11.03-14.28.06:725][284]LogModuleManager: Shutting down and abandoning module ContentBrowser (248)
+[2020.11.03-14.28.06:736][284]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (247)
+[2020.11.03-14.28.06:787][284]LogModuleManager: Shutting down and abandoning module SlateReflector (240)
+[2020.11.03-14.28.06:800][284]LogModuleManager: Shutting down and abandoning module Slate (238)
+[2020.11.03-14.28.06:800][284]LogModuleManager: Shutting down and abandoning module SlateCore (236)
+[2020.11.03-14.28.06:800][284]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (234)
+[2020.11.03-14.28.06:800][284]LogModuleManager: Shutting down and abandoning module UnrealEd (232)
+[2020.11.03-14.28.06:800][284]LogModuleManager: Shutting down and abandoning module MRMesh (230)
+[2020.11.03-14.28.06:800][284]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (228)
+[2020.11.03-14.28.06:800][284]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (226)
+[2020.11.03-14.28.06:800][284]LogModuleManager: Shutting down and abandoning module XAudio2 (224)
+[2020.11.03-14.28.06:800][284]LogModuleManager: Shutting down and abandoning module Networking (222)
+[2020.11.03-14.28.06:800][284]LogModuleManager: Shutting down and abandoning module Core (220)
+[2020.11.03-14.28.06:800][284]LogModuleManager: Shutting down and abandoning module MovieSceneTools (218)
+[2020.11.03-14.28.06:845][284]LogModuleManager: Shutting down and abandoning module CurveEditor (217)
+[2020.11.03-14.28.06:863][284]LogModuleManager: Shutting down and abandoning module Sequencer (215)
+[2020.11.03-14.28.06:888][284]LogModuleManager: Shutting down and abandoning module EditorStyle (214)
+[2020.11.03-14.28.06:902][284]LogModuleManager: Shutting down and abandoning module KismetCompiler (210)
+[2020.11.03-14.28.06:902][284]LogModuleManager: Shutting down and abandoning module MeshBuilder (208)
+[2020.11.03-14.28.06:902][284]LogModuleManager: Shutting down and abandoning module MeshUtilities (206)
+[2020.11.03-14.28.06:902][284]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (205)
+[2020.11.03-14.28.06:902][284]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (204)
+[2020.11.03-14.28.06:902][284]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (203)
+[2020.11.03-14.28.06:903][284]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (201)
+[2020.11.03-14.28.06:903][284]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (199)
+[2020.11.03-14.28.06:904][284]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (197)
+[2020.11.03-14.28.06:904][284]LogModuleManager: Shutting down and abandoning module MaterialBaking (193)
+[2020.11.03-14.28.06:904][284]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (188)
+[2020.11.03-14.28.06:904][284]LogModuleManager: Shutting down and abandoning module DerivedDataCache (186)
+[2020.11.03-14.28.06:904][284]LogModuleManager: Shutting down and abandoning module XGEController (184)
+[2020.11.03-14.28.06:916][284]LogXGEController: Cleaning working directory: C:/Users/anuch/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.11.03-14.28.06:919][284]LogModuleManager: Shutting down and abandoning module TargetPlatform (182)
+[2020.11.03-14.28.06:920][284]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (181)
+[2020.11.03-14.28.06:921][284]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (179)
+[2020.11.03-14.28.06:921][284]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (177)
+[2020.11.03-14.28.06:921][284]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (175)
+[2020.11.03-14.28.06:921][284]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (173)
+[2020.11.03-14.28.06:921][284]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (171)
+[2020.11.03-14.28.06:921][284]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (169)
+[2020.11.03-14.28.06:922][284]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (167)
+[2020.11.03-14.28.06:922][284]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (165)
+[2020.11.03-14.28.06:923][284]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (163)
+[2020.11.03-14.28.06:923][284]LogModuleManager: Shutting down and abandoning module ImageWrapper (162)
+[2020.11.03-14.28.06:923][284]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (159)
+[2020.11.03-14.28.06:924][284]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (157)
+[2020.11.03-14.28.06:924][284]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (155)
+[2020.11.03-14.28.06:924][284]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (153)
+[2020.11.03-14.28.06:925][284]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (151)
+[2020.11.03-14.28.06:925][284]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (149)
+[2020.11.03-14.28.06:925][284]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (147)
+[2020.11.03-14.28.06:925][284]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (145)
+[2020.11.03-14.28.06:925][284]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (143)
+[2020.11.03-14.28.07:005][284]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (141)
+[2020.11.03-14.28.07:052][284]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (139)
+[2020.11.03-14.28.07:058][284]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (137)
+[2020.11.03-14.28.07:063][284]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (135)
+[2020.11.03-14.28.07:063][284]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (133)
+[2020.11.03-14.28.07:066][284]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (131)
+[2020.11.03-14.28.07:067][284]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (129)
+[2020.11.03-14.28.07:077][284]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (127)
+[2020.11.03-14.28.07:077][284]LogModuleManager: Shutting down and abandoning module Messaging (125)
+[2020.11.03-14.28.07:077][284]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (123)
+[2020.11.03-14.28.07:095][284]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (121)
+[2020.11.03-14.28.07:163][284]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (119)
+[2020.11.03-14.28.07:174][284]LogModuleManager: Shutting down and abandoning module InputCore (116)
+[2020.11.03-14.28.07:174][284]LogModuleManager: Shutting down and abandoning module Settings (114)
+[2020.11.03-14.28.07:175][284]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (112)
+[2020.11.03-14.28.07:179][284]LogModuleManager: Shutting down and abandoning module PhysXCooking (110)
+[2020.11.03-14.28.07:179][284]LogModuleManager: Shutting down and abandoning module ChaosSolvers (108)
+[2020.11.03-14.28.07:179][284]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (107)
+[2020.11.03-14.28.07:180][284]LogModuleManager: Shutting down and abandoning module Chaos (104)
+[2020.11.03-14.28.07:180][284]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (102)
+[2020.11.03-14.28.07:180][284]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (101)
+[2020.11.03-14.28.07:180][284]LogModuleManager: Shutting down and abandoning module AVEncoder (100)
+[2020.11.03-14.28.07:180][284]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (96)
+[2020.11.03-14.28.07:180][284]LogModuleManager: Shutting down and abandoning module SteamVRInput (94)
+[2020.11.03-14.28.07:180][284]LogModuleManager: Shutting down and abandoning module SteamVR (92)
+[2020.11.03-14.28.07:181][284]LogHMD: Freeing OpenVRDLLHandle.
+[2020.11.03-14.28.07:181][284]LogModuleManager: Shutting down and abandoning module OculusHMD (90)
+[2020.11.03-14.28.07:181][284]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (88)
+[2020.11.03-14.28.07:181][284]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (86)
+[2020.11.03-14.28.07:181][284]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (84)
+[2020.11.03-14.28.07:181][284]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (80)
+[2020.11.03-14.28.07:186][284]LogModuleManager: Shutting down and abandoning module SteamShared (74)
+[2020.11.03-14.28.07:186][284]LogSteamShared: Freeing the Steam Loaded Modules...
+[2020.11.03-14.28.07:237][284]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2020.11.03-14.28.07:237][284]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2020.11.03-14.28.07:264][284]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2020.11.03-14.28.07:265][284]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.11.03-14.28.07:265][284]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC8723076-4700-0F8A-264F-4FB1904D1E30%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=9425583e43a1844b1446a2afbaaeb44e%7Cfbacc9408415457baec50482ca2df367%7Cfb4ce6fe-88f8-4298-8a86-24f70cc8a939&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2020.11.03-14.28.07:297][284]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2020.11.03-14.28.07:308][284]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2020.11.03-14.28.07:315][284]LogModuleManager: Shutting down and abandoning module Media (61)
+[2020.11.03-14.28.07:318][284]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2020.11.03-14.28.07:318][284]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2020.11.03-14.28.07:318][284]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2020.11.03-14.28.07:318][284]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2020.11.03-14.28.07:318][284]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2020.11.03-14.28.07:318][284]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2020.11.03-14.28.07:318][284]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2020.11.03-14.28.07:319][284]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.11.03-14.28.07:319][284]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.11.03-14.28.07:319][284]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.11.03-14.28.07:319][284]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.11.03-14.28.07:339][284]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.11.03-14.28.07:450][284]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.11.03-14.28.07:470][284]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.11.03-14.28.07:470][284]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.11.03-14.28.07:471][284]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.11.03-14.28.07:471][284]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.11.03-14.28.07:538][284]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.11.03-14.28.07:538][284]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.11.03-14.28.07:538][284]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.11.03-14.28.07:538][284]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.11.03-14.28.07:539][284]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.11.03-14.28.07:539][284]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.11.03-14.28.07:539][284]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.11.03-14.28.07:539][284]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.11.03-14.28.07:539][284]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.11.03-14.28.07:539][284]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.11.03-14.28.07:539][284]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.11.03-14.28.07:539][284]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.11.03-14.28.07:539][284]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2020.11.03-14.28.07:650][284]LogD3D11RHI: Shutdown
+[2020.11.03-14.28.07:651][284]LogD3D11RHI: CleanupD3DDevice
+[2020.11.03-14.28.07:748][284]LogExit: Exiting.
+[2020.11.03-14.28.07:844][284]Log file closed, 11/03/20 21:28:07
