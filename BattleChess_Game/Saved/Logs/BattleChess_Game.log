@@ -1015,3 +1015,393 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.11.09-04.52.20:780][361]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Lobby/LobbyPC.LobbyPC
 [2020.11.09-04.52.20:780][361]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Lobby/LobbyMenu.LobbyMenu
 [2020.11.09-04.52.24:564][567]LogUObjectHash: Compacting FUObjectHashTables data took   5.62ms
+[2020.11.09-04.58.01:826][367]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Lobby/CharacterSelect.CharacterSelect
+[2020.11.09-04.58.07:176][566]LogSlate: Window 'CharacterSelect' being destroyed
+[2020.11.09-04.58.07:190][566]LogSlate: Window 'CharacterSelect' being destroyed
+[2020.11.09-04.58.07:194][566]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2020.11.09-04.58.07:194][566]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.09-04.58.07:219][566]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.11.09-04.58.07:219][566]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.09-04.58.25:770][717]LogTemp: Repeating last play command: Standalone Game
+[2020.11.09-04.58.25:818][717]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2020.11.09-04.59.45:404][650]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Lobby.Lobby
+[2020.11.09-04.59.45:434][650]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2020.11.09-04.59.45:438][650]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Lobby.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.09-04.59.45:452][650]LightingResults: New page: Lighting Build
+[2020.11.09-04.59.45:508][650]LoadErrors: New page: Loading map: Lobby.umap
+[2020.11.09-04.59.45:715][650]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2020.11.09-04.59.45:943][650]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.09-04.59.45:983][650]MapCheck: New page: Map Check
+[2020.11.09-04.59.45:984][650]LightingResults: New page: Lighting Build
+[2020.11.09-04.59.46:101][650]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000119548C9A00), frame # 85650
+[2020.11.09-04.59.46:101][650]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000011962DF6840), frame # 85650
+[2020.11.09-04.59.46:109][650]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2020.11.09-04.59.46:902][650]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.09-04.59.46:902][650]LogAIModule: Creating AISystem for world Lobby
+[2020.11.09-04.59.46:902][650]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000119C4F14600), frame # 85650
+[2020.11.09-04.59.46:902][650]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001191A2C39C0), frame # 85650
+[2020.11.09-04.59.46:956][650]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2020.11.09-04.59.47:017][650]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.09-04.59.47:036][650]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.113ms to complete.
+[2020.11.09-04.59.47:036][650]LogFileHelpers: Loading map 'Lobby' took 1.599
+[2020.11.09-04.59.51:658][869]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/AreanaTest.AreanaTest
+[2020.11.09-04.59.51:684][869]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2020.11.09-04.59.51:686][869]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/AreanaTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.09-04.59.51:686][869]LightingResults: New page: Lighting Build
+[2020.11.09-04.59.51:686][869]LoadErrors: New page: Loading map: AreanaTest.umap
+[2020.11.09-04.59.51:687][869]LogWorld: UWorld::CleanupWorld for Lobby, bSessionEnded=true, bCleanupResources=true
+[2020.11.09-04.59.51:687][869]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.09-04.59.51:687][869]MapCheck: New page: Map Check
+[2020.11.09-04.59.51:687][869]LightingResults: New page: Lighting Build
+[2020.11.09-04.59.51:710][869]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001191A2C39C0), frame # 85869
+[2020.11.09-04.59.51:710][869]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000119C4F14600), frame # 85869
+[2020.11.09-04.59.51:713][869]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2020.11.09-04.59.51:900][869]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.09-04.59.51:900][869]LogAIModule: Creating AISystem for world AreanaTest
+[2020.11.09-04.59.51:900][869]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000011A0DCF1C00), frame # 85869
+[2020.11.09-04.59.51:900][869]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000119C8126980), frame # 85869
+[2020.11.09-04.59.51:928][869]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2020.11.09-04.59.51:973][869]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.09-04.59.51:973][869]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.095ms to complete.
+[2020.11.09-04.59.51:973][869]LogFileHelpers: Loading map 'AreanaTest' took 0.287
+[2020.11.09-04.59.55:367][ 32]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Capture_01.Capture_01
+[2020.11.09-04.59.55:391][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2020.11.09-04.59.55:393][ 32]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Capture_01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.09-04.59.55:393][ 32]LightingResults: New page: Lighting Build
+[2020.11.09-04.59.55:393][ 32]LoadErrors: New page: Loading map: Capture_01.umap
+[2020.11.09-04.59.55:395][ 32]LogWorld: UWorld::CleanupWorld for AreanaTest, bSessionEnded=true, bCleanupResources=true
+[2020.11.09-04.59.55:395][ 32]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.09-04.59.55:395][ 32]MapCheck: New page: Map Check
+[2020.11.09-04.59.55:395][ 32]LightingResults: New page: Lighting Build
+[2020.11.09-04.59.55:418][ 32]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000011A0DCF1C00), frame # 86032
+[2020.11.09-04.59.55:419][ 32]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000119C8126980), frame # 86032
+[2020.11.09-04.59.55:421][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2020.11.09-04.59.55:549][ 32]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.09-04.59.55:549][ 32]LogAIModule: Creating AISystem for world Capture_01
+[2020.11.09-04.59.55:549][ 32]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000011A27172400), frame # 86032
+[2020.11.09-04.59.55:575][ 32]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000011919D8B9C0), frame # 86032
+[2020.11.09-04.59.55:602][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2020.11.09-04.59.55:645][ 32]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.09-04.59.55:647][ 32]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.458ms to complete.
+[2020.11.09-04.59.55:647][ 32]LogFileHelpers: Loading map 'Capture_01' took 0.253
+[2020.11.09-04.59.57:528][124]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Lobby.Lobby
+[2020.11.09-04.59.57:552][124]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2020.11.09-04.59.57:553][124]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Lobby.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.09-04.59.57:553][124]LightingResults: New page: Lighting Build
+[2020.11.09-04.59.57:553][124]LoadErrors: New page: Loading map: Lobby.umap
+[2020.11.09-04.59.57:554][124]LogWorld: UWorld::CleanupWorld for Capture_01, bSessionEnded=true, bCleanupResources=true
+[2020.11.09-04.59.57:554][124]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.09-04.59.57:554][124]MapCheck: New page: Map Check
+[2020.11.09-04.59.57:554][124]LightingResults: New page: Lighting Build
+[2020.11.09-04.59.57:577][124]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000011919D8B9C0), frame # 86124
+[2020.11.09-04.59.57:577][124]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000011A27172400), frame # 86124
+[2020.11.09-04.59.57:580][124]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2020.11.09-04.59.57:766][124]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.09-04.59.57:766][124]LogAIModule: Creating AISystem for world Lobby
+[2020.11.09-04.59.57:766][124]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001190EBBE400), frame # 86124
+[2020.11.09-04.59.57:766][124]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001199B4CE700), frame # 86124
+[2020.11.09-04.59.57:794][124]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2020.11.09-04.59.57:837][124]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.09-04.59.57:837][124]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.095ms to complete.
+[2020.11.09-04.59.57:837][124]LogFileHelpers: Loading map 'Lobby' took 0.284
+[2020.11.09-05.00.01:291][321]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/AreanaTest.AreanaTest
+[2020.11.09-05.00.01:315][321]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2020.11.09-05.00.01:317][321]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/AreanaTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.09-05.00.01:317][321]LightingResults: New page: Lighting Build
+[2020.11.09-05.00.01:317][321]LoadErrors: New page: Loading map: AreanaTest.umap
+[2020.11.09-05.00.01:318][321]LogWorld: UWorld::CleanupWorld for Lobby, bSessionEnded=true, bCleanupResources=true
+[2020.11.09-05.00.01:318][321]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.09-05.00.01:318][321]MapCheck: New page: Map Check
+[2020.11.09-05.00.01:318][321]LightingResults: New page: Lighting Build
+[2020.11.09-05.00.01:340][321]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001199B4CE700), frame # 86321
+[2020.11.09-05.00.01:340][321]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001190EBBE400), frame # 86321
+[2020.11.09-05.00.01:343][321]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2020.11.09-05.00.01:507][321]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.09-05.00.01:507][321]LogAIModule: Creating AISystem for world AreanaTest
+[2020.11.09-05.00.01:508][321]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000119CEAF6A00), frame # 86321
+[2020.11.09-05.00.01:508][321]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000119C7BA5E40), frame # 86321
+[2020.11.09-05.00.01:535][321]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2020.11.09-05.00.01:578][321]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.09-05.00.01:578][321]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.096ms to complete.
+[2020.11.09-05.00.01:578][321]LogFileHelpers: Loading map 'AreanaTest' took 0.260
+[2020.11.09-05.00.07:875][652]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart6)
+[2020.11.09-05.00.21:851][462]Cmd: TRANSACTION UNDO
+[2020.11.09-05.00.21:852][462]LogEditorTransaction: Undo Set Scale
+[2020.11.09-05.00.22:970][507]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2020.11.09-05.00.23:770][512]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2020.11.09-05.00.25:789][629]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart6)
+[2020.11.09-05.00.46:876][873]Cmd: EDIT CUT
+[2020.11.09-05.00.47:113][873]LogEditorActor: Deleted Actor: PlayerStart
+[2020.11.09-05.00.47:136][873]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2020.11.09-05.00.47:145][873]LogEditorActor: Deleted 1 Actors (0.091 secs)
+[2020.11.09-05.00.51:053][101]Cmd: TRANSACTION UNDO
+[2020.11.09-05.00.51:053][101]LogEditorTransaction: Undo Cut
+[2020.11.09-05.00.51:378][106]Cmd: TRANSACTION UNDO
+[2020.11.09-05.00.51:379][106]LogEditorTransaction: Undo Set Scale
+[2020.11.09-05.00.51:987][135]Cmd: TRANSACTION UNDO
+[2020.11.09-05.00.51:987][135]LogEditorTransaction: Undo Set Scale
+[2020.11.09-05.00.52:389][159]Cmd: TRANSACTION UNDO
+[2020.11.09-05.00.52:389][159]LogEditorTransaction: Undo Set Scale
+[2020.11.09-05.00.53:005][196]Cmd: TRANSACTION UNDO
+[2020.11.09-05.00.53:005][196]LogEditorTransaction: Undo Clicking on Actors
+[2020.11.09-05.00.54:227][259]Cmd: TRANSACTION REDO
+[2020.11.09-05.00.54:228][259]LogEditorTransaction: Redo Clicking on Actors
+[2020.11.09-05.01.02:717][758]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.09-05.01.02:756][758]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.09-05.01.02:757][758]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.09-05.01.02:757][758]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.09-05.01.02:757][758]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.09-05.01.02:757][758]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.09-05.01.02:757][758]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.09-05.01.02:757][758]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.09-05.01.02:757][758]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.09-05.01.02:757][758]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.09-05.01.04:816][878]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.09-05.01.04:816][878]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.09-05.01.04:816][878]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.09-05.01.04:816][878]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.09-05.01.04:816][878]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.09-05.01.04:816][878]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.09-05.01.04:817][878]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.09-05.01.04:817][878]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.09-05.01.04:817][878]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.09-05.01.04:817][878]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.11.09-05.01.07:437][ 34]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.11.09-05.01.11:161][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AreanaTest" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/AreanaTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.11.09-05.01.11:217][226]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2020.11.09-05.01.11:343][226]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/AreanaTestCFCB17794BC01DDD3B0A0F938264AE2E.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/AreanaTest.umap'
+[2020.11.09-05.01.11:399][226]AssetCheck: New page: Asset Save: AreanaTest
+[2020.11.09-05.01.11:399][226]LogContentValidation: Display: Validating World /Game/Maps/AreanaTest.AreanaTest
+[2020.11.09-05.01.13:230][324]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2020.11.09-05.01.14:368][391]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2020.11.09-05.01.20:169][731]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AreanaTest" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/AreanaTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.11.09-05.01.20:194][731]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2020.11.09-05.01.20:251][731]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/AreanaTestF92E99E44D757E157116BDBA3EB31B48.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/AreanaTest.umap'
+[2020.11.09-05.01.20:302][731]AssetCheck: New page: Asset Save: AreanaTest
+[2020.11.09-05.01.20:302][731]LogContentValidation: Display: Validating World /Game/Maps/AreanaTest.AreanaTest
+[2020.11.09-05.01.26:101][ 71]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AllLevels/GameInfoInstance.GameInfoInstance
+[2020.11.09-05.01.35:051][471]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Lobby/LobbyMenu.LobbyMenu
+[2020.11.09-05.01.55:943][501]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Lobby/LobbyPC.LobbyPC
+[2020.11.09-05.02.11:772][230]BlueprintLog: New page: Compile LobbyPC
+[2020.11.09-05.02.11:883][230]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2020.11.09-05.02.12:562][253]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyPC.uasset" SILENT=true
+[2020.11.09-05.02.12:719][253]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyPCB72ABFC64089C73790A260B202058422.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyPC.uasset'
+[2020.11.09-05.02.12:735][253]AssetCheck: New page: Asset Save: LobbyPC
+[2020.11.09-05.02.12:735][253]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Lobby/LobbyPC.LobbyPC
+[2020.11.09-05.02.21:650][686]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2020.11.09-05.02.21:650][686]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.09-05.02.28:261][ 39]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Lobby/LobbyPC.LobbyPC
+[2020.11.09-05.02.31:644][181]LogRenderer: Reallocating scene render targets to support 936x564 Format 10 NumSamples 1 (Frame:1).
+[2020.11.09-05.02.45:207][822]LogSlate: Window 'LobbyPC' being destroyed
+[2020.11.09-05.02.45:214][822]LogSlate: Window 'LobbyPC' being destroyed
+[2020.11.09-05.02.45:214][822]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2020.11.09-05.02.45:214][822]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.09-05.02.45:315][822]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2020.11.09-05.02.45:315][822]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.09-05.02.45:322][822]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2020.11.09-05.02.45:322][822]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.09-05.02.45:441][822]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2020.11.09-05.02.45:441][822]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.09-05.02.47:073][907]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2020.11.09-05.02.55:105][378]LogTemp: Repeating last play command: Standalone Game
+[2020.11.09-05.02.55:152][378]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2020.11.09-05.03.35:276][939]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/MainMenu.MainMenu
+[2020.11.09-05.03.35:299][939]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2020.11.09-05.03.35:302][939]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.09-05.03.35:302][939]LightingResults: New page: Lighting Build
+[2020.11.09-05.03.35:302][939]LoadErrors: New page: Loading map: MainMenu.umap
+[2020.11.09-05.03.35:304][939]LogWorld: UWorld::CleanupWorld for AreanaTest, bSessionEnded=true, bCleanupResources=true
+[2020.11.09-05.03.35:304][939]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.09-05.03.35:304][939]MapCheck: New page: Map Check
+[2020.11.09-05.03.35:304][939]LightingResults: New page: Lighting Build
+[2020.11.09-05.03.35:328][939]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000119C7BA5E40), frame # 95939
+[2020.11.09-05.03.35:328][939]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000119CEAF6A00), frame # 95939
+[2020.11.09-05.03.35:330][939]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2020.11.09-05.03.35:422][939]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.09-05.03.35:423][939]LogAIModule: Creating AISystem for world MainMenu
+[2020.11.09-05.03.35:423][939]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000119CF113000), frame # 95939
+[2020.11.09-05.03.35:423][939]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000011A15B1F880), frame # 95939
+[2020.11.09-05.03.35:448][939]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2020.11.09-05.03.35:493][939]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.09-05.03.35:496][939]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 2.444ms to complete.
+[2020.11.09-05.03.35:496][939]LogFileHelpers: Loading map 'MainMenu' took 0.194
+[2020.11.09-05.03.36:410][983]LogTemp: Repeating last play command: Standalone Game
+[2020.11.09-05.03.36:451][983]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2020.11.09-05.18.51:054][392]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/AllLevels/LoadingScreen.LoadingScreen
+[2020.11.09-05.19.54:081][348]LogSlate: Took 0.074448 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.11.09-05.20.42:687][840]BlueprintLog: New page: Compile LoadingScreen
+[2020.11.09-05.20.42:777][840]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2020.11.09-05.20.43:270][864]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/AllLevels/LoadingScreen" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/AllLevels/LoadingScreen.uasset" SILENT=true
+[2020.11.09-05.20.43:301][864]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LoadingScreen75B4AB354459FA61D2AACA8E2DDF8A8F.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/AllLevels/LoadingScreen.uasset'
+[2020.11.09-05.20.43:317][864]AssetCheck: New page: Asset Save: LoadingScreen
+[2020.11.09-05.20.43:317][864]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/AllLevels/LoadingScreen.LoadingScreen
+[2020.11.09-05.20.58:870][ 75]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/AllLevels/LoadingScreen" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/AllLevels/LoadingScreen.uasset" SILENT=true
+[2020.11.09-05.20.58:889][ 75]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LoadingScreen0DA7C32B42FF0606DE28F0A00C8AD13A.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/AllLevels/LoadingScreen.uasset'
+[2020.11.09-05.20.58:906][ 75]AssetCheck: New page: Asset Save: LoadingScreen
+[2020.11.09-05.20.58:906][ 75]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/AllLevels/LoadingScreen.LoadingScreen
+[2020.11.09-05.21.12:829][255]LogSlate: Window 'LoadingScreen' being destroyed
+[2020.11.09-05.21.12:836][255]LogSlate: Window 'LoadingScreen' being destroyed
+[2020.11.09-05.21.12:845][255]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2020.11.09-05.21.12:845][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.09-05.21.12:874][255]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2020.11.09-05.21.12:874][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.09-05.21.16:116][438]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Gameplay/GameplayGM.GameplayGM
+[2020.11.09-05.21.18:629][545]LogSlate: Window 'GameplayGM' being destroyed
+[2020.11.09-05.21.18:637][545]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2020.11.09-05.21.18:638][545]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.09-05.21.18:750][545]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Gameplay/GameplayGM.GameplayGM
+[2020.11.09-05.23.53:225][ 26]BlueprintLog: New page: Compile GameplayGM
+[2020.11.09-05.23.53:281][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2020.11.09-05.23.53:997][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Gameplay/GameplayGM" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Gameplay/GameplayGM.uasset" SILENT=true
+[2020.11.09-05.23.54:095][ 64]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/GameplayGM7B54892F4072C6EB8E1471A8B9D62FAD.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Gameplay/GameplayGM.uasset'
+[2020.11.09-05.23.54:145][ 64]AssetCheck: New page: Asset Save: GameplayGM
+[2020.11.09-05.23.54:146][ 64]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Gameplay/GameplayGM.GameplayGM
+[2020.11.09-05.24.47:569][436]BlueprintLog: New page: Compile GameplayGM
+[2020.11.09-05.24.47:615][436]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2020.11.09-05.24.48:526][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Gameplay/GameplayGM" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Gameplay/GameplayGM.uasset" SILENT=true
+[2020.11.09-05.24.48:549][481]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/GameplayGM1FC17011488F5F8448209282A42ED017.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Gameplay/GameplayGM.uasset'
+[2020.11.09-05.24.48:564][481]AssetCheck: New page: Asset Save: GameplayGM
+[2020.11.09-05.24.48:564][481]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Gameplay/GameplayGM.GameplayGM
+[2020.11.09-05.25.24:625][150]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.11.09-05.26.06:228][213]BlueprintLog: New page: Compile GameplayGM
+[2020.11.09-05.26.06:275][213]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2020.11.09-05.26.06:781][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Gameplay/GameplayGM" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Gameplay/GameplayGM.uasset" SILENT=true
+[2020.11.09-05.26.06:806][237]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/GameplayGM69F97BCD4C27D9F9EC90D2BAD44E5F6C.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Gameplay/GameplayGM.uasset'
+[2020.11.09-05.26.06:824][237]AssetCheck: New page: Asset Save: GameplayGM
+[2020.11.09-05.26.06:824][237]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Gameplay/GameplayGM.GameplayGM
+[2020.11.09-05.27.02:101][424]LogUObjectHash: Compacting FUObjectHashTables data took   8.92ms
+[2020.11.09-05.27.02:106][424]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainMenu' took 0.041
+[2020.11.09-05.27.02:107][424]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Gameplay/GameplayGM] ([1] browsable assets)...
+[2020.11.09-05.27.02:107][424]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Gameplay/GameplayGM]
+[2020.11.09-05.27.02:136][424]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/GameplayGM_Auto5B25BAACA415545EB0BE823AA21F73095.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Autosaves/Game/Blueprints/Gameplay/GameplayGM_Auto5.uasset'
+[2020.11.09-05.27.02:137][424]LogFileHelpers: Auto-saving content packages took 0.031
+[2020.11.09-05.28.11:664][909]LogEditorTransaction: Undo Add Node
+[2020.11.09-05.28.48:089][696]BlueprintLog: New page: Compile GameplayGM
+[2020.11.09-05.28.48:140][696]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2020.11.09-05.28.48:577][718]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Gameplay/GameplayGM" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Gameplay/GameplayGM.uasset" SILENT=true
+[2020.11.09-05.28.48:605][718]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/GameplayGMCA3B38ED47A1022D9935FA9158F739FE.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Gameplay/GameplayGM.uasset'
+[2020.11.09-05.28.48:622][718]AssetCheck: New page: Asset Save: GameplayGM
+[2020.11.09-05.28.48:622][718]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Gameplay/GameplayGM.GameplayGM
+[2020.11.09-05.29.47:381][475]BlueprintLog: New page: Compile GameplayGM
+[2020.11.09-05.29.47:417][475]LogBlueprint: Error: [Compiler GameplayGM] This blueprint (self) is not a Controller, therefore ' Target ' must have a connection.
+[2020.11.09-05.29.47:458][475]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2020.11.09-05.29.59:244][896]BlueprintLog: New page: Compile GameplayGM
+[2020.11.09-05.29.59:298][896]LogUObjectHash: Compacting FUObjectHashTables data took   5.20ms
+[2020.11.09-05.30.00:084][937]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Gameplay/GameplayGM" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Gameplay/GameplayGM.uasset" SILENT=true
+[2020.11.09-05.30.00:186][937]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/GameplayGM4C42F9364D8A2C29DC442D82D5ADB51A.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Gameplay/GameplayGM.uasset'
+[2020.11.09-05.30.00:204][937]AssetCheck: New page: Asset Save: GameplayGM
+[2020.11.09-05.30.00:204][937]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Gameplay/GameplayGM.GameplayGM
+[2020.11.09-05.30.34:675][665]BlueprintLog: New page: Compile GameplayGM
+[2020.11.09-05.30.34:729][665]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2020.11.09-05.30.35:117][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Gameplay/GameplayGM" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Gameplay/GameplayGM.uasset" SILENT=true
+[2020.11.09-05.30.35:143][683]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/GameplayGM21250DE449C90EE1D8DDC2AEF0C782C9.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Gameplay/GameplayGM.uasset'
+[2020.11.09-05.30.35:161][683]AssetCheck: New page: Asset Save: GameplayGM
+[2020.11.09-05.30.35:161][683]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Gameplay/GameplayGM.GameplayGM
+[2020.11.09-05.31.01:569][352]BlueprintLog: New page: Compile GameplayGM
+[2020.11.09-05.31.01:618][352]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2020.11.09-05.31.02:179][379]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Gameplay/GameplayGM" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Gameplay/GameplayGM.uasset" SILENT=true
+[2020.11.09-05.31.02:207][379]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/GameplayGMBE6CCB384E687F313433BBAD33CFEE60.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Gameplay/GameplayGM.uasset'
+[2020.11.09-05.31.02:225][379]AssetCheck: New page: Asset Save: GameplayGM
+[2020.11.09-05.31.02:225][379]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Gameplay/GameplayGM.GameplayGM
+[2020.11.09-05.31.26:141][719]LogD3D11RHI: Error: SwapChain->ResizeBuffers(0, SizeX, SizeY, RenderTargetFormat, D3D11GetSwapChainFlags()) failed 
+ at D:/Build/++UE4+Licensee/Sync/Engine/Source/Runtime/Windows/D3D11RHI/Private/D3D11Viewport.cpp:273 
+ with error E_OUTOFMEMORY, 
+ Size=544x256 Format=DXGI_FORMAT_R10G10B10A2_UNORM(0x00000018)
+[2020.11.09-05.31.27:638][719]LogConsoleResponse:     67 = 4125 KB (2D 936x564 PF_FloatRGBA RT UAV VRam) SceneColor unused(1) VRamInKB(Start/Size):<NONE>
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     59 = 4125 KB (2D 936x564 PF_FloatRGBA RT UAV) LightAccumulation
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     71 = 4125 KB (2D 936x564 PF_FloatRGBA RT UAV) ScreenSpaceReflections unused(1)
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     76 = 4125 KB (2D 936x564 PF_FloatRGBA RT VRam) SceneColor unused(1) VRamInKB(Start/Size):<NONE>
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     73 = 4125 KB (2D 936x564 PF_FloatRGBA RT) SeparateTranslucency unused(1)
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     77 = 4125 KB (2D 936x564 PF_FloatRGBA UAV) TemporalAA
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     32 = 4125 KB (2D 936x564 PF_FloatRGBA UAV) TemporalAA unused(1)
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     27 = 2578 KB (2D 936x564 PF_DepthStencil 4xMSAA) EditorPrimitivesDepth unused(1)
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     75 = 2578 KB (2D 936x564 PF_DepthStencil 4xMSAA) SelectionOutline unused(1)
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     36 = 2578 KB (2D 936x564 PF_DepthStencil VRam) SceneDepthZ VRamInKB(Start/Size):<NONE>
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     61 = 2063 KB (2D 936x564 PF_A2B10G10R10 RT) GBufferA unused(1)
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     74 = 2063 KB (2D 936x564 PF_B8G8R8A8 RT 4xMSAA) EditorPrimitivesColor unused(1)
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     63 = 2063 KB (2D 936x564 PF_B8G8R8A8 RT sRGB) GBufferC unused(1)
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     25 = 2063 KB (2D 936x564 PF_B8G8R8A8 RT VRam) GBufferB unused(1) VRamInKB(Start/Size):<NONE>
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     34 = 2063 KB (2D 936x564 PF_B8G8R8A8 RT VRam) GBufferD unused(1) VRamInKB(Start/Size):<NONE>
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     62 = 2063 KB (2D 936x564 PF_B8G8R8A8 RT VRam) GBufferE unused(1) VRamInKB(Start/Size):<NONE>
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     64 = 2063 KB (2D 936x564 PF_B8G8R8A8 RT) EditorPrimitives unused(1)
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     72 = 2063 KB (2D 936x564 PF_B8G8R8A8 RT) LightAttenuation unused(1)
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     65 = 2063 KB (2D 936x564 PF_B8G8R8A8 RT) SelectionOutlineColor unused(1)
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     68 = 2063 KB (2D 936x564 PF_G16R16 RT UAV) Velocity unused(1)
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     39 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolume0
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     53 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolume1
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     55 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolume2
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     40 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolumeDir0
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     54 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolumeDir1
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     56 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolumeDir2
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     37 = 1289 KB (2D 468x282 PF_DepthStencil) SmallDepthZ
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     69 = 1032 KB (2D 468x282 PF_FloatRGBA RT VRam) AmbientOcclusionSetup unused(1) VRamInKB(Start/Size):<NONE>
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     58 = 1032 KB (2D 936x282 PF_R32_UINT RT UAV) QuadOverdrawBuffer
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     33 = 1024 KB (Cube 128 PF_FloatRGBA RT) ReflectionColorScratchCubemap0
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     28 = 1024 KB (Cube 128 PF_FloatRGBA RT) ReflectionColorScratchCubemap1
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     70 = 516 KB (2D 468x282 PF_B8G8R8A8 RT VRam) AmbientOcclusion unused(1) VRamInKB(Start/Size):<NONE>
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     78 = 516 KB (2D 468x282 PF_FloatRGB RT VRam) BloomX unused(1) VRamInKB(Start/Size):<NONE>
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     35 = 516 KB (2D 468x282 PF_FloatRGB RT VRam) BloomY unused(1) VRamInKB(Start/Size):<NONE>
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     38 = 516 KB (2D 936x564 PF_G8 RT UAV) ScreenSpaceAO
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     66 = 342 KB (2D 512x256 PF_R16F UAV VRam) HZBFurthest unused(1) VRamInKB(Start/Size):<NONE>
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:      3 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:      2 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     26 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:      4 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:      1 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     60 = 129 KB (2D 234x141 PF_FloatRGB RT VRam) BloomX unused(1) VRamInKB(Start/Size):<NONE>
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     41 = 129 KB (2D 234x141 PF_FloatRGB RT VRam) BloomY unused(1) VRamInKB(Start/Size):<NONE>
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     49 = 128 KB (3D 32x32x32 PF_A2B10G10R10 RT VRam) CombineLUTs VRamInKB(Start/Size):<NONE>
+[2020.11.09-05.31.27:648][719]LogConsoleResponse:     11 = 64 KB (2D 128x128 PF_B8G8R8A8) PerlinNoiseGradient
+[2020.11.09-05.31.27:649][719]LogConsoleResponse:     29 = 64 KB (Cube 32 PF_FloatRGBA RT) DiffuseIrradianceScratchCubemap0
+[2020.11.09-05.31.27:649][719]LogConsoleResponse:     30 = 64 KB (Cube 32 PF_FloatRGBA RT) DiffuseIrradianceScratchCubemap1
+[2020.11.09-05.31.27:649][719]LogConsoleResponse:     42 = 49 KB (2D 98x64 PF_A16B16G16R16) SSProfiles
+[2020.11.09-05.31.27:649][719]LogConsoleResponse:     52 = 33 KB (2D 117x71 PF_FloatRGB RT VRam) BloomX unused(1) VRamInKB(Start/Size):<NONE>
+[2020.11.09-05.31.27:649][719]LogConsoleResponse:     43 = 33 KB (2D 117x71 PF_FloatRGB RT VRam) BloomY unused(1) VRamInKB(Start/Size):<NONE>
+[2020.11.09-05.31.27:649][719]LogConsoleResponse:     22 = 32 KB (2D 64x64 PF_FloatRGBA VRam) LTCMat VRamInKB(Start/Size):<NONE>
+[2020.11.09-05.31.27:649][719]LogConsoleResponse:     18 = 16 KB (2D 128x32 PF_G16R16) PreintegratedGF
+[2020.11.09-05.31.27:649][719]LogConsoleResponse:     23 = 16 KB (2D 64x64 PF_G16R16F VRam) LTCAmp VRamInKB(Start/Size):<NONE>
+[2020.11.09-05.31.27:649][719]LogConsoleResponse:     19 = 16 KB (3D 16x16x16 PF_B8G8R8A8) PerlinNoise3D
+[2020.11.09-05.31.27:649][719]LogConsoleResponse:     51 = 9 KB (2D 59x36 PF_FloatRGB RT VRam) BloomX unused(1) VRamInKB(Start/Size):<NONE>
+[2020.11.09-05.31.27:649][719]LogConsoleResponse:     44 = 9 KB (2D 59x36 PF_FloatRGB RT VRam) BloomY unused(1) VRamInKB(Start/Size):<NONE>
+[2020.11.09-05.31.27:649][719]LogConsoleResponse:     20 = 8 KB (2D 64x64 PF_R8G8) SSAORandomization
+[2020.11.09-05.31.27:649][719]LogConsoleResponse:     79 = 7 KB (2D 16x56 PF_FloatRGBA RT UAV VRam) Histogram unused(1) VRamInKB(Start/Size):<NONE>
+[2020.11.09-05.31.27:649][719]LogConsoleResponse:     50 = 3 KB (2D 30x18 PF_FloatRGB RT VRam) BloomX unused(1) VRamInKB(Start/Size):<NONE>
+[2020.11.09-05.31.27:649][719]LogConsoleResponse:     45 = 3 KB (2D 30x18 PF_FloatRGB RT VRam) BloomY unused(1) VRamInKB(Start/Size):<NONE>
+[2020.11.09-05.31.27:649][719]LogConsoleResponse:     47 = 1 KB (2D 15x9 PF_FloatRGB RT VRam) BloomX unused(1) VRamInKB(Start/Size):<NONE>
+[2020.11.09-05.31.27:649][719]LogConsoleResponse:     46 = 1 KB (2D 15x9 PF_FloatRGB RT VRam) BloomY unused(1) VRamInKB(Start/Size):<NONE>
+[2020.11.09-05.31.27:649][719]LogConsoleResponse:     80 = 1 KB (2D 16x2 PF_A32B32G32R32F RT VRam) HistogramReduce unused(1) VRamInKB(Start/Size):<NONE>
+[2020.11.09-05.31.27:649][719]LogConsoleResponse:     48 = 1 KB (2D 1x1 PF_A32B32G32R32F RT UAV) EyeAdaptation
+[2020.11.09-05.31.27:649][719]LogConsoleResponse:     57 = 1 KB (2D 1x1 PF_A32B32G32R32F RT UAV) EyeAdaptation
+[2020.11.09-05.31.27:649][719]LogConsoleResponse:      8 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) BlackAlphaOneDummy
+[2020.11.09-05.31.27:649][719]LogConsoleResponse:      6 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) BlackDummy
+[2020.11.09-05.31.27:649][719]LogConsoleResponse:     10 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) DefaultNormal8Bit
+[2020.11.09-05.31.27:649][719]LogConsoleResponse:      9 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) GreenDummy
+[2020.11.09-05.31.27:649][719]LogConsoleResponse:      5 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) WhiteDummy
+[2020.11.09-05.31.27:649][719]LogConsoleResponse:     13 = 1 KB (2D 1x1 PF_DepthStencil) DepthDummy
+[2020.11.09-05.31.27:649][719]LogConsoleResponse:     12 = 1 KB (2D 1x1 PF_FloatRGBA RT) MaxFP16Depth
+[2020.11.09-05.31.27:649][719]LogConsoleResponse:     15 = 1 KB (2D 1x1 PF_FloatRGBA RT) MidGreyDummy
+[2020.11.09-05.31.27:649][719]LogConsoleResponse:     24 = 1 KB (2D 1x1 PF_FloatRGBA RT) ReflectionBrightness unused(18175)
+[2020.11.09-05.31.27:649][719]LogConsoleResponse:      7 = 1 KB (2D 1x1 PF_R32_UINT RT) ZeroUIntDummy
+[2020.11.09-05.31.27:649][719]LogConsoleResponse:     14 = 1 KB (2D 1x1 PF_R8G8B8A8_UINT RT) StencilDummy
+[2020.11.09-05.31.27:649][719]LogConsoleResponse:     16 = 1 KB (2D 32x16 PF_R16_UINT) SobolSampling
+[2020.11.09-05.31.27:649][719]LogConsoleResponse:     21 = 1 KB (2D 4x4 PF_R8G8B8A8) GTAORandomization
+[2020.11.09-05.31.27:649][719]LogConsoleResponse:     31 = 1 KB (2D 9x1 PF_FloatRGBA RT) SkySHIrradianceMap
+[2020.11.09-05.31.27:649][719]LogConsoleResponse:     17 = 1 KB (3D 1x1x1 PF_B8G8R8A8 RT) VolumetricBlackDummy
+[2020.11.09-05.31.27:649][719]LogConsoleResponse: 
+[2020.11.09-05.31.27:649][719]LogConsoleResponse: Pool: 30/78 MB (referenced/allocated)
+[2020.11.09-05.31.27:649][719]Cmd: rhi.DumpMemory
+[2020.11.09-05.31.27:673][719]RHI resource memory (not tracked by our allocator)
+[2020.11.09-05.31.27:674][719]         2228160  -  Render target memory Cube - STAT_RenderTargetMemoryCube - STATGROUP_RHI - STATCAT_Advanced
+[2020.11.09-05.31.27:674][719]        21138989  -  Render target memory 3D - STAT_RenderTargetMemory3D - STATGROUP_RHI - STATCAT_Advanced
+[2020.11.09-05.31.27:674][719]         3203960  -  Structured buffer memory - STAT_StructuredBufferMemory - STATGROUP_RHI - STATCAT_Advanced
+[2020.11.09-05.31.27:674][719]         2101824  -  Uniform buffer memory - STAT_UniformBufferMemory - STATGROUP_RHI - STATCAT_Advanced
+[2020.11.09-05.31.27:674][719]        65077140  -  Texture memory Cube - STAT_TextureMemoryCube - STATGROUP_RHI - STATCAT_Advanced
+[2020.11.09-05.31.27:674][719]           24652  -  Texture memory 3D - STAT_TextureMemory3D - STATGROUP_RHI - STATCAT_Advanced
+[2020.11.09-05.31.27:674][719]      1082738169  -  Render target memory 2D - STAT_RenderTargetMemory2D - STATGROUP_RHI - STATCAT_Advanced
+[2020.11.09-05.31.27:674][719]       109453540  -  Texture memory 2D - STAT_TextureMemory2D - STATGROUP_RHI - STATCAT_Advanced
+[2020.11.09-05.31.27:674][719]         4883692  -  Index buffer memory - STAT_IndexBufferMemory - STATGROUP_RHI - STATCAT_Advanced
+[2020.11.09-05.31.27:674][719]         8041860  -  Vertex buffer memory - STAT_VertexBufferMemory - STATGROUP_RHI - STATCAT_Advanced
+[2020.11.09-05.31.27:674][719]1238.720MB total
+[2020.11.09-05.31.27:674][719]LogWindows: FPlatformMisc::RequestExit(1)
+[2020.11.09-05.31.27:674][719]LogCore: Engine exit requested (reason: Win RequestExit)
+[2020.11.09-05.31.27:707][719]Log file closed, 11/09/20 12:31:27
