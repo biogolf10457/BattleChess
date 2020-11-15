@@ -2048,3 +2048,781 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.11.15-06.48.29:982][214]AssetCheck: New page: Asset Save: multiple assets
 [2020.11.15-06.48.29:982][214]LogContentValidation: Display: Validating World /Game/Maps/Lobby.Lobby
 [2020.11.15-06.48.29:982][214]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Lobby_BuiltData.Lobby_BuiltData
+[2020.11.15-06.51.54:294][861]LogTemp: Repeating last play command: Standalone Game
+[2020.11.15-06.51.54:423][861]LogUObjectHash: Compacting FUObjectHashTables data took   7.41ms
+[2020.11.15-06.52.33:268][700]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2020.11.15-06.53.02:491][641]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2020.11.15-06.53.05:069][784]LogTemp: Repeating last play command: Standalone Game
+[2020.11.15-06.53.05:164][784]LogUObjectHash: Compacting FUObjectHashTables data took   4.48ms
+[2020.11.15-06.54.49:219][983]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/MainMenu.MainMenu
+[2020.11.15-06.54.49:273][983]LogUObjectHash: Compacting FUObjectHashTables data took   4.95ms
+[2020.11.15-06.54.49:279][983]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.15-06.54.49:279][983]LightingResults: New page: Lighting Build
+[2020.11.15-06.54.49:279][983]LoadErrors: New page: Loading map: MainMenu.umap
+[2020.11.15-06.54.49:280][983]LogWorld: UWorld::CleanupWorld for Lobby, bSessionEnded=true, bCleanupResources=true
+[2020.11.15-06.54.49:280][983]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.15-06.54.49:280][983]MapCheck: New page: Map Check
+[2020.11.15-06.54.49:280][983]LightingResults: New page: Lighting Build
+[2020.11.15-06.54.49:321][983]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002A0C2837C40), frame # 196983
+[2020.11.15-06.54.49:321][983]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002A1117E3E00), frame # 196983
+[2020.11.15-06.54.49:325][983]LogUObjectHash: Compacting FUObjectHashTables data took   3.81ms
+[2020.11.15-06.54.49:594][983]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.15-06.54.49:594][983]LogAIModule: Creating AISystem for world MainMenu
+[2020.11.15-06.54.49:594][983]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002A036FF7200), frame # 196983
+[2020.11.15-06.54.49:594][983]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002A0151B2480), frame # 196983
+[2020.11.15-06.54.49:643][983]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2020.11.15-06.54.49:704][983]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.15-06.54.49:704][983]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.084ms to complete.
+[2020.11.15-06.54.49:704][983]LogFileHelpers: Loading map 'MainMenu' took 0.425
+[2020.11.15-06.54.51:251][ 61]LogTemp: Repeating last play command: Standalone Game
+[2020.11.15-06.54.51:315][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2020.11.15-06.56.11:924][958]LogTemp: Repeating last play command: Standalone Game
+[2020.11.15-06.56.12:031][958]LogUObjectHash: Compacting FUObjectHashTables data took   5.82ms
+[2020.11.15-06.58.47:552][191]BlueprintLog: New page: Compile LobbyPC
+[2020.11.15-06.58.47:828][191]LogUObjectHash: Compacting FUObjectHashTables data took   7.91ms
+[2020.11.15-06.58.51:799][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyPC.uasset" SILENT=true
+[2020.11.15-06.58.51:953][368]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyPCD549F7FE441A1F53E40A99A9FDF3664F.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyPC.uasset'
+[2020.11.15-06.58.51:977][368]AssetCheck: New page: Asset Save: LobbyPC
+[2020.11.15-06.58.51:977][368]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Lobby/LobbyPC.LobbyPC
+[2020.11.15-06.58.52:926][409]LogSlate: Window 'LobbyMenu' being destroyed
+[2020.11.15-06.58.52:933][409]LogSlate: Window 'LobbyMenu' being destroyed
+[2020.11.15-06.58.53:011][409]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.11.15-06.58.53:011][409]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.11.15-06.58.53:012][409]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.15-06.58.54:150][409]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.11.15-06.58.54:150][409]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.11.15-06.58.54:150][409]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.15-06.58.55:085][409]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.11.15-06.58.55:085][409]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.15-06.58.55:122][409]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.11.15-06.58.55:122][409]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.15-06.58.55:515][409]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.11.15-06.58.55:515][409]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.15-06.58.55:550][409]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.11.15-06.58.55:550][409]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.15-06.58.55:812][409]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2020.11.15-06.58.55:812][409]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.15-06.58.55:847][409]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2020.11.15-06.58.55:847][409]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.15-06.58.57:761][485]LogUObjectHash: Compacting FUObjectHashTables data took   5.15ms
+[2020.11.15-06.58.59:822][596]LogTemp: Repeating last play command: Standalone Game
+[2020.11.15-06.59.00:250][596]LogUObjectHash: Compacting FUObjectHashTables data took   6.01ms
+[2020.11.15-07.02.55:009][845]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Lobby.Lobby
+[2020.11.15-07.02.55:055][845]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2020.11.15-07.02.55:060][845]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Lobby.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.15-07.02.55:060][845]LightingResults: New page: Lighting Build
+[2020.11.15-07.02.55:060][845]LoadErrors: New page: Loading map: Lobby.umap
+[2020.11.15-07.02.55:062][845]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2020.11.15-07.02.55:062][845]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.15-07.02.55:062][845]MapCheck: New page: Map Check
+[2020.11.15-07.02.55:062][845]LightingResults: New page: Lighting Build
+[2020.11.15-07.02.55:098][845]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002A0151B2480), frame # 203845
+[2020.11.15-07.02.55:098][845]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002A036FF7200), frame # 203845
+[2020.11.15-07.02.55:103][845]LogUObjectHash: Compacting FUObjectHashTables data took   5.01ms
+[2020.11.15-07.02.55:949][845]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.15-07.02.55:949][845]LogAIModule: Creating AISystem for world Lobby
+[2020.11.15-07.02.55:950][845]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002A0D266C200), frame # 203845
+[2020.11.15-07.02.55:950][845]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000029FFC1D6200), frame # 203845
+[2020.11.15-07.02.55:993][845]LogUObjectHash: Compacting FUObjectHashTables data took   3.91ms
+[2020.11.15-07.02.56:064][845]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.15-07.02.56:064][845]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.121ms to complete.
+[2020.11.15-07.02.56:064][845]LogFileHelpers: Loading map 'Lobby' took 1.004
+[2020.11.15-07.03.02:893][225]LogEditorViewport: Clicking on Actor (LMB): MySpawnBP_C (MySpawnBP2)
+[2020.11.15-07.03.16:737][ 37]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.11.15-07.03.17:657][ 85]LogEditorViewport: Clicking on Actor (LMB): MySpawnBP_C (MySpawnBP2)
+[2020.11.15-07.03.22:713][378]Cmd: TRANSACTION UNDO
+[2020.11.15-07.03.22:714][378]LogEditorTransaction: Undo Rotate Actors
+[2020.11.15-07.03.26:560][579]LogEditorViewport: Clicking on Actor (LMB): MySpawnBP_C (MySpawnBP3)
+[2020.11.15-07.03.31:864][884]LogEditorViewport: Clicking on Actor (LMB): MySpawnBP_C (MySpawnBP3)
+[2020.11.15-07.03.34:789][ 55]LogEditorViewport: Clicking on Actor (CTRL LMB): MySpawnBP_C (MySpawnBP10)
+[2020.11.15-07.03.35:990][124]LogEditorViewport: Clicking on Actor (CTRL LMB): MySpawnBP_C (MySpawnBP4)
+[2020.11.15-07.03.37:431][207]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor2)
+[2020.11.15-07.03.38:857][290]Cmd: TRANSACTION UNDO
+[2020.11.15-07.03.38:857][290]LogEditorTransaction: Undo Clicking on Actors
+[2020.11.15-07.03.40:364][361]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor2)
+[2020.11.15-07.03.41:315][416]Cmd: TRANSACTION UNDO
+[2020.11.15-07.03.41:316][416]LogEditorTransaction: Undo Clicking on Actors
+[2020.11.15-07.03.43:432][538]LogEditorViewport: Clicking on Actor (CTRL LMB): MySpawnBP_C (MySpawnBP9)
+[2020.11.15-07.03.48:353][823]LogEditorViewport: Clicking on Actor (LMB): Wall_C (Wall4)
+[2020.11.15-07.03.49:381][882]LogEditorViewport: Clicking on Actor (LMB): MySpawnBP_C (MySpawnBP9)
+[2020.11.15-07.03.51:574][  8]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2020.11.15-07.04.28:824][213]LogActorFactory: Actor Factory created Cylinder
+[2020.11.15-07.04.30:830][332]LogActorFactory: Actor Factory created Cylinder
+[2020.11.15-07.04.33:069][458]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2020.11.15-07.04.33:923][503]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2020.11.15-07.04.48:059][338]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.11.15-07.05.42:724][559]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2020.11.15-07.06.51:139][554]Cmd: EDIT COPY
+[2020.11.15-07.06.51:387][563]Cmd: EDIT PASTE
+[2020.11.15-07.07.40:710][452]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2020.11.15-07.07.41:811][452]LogSlate: Window 'Save Content' being destroyed
+[2020.11.15-07.07.41:858][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Lobby.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.11.15-07.07.41:885][452]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.11.15-07.07.41:969][452]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Lobby3851FCB140CD3768672B328F40513EA5.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Lobby.umap'
+[2020.11.15-07.07.42:028][452]LogFileHelpers: Saving map 'Lobby' took 0.170
+[2020.11.15-07.07.42:028][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby_BuiltData" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Lobby_BuiltData.uasset" SILENT=true
+[2020.11.15-07.07.42:127][452]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Lobby_BuiltData96B8252E42F248B44468158330BC0DE3.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Lobby_BuiltData.uasset'
+[2020.11.15-07.07.42:168][452]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.15-07.07.42:168][452]LogContentValidation: Display: Validating World /Game/Maps/Lobby.Lobby
+[2020.11.15-07.07.42:168][452]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Lobby_BuiltData.Lobby_BuiltData
+[2020.11.15-07.07.44:565][586]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.11.15-07.08.24:011][941]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2020.11.15-07.08.37:002][709]Cmd: TRANSACTION UNDO
+[2020.11.15-07.08.37:003][709]LogEditorTransaction: Undo Move Actors
+[2020.11.15-07.08.46:658][264]Cmd: TRANSACTION UNDO
+[2020.11.15-07.08.46:658][264]LogEditorTransaction: Undo Move Actors
+[2020.11.15-07.08.47:297][286]Cmd: TRANSACTION UNDO
+[2020.11.15-07.08.47:297][286]LogEditorTransaction: Undo Move Actors
+[2020.11.15-07.08.48:132][336]Cmd: TRANSACTION UNDO
+[2020.11.15-07.08.48:132][336]LogEditorTransaction: Undo Clicking on Actors
+[2020.11.15-07.08.57:789][905]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2020.11.15-07.08.58:843][905]LogSlate: Window 'Save Content' being destroyed
+[2020.11.15-07.08.58:881][905]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Lobby.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.11.15-07.08.58:909][905]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.11.15-07.08.58:977][905]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyFD56A8E44AAA040C08960D864EEB05A7.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Lobby.umap'
+[2020.11.15-07.08.59:038][905]LogFileHelpers: Saving map 'Lobby' took 0.157
+[2020.11.15-07.08.59:038][905]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby_BuiltData" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Lobby_BuiltData.uasset" SILENT=true
+[2020.11.15-07.08.59:108][905]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Lobby_BuiltData66248AFF45A009E219B429B2B5F2E448.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Lobby_BuiltData.uasset'
+[2020.11.15-07.08.59:132][905]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.15-07.08.59:132][905]LogContentValidation: Display: Validating World /Game/Maps/Lobby.Lobby
+[2020.11.15-07.08.59:132][905]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Lobby_BuiltData.Lobby_BuiltData
+[2020.11.15-07.09.28:630][646]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Lobby/LobbyMenu.LobbyMenu
+[2020.11.15-07.09.39:308][  7]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Lobby/LobbyPC.LobbyPC
+[2020.11.15-07.10.00:552][885]BlueprintLog: New page: Compile LobbyPC
+[2020.11.15-07.10.00:697][885]LogUObjectHash: Compacting FUObjectHashTables data took   5.23ms
+[2020.11.15-07.10.01:496][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyPC.uasset" SILENT=true
+[2020.11.15-07.10.01:705][906]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyPCAE171ADC4956741820212994947503F3.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyPC.uasset'
+[2020.11.15-07.10.01:729][906]AssetCheck: New page: Asset Save: LobbyPC
+[2020.11.15-07.10.01:729][906]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Lobby/LobbyPC.LobbyPC
+[2020.11.15-07.10.30:956][507]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Lobby/ScoreUI.ScoreUI
+[2020.11.15-07.13.42:862][264]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.15-07.13.52:479][635]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.15-07.14.00:111][937]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.15-07.14.06:348][176]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.15-07.14.56:327][213]LogEditorTransaction: Undo Resize Widget
+[2020.11.15-07.14.56:956][225]LogEditorTransaction: Undo Resize Widget
+[2020.11.15-07.16.02:529][950]BlueprintLog: New page: Compile ScoreUI
+[2020.11.15-07.16.02:617][950]LogUObjectHash: Compacting FUObjectHashTables data took   5.89ms
+[2020.11.15-07.16.03:581][986]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/ScoreUI" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/ScoreUI.uasset" SILENT=true
+[2020.11.15-07.16.03:611][986]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/ScoreUIEF2CF63B45B6902992488E9CDA5D728E.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/ScoreUI.uasset'
+[2020.11.15-07.16.03:690][986]AssetCheck: New page: Asset Save: ScoreUI
+[2020.11.15-07.16.03:690][986]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Lobby/ScoreUI.ScoreUI
+[2020.11.15-07.16.14:981][498]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.11.15-07.16.19:971][709]BlueprintLog: New page: Compile LobbyPC
+[2020.11.15-07.16.20:119][709]LogUObjectHash: Compacting FUObjectHashTables data took   4.18ms
+[2020.11.15-07.16.20:862][732]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyPC.uasset" SILENT=true
+[2020.11.15-07.16.21:017][732]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyPC2A53D2A74717069F3430D1B824987AFE.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyPC.uasset'
+[2020.11.15-07.16.21:041][732]AssetCheck: New page: Asset Save: LobbyPC
+[2020.11.15-07.16.21:041][732]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Lobby/LobbyPC.LobbyPC
+[2020.11.15-07.16.24:086][893]LogTemp: Repeating last play command: Standalone Game
+[2020.11.15-07.16.24:159][893]LogUObjectHash: Compacting FUObjectHashTables data took   4.30ms
+[2020.11.15-07.17.50:829][882]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.15-07.17.59:023][168]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.15-07.18.04:790][376]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.15-07.18.09:648][546]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.15-07.18.11:776][638]BlueprintLog: New page: Compile ScoreUI
+[2020.11.15-07.18.11:865][638]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
+[2020.11.15-07.18.12:464][660]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/ScoreUI" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/ScoreUI.uasset" SILENT=true
+[2020.11.15-07.18.12:512][660]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/ScoreUI1552742949E26E3F53EE5C8277F80123.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/ScoreUI.uasset'
+[2020.11.15-07.18.12:536][660]AssetCheck: New page: Asset Save: ScoreUI
+[2020.11.15-07.18.12:536][660]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Lobby/ScoreUI.ScoreUI
+[2020.11.15-07.18.34:046][692]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.11.15-07.18.36:434][692]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.11.15-07.18.44:665][158]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Lobby/ScoreAreaBP.ScoreAreaBP
+[2020.11.15-07.19.02:880][814]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.02:880][814]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.02:881][814]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.02:882][814]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.02:882][814]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.02:882][814]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.02:905][815]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.02:905][815]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.02:905][815]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.02:905][815]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.02:906][815]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.02:906][815]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.02:906][815]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.02:906][815]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.02:906][815]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.02:929][816]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.02:929][816]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.02:929][816]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.02:930][816]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.02:930][816]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.02:930][816]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.02:931][816]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.02:931][816]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.02:931][816]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.02:954][817]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.02:954][817]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.02:954][817]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.02:955][817]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.02:955][817]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.02:955][817]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.02:955][817]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.02:955][817]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.02:955][817]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.02:980][818]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.02:980][818]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.02:980][818]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.02:980][818]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.02:980][818]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.02:980][818]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.02:981][818]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.02:981][818]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.02:981][818]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:006][819]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:006][819]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:006][819]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:007][819]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:007][819]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:007][819]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:226][827]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:227][827]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:227][827]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:228][827]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:228][827]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:228][827]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:251][828]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:251][828]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:251][828]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:252][828]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:252][828]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:252][828]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:252][828]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:252][828]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:252][828]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:278][829]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:279][829]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:279][829]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:279][829]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:279][829]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:279][829]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:279][829]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:279][829]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:279][829]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:304][830]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:304][830]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:304][830]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:304][830]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:304][830]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:304][830]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:305][830]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:305][830]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:305][830]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:329][831]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:329][831]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:329][831]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:330][831]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:330][831]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:330][831]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:330][831]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:330][831]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:330][831]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:355][832]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:356][832]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:356][832]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:356][832]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:356][832]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:356][832]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:356][832]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:356][832]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:356][832]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:381][833]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:381][833]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:381][833]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:381][833]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:382][833]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:382][833]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:382][833]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:382][833]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:382][833]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:406][834]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:406][834]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:406][834]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:407][834]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:407][834]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:407][834]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:407][834]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:407][834]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:407][834]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:434][835]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:434][835]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:434][835]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:434][835]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:434][835]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:434][835]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:435][835]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:435][835]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:435][835]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:461][836]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:461][836]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:462][836]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:462][836]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:462][836]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:462][836]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:462][836]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:463][836]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:463][836]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:487][837]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:487][837]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:487][837]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:487][837]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:488][837]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:488][837]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:488][837]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:488][837]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:488][837]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:512][838]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:513][838]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:513][838]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:514][838]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:514][838]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:514][838]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:514][838]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:514][838]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:514][838]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:539][839]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:539][839]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:539][839]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:539][839]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:539][839]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:539][839]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:540][839]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:540][839]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:540][839]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:564][840]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:564][840]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:564][840]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:565][840]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:565][840]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:565][840]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:565][840]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:565][840]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:565][840]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:589][841]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:589][841]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:589][841]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:590][841]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:590][841]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:590][841]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:590][841]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:590][841]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:590][841]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:614][842]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:614][842]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:614][842]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:615][842]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:615][842]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:615][842]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:615][842]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:615][842]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:615][842]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:638][843]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:638][843]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:639][843]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.03:639][843]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.11.15-07.19.03:639][843]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.03:639][843]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.44:443][281]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.44:443][281]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.44:443][281]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.44:446][281]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.44:446][281]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.44:446][281]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.44:473][282]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.44:473][282]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.44:473][282]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.44:474][282]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.44:474][282]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.44:474][282]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.44:474][282]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.44:474][282]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.44:474][282]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.44:504][283]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.44:504][283]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.44:504][283]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.44:504][283]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.44:504][283]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.44:505][283]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.44:505][283]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.44:505][283]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.44:505][283]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.44:530][284]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.44:530][284]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.44:530][284]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.44:531][284]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.44:531][284]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.44:531][284]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.44:531][284]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.44:531][284]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.44:531][284]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.44:558][285]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.44:558][285]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.44:558][285]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.44:559][285]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.44:559][285]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.44:559][285]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.44:559][285]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.44:559][285]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.44:559][285]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.44:585][286]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.44:585][286]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.44:585][286]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.44:585][286]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.44:585][286]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.44:585][286]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.44:585][286]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.44:585][286]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.44:586][286]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.44:610][287]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.44:610][287]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.44:610][287]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.44:610][287]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.44:610][287]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.44:610][287]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:102][304]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:103][304]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:103][304]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:105][304]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:105][304]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:105][304]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:138][305]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:139][305]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:139][305]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:140][305]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:140][305]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:140][305]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:140][305]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:140][305]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:140][305]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:174][306]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:174][306]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:174][306]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:175][306]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:175][306]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:175][306]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:175][306]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:175][306]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:175][306]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:204][307]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:205][307]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:205][307]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:205][307]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:205][307]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:205][307]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:206][307]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:206][307]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:206][307]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:244][308]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:244][308]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:244][308]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:245][308]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:245][308]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:245][308]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:245][308]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:245][308]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:245][308]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:285][309]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:285][309]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:285][309]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:286][309]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:286][309]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:286][309]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:287][309]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:287][309]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:287][309]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:337][310]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:338][310]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:338][310]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:339][310]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:339][310]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:339][310]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:339][310]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:339][310]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:339][310]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:375][311]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:376][311]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:376][311]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:376][311]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:377][311]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:377][311]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:377][311]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:377][311]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:377][311]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:412][312]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:413][312]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:413][312]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:413][312]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:413][312]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:413][312]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:414][312]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:414][312]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:414][312]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:447][313]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:447][313]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:447][313]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:448][313]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:448][313]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:448][313]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:448][313]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:448][313]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:448][313]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:479][314]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:479][314]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:480][314]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:480][314]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:480][314]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:480][314]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:481][314]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:481][314]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:481][314]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:513][315]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:514][315]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:514][315]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:514][315]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:514][315]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:514][315]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:515][315]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:515][315]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:515][315]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:546][316]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:546][316]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:546][316]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:547][316]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:547][316]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:547][316]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:547][316]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:547][316]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:547][316]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:581][317]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:581][317]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:581][317]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:581][317]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:581][317]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:581][317]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:582][317]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:582][317]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:582][317]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:610][318]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:610][318]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:610][318]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.45:610][318]LogPhysics: Warning: Scale for /Engine/Transient.World_38:PersistentLevel.ScoreAreaBP_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.750 Y=0.750 Z=0.000
+[2020.11.15-07.19.45:610][318]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.19.45:610][318]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.19.52:014][539]BlueprintLog: New page: Compile ScoreAreaBP
+[2020.11.15-07.19.52:193][539]LogUObjectHash: Compacting FUObjectHashTables data took   5.66ms
+[2020.11.15-07.19.52:964][561]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/ScoreAreaBP" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/ScoreAreaBP.uasset" SILENT=true
+[2020.11.15-07.19.53:036][561]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/ScoreAreaBP5DACCE4645456734645CB5A648BC81D0.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/ScoreAreaBP.uasset'
+[2020.11.15-07.19.53:137][561]AssetCheck: New page: Asset Save: ScoreAreaBP
+[2020.11.15-07.19.53:137][561]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Lobby/ScoreAreaBP.ScoreAreaBP
+[2020.11.15-07.20.11:595][246]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.11.15-07.20.19:919][719]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2020.11.15-07.20.21:908][833]LogEditorViewport: Clicking on Actor (LMB): ScoreAreaBP_C (ScoreAreaBP)
+[2020.11.15-07.20.25:509][ 28]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2020.11.15-07.20.28:349][152]LogEditorViewport: Clicking on Actor (LMB): ScoreAreaBP_C (ScoreAreaBP)
+[2020.11.15-07.20.31:882][355]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2020.11.15-07.20.38:640][710]LogEditorViewport: Clicking on Actor (LMB): ScoreAreaBP_C (ScoreAreaBP)
+[2020.11.15-07.20.41:102][842]LogPhysics: Warning: Scale for /Game/Maps/Lobby.Lobby:PersistentLevel.ScoreAreaBP_2.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=5.750 Y=5.750 Z=0.000
+[2020.11.15-07.20.41:102][842]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.20.41:102][842]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.20.41:103][842]LogPhysics: Warning: Scale for /Game/Maps/Lobby.Lobby:PersistentLevel.ScoreAreaBP_2.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=5.750 Y=5.750 Z=0.000
+[2020.11.15-07.20.41:103][842]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.20.41:103][842]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.20.41:103][842]LogPhysics: Warning: Scale for /Game/Maps/Lobby.Lobby:PersistentLevel.ScoreAreaBP_2.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=5.750 Y=5.750 Z=0.000
+[2020.11.15-07.20.41:103][842]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.20.41:103][842]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.20.41:653][874]LogPhysics: Warning: Scale for /Game/Maps/Lobby.Lobby:PersistentLevel.ScoreAreaBP_2.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=5.750 Y=5.750 Z=0.000
+[2020.11.15-07.20.41:653][874]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.20.41:653][874]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.20.41:654][874]LogPhysics: Warning: Scale for /Game/Maps/Lobby.Lobby:PersistentLevel.ScoreAreaBP_2.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=5.750 Y=5.750 Z=0.000
+[2020.11.15-07.20.41:654][874]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.20.41:654][874]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.20.41:654][874]LogPhysics: Warning: Scale for /Game/Maps/Lobby.Lobby:PersistentLevel.ScoreAreaBP_2.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=5.750 Y=5.750 Z=0.000
+[2020.11.15-07.20.41:654][874]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.11.15-07.20.41:654][874]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.11.15-07.20.54:086][558]LogEditorViewport: Clicking on Actor (LMB): Wall_C (Wall4)
+[2020.11.15-07.20.59:020][800]LogEditorViewport: Clicking on Actor (LMB): ScoreAreaBP_C (ScoreAreaBP)
+[2020.11.15-07.21.09:147][343]LogEditorViewport: Clicking on Actor (LMB): Wall_C (Wall4)
+[2020.11.15-07.21.24:517][231]LogEditorViewport: Clicking on Actor (LMB): ScoreAreaBP_C (ScoreAreaBP)
+[2020.11.15-07.21.27:871][427]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2020.11.15-07.21.29:773][536]Cmd: TRANSACTION UNDO
+[2020.11.15-07.21.29:773][536]LogEditorTransaction: Undo Clicking on Actors
+[2020.11.15-07.21.30:119][543]Cmd: TRANSACTION UNDO
+[2020.11.15-07.21.30:119][543]LogEditorTransaction: Undo Scale Actors
+[2020.11.15-07.21.30:752][572]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2020.11.15-07.21.34:151][759]LogUObjectHash: Compacting FUObjectHashTables data took   5.05ms
+[2020.11.15-07.21.35:170][759]LogSlate: Window 'Save Content' being destroyed
+[2020.11.15-07.21.35:220][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Lobby.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.11.15-07.21.35:296][759]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.11.15-07.21.35:416][759]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Lobby98058B47473E99C8A543BB9A431CF640.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Lobby.umap'
+[2020.11.15-07.21.35:480][759]LogFileHelpers: Saving map 'Lobby' took 0.260
+[2020.11.15-07.21.35:480][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby_BuiltData" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Lobby_BuiltData.uasset" SILENT=true
+[2020.11.15-07.21.35:605][759]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Lobby_BuiltData6B5D457F423A4E8CC4AF13A32E437FC5.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Lobby_BuiltData.uasset'
+[2020.11.15-07.21.35:629][759]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.15-07.21.35:629][759]LogContentValidation: Display: Validating World /Game/Maps/Lobby.Lobby
+[2020.11.15-07.21.35:629][759]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Lobby_BuiltData.Lobby_BuiltData
+[2020.11.15-07.21.50:806][631]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Lobby/LobbyGM.LobbyGM
+[2020.11.15-07.22.13:729][403]BlueprintLog: New page: Compile LobbyGM
+[2020.11.15-07.22.13:999][403]LogUObjectHash: Compacting FUObjectHashTables data took   5.03ms
+[2020.11.15-07.22.14:724][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyGM" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyGM.uasset" SILENT=true
+[2020.11.15-07.22.14:954][413]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyGM9AF120ED40D080ED787C84B0F200B2CF.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyGM.uasset'
+[2020.11.15-07.22.14:991][413]AssetCheck: New page: Asset Save: LobbyGM
+[2020.11.15-07.22.14:991][413]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Lobby/LobbyGM.LobbyGM
+[2020.11.15-07.27.46:437][822]BlueprintLog: New page: Compile ScoreAreaBP
+[2020.11.15-07.27.46:559][822]LogUObjectHash: Compacting FUObjectHashTables data took   5.82ms
+[2020.11.15-07.27.47:230][846]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/ScoreAreaBP" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/ScoreAreaBP.uasset" SILENT=true
+[2020.11.15-07.27.47:324][846]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/ScoreAreaBP51FDDEFE427DF91F76788380C3CD36E0.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/ScoreAreaBP.uasset'
+[2020.11.15-07.27.47:351][846]AssetCheck: New page: Asset Save: ScoreAreaBP
+[2020.11.15-07.27.47:351][846]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Lobby/ScoreAreaBP.ScoreAreaBP
+[2020.11.15-07.27.58:176][302]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Characters/1_Pusher.1_Pusher
+[2020.11.15-07.29.24:756][822]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.11.15-07.29.48:424][706]BlueprintLog: New page: Compile LobbyGM
+[2020.11.15-07.29.48:729][706]LogUObjectHash: Compacting FUObjectHashTables data took   4.24ms
+[2020.11.15-07.29.49:392][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyGM" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyGM.uasset" SILENT=true
+[2020.11.15-07.29.49:526][721]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyGM698016F24BC019D65B9101B50B75180C.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyGM.uasset'
+[2020.11.15-07.29.49:545][721]AssetCheck: New page: Asset Save: LobbyGM
+[2020.11.15-07.29.49:545][721]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Lobby/LobbyGM.LobbyGM
+[2020.11.15-07.31.32:798][947]LogUObjectHash: Compacting FUObjectHashTables data took   6.08ms
+[2020.11.15-07.31.32:915][947]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Lobby_Auto20F586DB14E6D2A7F82DFAF8A31872F93.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Autosaves/Game/Maps/Lobby_Auto2.umap'
+[2020.11.15-07.31.32:918][947]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Lobby' took 0.190
+[2020.11.15-07.31.32:918][947]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.190
+[2020.11.15-07.31.32:918][947]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Characters/1_Pusher] ([1] browsable assets)...
+[2020.11.15-07.31.32:961][947]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Characters/1_Pusher.1_Pusher]
+[2020.11.15-07.31.32:961][947]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/1_Pusher]
+[2020.11.15-07.31.33:041][947]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/1_Pusher_Auto2A19FE59A42A2D69EC7BFB8975E39AC47.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Autosaves/Game/Blueprints/Characters/1_Pusher_Auto2.uasset'
+[2020.11.15-07.31.33:056][947]LogFileHelpers: Auto-saving content packages took 0.137
+[2020.11.15-07.35.28:910][  2]BlueprintLog: New page: Compile ScoreAreaBP
+[2020.11.15-07.35.29:063][  2]LogUObjectHash: Compacting FUObjectHashTables data took   5.19ms
+[2020.11.15-07.35.29:852][ 32]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/ScoreAreaBP" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/ScoreAreaBP.uasset" SILENT=true
+[2020.11.15-07.35.29:914][ 32]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/ScoreAreaBP0987CFE04F5D6631A227AC833A4E1B84.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/ScoreAreaBP.uasset'
+[2020.11.15-07.35.29:937][ 32]AssetCheck: New page: Asset Save: ScoreAreaBP
+[2020.11.15-07.35.29:938][ 32]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Lobby/ScoreAreaBP.ScoreAreaBP
+[2020.11.15-07.36.59:465][637]BlueprintLog: New page: Compile LobbyGM
+[2020.11.15-07.36.59:679][637]LogUObjectHash: Compacting FUObjectHashTables data took   4.59ms
+[2020.11.15-07.37.00:651][649]LogD3D11RHI: Error: SwapChain->ResizeBuffers(0, SizeX, SizeY, RenderTargetFormat, D3D11GetSwapChainFlags()) failed 
+ at D:/Build/++UE4+Licensee/Sync/Engine/Source/Runtime/Windows/D3D11RHI/Private/D3D11Viewport.cpp:273 
+ with error E_OUTOFMEMORY, 
+ Size=810x122 Format=DXGI_FORMAT_R10G10B10A2_UNORM(0x00000018)
+[2020.11.15-07.37.03:581][649]LogConsoleResponse:     91 = 32768 KB (2D 4096x4096 PF_ShadowDepth) PreShadowCacheDepthZ
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     96 = 32768 KB (2D 8192x2048 PF_ShadowDepth) WholeSceneShadowmap unused(4)
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     65 = 24576 KB (2D 6144x2048 PF_ShadowDepth) WholeSceneShadowmap unused(3617)
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     67 = 24576 KB (2D 6144x2048 PF_ShadowDepth) WholeSceneShadowmap unused(3617)
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     66 = 24576 KB (2D 6144x2048 PF_ShadowDepth) WholeSceneShadowmap unused(3617)
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     92 = 8192 KB (2D 2048x2048 PF_ShadowDepth) ShadowDepthAtlas unused(65941)
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     73 = 4125 KB (2D 936x564 PF_FloatRGBA RT UAV VRam) SceneColor unused(4) VRamInKB(Start/Size):<NONE>
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     58 = 4125 KB (2D 936x564 PF_FloatRGBA RT UAV) LightAccumulation
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     55 = 4125 KB (2D 936x564 PF_FloatRGBA RT UAV) ScreenSpaceReflections unused(4)
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     95 = 4125 KB (2D 936x564 PF_FloatRGBA RT VRam) SceneColor unused(39462) VRamInKB(Start/Size):<NONE>
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     76 = 4125 KB (2D 936x564 PF_FloatRGBA RT VRam) SceneColor unused(4) VRamInKB(Start/Size):<NONE>
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     39 = 4125 KB (2D 936x564 PF_FloatRGBA RT) SeparateTranslucency unused(4)
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     93 = 4125 KB (2D 936x564 PF_FloatRGBA UAV) TemporalAA
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     25 = 4125 KB (2D 936x564 PF_FloatRGBA UAV) TemporalAA unused(4)
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     32 = 2578 KB (2D 936x564 PF_DepthStencil 4xMSAA) EditorPrimitivesDepth unused(4)
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     35 = 2578 KB (2D 936x564 PF_DepthStencil 4xMSAA) SelectionOutline unused(4)
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     36 = 2578 KB (2D 936x564 PF_DepthStencil VRam) SceneDepthZ VRamInKB(Start/Size):<NONE>
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     68 = 2063 KB (2D 936x564 PF_A2B10G10R10 RT) GBufferA unused(4)
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     37 = 2063 KB (2D 936x564 PF_B8G8R8A8 RT 4xMSAA) EditorPrimitivesColor unused(4)
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     70 = 2063 KB (2D 936x564 PF_B8G8R8A8 RT sRGB) GBufferC unused(4)
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     31 = 2063 KB (2D 936x564 PF_B8G8R8A8 RT VRam) GBufferB unused(4) VRamInKB(Start/Size):<NONE>
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     69 = 2063 KB (2D 936x564 PF_B8G8R8A8 RT VRam) GBufferD unused(4) VRamInKB(Start/Size):<NONE>
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     74 = 2063 KB (2D 936x564 PF_B8G8R8A8 RT VRam) ScreenShadowMaskTexture unused(4) VRamInKB(Start/Size):<NONE>
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     90 = 2063 KB (2D 936x564 PF_B8G8R8A8 RT VRam) SelectionOutlineColor unused(4) VRamInKB(Start/Size):<NONE>
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     72 = 2063 KB (2D 936x564 PF_B8G8R8A8 RT) EditorPrimitives unused(4)
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     71 = 2063 KB (2D 936x564 PF_B8G8R8A8 RT) GBufferE unused(4)
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     94 = 2063 KB (2D 936x564 PF_B8G8R8A8 RT) HitProxy unused(22512)
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     75 = 2063 KB (2D 936x564 PF_B8G8R8A8 RT) LightAttenuation unused(4)
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     62 = 2063 KB (2D 936x564 PF_G16R16 RT UAV) Velocity unused(4)
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     46 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolume0
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     50 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolume1
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     56 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolume2
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     47 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolumeDir0
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     51 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolumeDir1
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     57 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolumeDir2
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     38 = 1289 KB (2D 468x282 PF_DepthStencil) SmallDepthZ
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     61 = 1032 KB (2D 468x282 PF_FloatRGBA RT VRam) AmbientOcclusionSetup unused(4) VRamInKB(Start/Size):<NONE>
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     59 = 1032 KB (2D 936x282 PF_R32_UINT RT UAV) QuadOverdrawBuffer
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     30 = 1024 KB (Cube 128 PF_FloatRGBA RT) ReflectionColorScratchCubemap0
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     29 = 1024 KB (Cube 128 PF_FloatRGBA RT) ReflectionColorScratchCubemap1
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     24 = 1024 KB (Cube[1] 128 PF_FloatRGBA) ReflectionEnvs
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     60 = 516 KB (2D 468x282 PF_B8G8R8A8 RT VRam) AmbientOcclusion unused(4) VRamInKB(Start/Size):<NONE>
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     88 = 516 KB (2D 468x282 PF_FloatRGB RT VRam) BloomX unused(4) VRamInKB(Start/Size):<NONE>
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     77 = 516 KB (2D 468x282 PF_FloatRGB RT VRam) BloomY unused(4) VRamInKB(Start/Size):<NONE>
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     45 = 516 KB (2D 936x564 PF_G8 RT UAV) ScreenSpaceAO
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     40 = 512 KB (3D 256x128x2 PF_FloatRGBA RT) AtmosphereDeltaJ
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     41 = 512 KB (3D 256x128x2 PF_FloatRGBA RT) AtmosphereDeltaSM
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     43 = 512 KB (3D 256x128x2 PF_FloatRGBA RT) AtmosphereDeltaSR
+[2020.11.15-07.37.03:582][649]LogConsoleResponse:     44 = 512 KB (3D 256x128x2 PF_FloatRGBA RT) AtmosphereInscatter
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:     63 = 342 KB (2D 512x256 PF_R16F UAV VRam) HZBFurthest unused(4) VRamInKB(Start/Size):<NONE>
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:      2 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:    103 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:    104 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:     97 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:     99 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:      4 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:      1 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:      3 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:     87 = 129 KB (2D 234x141 PF_FloatRGB RT VRam) BloomX unused(4) VRamInKB(Start/Size):<NONE>
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:     78 = 129 KB (2D 234x141 PF_FloatRGB RT VRam) BloomY unused(4) VRamInKB(Start/Size):<NONE>
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:     54 = 128 KB (2D 256x64 PF_FloatRGBA RT) AtmosphereTransmittance
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:    102 = 128 KB (3D 32x32x32 PF_A2B10G10R10 RT VRam) CombineLUT unused(3617) VRamInKB(Start/Size):<NONE>
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:     89 = 128 KB (3D 32x32x32 PF_A2B10G10R10 RT VRam) CombineLUTs VRamInKB(Start/Size):<NONE>
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:     49 = 128 KB (3D 32x32x32 PF_A2B10G10R10 RT VRam) CombineLUTs VRamInKB(Start/Size):<NONE>
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:     11 = 64 KB (2D 128x128 PF_B8G8R8A8) PerlinNoiseGradient
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:     28 = 64 KB (Cube 32 PF_FloatRGBA RT) DiffuseIrradianceScratchCubemap0
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:     27 = 64 KB (Cube 32 PF_FloatRGBA RT) DiffuseIrradianceScratchCubemap1
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:     42 = 49 KB (2D 98x64 PF_A16B16G16R16) SSProfiles
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:     86 = 33 KB (2D 117x71 PF_FloatRGB RT VRam) BloomX unused(4) VRamInKB(Start/Size):<NONE>
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:     79 = 33 KB (2D 117x71 PF_FloatRGB RT VRam) BloomY unused(4) VRamInKB(Start/Size):<NONE>
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:     22 = 32 KB (2D 64x64 PF_FloatRGBA VRam) LTCMat VRamInKB(Start/Size):<NONE>
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:     18 = 16 KB (2D 128x32 PF_G16R16) PreintegratedGF
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:     23 = 16 KB (2D 64x64 PF_G16R16F VRam) LTCAmp VRamInKB(Start/Size):<NONE>
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:     19 = 16 KB (3D 16x16x16 PF_B8G8R8A8) PerlinNoise3D
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:     85 = 9 KB (2D 59x36 PF_FloatRGB RT VRam) BloomX unused(4) VRamInKB(Start/Size):<NONE>
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:     80 = 9 KB (2D 59x36 PF_FloatRGB RT VRam) BloomY unused(4) VRamInKB(Start/Size):<NONE>
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:     52 = 8 KB (2D 64x16 PF_FloatRGBA RT) AtmosphereDeltaE
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:     53 = 8 KB (2D 64x16 PF_FloatRGBA RT) AtmosphereIrradiance
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:     20 = 8 KB (2D 64x64 PF_R8G8) SSAORandomization
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:     34 = 7 KB (2D 16x56 PF_FloatRGBA RT UAV VRam) Histogram unused(4) VRamInKB(Start/Size):<NONE>
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:     84 = 3 KB (2D 30x18 PF_FloatRGB RT VRam) BloomX unused(4) VRamInKB(Start/Size):<NONE>
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:     81 = 3 KB (2D 30x18 PF_FloatRGB RT VRam) BloomY unused(4) VRamInKB(Start/Size):<NONE>
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:     83 = 1 KB (2D 15x9 PF_FloatRGB RT VRam) BloomX unused(4) VRamInKB(Start/Size):<NONE>
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:     82 = 1 KB (2D 15x9 PF_FloatRGB RT VRam) BloomY unused(4) VRamInKB(Start/Size):<NONE>
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:     33 = 1 KB (2D 16x2 PF_A32B32G32R32F RT VRam) HistogramReduce unused(4) VRamInKB(Start/Size):<NONE>
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:    101 = 1 KB (2D 1x1 PF_A32B32G32R32F RT UAV) EyeAdaptation
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:     64 = 1 KB (2D 1x1 PF_A32B32G32R32F RT UAV) EyeAdaptation
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:     48 = 1 KB (2D 1x1 PF_A32B32G32R32F RT UAV) EyeAdaptation
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:    100 = 1 KB (2D 1x1 PF_A32B32G32R32F RT UAV) EyeAdaptation
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:      8 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) BlackAlphaOneDummy
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:      6 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) BlackDummy
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:     10 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) DefaultNormal8Bit
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:      9 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) GreenDummy
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:      5 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) WhiteDummy
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:     13 = 1 KB (2D 1x1 PF_DepthStencil) DepthDummy
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:     12 = 1 KB (2D 1x1 PF_FloatRGBA RT) MaxFP16Depth
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:     15 = 1 KB (2D 1x1 PF_FloatRGBA RT) MidGreyDummy
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:     98 = 1 KB (2D 1x1 PF_FloatRGBA RT) ReflectionBrightness unused(22347)
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:      7 = 1 KB (2D 1x1 PF_R32_UINT RT) ZeroUIntDummy
+[2020.11.15-07.37.03:583][649]LogConsoleResponse:     14 = 1 KB (2D 1x1 PF_R8G8B8A8_UINT RT) StencilDummy
+[2020.11.15-07.37.03:584][649]LogConsoleResponse:     16 = 1 KB (2D 32x16 PF_R16_UINT) SobolSampling
+[2020.11.15-07.37.03:584][649]LogConsoleResponse:     21 = 1 KB (2D 4x4 PF_R8G8B8A8) GTAORandomization
+[2020.11.15-07.37.03:584][649]LogConsoleResponse:     26 = 1 KB (2D 9x1 PF_FloatRGBA RT) SkySHIrradianceMap
+[2020.11.15-07.37.03:584][649]LogConsoleResponse:     17 = 1 KB (3D 1x1x1 PF_B8G8R8A8 RT) VolumetricBlackDummy
+[2020.11.15-07.37.03:584][649]LogConsoleResponse: 
+[2020.11.15-07.37.03:584][649]LogConsoleResponse: Pool: 66/234 MB (referenced/allocated)
+[2020.11.15-07.37.03:584][649]Cmd: rhi.DumpMemory
+[2020.11.15-07.37.03:675][649]RHI resource memory (not tracked by our allocator)
+[2020.11.15-07.37.03:676][649]         2228160  -  Render target memory Cube - STAT_RenderTargetMemoryCube - STATGROUP_RHI - STATCAT_Advanced
+[2020.11.15-07.37.03:676][649]        24190660  -  Render target memory 3D - STAT_RenderTargetMemory3D - STATGROUP_RHI - STATCAT_Advanced
+[2020.11.15-07.37.03:676][649]         4454884  -  Structured buffer memory - STAT_StructuredBufferMemory - STATGROUP_RHI - STATCAT_Advanced
+[2020.11.15-07.37.03:676][649]         3485504  -  Uniform buffer memory - STAT_UniformBufferMemory - STATGROUP_RHI - STATCAT_Advanced
+[2020.11.15-07.37.03:676][649]        73465620  -  Texture memory Cube - STAT_TextureMemoryCube - STATGROUP_RHI - STATCAT_Advanced
+[2020.11.15-07.37.03:676][649]          548940  -  Texture memory 3D - STAT_TextureMemory3D - STATGROUP_RHI - STATCAT_Advanced
+[2020.11.15-07.37.03:676][649]      1860092121  -  Render target memory 2D - STAT_RenderTargetMemory2D - STATGROUP_RHI - STATCAT_Advanced
+[2020.11.15-07.37.03:676][649]       131392976  -  Texture memory 2D - STAT_TextureMemory2D - STATGROUP_RHI - STATCAT_Advanced
+[2020.11.15-07.37.03:676][649]         4920936  -  Index buffer memory - STAT_IndexBufferMemory - STATGROUP_RHI - STATCAT_Advanced
+[2020.11.15-07.37.03:676][649]         9050710  -  Vertex buffer memory - STAT_VertexBufferMemory - STATGROUP_RHI - STATCAT_Advanced
+[2020.11.15-07.37.03:676][649]2015.906MB total
+[2020.11.15-07.37.03:676][649]LogWindows: FPlatformMisc::RequestExit(1)
+[2020.11.15-07.37.03:676][649]LogCore: Engine exit requested (reason: Win RequestExit)
+[2020.11.15-07.37.03:761][649]Log file closed, 11/15/20 14:37:03
