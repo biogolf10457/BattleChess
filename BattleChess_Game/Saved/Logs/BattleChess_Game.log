@@ -774,3 +774,778 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.11.17-09.48.13:977][270]AssetCheck: New page: Asset Save: LobbyPC
 [2020.11.17-09.48.13:977][270]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Lobby/LobbyPC.LobbyPC
 [2020.11.17-09.49.07:148][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   4.41ms
+[2020.11.17-09.54.03:112][669]BlueprintLog: New page: Compile LobbyGM
+[2020.11.17-09.54.03:314][669]LogUObjectHash: Compacting FUObjectHashTables data took   5.56ms
+[2020.11.17-09.54.04:069][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyGM" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyGM.uasset" SILENT=true
+[2020.11.17-09.54.04:209][689]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyGM4CBAE56346E03E388060B990F3484971.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyGM.uasset'
+[2020.11.17-09.54.04:228][689]AssetCheck: New page: Asset Save: LobbyGM
+[2020.11.17-09.54.04:228][689]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Lobby/LobbyGM.LobbyGM
+[2020.11.17-09.54.06:144][790]LogTemp: Repeating last play command: Standalone Game
+[2020.11.17-09.54.06:218][790]LogUObjectHash: Compacting FUObjectHashTables data took   4.78ms
+[2020.11.17-09.56.41:278][ 19]BlueprintLog: New page: Compile LobbyGM
+[2020.11.17-09.56.41:462][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   4.91ms
+[2020.11.17-09.56.42:213][ 35]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyGM" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyGM.uasset" SILENT=true
+[2020.11.17-09.56.42:335][ 35]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyGMC61FD7FA47DCE61A0DD4DBBF5D6257BD.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyGM.uasset'
+[2020.11.17-09.56.42:351][ 35]AssetCheck: New page: Asset Save: LobbyGM
+[2020.11.17-09.56.42:351][ 35]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Lobby/LobbyGM.LobbyGM
+[2020.11.17-09.56.44:375][141]LogTemp: Repeating last play command: Standalone Game
+[2020.11.17-09.56.44:448][141]LogUObjectHash: Compacting FUObjectHashTables data took   4.90ms
+[2020.11.17-09.58.50:200][626]BlueprintLog: New page: Compile LobbyPC
+[2020.11.17-09.58.50:368][626]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2020.11.17-09.58.51:082][654]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyPC.uasset" SILENT=true
+[2020.11.17-09.58.51:200][654]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyPC4F0B67FA444A09EE4155FEBCEDCE1411.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyPC.uasset'
+[2020.11.17-09.58.51:216][654]AssetCheck: New page: Asset Save: LobbyPC
+[2020.11.17-09.58.51:216][654]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Lobby/LobbyPC.LobbyPC
+[2020.11.17-09.58.53:873][794]LogTemp: Repeating last play command: Standalone Game
+[2020.11.17-09.58.53:942][794]LogUObjectHash: Compacting FUObjectHashTables data took   4.39ms
+[2020.11.17-09.59.21:461][400]BlueprintLog: New page: Compile LobbyPC
+[2020.11.17-09.59.21:584][400]LogUObjectHash: Compacting FUObjectHashTables data took   4.71ms
+[2020.11.17-09.59.22:294][429]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyPC.uasset" SILENT=true
+[2020.11.17-09.59.22:480][429]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyPC16A663B34AC4C18D0DA8B79689BA14FA.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyPC.uasset'
+[2020.11.17-09.59.22:496][429]AssetCheck: New page: Asset Save: LobbyPC
+[2020.11.17-09.59.22:496][429]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Lobby/LobbyPC.LobbyPC
+[2020.11.17-10.00.33:399][739]LogUObjectHash: Compacting FUObjectHashTables data took   4.86ms
+[2020.11.17-10.00.33:401][739]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainMenu' took 0.061
+[2020.11.17-10.00.33:402][739]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Lobby/LobbyGM] ([1] browsable assets)...
+[2020.11.17-10.00.33:402][739]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Lobby/LobbyGM]
+[2020.11.17-10.00.33:503][739]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyGM_Auto24F271C5F4A0AA743F6A320B958927372.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Autosaves/Game/Blueprints/Lobby/LobbyGM_Auto2.uasset'
+[2020.11.17-10.00.33:542][739]LogFileHelpers: Auto-saving content packages took 0.142
+[2020.11.17-10.05.50:431][419]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Lobby/CharacterSelect.CharacterSelect
+[2020.11.17-10.07.38:633][830]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Characters/PushHitBoxBP.PushHitBoxBP
+[2020.11.17-10.08.45:476][200]BlueprintLog: New page: Compile PushHitBoxBP
+[2020.11.17-10.08.45:585][200]LogUObjectHash: Compacting FUObjectHashTables data took   4.12ms
+[2020.11.17-10.08.46:642][219]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/PushHitBoxBP4FC86B50451E87490B6BD2A297E48D01.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Characters/PushHitBoxBP.uasset'
+[2020.11.17-10.08.46:662][219]AssetCheck: New page: Asset Save: PushHitBoxBP
+[2020.11.17-10.08.46:662][219]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Characters/PushHitBoxBP.PushHitBoxBP
+[2020.11.17-10.08.53:481][602]LogTemp: Repeating last play command: Standalone Game
+[2020.11.17-10.08.53:557][602]LogUObjectHash: Compacting FUObjectHashTables data took   4.37ms
+[2020.11.17-10.08.55:032][602]LogSlate: Window 'Save Content' being destroyed
+[2020.11.17-10.08.55:070][602]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyGM" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyGM.uasset" SILENT=true
+[2020.11.17-10.08.55:675][602]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyGM4BFD6E414EF71DD6E087DEA3D1C179BB.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyGM.uasset'
+[2020.11.17-10.08.55:678][602]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyPC.uasset" SILENT=true
+[2020.11.17-10.08.55:779][602]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyPCE0811C3649F042F51EDBAB973E821E70.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyPC.uasset'
+[2020.11.17-10.08.55:849][603]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.17-10.08.55:849][603]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Lobby/LobbyGM.LobbyGM
+[2020.11.17-10.08.55:849][603]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Lobby/LobbyPC.LobbyPC
+[2020.11.17-10.10.14:810][930]BlueprintLog: New page: Compile PushHitBoxBP
+[2020.11.17-10.10.14:927][930]LogUObjectHash: Compacting FUObjectHashTables data took   4.70ms
+[2020.11.17-10.10.20:214][151]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/PushHitBoxBP37C2F1634B4D96866268549453A50A04.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Characters/PushHitBoxBP.uasset'
+[2020.11.17-10.10.20:229][151]AssetCheck: New page: Asset Save: PushHitBoxBP
+[2020.11.17-10.10.20:229][151]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Characters/PushHitBoxBP.PushHitBoxBP
+[2020.11.17-10.10.21:870][237]LogTemp: Repeating last play command: Standalone Game
+[2020.11.17-10.10.21:946][237]LogUObjectHash: Compacting FUObjectHashTables data took   4.63ms
+[2020.11.17-10.11.35:199][738]LogEditorTransaction: Undo Create Pin Link
+[2020.11.17-10.11.35:715][747]LogEditorTransaction: Undo Move Node
+[2020.11.17-10.11.36:112][767]LogEditorTransaction: Undo Add Node
+[2020.11.17-10.11.36:578][788]LogEditorTransaction: Undo Delete current selection
+[2020.11.17-10.11.37:095][810]LogEditorTransaction: Undo Delete current selection
+[2020.11.17-10.11.38:878][895]BlueprintLog: New page: Compile PushHitBoxBP
+[2020.11.17-10.11.38:990][895]LogUObjectHash: Compacting FUObjectHashTables data took   5.68ms
+[2020.11.17-10.11.40:461][953]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/PushHitBoxBP54FA37B24A74276FEE6F9A96A43C98F0.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Characters/PushHitBoxBP.uasset'
+[2020.11.17-10.11.40:477][953]AssetCheck: New page: Asset Save: PushHitBoxBP
+[2020.11.17-10.11.40:477][953]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Characters/PushHitBoxBP.PushHitBoxBP
+[2020.11.17-10.11.43:683][109]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Characters/1_Pusher.1_Pusher
+[2020.11.17-10.11.50:024][359]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-10.11.50:024][359]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-10.12.05:312][ 51]LogRenderer: Reallocating scene render targets to support 936x564 Format 10 NumSamples 1 (Frame:1).
+[2020.11.17-10.12.33:721][345]BlueprintLog: New page: Compile PushHitBoxBP
+[2020.11.17-10.12.33:839][345]LogUObjectHash: Compacting FUObjectHashTables data took   5.72ms
+[2020.11.17-10.12.34:831][378]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/PushHitBoxBP48BB967C4D6FBD06E3EA5DB8B278D9A8.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Characters/PushHitBoxBP.uasset'
+[2020.11.17-10.12.34:851][378]AssetCheck: New page: Asset Save: PushHitBoxBP
+[2020.11.17-10.12.34:851][378]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Characters/PushHitBoxBP.PushHitBoxBP
+[2020.11.17-10.12.42:019][765]LogTemp: Repeating last play command: Standalone Game
+[2020.11.17-10.12.42:115][765]LogUObjectHash: Compacting FUObjectHashTables data took   4.00ms
+[2020.11.17-10.13.42:485][139]LogHttp: Warning: 000002819EBEDD00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B33F78293-4990-49A6-1C81-00B558AB16AD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=b7045f93485ab70e958f37b8005cd846%7C358b1ac7be3f423fad5a66afc50e4432%7C02bcb604-8c8e-4464-84c9-215886608b6a&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.11.17-10.13.42:485][139]LogHttp: Warning: 000002819EBEDD00: request failed, libcurl error: 0 (No error)
+[2020.11.17-10.13.42:485][139]LogHttp: Warning: 000002819EBEDD00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x280cf2f7f70 [can pipeline])
+[2020.11.17-10.13.42:485][139]LogHttp: Warning: 000002819EBEDD00: libcurl info message cache 1 (Re-using existing connection! (#19) with host datarouter.ol.epicgames.com)
+[2020.11.17-10.13.42:485][139]LogHttp: Warning: 000002819EBEDD00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (35.170.45.52) port 443 (#19))
+[2020.11.17-10.13.42:485][139]LogHttp: Warning: 000002819EBEDD00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.11.17-10.13.42:485][139]LogHttp: Warning: 000002819EBEDD00: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2020.11.17-10.13.42:486][139]LogHttp: Warning: 000002819EBEDD00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.11.17-10.13.42:486][139]LogHttp: Warning: 000002819EBEDD00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.11.17-10.13.42:486][139]LogHttp: Warning: 000002819EBEDD00: libcurl info message cache 7 (Closing connection 19)
+[2020.11.17-10.13.42:486][139]LogHttp: Warning: 000002819EBEDD00: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2020.11.17-10.13.42:819][140]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B33F78293-4990-49A6-1C81-00B558AB16AD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=b7045f93485ab70e958f37b8005cd846%7C358b1ac7be3f423fad5a66afc50e4432%7C02bcb604-8c8e-4464-84c9-215886608b6a&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.11.17-10.14.49:564][339]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2020.11.17-10.14.50:644][391]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.11.17-10.17.45:778][973]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Characters/0_Base.0_Base
+[2020.11.17-10.18.18:818][ 56]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2020.11.17-10.18.45:573][184]BlueprintLog: New page: Compile 0_Base
+[2020.11.17-10.18.45:785][184]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
+[2020.11.17-10.18.46:216][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/0_Base" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Characters/0_Base.uasset" SILENT=true
+[2020.11.17-10.18.46:298][192]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/0_Base78A21B5F4BA5507508D63D806F34E441.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Characters/0_Base.uasset'
+[2020.11.17-10.18.46:314][192]AssetCheck: New page: Asset Save: 0_Base
+[2020.11.17-10.18.46:314][192]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Characters/0_Base.0_Base
+[2020.11.17-10.19.58:623][599]BlueprintLog: New page: Compile 0_Base
+[2020.11.17-10.19.58:806][599]LogUObjectHash: Compacting FUObjectHashTables data took   4.62ms
+[2020.11.17-10.19.59:538][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/0_Base" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Characters/0_Base.uasset" SILENT=true
+[2020.11.17-10.19.59:641][623]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/0_Base13AF58834979E12BA01DCEBBD057C7F4.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Characters/0_Base.uasset'
+[2020.11.17-10.19.59:660][623]AssetCheck: New page: Asset Save: 0_Base
+[2020.11.17-10.19.59:660][623]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Characters/0_Base.0_Base
+[2020.11.17-10.20.07:403][966]BlueprintLog: New page: Compile 0_Base
+[2020.11.17-10.20.07:570][966]LogUObjectHash: Compacting FUObjectHashTables data took   4.44ms
+[2020.11.17-10.20.08:247][983]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/0_Base" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Characters/0_Base.uasset" SILENT=true
+[2020.11.17-10.20.08:314][983]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/0_Base5F9A76594AF1121E24BA2F9036123809.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Characters/0_Base.uasset'
+[2020.11.17-10.20.08:330][983]AssetCheck: New page: Asset Save: 0_Base
+[2020.11.17-10.20.08:330][983]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Characters/0_Base.0_Base
+[2020.11.17-10.20.11:627][167]LogTemp: Repeating last play command: Standalone Game
+[2020.11.17-10.20.11:705][167]LogUObjectHash: Compacting FUObjectHashTables data took   4.41ms
+[2020.11.17-10.20.14:983][167]LogSlate: Window 'Save Content' being destroyed
+[2020.11.17-10.20.15:054][167]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/1_Pusher" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Characters/1_Pusher.uasset" SILENT=true
+[2020.11.17-10.20.15:143][167]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/1_PusherC4E1FD2443AE54B65213B884EB2C0031.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Characters/1_Pusher.uasset'
+[2020.11.17-10.20.15:168][167]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/2_Pusher" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Characters/2_Pusher.uasset" SILENT=true
+[2020.11.17-10.20.15:229][167]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/2_PusherA12DA00B47640BA818E39CB965572355.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Characters/2_Pusher.uasset'
+[2020.11.17-10.20.15:246][167]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Bishop" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Characters/Bishop.uasset" SILENT=true
+[2020.11.17-10.20.15:315][167]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Bishop12E01F0A40CB0F7DF74005A3B63BA81A.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Characters/Bishop.uasset'
+[2020.11.17-10.20.15:331][167]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Knight" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Characters/Knight.uasset" SILENT=true
+[2020.11.17-10.20.15:428][167]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Knight0BC0855F4B529C4B25253FB8AE84BC1D.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Characters/Knight.uasset'
+[2020.11.17-10.20.15:456][167]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Rook" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Characters/Rook.uasset" SILENT=true
+[2020.11.17-10.20.15:500][167]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Rook36058434402F04C462E1AE9E503A091F.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Characters/Rook.uasset'
+[2020.11.17-10.20.15:549][168]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.17-10.20.15:550][168]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Characters/1_Pusher.1_Pusher
+[2020.11.17-10.20.15:550][168]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Characters/2_Pusher.2_Pusher
+[2020.11.17-10.20.15:550][168]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Characters/Bishop.Bishop
+[2020.11.17-10.20.15:550][168]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Characters/Knight.Knight
+[2020.11.17-10.20.15:550][168]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Characters/Rook.Rook
+[2020.11.17-10.23.07:267][855]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2020.11.17-10.23.07:271][855]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainMenu' took 0.071
+[2020.11.17-10.23.07:272][855]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Characters/0_Base] ([1] browsable assets)...
+[2020.11.17-10.23.07:272][855]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/0_Base]
+[2020.11.17-10.23.07:616][855]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/0_Base_Auto350F7423F4F7C2199C9CA968261EF7898.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Autosaves/Game/Blueprints/Characters/0_Base_Auto3.uasset'
+[2020.11.17-10.23.07:616][855]LogFileHelpers: Auto-saving content packages took 0.345
+[2020.11.17-10.23.39:251][270]LogTemp: Repeating last play command: Standalone Game
+[2020.11.17-10.23.39:368][270]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2020.11.17-10.23.40:991][270]LogSlate: Window 'Save Content' being destroyed
+[2020.11.17-10.23.41:042][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/0_Base" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Characters/0_Base.uasset" SILENT=true
+[2020.11.17-10.23.41:117][270]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/0_Base32C85BB845F6380882D10FA9E4912505.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Characters/0_Base.uasset'
+[2020.11.17-10.23.41:145][271]AssetCheck: New page: Asset Save: 0_Base
+[2020.11.17-10.23.41:146][271]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Characters/0_Base.0_Base
+[2020.11.17-10.26.47:260][836]LogTemp: Repeating last play command: Standalone Game
+[2020.11.17-10.26.47:383][836]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2020.11.17-10.27.48:291][386]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-10.27.48:291][386]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-10.27.53:795][423]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-10.27.53:795][423]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-10.27.53:814][423]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-10.27.53:814][423]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-10.33.12:801][908]BlueprintLog: New page: Compile 0_Base
+[2020.11.17-10.33.13:076][908]LogUObjectHash: Compacting FUObjectHashTables data took   5.85ms
+[2020.11.17-10.33.14:092][940]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/0_Base" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Characters/0_Base.uasset" SILENT=true
+[2020.11.17-10.33.14:227][940]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/0_BaseC2CBE4E54B6BEC3CCE299A9BBF01B679.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Characters/0_Base.uasset'
+[2020.11.17-10.33.14:251][940]AssetCheck: New page: Asset Save: 0_Base
+[2020.11.17-10.33.14:251][940]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Characters/0_Base.0_Base
+[2020.11.17-10.34.14:632][472]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Capture_01.Capture_01
+[2020.11.17-10.34.14:696][472]LogUObjectHash: Compacting FUObjectHashTables data took   4.97ms
+[2020.11.17-10.34.14:701][472]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Capture_01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.17-10.34.14:728][472]LightingResults: New page: Lighting Build
+[2020.11.17-10.34.14:772][472]LoadErrors: New page: Loading map: Capture_01.umap
+[2020.11.17-10.34.14:853][472]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-10.34.14:884][472]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-10.34.14:885][472]MapCheck: New page: Map Check
+[2020.11.17-10.34.14:885][472]LightingResults: New page: Lighting Build
+[2020.11.17-10.34.14:971][472]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028086ED6600), frame # 152472
+[2020.11.17-10.34.14:971][472]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000280F254D440), frame # 152472
+[2020.11.17-10.34.14:976][472]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2020.11.17-10.34.15:398][472]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.17-10.34.15:398][472]LogAIModule: Creating AISystem for world Capture_01
+[2020.11.17-10.34.15:399][472]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028143F2BE00), frame # 152472
+[2020.11.17-10.34.15:399][472]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002811A655D00), frame # 152472
+[2020.11.17-10.34.15:494][472]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2020.11.17-10.34.15:560][472]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.17-10.34.15:572][472]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.107ms to complete.
+[2020.11.17-10.34.15:572][472]LogFileHelpers: Loading map 'Capture_01' took 0.870
+[2020.11.17-10.34.18:990][574]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/AreanaTest.AreanaTest
+[2020.11.17-10.34.19:037][574]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2020.11.17-10.34.19:039][574]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/AreanaTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.17-10.34.19:039][574]LightingResults: New page: Lighting Build
+[2020.11.17-10.34.19:039][574]LoadErrors: New page: Loading map: AreanaTest.umap
+[2020.11.17-10.34.19:040][574]LogWorld: UWorld::CleanupWorld for Capture_01, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-10.34.19:075][574]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-10.34.19:075][574]MapCheck: New page: Map Check
+[2020.11.17-10.34.19:075][574]LightingResults: New page: Lighting Build
+[2020.11.17-10.34.19:118][574]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002811A655D00), frame # 152574
+[2020.11.17-10.34.19:118][574]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028143F2BE00), frame # 152574
+[2020.11.17-10.34.19:121][574]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2020.11.17-10.34.19:704][574]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.17-10.34.19:704][574]LogAIModule: Creating AISystem for world AreanaTest
+[2020.11.17-10.34.19:704][574]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028137355400), frame # 152574
+[2020.11.17-10.34.19:704][574]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028159842840), frame # 152574
+[2020.11.17-10.34.19:753][574]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2020.11.17-10.34.19:801][574]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.17-10.34.19:801][574]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.092ms to complete.
+[2020.11.17-10.34.19:801][574]LogFileHelpers: Loading map 'AreanaTest' took 0.762
+[2020.11.17-10.34.21:137][623]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Lobby.Lobby
+[2020.11.17-10.34.21:185][623]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2020.11.17-10.34.21:187][623]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Lobby.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.17-10.34.21:189][623]LightingResults: New page: Lighting Build
+[2020.11.17-10.34.21:189][623]LoadErrors: New page: Loading map: Lobby.umap
+[2020.11.17-10.34.21:191][623]LogWorld: UWorld::CleanupWorld for AreanaTest, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-10.34.21:191][623]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-10.34.21:191][623]MapCheck: New page: Map Check
+[2020.11.17-10.34.21:191][623]LightingResults: New page: Lighting Build
+[2020.11.17-10.34.21:237][623]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028159842840), frame # 152623
+[2020.11.17-10.34.21:238][623]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028137355400), frame # 152623
+[2020.11.17-10.34.21:241][623]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2020.11.17-10.34.21:629][623]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.17-10.34.21:629][623]LogAIModule: Creating AISystem for world Lobby
+[2020.11.17-10.34.21:629][623]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002819C58F400), frame # 152623
+[2020.11.17-10.34.21:629][623]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002813D5407C0), frame # 152623
+[2020.11.17-10.34.21:679][623]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2020.11.17-10.34.21:724][623]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.17-10.34.21:724][623]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.097ms to complete.
+[2020.11.17-10.34.21:724][623]LogFileHelpers: Loading map 'Lobby' took 0.537
+[2020.11.17-10.34.23:921][732]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/AreanaTest.AreanaTest
+[2020.11.17-10.34.23:968][732]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2020.11.17-10.34.23:970][732]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/AreanaTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.17-10.34.23:970][732]LightingResults: New page: Lighting Build
+[2020.11.17-10.34.23:970][732]LoadErrors: New page: Loading map: AreanaTest.umap
+[2020.11.17-10.34.24:009][732]LogWorld: UWorld::CleanupWorld for Lobby, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-10.34.24:010][732]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-10.34.24:010][732]MapCheck: New page: Map Check
+[2020.11.17-10.34.24:010][732]LightingResults: New page: Lighting Build
+[2020.11.17-10.34.24:050][732]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002813D5407C0), frame # 152732
+[2020.11.17-10.34.24:050][732]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002819C58F400), frame # 152732
+[2020.11.17-10.34.24:054][732]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2020.11.17-10.34.24:469][732]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.17-10.34.24:469][732]LogAIModule: Creating AISystem for world AreanaTest
+[2020.11.17-10.34.24:469][732]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028154683C00), frame # 152732
+[2020.11.17-10.34.24:469][732]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028199061080), frame # 152732
+[2020.11.17-10.34.24:517][732]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2020.11.17-10.34.24:563][732]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.17-10.34.24:563][732]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.095ms to complete.
+[2020.11.17-10.34.24:563][732]LogFileHelpers: Loading map 'AreanaTest' took 0.593
+[2020.11.17-10.34.25:586][771]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Capture_01.Capture_01
+[2020.11.17-10.34.25:634][771]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2020.11.17-10.34.25:635][771]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Capture_01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.17-10.34.25:635][771]LightingResults: New page: Lighting Build
+[2020.11.17-10.34.25:635][771]LoadErrors: New page: Loading map: Capture_01.umap
+[2020.11.17-10.34.25:636][771]LogWorld: UWorld::CleanupWorld for AreanaTest, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-10.34.25:636][771]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-10.34.25:636][771]MapCheck: New page: Map Check
+[2020.11.17-10.34.25:636][771]LightingResults: New page: Lighting Build
+[2020.11.17-10.34.25:680][771]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028199061080), frame # 152771
+[2020.11.17-10.34.25:680][771]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028154683C00), frame # 152771
+[2020.11.17-10.34.25:684][771]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2020.11.17-10.34.25:900][771]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.17-10.34.25:900][771]LogAIModule: Creating AISystem for world Capture_01
+[2020.11.17-10.34.25:900][771]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028198D59A00), frame # 152771
+[2020.11.17-10.34.25:900][771]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002813A821BC0), frame # 152771
+[2020.11.17-10.34.25:948][771]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2020.11.17-10.34.25:994][771]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.17-10.34.25:994][771]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.108ms to complete.
+[2020.11.17-10.34.25:994][771]LogFileHelpers: Loading map 'Capture_01' took 0.359
+[2020.11.17-10.34.28:162][878]LogTemp: Repeating last play command: Standalone Game
+[2020.11.17-10.34.28:232][878]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2020.11.17-10.34.51:897][281]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/MainMenu.MainMenu
+[2020.11.17-10.34.51:949][281]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2020.11.17-10.34.51:951][281]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.17-10.34.51:951][281]LightingResults: New page: Lighting Build
+[2020.11.17-10.34.51:951][281]LoadErrors: New page: Loading map: MainMenu.umap
+[2020.11.17-10.34.51:999][281]LogWorld: UWorld::CleanupWorld for Capture_01, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-10.34.51:999][281]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-10.34.52:000][281]MapCheck: New page: Map Check
+[2020.11.17-10.34.52:000][281]LightingResults: New page: Lighting Build
+[2020.11.17-10.34.52:040][281]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002813A821BC0), frame # 153281
+[2020.11.17-10.34.52:040][281]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028198D59A00), frame # 153281
+[2020.11.17-10.34.52:044][281]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2020.11.17-10.34.52:306][281]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.17-10.34.52:306][281]LogAIModule: Creating AISystem for world MainMenu
+[2020.11.17-10.34.52:306][281]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000281A1F61000), frame # 153281
+[2020.11.17-10.34.52:306][281]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002819A1E5BC0), frame # 153281
+[2020.11.17-10.34.52:356][281]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2020.11.17-10.34.52:407][281]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.17-10.34.52:407][281]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.092ms to complete.
+[2020.11.17-10.34.52:407][281]LogFileHelpers: Loading map 'MainMenu' took 0.456
+[2020.11.17-10.35.58:784][175]BlueprintLog: New page: Compile 0_Base
+[2020.11.17-10.35.58:964][175]LogUObjectHash: Compacting FUObjectHashTables data took   5.05ms
+[2020.11.17-10.35.59:738][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/0_Base" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Characters/0_Base.uasset" SILENT=true
+[2020.11.17-10.35.59:812][200]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/0_Base4DF6DA14491466E4EEBF31A87B4992A1.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Characters/0_Base.uasset'
+[2020.11.17-10.35.59:830][200]AssetCheck: New page: Asset Save: 0_Base
+[2020.11.17-10.35.59:830][200]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Characters/0_Base.0_Base
+[2020.11.17-10.36.07:687][570]LogTemp: Repeating last play command: Standalone Game
+[2020.11.17-10.36.07:762][570]LogUObjectHash: Compacting FUObjectHashTables data took   4.19ms
+[2020.11.17-10.37.26:781][591]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.11.17-10.37.26:781][591]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-10.37.26:781][591]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-10.40.00:825][761]BlueprintLog: New page: Compile LobbyPC
+[2020.11.17-10.40.01:035][761]LogUObjectHash: Compacting FUObjectHashTables data took   4.12ms
+[2020.11.17-10.40.01:846][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyPC.uasset" SILENT=true
+[2020.11.17-10.40.01:994][792]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyPCAF0349634A5638A4849146935E352CE9.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyPC.uasset'
+[2020.11.17-10.40.02:012][792]AssetCheck: New page: Asset Save: LobbyPC
+[2020.11.17-10.40.02:012][792]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Lobby/LobbyPC.LobbyPC
+[2020.11.17-10.40.02:879][837]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyPC.uasset" SILENT=true
+[2020.11.17-10.40.02:988][837]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyPCDAC0C1144AF98D104BC4958C9E80E9A5.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyPC.uasset'
+[2020.11.17-10.40.03:002][837]AssetCheck: New page: Asset Save: LobbyPC
+[2020.11.17-10.40.03:002][837]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Lobby/LobbyPC.LobbyPC
+[2020.11.17-10.40.09:986][187]LogTemp: Repeating last play command: Standalone Game
+[2020.11.17-10.40.10:060][187]LogUObjectHash: Compacting FUObjectHashTables data took   4.65ms
+[2020.11.17-10.41.00:005][ 17]BlueprintLog: New page: Compile LobbyPC
+[2020.11.17-10.41.00:145][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   4.11ms
+[2020.11.17-10.41.00:794][ 33]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyPC.uasset" SILENT=true
+[2020.11.17-10.41.00:933][ 33]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyPC89459E2549485BB7919C5E98545059CF.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyPC.uasset'
+[2020.11.17-10.41.00:952][ 33]AssetCheck: New page: Asset Save: LobbyPC
+[2020.11.17-10.41.00:953][ 33]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Lobby/LobbyPC.LobbyPC
+[2020.11.17-10.41.22:790][ 11]LogSlate: Window '0_Base' being destroyed
+[2020.11.17-10.41.22:797][ 11]LogSlate: Window '0_Base' being destroyed
+[2020.11.17-10.41.22:821][ 11]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-10.41.22:821][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-10.41.22:869][ 11]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-10.41.22:869][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-10.41.23:125][ 11]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.11.17-10.41.23:125][ 11]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-10.41.23:125][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-10.41.23:292][ 11]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-10.41.23:292][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-10.41.23:299][ 11]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-10.41.23:299][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-10.41.23:435][ 11]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-10.41.23:436][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-10.41.23:442][ 11]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-10.41.23:442][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-10.41.23:591][ 11]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.11.17-10.41.23:591][ 11]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-10.41.23:591][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-10.41.23:762][ 11]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-10.41.23:762][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-10.41.23:790][ 11]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-10.41.23:790][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-10.41.23:919][ 11]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.11.17-10.41.23:919][ 11]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-10.41.23:919][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-10.41.24:644][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   4.33ms
+[2020.11.17-10.41.25:873][106]LogUObjectHash: Compacting FUObjectHashTables data took   4.91ms
+[2020.11.17-10.41.26:872][165]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.11.17-10.41.27:784][219]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.11.17-10.41.29:090][294]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2020.11.17-10.41.29:330][294]LogSlate: Window 'BattleChess_Game - Unreal Editor' being destroyed
+[2020.11.17-10.41.29:332][294]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.17-10.41.30:058][295]Cmd: QUIT_EDITOR
+[2020.11.17-10.41.30:058][295]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.11.17-10.41.30:118][295]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.11.17-10.41.30:534][295]LogExit: Preparing to exit.
+[2020.11.17-10.41.31:236][295]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-10.41.31:238][295]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-10.41.31:240][295]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-10.41.31:241][295]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-10.41.31:242][295]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-10.41.31:243][295]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-10.41.31:244][295]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-10.41.31:245][295]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-10.41.31:246][295]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-10.41.31:247][295]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-10.41.31:248][295]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-10.41.31:356][295]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.11.17-10.41.31:461][295]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-10.41.31:462][295]LogExit: Editor shut down
+[2020.11.17-10.41.31:464][295]LogExit: Transaction tracking system shut down
+[2020.11.17-10.41.31:683][295]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (00000280F2FE1380), frame # 169295
+[2020.11.17-10.41.31:683][295]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000280F2F411C0), frame # 169295
+[2020.11.17-10.41.31:683][295]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000280F2F76600), frame # 169295
+[2020.11.17-10.41.32:889][295]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002819A1E5BC0), frame # 169295
+[2020.11.17-10.41.32:889][295]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000281A1F61000), frame # 169295
+[2020.11.17-10.41.32:930][295]LogExit: Object subsystem successfully closed.
+[2020.11.17-10.41.32:957][295]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.11.17-10.41.34:797][295]LogModuleManager: Shutting down and abandoning module SequencerWidgets (798)
+[2020.11.17-10.41.34:797][295]LogModuleManager: Shutting down and abandoning module BlueprintGraph (796)
+[2020.11.17-10.41.34:800][295]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (794)
+[2020.11.17-10.41.34:800][295]LogModuleManager: Shutting down and abandoning module SceneOutliner (792)
+[2020.11.17-10.41.34:801][295]LogModuleManager: Shutting down and abandoning module AddContentDialog (790)
+[2020.11.17-10.41.34:826][295]LogModuleManager: Shutting down and abandoning module WidgetCarousel (789)
+[2020.11.17-10.41.34:826][295]LogModuleManager: Shutting down and abandoning module EditorWidgets (786)
+[2020.11.17-10.41.34:826][295]LogModuleManager: Shutting down and abandoning module CollectionManager (784)
+[2020.11.17-10.41.34:827][295]LogModuleManager: Shutting down and abandoning module StatsViewer (782)
+[2020.11.17-10.41.34:842][295]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (780)
+[2020.11.17-10.41.34:842][295]LogModuleManager: Shutting down and abandoning module FoliageEdit (778)
+[2020.11.17-10.41.34:850][295]LogModuleManager: Shutting down and abandoning module LandscapeEditor (776)
+[2020.11.17-10.41.34:931][295]LogModuleManager: Shutting down and abandoning module MeshPaintMode (774)
+[2020.11.17-10.41.34:939][295]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (772)
+[2020.11.17-10.41.34:939][295]LogModuleManager: Shutting down and abandoning module ActorPickerMode (770)
+[2020.11.17-10.41.34:939][295]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (768)
+[2020.11.17-10.41.34:945][295]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (766)
+[2020.11.17-10.41.34:945][295]LogModuleManager: Shutting down and abandoning module AutomationWorker (764)
+[2020.11.17-10.41.34:945][295]LogModuleManager: Shutting down and abandoning module SteamVREditor (762)
+[2020.11.17-10.41.34:960][295]LogModuleManager: Shutting down and abandoning module OculusMR (760)
+[2020.11.17-10.41.34:960][295]LogModuleManager: Shutting down and abandoning module GooglePADEditor (758)
+[2020.11.17-10.41.34:960][295]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (756)
+[2020.11.17-10.41.34:970][295]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (754)
+[2020.11.17-10.41.34:977][295]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (752)
+[2020.11.17-10.41.35:006][295]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (750)
+[2020.11.17-10.41.35:037][295]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (748)
+[2020.11.17-10.41.35:051][295]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (746)
+[2020.11.17-10.41.35:051][295]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (744)
+[2020.11.17-10.41.35:051][295]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (742)
+[2020.11.17-10.41.35:051][295]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (740)
+[2020.11.17-10.41.35:051][295]LogModuleManager: Shutting down and abandoning module WebMMedia (738)
+[2020.11.17-10.41.35:051][295]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (736)
+[2020.11.17-10.41.35:072][295]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (734)
+[2020.11.17-10.41.35:083][295]LogModuleManager: Shutting down and abandoning module SequenceRecorder (733)
+[2020.11.17-10.41.35:083][295]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (730)
+[2020.11.17-10.41.35:083][295]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (728)
+[2020.11.17-10.41.35:083][295]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (726)
+[2020.11.17-10.41.35:083][295]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (724)
+[2020.11.17-10.41.35:083][295]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (722)
+[2020.11.17-10.41.35:083][295]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (720)
+[2020.11.17-10.41.35:083][295]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (718)
+[2020.11.17-10.41.35:083][295]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (716)
+[2020.11.17-10.41.35:083][295]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (714)
+[2020.11.17-10.41.35:083][295]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (712)
+[2020.11.17-10.41.35:083][295]LogModuleManager: Shutting down and abandoning module PlanarCut (710)
+[2020.11.17-10.41.35:083][295]LogModuleManager: Shutting down and abandoning module CharacterAI (708)
+[2020.11.17-10.41.35:083][295]LogModuleManager: Shutting down and abandoning module TextureAlignMode (706)
+[2020.11.17-10.41.35:083][295]LogModuleManager: Shutting down and abandoning module BspMode (704)
+[2020.11.17-10.41.35:099][295]LogModuleManager: Shutting down and abandoning module PlacementMode (703)
+[2020.11.17-10.41.35:099][295]LogModuleManager: Shutting down and abandoning module GeometryMode (700)
+[2020.11.17-10.41.35:099][295]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (698)
+[2020.11.17-10.41.35:116][295]LogModuleManager: Shutting down and abandoning module SmartSnapping (696)
+[2020.11.17-10.41.35:116][295]LogModuleManager: Shutting down and abandoning module SessionServices (694)
+[2020.11.17-10.41.35:116][295]LogModuleManager: Shutting down and abandoning module MeshPaint (692)
+[2020.11.17-10.41.35:119][295]LogModuleManager: Shutting down and abandoning module ViewportSnapping (690)
+[2020.11.17-10.41.35:176][295]LogModuleManager: Shutting down and abandoning module ViewportInteraction (688)
+[2020.11.17-10.41.35:176][295]LogModuleManager: Shutting down and abandoning module ClothPainter (686)
+[2020.11.17-10.41.35:196][295]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (685)
+[2020.11.17-10.41.35:203][295]LogModuleManager: Shutting down and abandoning module LogVisualizer (682)
+[2020.11.17-10.41.35:221][295]LogModuleManager: Shutting down and abandoning module IntroTutorials (680)
+[2020.11.17-10.41.35:239][295]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (679)
+[2020.11.17-10.41.35:274][295]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (676)
+[2020.11.17-10.41.35:274][295]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (674)
+[2020.11.17-10.41.35:291][295]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (672)
+[2020.11.17-10.41.35:291][295]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (671)
+[2020.11.17-10.41.36:645][295]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (668)
+[2020.11.17-10.41.36:645][295]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (666)
+[2020.11.17-10.41.36:645][295]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (664)
+[2020.11.17-10.41.36:645][295]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (662)
+[2020.11.17-10.41.36:645][295]LogModuleManager: Shutting down and abandoning module TraceInsights (660)
+[2020.11.17-10.41.36:705][295]LogModuleManager: Shutting down and abandoning module TraceServices (659)
+[2020.11.17-10.41.36:718][295]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (656)
+[2020.11.17-10.41.36:718][295]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (654)
+[2020.11.17-10.41.36:729][295]LogModuleManager: Shutting down and abandoning module InputBindingEditor (652)
+[2020.11.17-10.41.36:738][295]LogModuleManager: Shutting down and abandoning module MergeActors (650)
+[2020.11.17-10.41.36:750][295]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (648)
+[2020.11.17-10.41.36:765][295]LogModuleManager: Shutting down and abandoning module LocalizationService (647)
+[2020.11.17-10.41.36:768][295]LogModuleManager: Shutting down and abandoning module HardwareTargeting (644)
+[2020.11.17-10.41.36:779][295]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (642)
+[2020.11.17-10.41.36:785][295]LogModuleManager: Shutting down and abandoning module UndoHistory (640)
+[2020.11.17-10.41.36:797][295]LogModuleManager: Shutting down and abandoning module XmlParser (638)
+[2020.11.17-10.41.36:809][295]LogModuleManager: Shutting down and abandoning module Blutility (636)
+[2020.11.17-10.41.36:821][295]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (634)
+[2020.11.17-10.41.36:821][295]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (633)
+[2020.11.17-10.41.36:878][295]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (630)
+[2020.11.17-10.41.36:878][295]LogModuleManager: Shutting down and abandoning module SettingsEditor (628)
+[2020.11.17-10.41.36:893][295]LogModuleManager: Shutting down and abandoning module ProjectLauncher (626)
+[2020.11.17-10.41.36:909][295]LogModuleManager: Shutting down and abandoning module SessionFrontend (624)
+[2020.11.17-10.41.36:920][295]LogModuleManager: Shutting down and abandoning module ProfilerClient (622)
+[2020.11.17-10.41.36:924][295]LogModuleManager: Shutting down and abandoning module DeviceManager (620)
+[2020.11.17-10.41.36:935][295]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (619)
+[2020.11.17-10.41.36:976][295]LogModuleManager: Shutting down and abandoning module AutomationController (616)
+[2020.11.17-10.41.36:976][295]LogModuleManager: Shutting down and abandoning module AutomationWindow (614)
+[2020.11.17-10.41.36:989][295]LogModuleManager: Shutting down and abandoning module Layers (612)
+[2020.11.17-10.41.37:005][295]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (610)
+[2020.11.17-10.41.37:005][295]LogModuleManager: Shutting down and abandoning module DetailCustomizations (608)
+[2020.11.17-10.41.37:016][295]LogModuleManager: Shutting down and abandoning module PackagesDialog (606)
+[2020.11.17-10.41.37:016][295]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (604)
+[2020.11.17-10.41.37:037][295]LogModuleManager: Shutting down and abandoning module Persona (602)
+[2020.11.17-10.41.37:058][295]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (601)
+[2020.11.17-10.41.37:058][295]LogModuleManager: Shutting down and abandoning module AnimGraph (599)
+[2020.11.17-10.41.37:068][295]LogModuleManager: Shutting down and abandoning module Kismet (596)
+[2020.11.17-10.41.37:088][295]LogModuleManager: Shutting down and abandoning module KismetWidgets (595)
+[2020.11.17-10.41.37:143][295]LogModuleManager: Shutting down and abandoning module GraphEditor (592)
+[2020.11.17-10.41.37:143][295]LogModuleManager: Shutting down and abandoning module StructViewer (590)
+[2020.11.17-10.41.37:155][295]LogModuleManager: Shutting down and abandoning module ClassViewer (588)
+[2020.11.17-10.41.37:155][295]LogModuleManager: Shutting down and abandoning module Toolbox (586)
+[2020.11.17-10.41.37:169][295]LogModuleManager: Shutting down and abandoning module ModuleUI (584)
+[2020.11.17-10.41.37:182][295]LogModuleManager: Shutting down and abandoning module OutputLog (582)
+[2020.11.17-10.41.37:193][295]LogModuleManager: Shutting down and abandoning module GammaUI (580)
+[2020.11.17-10.41.37:204][295]LogModuleManager: Shutting down and abandoning module Documentation (578)
+[2020.11.17-10.41.37:205][295]LogModuleManager: Shutting down and abandoning module LiveCoding (576)
+[2020.11.17-10.41.37:205][295]LogModuleManager: Shutting down and abandoning module LevelSequence (574)
+[2020.11.17-10.41.37:205][295]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (572)
+[2020.11.17-10.41.37:205][295]LogModuleManager: Shutting down and abandoning module MovieScene (570)
+[2020.11.17-10.41.37:205][295]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (568)
+[2020.11.17-10.41.37:205][295]LogModuleManager: Shutting down and abandoning module LauncherPlatform (566)
+[2020.11.17-10.41.37:206][295]LogModuleManager: Shutting down and abandoning module AnalyticsET (564)
+[2020.11.17-10.41.37:206][295]LogModuleManager: Shutting down and abandoning module PortalServices (562)
+[2020.11.17-10.41.37:206][295]LogModuleManager: Shutting down and abandoning module PortalRpc (560)
+[2020.11.17-10.41.37:206][295]LogModuleManager: Shutting down and abandoning module MessagingRpc (558)
+[2020.11.17-10.41.37:206][295]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (556)
+[2020.11.17-10.41.37:206][295]LogModuleManager: Shutting down and abandoning module AudioMixerCore (555)
+[2020.11.17-10.41.37:206][295]LogModuleManager: Shutting down and abandoning module AIModule (552)
+[2020.11.17-10.41.37:206][295]LogModuleManager: Shutting down and abandoning module GameplayDebugger (551)
+[2020.11.17-10.41.37:206][295]LogModuleManager: Shutting down and abandoning module AITestSuite (549)
+[2020.11.17-10.41.37:206][295]LogModuleManager: Shutting down and abandoning module NavigationSystem (547)
+[2020.11.17-10.41.37:206][295]LogModuleManager: Shutting down and abandoning module ProfilerService (544)
+[2020.11.17-10.41.37:428][295]LogModuleManager: Shutting down and abandoning module TaskGraph (542)
+[2020.11.17-10.41.37:428][295]LogModuleManager: Shutting down and abandoning module ScreenshotTools (540)
+[2020.11.17-10.41.37:428][295]LogModuleManager: Shutting down and abandoning module SynthesisEditor (538)
+[2020.11.17-10.41.37:428][295]LogModuleManager: Shutting down and abandoning module Synthesis (536)
+[2020.11.17-10.41.37:428][295]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (534)
+[2020.11.17-10.41.37:428][295]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (532)
+[2020.11.17-10.41.37:428][295]LogModuleManager: Shutting down and abandoning module OculusEditor (530)
+[2020.11.17-10.41.37:428][295]LogModuleManager: Shutting down and abandoning module OculusInput (528)
+[2020.11.17-10.41.37:428][295]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (526)
+[2020.11.17-10.41.37:428][295]LogModuleManager: Shutting down and abandoning module GooglePAD (524)
+[2020.11.17-10.41.37:428][295]LogModuleManager: Shutting down and abandoning module EditableMesh (522)
+[2020.11.17-10.41.37:428][295]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (520)
+[2020.11.17-10.41.37:428][295]LogModuleManager: Shutting down and abandoning module CableComponent (518)
+[2020.11.17-10.41.37:428][295]LogModuleManager: Shutting down and abandoning module AudioCapture (516)
+[2020.11.17-10.41.37:428][295]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (515)
+[2020.11.17-10.41.37:428][295]LogModuleManager: Shutting down and abandoning module AssetTags (512)
+[2020.11.17-10.41.37:428][295]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (510)
+[2020.11.17-10.41.37:428][295]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (508)
+[2020.11.17-10.41.37:428][295]LogModuleManager: Shutting down and abandoning module AppleImageUtils (506)
+[2020.11.17-10.41.37:428][295]LogModuleManager: Shutting down and abandoning module AndroidPermission (504)
+[2020.11.17-10.41.37:428][295]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (502)
+[2020.11.17-10.41.37:428][295]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (500)
+[2020.11.17-10.41.37:428][295]LogModuleManager: Shutting down and abandoning module TemplateSequence (498)
+[2020.11.17-10.41.37:428][295]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (496)
+[2020.11.17-10.41.37:428][295]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (494)
+[2020.11.17-10.41.37:428][295]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (492)
+[2020.11.17-10.41.37:428][295]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (490)
+[2020.11.17-10.41.37:428][295]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (489)
+[2020.11.17-10.41.37:429][295]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (486)
+[2020.11.17-10.41.37:442][295]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (484)
+[2020.11.17-10.41.37:442][295]LogModuleManager: Shutting down and abandoning module MediaCompositing (482)
+[2020.11.17-10.41.37:442][295]LogModuleManager: Shutting down and abandoning module ImgMedia (480)
+[2020.11.17-10.41.37:442][295]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (478)
+[2020.11.17-10.41.37:442][295]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (476)
+[2020.11.17-10.41.37:442][295]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (474)
+[2020.11.17-10.41.37:442][295]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (472)
+[2020.11.17-10.41.37:442][295]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (470)
+[2020.11.17-10.41.37:442][295]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (468)
+[2020.11.17-10.41.37:465][295]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (466)
+[2020.11.17-10.41.37:465][295]LogModuleManager: Shutting down and abandoning module MeshConversion (464)
+[2020.11.17-10.41.37:465][295]LogModuleManager: Shutting down and abandoning module DynamicMesh (462)
+[2020.11.17-10.41.37:465][295]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (460)
+[2020.11.17-10.41.37:465][295]LogModuleManager: Shutting down and abandoning module GeometricObjects (458)
+[2020.11.17-10.41.37:465][295]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (456)
+[2020.11.17-10.41.37:465][295]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (455)
+[2020.11.17-10.41.37:466][295]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (452)
+[2020.11.17-10.41.37:474][295]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (450)
+[2020.11.17-10.41.37:474][295]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (448)
+[2020.11.17-10.41.37:474][295]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (446)
+[2020.11.17-10.41.37:474][295]LogModuleManager: Shutting down and abandoning module ChaosNiagara (444)
+[2020.11.17-10.41.37:474][295]LogModuleManager: Shutting down and abandoning module FractureEditor (442)
+[2020.11.17-10.41.37:485][295]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (440)
+[2020.11.17-10.41.37:485][295]LogModuleManager: Shutting down and abandoning module ChaosCloth (438)
+[2020.11.17-10.41.37:485][295]LogModuleManager: Shutting down and abandoning module BackChannel (436)
+[2020.11.17-10.41.37:485][295]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (434)
+[2020.11.17-10.41.37:485][295]LogModuleManager: Shutting down and abandoning module AutomationUtils (432)
+[2020.11.17-10.41.37:485][295]LogModuleManager: Shutting down and abandoning module AlembicImporter (430)
+[2020.11.17-10.41.37:485][295]LogModuleManager: Shutting down and abandoning module AlembicLibrary (429)
+[2020.11.17-10.41.37:485][295]LogModuleManager: Shutting down and abandoning module GeometryCache (428)
+[2020.11.17-10.41.37:485][295]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (427)
+[2020.11.17-10.41.37:485][295]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (422)
+[2020.11.17-10.41.37:494][295]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (420)
+[2020.11.17-10.41.37:509][295]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (418)
+[2020.11.17-10.41.37:509][295]LogModuleManager: Shutting down and abandoning module PluginBrowser (416)
+[2020.11.17-10.41.37:543][295]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (414)
+[2020.11.17-10.41.37:570][295]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (412)
+[2020.11.17-10.41.37:582][295]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (410)
+[2020.11.17-10.41.37:646][295]LogModuleManager: Shutting down and abandoning module CurveEditorTools (408)
+[2020.11.17-10.41.37:655][295]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (406)
+[2020.11.17-10.41.37:662][295]LogModuleManager: Shutting down and abandoning module CryptoKeys (404)
+[2020.11.17-10.41.37:662][295]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (402)
+[2020.11.17-10.41.37:662][295]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (400)
+[2020.11.17-10.41.37:662][295]LogModuleManager: Shutting down and abandoning module UObjectPlugin (398)
+[2020.11.17-10.41.37:662][295]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (396)
+[2020.11.17-10.41.37:662][295]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (394)
+[2020.11.17-10.41.37:662][295]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (392)
+[2020.11.17-10.41.37:678][295]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (390)
+[2020.11.17-10.41.37:678][295]LogModuleManager: Shutting down and abandoning module GitSourceControl (388)
+[2020.11.17-10.41.37:759][295]LogModuleManager: Shutting down and abandoning module SourceControl (387)
+[2020.11.17-10.41.37:759][295]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (384)
+[2020.11.17-10.41.37:759][295]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (382)
+[2020.11.17-10.41.37:759][295]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (380)
+[2020.11.17-10.41.37:778][295]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (378)
+[2020.11.17-10.41.37:778][295]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (376)
+[2020.11.17-10.41.37:803][295]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (374)
+[2020.11.17-10.41.37:803][295]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (372)
+[2020.11.17-10.41.37:803][295]LogModuleManager: Shutting down and abandoning module Paper2DEditor (370)
+[2020.11.17-10.41.37:920][295]LogModuleManager: Shutting down and abandoning module SoundFields (368)
+[2020.11.17-10.41.37:920][295]LogModuleManager: Shutting down and abandoning module SignificanceManager (366)
+[2020.11.17-10.41.37:920][295]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (364)
+[2020.11.17-10.41.37:920][295]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (362)
+[2020.11.17-10.41.37:920][295]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (358)
+[2020.11.17-10.41.37:920][295]LogModuleManager: Shutting down and abandoning module ActorSequence (356)
+[2020.11.17-10.41.37:920][295]LogModuleManager: Shutting down and abandoning module UdpMessaging (354)
+[2020.11.17-10.41.38:021][295]LogModuleManager: Shutting down and abandoning module TcpMessaging (352)
+[2020.11.17-10.41.38:150][295]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (350)
+[2020.11.17-10.41.38:150][295]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (348)
+[2020.11.17-10.41.38:150][295]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (346)
+[2020.11.17-10.41.38:150][295]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (344)
+[2020.11.17-10.41.38:150][295]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (342)
+[2020.11.17-10.41.38:150][295]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2020.11.17-10.41.38:150][295]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (340)
+[2020.11.17-10.41.38:150][295]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (338)
+[2020.11.17-10.41.38:150][295]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (336)
+[2020.11.17-10.41.38:152][295]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (334)
+[2020.11.17-10.41.38:152][295]LogModuleManager: Shutting down and abandoning module MagicLeapController (332)
+[2020.11.17-10.41.38:152][295]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.11.17-10.41.38:153][295]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (330)
+[2020.11.17-10.41.38:153][295]LogModuleManager: Shutting down and abandoning module MagicLeapAR (328)
+[2020.11.17-10.41.38:153][295]LogModuleManager: Shutting down and abandoning module AugmentedReality (327)
+[2020.11.17-10.41.38:153][295]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (324)
+[2020.11.17-10.41.38:153][295]LogModuleManager: Shutting down and abandoning module Niagara (322)
+[2020.11.17-10.41.38:153][295]LogModuleManager: Shutting down and abandoning module SignalProcessing (321)
+[2020.11.17-10.41.38:153][295]LogModuleManager: Shutting down and abandoning module NiagaraEditor (319)
+[2020.11.17-10.41.38:155][295]LogModuleManager: Shutting down and abandoning module NiagaraCore (316)
+[2020.11.17-10.41.38:155][295]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (314)
+[2020.11.17-10.41.38:155][295]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (312)
+[2020.11.17-10.41.38:174][295]LogModuleManager: Shutting down and abandoning module FacialAnimation (310)
+[2020.11.17-10.41.38:174][295]LogModuleManager: Shutting down and abandoning module DataValidation (308)
+[2020.11.17-10.41.38:174][295]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (306)
+[2020.11.17-10.41.38:189][295]LogModuleManager: Shutting down and abandoning module LevelEditor (305)
+[2020.11.17-10.41.38:215][295]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (304)
+[2020.11.17-10.41.38:230][295]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (302)
+[2020.11.17-10.41.38:237][295]LogModuleManager: Shutting down and abandoning module MainFrame (300)
+[2020.11.17-10.41.38:247][295]LogModuleManager: Shutting down and abandoning module HotReload (299)
+[2020.11.17-10.41.38:254][295]LogModuleManager: Shutting down and abandoning module ToolMenus (295)
+[2020.11.17-10.41.38:254][295]LogModuleManager: Shutting down and abandoning module TreeMap (293)
+[2020.11.17-10.41.38:254][295]LogModuleManager: Shutting down and abandoning module AnimationSharing (290)
+[2020.11.17-10.41.38:254][295]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (288)
+[2020.11.17-10.41.38:254][295]LogModuleManager: Shutting down and abandoning module Paper2D (286)
+[2020.11.17-10.41.38:254][295]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (284)
+[2020.11.17-10.41.38:265][295]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (282)
+[2020.11.17-10.41.38:265][295]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (280)
+[2020.11.17-10.41.38:265][295]LogModuleManager: Shutting down and abandoning module PacketHandler (278)
+[2020.11.17-10.41.38:265][295]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (276)
+[2020.11.17-10.41.38:265][295]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (274)
+[2020.11.17-10.41.38:265][295]LogModuleManager: Shutting down and abandoning module MediaAssets (272)
+[2020.11.17-10.41.38:265][295]LogModuleManager: Shutting down and abandoning module Overlay (270)
+[2020.11.17-10.41.38:265][295]LogModuleManager: Shutting down and abandoning module OverlayEditor (269)
+[2020.11.17-10.41.38:265][295]LogModuleManager: Shutting down and abandoning module VREditor (266)
+[2020.11.17-10.41.38:265][295]LogModuleManager: Shutting down and abandoning module StringTableEditor (264)
+[2020.11.17-10.41.38:265][295]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (262)
+[2020.11.17-10.41.38:265][295]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (260)
+[2020.11.17-10.41.38:265][295]LogModuleManager: Shutting down and abandoning module FunctionalTesting (258)
+[2020.11.17-10.41.38:266][295]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (256)
+[2020.11.17-10.41.38:266][295]LogModuleManager: Shutting down and abandoning module UMG (254)
+[2020.11.17-10.41.38:266][295]LogModuleManager: Shutting down and abandoning module UMGEditor (253)
+[2020.11.17-10.41.38:266][295]LogModuleManager: Shutting down and abandoning module MessageLog (251)
+[2020.11.17-10.41.38:266][295]LogModuleManager: Shutting down and abandoning module MaterialEditor (249)
+[2020.11.17-10.41.38:266][295]LogModuleManager: Shutting down and abandoning module ContentBrowser (248)
+[2020.11.17-10.41.38:270][295]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (247)
+[2020.11.17-10.41.38:350][295]LogModuleManager: Shutting down and abandoning module SlateReflector (240)
+[2020.11.17-10.41.38:350][295]LogModuleManager: Shutting down and abandoning module Slate (238)
+[2020.11.17-10.41.38:350][295]LogModuleManager: Shutting down and abandoning module SlateCore (236)
+[2020.11.17-10.41.38:350][295]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (234)
+[2020.11.17-10.41.38:351][295]LogModuleManager: Shutting down and abandoning module UnrealEd (232)
+[2020.11.17-10.41.38:351][295]LogModuleManager: Shutting down and abandoning module MRMesh (230)
+[2020.11.17-10.41.38:351][295]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (228)
+[2020.11.17-10.41.38:351][295]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (226)
+[2020.11.17-10.41.38:351][295]LogModuleManager: Shutting down and abandoning module XAudio2 (224)
+[2020.11.17-10.41.38:351][295]LogModuleManager: Shutting down and abandoning module Networking (222)
+[2020.11.17-10.41.38:351][295]LogModuleManager: Shutting down and abandoning module Core (220)
+[2020.11.17-10.41.38:351][295]LogModuleManager: Shutting down and abandoning module MovieSceneTools (218)
+[2020.11.17-10.41.38:438][295]LogModuleManager: Shutting down and abandoning module CurveEditor (217)
+[2020.11.17-10.41.38:438][295]LogModuleManager: Shutting down and abandoning module Sequencer (215)
+[2020.11.17-10.41.38:444][295]LogModuleManager: Shutting down and abandoning module EditorStyle (214)
+[2020.11.17-10.41.38:447][295]LogModuleManager: Shutting down and abandoning module KismetCompiler (210)
+[2020.11.17-10.41.38:447][295]LogModuleManager: Shutting down and abandoning module MeshBuilder (208)
+[2020.11.17-10.41.38:447][295]LogModuleManager: Shutting down and abandoning module MeshUtilities (206)
+[2020.11.17-10.41.38:447][295]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (205)
+[2020.11.17-10.41.38:447][295]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (204)
+[2020.11.17-10.41.38:447][295]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (203)
+[2020.11.17-10.41.38:447][295]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (201)
+[2020.11.17-10.41.38:447][295]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (199)
+[2020.11.17-10.41.38:447][295]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (197)
+[2020.11.17-10.41.38:447][295]LogModuleManager: Shutting down and abandoning module MaterialBaking (193)
+[2020.11.17-10.41.38:447][295]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (188)
+[2020.11.17-10.41.38:447][295]LogModuleManager: Shutting down and abandoning module DerivedDataCache (186)
+[2020.11.17-10.41.38:447][295]LogModuleManager: Shutting down and abandoning module XGEController (184)
+[2020.11.17-10.41.38:447][295]LogModuleManager: Shutting down and abandoning module TargetPlatform (182)
+[2020.11.17-10.41.38:447][295]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (181)
+[2020.11.17-10.41.38:447][295]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (179)
+[2020.11.17-10.41.38:448][295]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (177)
+[2020.11.17-10.41.38:448][295]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (175)
+[2020.11.17-10.41.38:448][295]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (173)
+[2020.11.17-10.41.38:448][295]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (171)
+[2020.11.17-10.41.38:448][295]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (169)
+[2020.11.17-10.41.38:448][295]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (167)
+[2020.11.17-10.41.38:448][295]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (165)
+[2020.11.17-10.41.38:448][295]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (163)
+[2020.11.17-10.41.38:448][295]LogModuleManager: Shutting down and abandoning module ImageWrapper (162)
+[2020.11.17-10.41.38:448][295]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (159)
+[2020.11.17-10.41.38:448][295]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (157)
+[2020.11.17-10.41.38:448][295]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (155)
+[2020.11.17-10.41.38:448][295]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (153)
+[2020.11.17-10.41.38:448][295]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (151)
+[2020.11.17-10.41.38:448][295]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (149)
+[2020.11.17-10.41.38:448][295]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (147)
+[2020.11.17-10.41.38:448][295]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (145)
+[2020.11.17-10.41.38:448][295]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (143)
+[2020.11.17-10.41.38:463][295]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (141)
+[2020.11.17-10.41.38:470][295]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (139)
+[2020.11.17-10.41.38:470][295]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (137)
+[2020.11.17-10.41.38:470][295]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (135)
+[2020.11.17-10.41.38:470][295]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (133)
+[2020.11.17-10.41.38:470][295]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (131)
+[2020.11.17-10.41.38:470][295]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (129)
+[2020.11.17-10.41.38:470][295]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (127)
+[2020.11.17-10.41.38:470][295]LogModuleManager: Shutting down and abandoning module Messaging (125)
+[2020.11.17-10.41.38:470][295]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (123)
+[2020.11.17-10.41.38:475][295]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (121)
+[2020.11.17-10.41.38:497][295]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (119)
+[2020.11.17-10.41.38:497][295]LogModuleManager: Shutting down and abandoning module InputCore (116)
+[2020.11.17-10.41.38:497][295]LogModuleManager: Shutting down and abandoning module Settings (114)
+[2020.11.17-10.41.38:497][295]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (112)
+[2020.11.17-10.41.38:498][295]LogModuleManager: Shutting down and abandoning module PhysXCooking (110)
+[2020.11.17-10.41.38:498][295]LogModuleManager: Shutting down and abandoning module ChaosSolvers (108)
+[2020.11.17-10.41.38:498][295]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (107)
+[2020.11.17-10.41.38:498][295]LogModuleManager: Shutting down and abandoning module Chaos (104)
+[2020.11.17-10.41.38:498][295]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (102)
+[2020.11.17-10.41.38:498][295]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (101)
+[2020.11.17-10.41.38:499][295]LogModuleManager: Shutting down and abandoning module AVEncoder (100)
+[2020.11.17-10.41.38:499][295]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (96)
+[2020.11.17-10.41.38:499][295]LogModuleManager: Shutting down and abandoning module SteamVRInput (94)
+[2020.11.17-10.41.38:499][295]LogModuleManager: Shutting down and abandoning module SteamVR (92)
+[2020.11.17-10.41.38:499][295]LogHMD: Freeing OpenVRDLLHandle.
+[2020.11.17-10.41.38:499][295]LogModuleManager: Shutting down and abandoning module OculusHMD (90)
+[2020.11.17-10.41.38:499][295]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (88)
+[2020.11.17-10.41.38:499][295]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (86)
+[2020.11.17-10.41.38:499][295]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (84)
+[2020.11.17-10.41.38:499][295]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (80)
+[2020.11.17-10.41.38:500][295]LogModuleManager: Shutting down and abandoning module SteamShared (74)
+[2020.11.17-10.41.38:500][295]LogSteamShared: Freeing the Steam Loaded Modules...
+[2020.11.17-10.41.38:501][295]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2020.11.17-10.41.38:501][295]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2020.11.17-10.41.38:536][295]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2020.11.17-10.41.38:536][295]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.11.17-10.41.38:536][295]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B33F78293-4990-49A6-1C81-00B558AB16AD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=b7045f93485ab70e958f37b8005cd846%7C358b1ac7be3f423fad5a66afc50e4432%7C02bcb604-8c8e-4464-84c9-215886608b6a&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2020.11.17-10.41.38:554][295]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2020.11.17-10.41.38:557][295]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2020.11.17-10.41.38:559][295]LogModuleManager: Shutting down and abandoning module Media (61)
+[2020.11.17-10.41.38:560][295]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2020.11.17-10.41.38:560][295]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2020.11.17-10.41.38:560][295]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2020.11.17-10.41.38:560][295]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2020.11.17-10.41.38:560][295]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2020.11.17-10.41.38:561][295]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2020.11.17-10.41.38:561][295]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2020.11.17-10.41.38:561][295]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.11.17-10.41.38:561][295]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.11.17-10.41.38:561][295]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.11.17-10.41.38:561][295]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.11.17-10.41.38:561][295]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.11.17-10.41.38:604][295]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.11.17-10.41.38:605][295]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.11.17-10.41.38:605][295]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.11.17-10.41.38:605][295]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.11.17-10.41.38:605][295]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.11.17-10.41.38:608][295]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.11.17-10.41.38:608][295]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.11.17-10.41.38:608][295]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.11.17-10.41.38:608][295]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.11.17-10.41.38:608][295]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.11.17-10.41.38:608][295]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.11.17-10.41.38:608][295]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.11.17-10.41.38:608][295]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.11.17-10.41.38:608][295]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.11.17-10.41.38:608][295]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.11.17-10.41.38:608][295]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.11.17-10.41.38:608][295]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.11.17-10.41.38:608][295]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2020.11.17-10.41.38:613][295]LogD3D11RHI: Shutdown
+[2020.11.17-10.41.38:613][295]LogD3D11RHI: CleanupD3DDevice
+[2020.11.17-10.41.38:647][295]LogExit: Exiting.
+[2020.11.17-10.41.38:703][295]Log file closed, 11/17/20 17:41:38
