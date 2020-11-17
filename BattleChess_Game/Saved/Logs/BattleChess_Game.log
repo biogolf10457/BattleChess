@@ -9852,3 +9852,58 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.11.17-08.35.58:764][713]LogTemp: Repeating last play command: Standalone Game
 [2020.11.17-08.35.58:899][713]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
 [2020.11.17-08.38.03:192][260]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2020.11.17-08.44.03:964][449]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.17-08.44.03:964][449]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.17-08.44.38:507][369]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Lobby/LobbyMenu.LobbyMenu
+[2020.11.17-08.45.03:365][290]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Lobby/LobbyPC.LobbyPC
+[2020.11.17-08.45.38:015][762]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'UUserWidget::AddToViewport' [Element not found.]
+[2020.11.17-08.45.45:291][ 71]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-08.45.45:291][ 71]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-08.47.19:638][631]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.17-08.47.19:639][631]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.17-08.47.27:031][798]LogSlate: Window 'LobbyMenu' being destroyed
+[2020.11.17-08.47.27:100][798]LogSlate: Window 'LobbyMenu' being destroyed
+[2020.11.17-08.47.28:130][798]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.11.17-08.47.28:130][798]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-08.47.28:131][798]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-08.47.35:307][798]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.11.17-08.47.35:307][798]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-08.47.35:307][798]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-08.47.36:747][798]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.11.17-08.47.36:747][798]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-08.47.36:747][798]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-08.47.47:204][798]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-08.47.47:204][798]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-08.47.47:399][798]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-08.47.47:399][798]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-08.47.52:990][798]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-08.47.52:990][798]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-08.47.53:223][798]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-08.47.53:223][798]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-08.47.58:152][798]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-08.47.58:152][798]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-08.48.02:774][798]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.11.17-08.48.02:775][798]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-08.48.02:775][798]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-08.48.03:611][798]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-08.48.03:611][798]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-08.48.03:616][798]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-08.48.03:616][798]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-08.50.32:363][756]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Lobby/LobbyGM.LobbyGM
+[2020.11.17-08.50.56:302][815]BlueprintLog: New page: Compile LobbyGM
+[2020.11.17-08.50.58:030][815]LogUObjectHash: Compacting FUObjectHashTables data took   4.50ms
+[2020.11.17-08.50.59:494][848]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyGM" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyGM.uasset" SILENT=true
+[2020.11.17-08.51.00:311][848]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyGM6D9CDF234578C98E46AFC089D84EEC9A.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyGM.uasset'
+[2020.11.17-08.51.00:349][848]AssetCheck: New page: Asset Save: LobbyGM
+[2020.11.17-08.51.00:349][848]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Lobby/LobbyGM.LobbyGM
+[2020.11.17-08.51.51:210][625]BlueprintLog: New page: Compile LobbyGM
+[2020.11.17-08.51.53:285][625]LogUObjectHash: Compacting FUObjectHashTables data took   5.14ms
+[2020.11.17-08.51.55:301][686]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyGM" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyGM.uasset" SILENT=true
+[2020.11.17-08.51.55:549][686]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyGM3462BB1645C8BC64A74CC09259974ADA.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyGM.uasset'
+[2020.11.17-08.51.55:565][686]AssetCheck: New page: Asset Save: LobbyGM
+[2020.11.17-08.51.55:565][686]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Lobby/LobbyGM.LobbyGM
+[2020.11.17-08.51.58:637][848]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyGM" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyGM.uasset" SILENT=true
+[2020.11.17-08.51.58:755][848]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyGM6EDC5B8D43CEC8979FF7748943F10C30.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyGM.uasset'
+[2020.11.17-08.51.58:771][848]AssetCheck: New page: Asset Save: LobbyGM
+[2020.11.17-08.51.58:771][848]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Lobby/LobbyGM.LobbyGM
+[2020.11.17-08.52.29:621][454]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
