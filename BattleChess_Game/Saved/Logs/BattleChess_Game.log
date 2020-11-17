@@ -9827,3 +9827,28 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.11.17-08.34.39:872][709]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
 [2020.11.17-08.34.40:569][728]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
 [2020.11.17-08.34.41:167][751]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.11.17-08.35.20:184][942]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.17-08.35.20:184][942]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.17-08.35.36:089][324]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/MainMenu.MainMenu
+[2020.11.17-08.35.36:156][324]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2020.11.17-08.35.36:195][324]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.17-08.35.36:196][324]LightingResults: New page: Lighting Build
+[2020.11.17-08.35.36:196][324]LoadErrors: New page: Loading map: MainMenu.umap
+[2020.11.17-08.35.36:208][324]LogWorld: UWorld::CleanupWorld for Lobby, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-08.35.36:219][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-08.35.36:219][324]MapCheck: New page: Map Check
+[2020.11.17-08.35.36:219][324]LightingResults: New page: Lighting Build
+[2020.11.17-08.35.36:282][324]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000174707F0540), frame # 135324
+[2020.11.17-08.35.36:283][324]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000173BA872000), frame # 135324
+[2020.11.17-08.35.36:286][324]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2020.11.17-08.35.36:519][324]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.17-08.35.36:519][324]LogAIModule: Creating AISystem for world MainMenu
+[2020.11.17-08.35.36:519][324]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000174962C9400), frame # 135324
+[2020.11.17-08.35.36:519][324]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001732DFAC400), frame # 135324
+[2020.11.17-08.35.36:568][324]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2020.11.17-08.35.36:679][324]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.17-08.35.36:680][324]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.112ms to complete.
+[2020.11.17-08.35.36:680][324]LogFileHelpers: Loading map 'MainMenu' took 0.484
+[2020.11.17-08.35.58:764][713]LogTemp: Repeating last play command: Standalone Game
+[2020.11.17-08.35.58:899][713]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2020.11.17-08.38.03:192][260]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
