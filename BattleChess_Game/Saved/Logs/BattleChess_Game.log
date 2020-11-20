@@ -1069,3 +1069,73 @@ Script call stack:
 [2020.11.20-06.03.04:269][ 74]LogFileHelpers: Saving map 'TravelMap' took 0.137
 [2020.11.20-06.03.04:287][ 74]AssetCheck: New page: Asset Save: TravelMap
 [2020.11.20-06.03.04:287][ 74]LogContentValidation: Display: Validating World /Game/Maps/TravelMap.TravelMap
+[2020.11.20-06.03.30:884][176]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.20-06.03.30:885][176]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.20-06.03.40:417][533]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonSerath/Characters/Heroes/Serath/Serath_AnimBlueprint.Serath_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonSerath/Characters/Heroes/Serath/Serath_AnimBlueprint.Serath_AnimBlueprint_C:ExecuteUbergraph_Serath_AnimBlueprint
+
+[2020.11.20-06.03.40:433][533]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Lobby.Lobby
+[2020.11.20-06.03.40:467][533]LogUObjectHash: Compacting FUObjectHashTables data took   4.05ms
+[2020.11.20-06.03.40:469][533]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Lobby.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.20-06.03.40:469][533]LightingResults: New page: Lighting Build
+[2020.11.20-06.03.40:470][533]LoadErrors: New page: Loading map: Lobby.umap
+[2020.11.20-06.03.40:470][533]LogWorld: UWorld::CleanupWorld for TravelMap, bSessionEnded=true, bCleanupResources=true
+[2020.11.20-06.03.40:470][533]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.20-06.03.40:470][533]MapCheck: New page: Map Check
+[2020.11.20-06.03.40:470][533]LightingResults: New page: Lighting Build
+[2020.11.20-06.03.40:499][533]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019B11059580), frame # 19533
+[2020.11.20-06.03.40:499][533]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019B91643A00), frame # 19533
+[2020.11.20-06.03.40:502][533]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2020.11.20-06.03.40:509][533]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonSerath/Characters/Heroes/Serath/Serath_AnimBlueprint.Serath_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonSerath/Characters/Heroes/Serath/Serath_AnimBlueprint.Serath_AnimBlueprint_C:ExecuteUbergraph_Serath_AnimBlueprint
+
+[2020.11.20-06.03.41:014][533]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.20-06.03.41:014][533]LogAIModule: Creating AISystem for world Lobby
+[2020.11.20-06.03.41:014][533]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019B1C655E00), frame # 19533
+[2020.11.20-06.03.41:014][533]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019B865D3D80), frame # 19533
+[2020.11.20-06.03.41:048][533]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2020.11.20-06.03.41:104][533]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.20-06.03.41:104][533]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.112ms to complete.
+[2020.11.20-06.03.41:104][533]LogFileHelpers: Loading map 'Lobby' took 0.634
+[2020.11.20-06.03.42:412][587]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/MainMenu.MainMenu
+[2020.11.20-06.03.42:441][587]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2020.11.20-06.03.42:442][587]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.20-06.03.42:442][587]LightingResults: New page: Lighting Build
+[2020.11.20-06.03.42:443][587]LoadErrors: New page: Loading map: MainMenu.umap
+[2020.11.20-06.03.42:471][587]LogWorld: UWorld::CleanupWorld for Lobby, bSessionEnded=true, bCleanupResources=true
+[2020.11.20-06.03.42:471][587]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.20-06.03.42:471][587]MapCheck: New page: Map Check
+[2020.11.20-06.03.42:471][587]LightingResults: New page: Lighting Build
+[2020.11.20-06.03.42:494][587]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019B865D3D80), frame # 19587
+[2020.11.20-06.03.42:494][587]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019B1C655E00), frame # 19587
+[2020.11.20-06.03.42:497][587]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2020.11.20-06.03.42:607][587]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.20-06.03.42:608][587]LogAIModule: Creating AISystem for world MainMenu
+[2020.11.20-06.03.42:608][587]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019B1CB5EE00), frame # 19587
+[2020.11.20-06.03.42:608][587]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019B22B9D940), frame # 19587
+[2020.11.20-06.03.42:638][587]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2020.11.20-06.03.42:708][587]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.20-06.03.42:708][587]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.108ms to complete.
+[2020.11.20-06.03.42:708][587]LogFileHelpers: Loading map 'MainMenu' took 0.266
+[2020.11.20-06.03.43:507][623]LogTemp: Repeating last play command: Standalone Game
+[2020.11.20-06.03.43:562][623]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.11.20-06.04.34:916][  1]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.20-06.04.34:916][  1]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.20-06.04.39:716][191]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Characters/PushHitBoxBP.PushHitBoxBP
+[2020.11.20-06.07.25:609][351]BlueprintLog: New page: Compile PushHitBoxBP
+[2020.11.20-06.07.25:723][351]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2020.11.20-06.07.25:867][351]LogSlate: Took 0.014830 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.11.20-06.07.26:499][372]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/PushHitBoxBPC087FD5E43F8B61BBAE4C9A4E96835C1.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Characters/PushHitBoxBP.uasset'
+[2020.11.20-06.07.26:531][372]AssetCheck: New page: Asset Save: PushHitBoxBP
+[2020.11.20-06.07.26:531][372]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Characters/PushHitBoxBP.PushHitBoxBP
+[2020.11.20-06.07.52:344][770]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.20-06.07.52:344][770]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.20-06.07.53:656][827]LogSlate: Window 'PushHitBoxBP' being destroyed
+[2020.11.20-06.07.53:669][827]LogSlate: Window 'PushHitBoxBP' being destroyed
+[2020.11.20-06.07.53:671][827]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.11.20-06.07.53:671][827]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.20-06.07.55:360][907]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
