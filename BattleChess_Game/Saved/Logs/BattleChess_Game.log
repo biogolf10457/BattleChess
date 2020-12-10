@@ -1,8 +1,8 @@
-﻿Log file open, 11/20/20 12:41:29
+﻿Log file open, 12/10/20 12:57:51
 LogInit: Display: Running engine for game: BattleChess_Game
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.265210
+LogStats: Stats thread started at 0.212983
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +7:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -201,941 +201,765 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.11.20-05.41.30:316][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.11.20-05.41.30:316][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.11.20-05.41.30:316][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Engine.ini]
-[2020.11.20-05.41.30:316][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.11.20-05.41.30:316][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Engine.ini]
-[2020.11.20-05.41.30:316][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Engine.ini]
-[2020.11.20-05.41.30:316][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.11.20-05.41.30:316][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.11.20-05.41.30:316][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.11.20-05.41.30:316][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.11.20-05.41.30:317][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.11.20-05.41.30:317][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.11.20-05.41.30:317][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.11.20-05.41.30:317][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.11.20-05.41.30:317][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.11.20-05.41.30:317][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.11.20-05.41.30:317][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.11.20-05.41.30:317][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.11.20-05.41.30:317][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.11.20-05.41.30:317][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.11.20-05.41.30:317][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Engine.ini]
-[2020.11.20-05.41.30:317][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.11.20-05.41.30:317][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.11.20-05.41.30:317][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.11.20-05.41.30:317][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.11.20-05.41.30:317][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.11.20-05.41.30:317][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.11.20-05.41.30:317][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.11.20-05.41.30:317][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.11.20-05.41.30:317][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.11.20-05.41.30:317][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.11.20-05.41.30:317][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.11.20-05.41.30:317][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.11.20-05.41.30:317][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.11.20-05.41.30:317][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Engine.ini]
-[2020.11.20-05.41.30:317][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Engine.ini]
-[2020.11.20-05.41.30:321][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
-[2020.11.20-05.41.30:321][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.11.20-05.41.30:321][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.11.20-05.41.30:321][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
-[2020.11.20-05.41.30:321][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.11.20-05.41.30:321][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
-[2020.11.20-05.41.30:321][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.11.20-05.41.30:321][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.11.20-05.41.30:321][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.11.20-05.41.30:321][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.11.20-05.41.30:321][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.11.20-05.41.30:321][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.11.20-05.41.30:321][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.11.20-05.41.30:321][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.11.20-05.41.30:321][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.11.20-05.41.30:321][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.11.20-05.41.30:322][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
-[2020.11.20-05.41.30:322][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.11.20-05.41.30:323][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.11.20-05.41.30:323][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
-[2020.11.20-05.41.30:323][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.11.20-05.41.30:323][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.11.20-05.41.30:323][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.11.20-05.41.30:323][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.11.20-05.41.30:323][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.11.20-05.41.30:323][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.11.20-05.41.30:323][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.11.20-05.41.30:323][  0]LogInit: Selected Device Profile: [Windows]
-[2020.11.20-05.41.30:323][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.11.20-05.41.30:323][  0]LogHAL: Display: Platform has ~ 8 GB [8460451840 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.11.20-05.41.30:323][  0]LogInit: Going up to parent DeviceProfile []
-[2020.11.20-05.41.30:323][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
-[2020.11.20-05.41.30:323][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.11.20-05.41.30:323][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.11.20-05.41.30:323][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
-[2020.11.20-05.41.30:323][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.11.20-05.41.30:323][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
-[2020.11.20-05.41.30:323][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.11.20-05.41.30:323][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.11.20-05.41.30:323][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.11.20-05.41.30:323][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.11.20-05.41.30:323][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.11.20-05.41.30:323][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.11.20-05.41.30:323][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.11.20-05.41.30:323][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.11.20-05.41.30:323][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.11.20-05.41.30:323][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.11.20-05.41.30:323][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.11.20-05.41.30:323][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.11.20-05.41.30:323][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.11.20-05.41.30:323][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.11.20-05.41.30:323][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.11.20-05.41.30:323][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.11.20-05.41.30:324][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.11.20-05.41.30:325][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.11.20-05.41.30:325][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.11.20-05.41.30:325][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.11.20-05.41.30:325][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.11.20-05.41.30:325][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.11.20-05.41.30:325][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.11.20-05.41.30:325][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.11.20-05.41.30:325][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.11.20-05.41.30:325][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.11.20-05.41.30:325][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.11.20-05.41.30:325][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.11.20-05.41.30:325][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.11.20-05.41.30:325][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.11.20-05.41.30:325][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.11.20-05.41.30:325][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.11.20-05.41.30:325][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.11.20-05.41.30:325][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.11.20-05.41.30:325][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.11.20-05.41.30:325][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.11.20-05.41.30:325][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.11.20-05.41.30:325][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.11.20-05.41.30:325][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.11.20-05.41.30:325][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.11.20-05.41.30:325][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
-[2020.11.20-05.41.30:325][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.11.20-05.41.30:325][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.11.20-05.41.30:325][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
-[2020.11.20-05.41.30:325][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.11.20-05.41.30:325][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.11.20-05.41.30:325][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.11.20-05.41.30:325][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.11.20-05.41.30:325][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.11.20-05.41.30:325][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.11.20-05.41.30:325][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.11.20-05.41.30:325][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.11.20-05.41.30:326][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.11.20-05.41.30:326][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.11.20-05.41.30:326][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2020.11.20-05.41.30:326][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Engine.ini]
-[2020.11.20-05.41.30:326][  0]LogInit: Computer: DESKTOP-DO80R7R
-[2020.11.20-05.41.30:326][  0]LogInit: User: USER
-[2020.11.20-05.41.30:326][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.11.20-05.41.30:326][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.11.20-05.41.30:326][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2020.11.20-05.41.30:326][  0]LogMemory: Platform Memory Stats for Windows
-[2020.11.20-05.41.30:326][  0]LogMemory: Process Physical Memory: 114.38 MB used, 114.38 MB peak
-[2020.11.20-05.41.30:326][  0]LogMemory: Process Virtual Memory: 96.38 MB used, 96.38 MB peak
-[2020.11.20-05.41.30:326][  0]LogMemory: Physical Memory: 5190.03 MB used,  2878.48 MB free, 8068.52 MB total
-[2020.11.20-05.41.30:326][  0]LogMemory: Virtual Memory: 5144.53 MB used,  134212584.00 MB free, 134217728.00 MB total
-[2020.11.20-05.41.30:337][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.11.20-05.41.30:428][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2020.11.20-05.41.30:429][  0]LogInit: Using OS detected language (en-US).
-[2020.11.20-05.41.30:429][  0]LogInit: Using OS detected locale (en-GB).
-[2020.11.20-05.41.30:432][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.11.20-05.41.30:827][  0]LogInit: Setting process to per monitor DPI aware
-[2020.11.20-05.41.30:892][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.11.20-05.41.30:892][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.11.20-05.41.31:309][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.11.20-05.41.31:309][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.11.20-05.41.31:309][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.11.20-05.41.31:309][  0]LogD3D11RHI: D3D11 adapters:
-[2020.11.20-05.41.31:434][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
-[2020.11.20-05.41.31:434][  0]LogD3D11RHI:       4055/0/4034 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.11.20-05.41.31:456][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2020.11.20-05.41.31:456][  0]LogD3D11RHI:       128/0/4034 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2020.11.20-05.41.31:461][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.11.20-05.41.31:461][  0]LogD3D11RHI:       0/0/4034 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.11.20-05.41.31:462][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.11.20-05.41.31:473][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.11.20-05.41.31:473][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
-[2020.11.20-05.41.31:473][  0]LogWindows: EnumDisplayDevices:
-[2020.11.20-05.41.31:474][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
-[2020.11.20-05.41.31:474][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2020.11.20-05.41.31:475][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2020.11.20-05.41.31:475][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2020.11.20-05.41.31:475][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
-[2020.11.20-05.41.31:475][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2020.11.20-05.41.31:475][  0]LogD3D11RHI:      Driver Date: Unknown
-[2020.11.20-05.41.31:476][  0]LogRHI: Texture pool is 2839 MB (70% of 4055 MB)
-[2020.11.20-05.41.31:537][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.11.20-05.41.31:540][  0]LogD3D11RHI: [Aftermath] Enabled and primed
-[2020.11.20-05.41.31:540][  0]LogD3D11RHI: Async texture creation enabled
-[2020.11.20-05.41.31:567][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.11.20-05.41.32:147][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.11.20-05.41.32:178][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.11.20-05.41.32:178][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.11.20-05.41.32:178][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.11.20-05.41.32:178][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.11.20-05.41.32:178][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.11.20-05.41.32:178][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.11.20-05.41.32:178][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.11.20-05.41.32:178][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.11.20-05.41.32:178][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.11.20-05.41.32:178][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.11.20-05.41.32:209][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.11.20-05.41.32:209][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.11.20-05.41.32:222][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2020.11.20-05.41.32:237][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.11.20-05.41.32:249][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.11.20-05.41.32:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.11.20-05.41.32:274][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.11.20-05.41.32:286][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.11.20-05.41.32:298][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.11.20-05.41.32:332][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.11.20-05.41.32:332][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.11.20-05.41.32:355][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.11.20-05.41.32:355][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.11.20-05.41.32:370][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.11.20-05.41.32:385][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.11.20-05.41.32:399][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.11.20-05.41.32:413][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.11.20-05.41.32:413][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.11.20-05.41.32:424][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.11.20-05.41.32:519][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Intermediate/Shaders/WorkingDirectory/12248/).
-[2020.11.20-05.41.32:519][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/USER/AppData/Local/Temp/UnrealShaderWorkingDir/114505B047DA36F8FFDA5B9D0AA80364/'.
-[2020.11.20-05.41.32:520][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.11.20-05.41.32:520][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.11.20-05.41.32:520][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.11.20-05.41.33:855][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.11.20-05.41.33:931][  0]LogDerivedDataCache: Loaded boot cache 0.08s 76MB C:/Users/USER/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.11.20-05.41.33:931][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/USER/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2020.11.20-05.41.33:931][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.11.20-05.41.33:931][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.11.20-05.41.33:931][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.11.20-05.41.33:931][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.11.20-05.41.33:948][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.11.20-05.41.33:948][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.11.20-05.41.33:948][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.11.20-05.41.33:950][  0]LogDerivedDataCache: Using Local data cache path C:/Users/USER/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.11.20-05.41.33:950][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.11.20-05.41.33:950][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.11.20-05.41.34:040][  0]LogSlate: Using FreeType 2.10.0
-[2020.11.20-05.41.34:040][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.11.20-05.41.34:076][  0]LogAssetRegistry: FAssetRegistry took 0.0040 seconds to start up
-[2020.11.20-05.41.34:482][  0]LogInit: Selected Device Profile: [Windows]
-[2020.11.20-05.41.34:658][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.11.20-05.41.34:658][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.11.20-05.41.34:658][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.11.20-05.41.34:658][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.11.20-05.41.34:658][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.11.20-05.41.34:679][  0]LogNetVersion: BattleChess_Game 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 631773850)
-[2020.11.20-05.41.35:296][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000019B66905380), frame # 0
-[2020.11.20-05.41.35:296][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019B668611C0), frame # 0
-[2020.11.20-05.41.35:299][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019B6689E600), frame # 0
-[2020.11.20-05.41.35:370][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.059415 seconds
-[2020.11.20-05.41.35:377][  0]LogUObjectArray: 15925 objects as part of root set at end of initial load.
-[2020.11.20-05.41.35:377][  0]LogUObjectAllocator: 3977056 out of 0 bytes used by permanent object pool.
-[2020.11.20-05.41.35:377][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.11.20-05.41.35:866][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.11.20-05.41.35:874][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.11.20-05.41.35:990][  0]SourceControl: Source control is disabled
-[2020.11.20-05.41.35:990][  0]SourceControl: Source control is disabled
-[2020.11.20-05.41.35:995][  0]SourceControl: Source control is disabled
-[2020.11.20-05.41.35:999][  0]SourceControl: Source control is disabled
-[2020.11.20-05.41.36:010][  0]SourceControl: Source control is disabled
-[2020.11.20-05.41.36:315][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.11.20-05.41.36:351][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.11.20-05.41.36:351][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.11.20-05.41.36:431][  0]LogOcInput: OculusInput pre-init called
-[2020.11.20-05.41.36:449][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.11.20-05.41.36:449][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.11.20-05.41.36:553][  0]LogEngine: Initializing Engine...
-[2020.11.20-05.41.36:555][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.11.20-05.41.36:555][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2020.11.20-05.41.36:556][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.11.20-05.41.36:802][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.11.20-05.41.36:812][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.11.20-05.41.36:812][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019B6FA13C00), frame # 0
-[2020.11.20-05.41.36:812][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019B6FA96E80), frame # 0
-[2020.11.20-05.41.36:817][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.11.20-05.41.36:817][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.11.20-05.41.36:817][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.11.20-05.41.36:817][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.11.20-05.41.36:817][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.11.20-05.41.36:817][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.11.20-05.41.36:817][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.11.20-05.41.36:817][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.11.20-05.41.36:817][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.11.20-05.41.36:817][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.11.20-05.41.36:834][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.11.20-05.41.36:834][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.11.20-05.41.37:022][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2020.11.20-05.41.37:024][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.11.20-05.41.37:027][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.11.20-05.41.37:027][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.11.20-05.41.37:029][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.11.20-05.41.37:030][  0]LogInit: FAudioDevice initialized.
-[2020.11.20-05.41.37:031][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.11.20-05.41.40:543][  0]LogDerivedDataCache: Saved boot cache 3.51s 76MB C:/Users/USER/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.11.20-05.41.40:548][  0]LogInit: Texture streaming: Enabled
-[2020.11.20-05.41.40:564][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.11.20-05.41.40:564][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.11.20-05.41.40:566][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.11.20-05.41.40:652][  0]LogInit: Transaction tracking system initialized
-[2020.11.20-05.41.40:681][  0]BlueprintLog: New page: Editor Load
-[2020.11.20-05.41.40:766][  0]LocalizationService: Localization service is disabled
-[2020.11.20-05.41.40:973][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.11.20-05.41.40:973][  0]LogCook: Display: Mobile HDR setting 1
-[2020.11.20-05.41.41:149][  0]LogFileCache: Scanning file cache for directory 'D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/' took 0.03s
-[2020.11.20-05.41.41:558][  0]SourceControl: Source control is disabled
-[2020.11.20-05.41.41:558][  0]LogUnrealEdMisc: Loading editor; pre map load, took 13.418
-[2020.11.20-05.41.41:559][  0]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.11.20-05.41.41:559][  0]LightingResults: New page: Lighting Build
-[2020.11.20-05.41.41:560][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.11.20-05.41.41:560][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.20-05.41.41:560][  0]MapCheck: New page: Map Check
-[2020.11.20-05.41.41:560][  0]LightingResults: New page: Lighting Build
-[2020.11.20-05.41.41:572][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019B6FA13C00), frame # 0
-[2020.11.20-05.41.41:572][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019B6FA96E80), frame # 0
-[2020.11.20-05.41.41:573][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
-[2020.11.20-05.41.41:612][  0]LogProperty: Error: FStructProperty::Serialize Loading: Property 'StructProperty /Game/Blueprints/AllLevels/PlayerSaveGame.PlayerSaveGame_C:S_PlayerInfo'. Unknown structure.
-[2020.11.20-05.41.41:612][  0]LogClass: Warning: Property S_PlayerInfo of S_PlayerInfo has a struct type mismatch (tag STRUCT_REINST_PlayerInfo_0 != prop FallbackStruct) in package:  ../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/AllLevels/PlayerSaveGame.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
-[2020.11.20-05.41.41:615][  0]LogProperty: Error: FStructProperty::Serialize Loading: Property 'StructProperty /Game/UI/MainMenu/OptionMenu.OptionMenu_C:PlayerInfo'. Unknown structure.
-[2020.11.20-05.41.41:628][  0]LogClass: Warning: Property PlayerInfo of PlayerInfo has a struct type mismatch (tag STRUCT_REINST_PlayerInfo_0 != prop FallbackStruct) in package:  ../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/MainMenu/OptionMenu.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
-[2020.11.20-05.41.41:724][  0]LogClass: Warning: Property S_PlayerInfo of S_PlayerInfo has a struct type mismatch (tag FallbackStruct != prop PlayerInfo) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
-[2020.11.20-05.41.41:725][  0]LogClass: Warning: Property PlayerInfo of PlayerInfo has a struct type mismatch (tag FallbackStruct != prop PlayerInfo) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
-[2020.11.20-05.41.41:745][  0]LogAIModule: Creating AISystem for world MainMenu
-[2020.11.20-05.41.41:745][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019B5346A600), frame # 0
-[2020.11.20-05.41.41:745][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019B535491C0), frame # 0
-[2020.11.20-05.41.41:745][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.11.20-05.41.41:762][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
-[2020.11.20-05.41.41:763][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.11.20-05.41.41:763][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.158ms to complete.
-[2020.11.20-05.41.41:763][  0]LogFileHelpers: Loading map 'MainMenu' took 0.205
-[2020.11.20-05.41.41:766][  0]LogUnrealEdMisc: Total Editor Startup Time, took 13.627
-[2020.11.20-05.41.41:924][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.20-05.41.41:933][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.20-05.41.41:943][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.20-05.41.41:952][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.20-05.41.41:960][  0]LogCollectionManager: Loaded 0 collections in 0.002059 seconds
-[2020.11.20-05.41.41:976][  0]LogFileCache: Scanning file cache for directory 'D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Collections/' took 0.00s
-[2020.11.20-05.41.41:976][  0]LogFileCache: Scanning file cache for directory 'D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Developers/USER/Collections/' took 0.00s
-[2020.11.20-05.41.41:976][  0]LogFileCache: Scanning file cache for directory 'D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Collections/' took 0.00s
-[2020.11.20-05.41.41:976][  0]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 3430 classes and 825 folders.
-[2020.11.20-05.41.41:979][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.11.20-05.41.42:029][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2020.11.20-05.41.42:030][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
-[2020.11.20-05.41.42:152][  0]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.11.20-05.41.42:156][  0]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.11.20-05.41.42:164][  0]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.11.20-05.41.42:259][  0]LogRenderer: Reallocating scene render targets to support 936x432 Format 10 NumSamples 1 (Frame:1).
-[2020.11.20-05.41.42:410][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2020.11.20-05.41.42:410][  0]LogLoad: (Engine Initialization) Total time: 14.27 seconds
-[2020.11.20-05.41.42:410][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.11.20-05.41.42:492][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.11.20-05.41.42:561][  0]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.11.20-05.41.42:689][  2]LogAssetRegistry: Asset discovery search completed in 8.6146 seconds
-[2020.11.20-05.41.42:699][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
-[2020.11.20-05.41.47:360][ 16]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.11.20-05.41.47:360][ 16]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.11.20-05.41.53:815][391]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.11.20-05.41.53:833][391]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/MainMenu.MainMenu
-[2020.11.20-05.41.53:845][391]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
-[2020.11.20-05.41.53:847][391]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.11.20-05.41.53:847][391]LightingResults: New page: Lighting Build
-[2020.11.20-05.41.53:847][391]LoadErrors: New page: Loading map: MainMenu.umap
-[2020.11.20-05.41.53:882][391]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
-[2020.11.20-05.41.53:882][391]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.20-05.41.53:882][391]MapCheck: New page: Map Check
-[2020.11.20-05.41.53:882][391]LightingResults: New page: Lighting Build
-[2020.11.20-05.41.53:892][391]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019B5346A600), frame # 391
-[2020.11.20-05.41.53:892][391]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019B535491C0), frame # 391
-[2020.11.20-05.41.53:893][391]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
-[2020.11.20-05.41.53:900][391]LogAIModule: Creating AISystem for world MainMenu
-[2020.11.20-05.41.53:900][391]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019B5346BE00), frame # 391
-[2020.11.20-05.41.53:900][391]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019B535D6C00), frame # 391
-[2020.11.20-05.41.53:993][391]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.11.20-05.41.54:007][391]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
-[2020.11.20-05.41.54:059][391]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.11.20-05.41.54:061][391]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.847ms to complete.
-[2020.11.20-05.41.54:061][391]LogFileHelpers: Loading map 'MainMenu' took 0.214
-[2020.11.20-05.42.05:981][ 90]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AllLevels/GameInfoInstance.GameInfoInstance
-[2020.11.20-05.42.06:423][ 90]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 125 classes and 0 folders.
-[2020.11.20-05.42.08:110][ 90]LogSlate: Took 0.000401 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2020.11.20-05.42.09:665][165]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2020.11.20-05.42.16:067][493]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/MainMenu/MainMenu.MainMenu
-[2020.11.20-05.42.21:726][694]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/MainMenu/OptionMenu.OptionMenu
-[2020.11.20-05.42.24:402][789]LogSlate: Window 'OptionMenu' being destroyed
-[2020.11.20-05.42.24:410][789]LogSlate: Window 'OptionMenu' being destroyed
-[2020.11.20-05.42.24:410][789]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
-[2020.11.20-05.42.24:410][789]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.20-05.42.24:540][789]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
-[2020.11.20-05.42.24:540][789]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.20-05.42.24:576][789]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
-[2020.11.20-05.42.24:577][789]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.20-05.42.24:653][789]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
-[2020.11.20-05.42.24:653][789]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.20-05.42.24:684][789]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
-[2020.11.20-05.42.24:684][789]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.20-05.42.25:491][832]LogTemp: Repeating last play command: Standalone Game
-[2020.11.20-05.42.25:621][832]LogUObjectHash: Compacting FUObjectHashTables data took   6.52ms
-[2020.11.20-05.43.15:467][353]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AllLevels/GameInfoInstance.GameInfoInstance
-[2020.11.20-05.43.18:650][479]LogSlate: Window 'GameInfoInstance' being destroyed
-[2020.11.20-05.43.18:658][479]LogSlate: Window 'GameInfoInstance' being destroyed
-[2020.11.20-05.43.18:659][479]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
-[2020.11.20-05.43.18:659][479]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.20-05.43.22:485][694]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/MainMenu.MainMenu
-[2020.11.20-05.43.22:552][694]LogUObjectHash: Compacting FUObjectHashTables data took   4.56ms
-[2020.11.20-05.43.22:556][694]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.11.20-05.43.22:556][694]LightingResults: New page: Lighting Build
-[2020.11.20-05.43.22:556][694]LoadErrors: New page: Loading map: MainMenu.umap
-[2020.11.20-05.43.22:582][694]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
-[2020.11.20-05.43.22:582][694]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.20-05.43.22:582][694]MapCheck: New page: Map Check
-[2020.11.20-05.43.22:582][694]LightingResults: New page: Lighting Build
-[2020.11.20-05.43.22:604][694]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019B535D6C00), frame # 2694
-[2020.11.20-05.43.22:604][694]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019B5346BE00), frame # 2694
-[2020.11.20-05.43.22:607][694]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
-[2020.11.20-05.43.22:619][694]LogAIModule: Creating AISystem for world MainMenu
-[2020.11.20-05.43.22:619][694]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019B206B9600), frame # 2694
-[2020.11.20-05.43.22:619][694]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019B1F7A1300), frame # 2694
-[2020.11.20-05.43.22:759][694]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.11.20-05.43.22:787][694]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
-[2020.11.20-05.43.22:843][694]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.11.20-05.43.22:843][694]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.093ms to complete.
-[2020.11.20-05.43.22:843][694]LogFileHelpers: Loading map 'MainMenu' took 0.288
-[2020.11.20-05.45.12:001][565]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.11.20-05.45.12:001][565]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.11.20-05.45.43:378][711]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.11.20-05.45.43:379][711]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.11.20-05.46.52:030][102]LogProperty: Error: FStructProperty::Serialize Loading: Property 'StructProperty /Game/UI/Lobby/ConnectedPlayer.ConnectedPlayer_C:PlayerInfo'. Unknown structure.
-[2020.11.20-05.46.52:030][102]LogClass: Warning: Property PlayerInfo of PlayerInfo has a struct type mismatch (tag STRUCT_REINST_PlayerInfo_0 != prop FallbackStruct) in package:  ../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/ConnectedPlayer.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
-[2020.11.20-05.46.57:754][102]LogClass: Warning: Property PlayerInfo of PlayerInfo has a struct type mismatch (tag FallbackStruct != prop PlayerInfo) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
-[2020.11.20-05.47.14:465][102]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+[2020.12.10-05.57.51:562][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.12.10-05.57.51:562][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.12.10-05.57.51:562][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Engine.ini]
+[2020.12.10-05.57.51:562][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.12.10-05.57.51:562][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Engine.ini]
+[2020.12.10-05.57.51:562][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Engine.ini]
+[2020.12.10-05.57.51:562][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.12.10-05.57.51:562][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.12.10-05.57.51:562][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.12.10-05.57.51:562][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.12.10-05.57.51:562][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.12.10-05.57.51:562][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.12.10-05.57.51:562][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.12.10-05.57.51:562][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.12.10-05.57.51:562][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.12.10-05.57.51:562][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.12.10-05.57.51:562][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.12.10-05.57.51:562][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.12.10-05.57.51:562][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.12.10-05.57.51:562][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.12.10-05.57.51:562][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Engine.ini]
+[2020.12.10-05.57.51:562][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.12.10-05.57.51:562][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.12.10-05.57.51:562][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.12.10-05.57.51:562][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.12.10-05.57.51:562][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.12.10-05.57.51:562][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.12.10-05.57.51:562][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.12.10-05.57.51:562][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.12.10-05.57.51:562][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.12.10-05.57.51:562][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.12.10-05.57.51:562][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.12.10-05.57.51:562][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.12.10-05.57.51:562][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.12.10-05.57.51:562][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Engine.ini]
+[2020.12.10-05.57.51:562][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Engine.ini]
+[2020.12.10-05.57.51:565][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.12.10-05.57.51:565][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.12.10-05.57.51:565][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.12.10-05.57.51:565][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.12.10-05.57.51:565][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.12.10-05.57.51:565][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.12.10-05.57.51:565][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.12.10-05.57.51:565][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.12.10-05.57.51:565][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.12.10-05.57.51:565][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.12.10-05.57.51:565][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.12.10-05.57.51:565][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.12.10-05.57.51:565][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.12.10-05.57.51:565][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.12.10-05.57.51:565][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.12.10-05.57.51:565][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.12.10-05.57.51:565][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.12.10-05.57.51:565][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.12.10-05.57.51:565][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.12.10-05.57.51:565][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.12.10-05.57.51:565][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.12.10-05.57.51:565][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.12.10-05.57.51:565][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.12.10-05.57.51:565][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.12.10-05.57.51:565][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.12.10-05.57.51:565][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.12.10-05.57.51:565][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.12.10-05.57.51:565][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.12.10-05.57.51:565][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.12.10-05.57.51:565][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.12.10-05.57.51:565][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.12.10-05.57.51:565][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.12.10-05.57.51:565][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.12.10-05.57.51:565][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.12.10-05.57.51:565][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.12.10-05.57.51:565][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.12.10-05.57.51:565][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.12.10-05.57.51:565][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.12.10-05.57.51:565][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.12.10-05.57.51:565][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.12.10-05.57.51:565][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.12.10-05.57.51:566][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.12.10-05.57.51:566][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.12.10-05.57.51:566][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.12.10-05.57.51:566][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.12.10-05.57.51:566][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.12.10-05.57.51:566][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.12.10-05.57.51:566][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.12.10-05.57.51:566][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.12.10-05.57.51:566][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.12.10-05.57.51:566][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.12.10-05.57.51:566][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.12.10-05.57.51:566][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.12.10-05.57.51:566][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.12.10-05.57.51:566][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.12.10-05.57.51:566][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.12.10-05.57.51:566][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.12.10-05.57.51:566][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.12.10-05.57.51:566][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.12.10-05.57.51:566][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.12.10-05.57.51:566][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.12.10-05.57.51:566][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.12.10-05.57.51:566][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.12.10-05.57.51:566][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.12.10-05.57.51:566][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.12.10-05.57.51:566][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.12.10-05.57.51:566][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.12.10-05.57.51:566][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.12.10-05.57.51:566][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.12.10-05.57.51:566][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.12.10-05.57.51:566][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.12.10-05.57.51:566][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.12.10-05.57.51:566][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.12.10-05.57.51:567][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.12.10-05.57.51:567][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.12.10-05.57.51:567][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.12.10-05.57.51:567][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.12.10-05.57.51:567][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.12.10-05.57.51:567][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.12.10-05.57.51:567][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.12.10-05.57.51:567][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.12.10-05.57.51:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.12.10-05.57.51:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.12.10-05.57.51:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.12.10-05.57.51:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.12.10-05.57.51:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.12.10-05.57.51:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.12.10-05.57.51:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.12.10-05.57.51:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.12.10-05.57.51:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.12.10-05.57.51:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.12.10-05.57.51:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.12.10-05.57.51:567][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.12.10-05.57.51:567][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.12.10-05.57.51:567][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.12.10-05.57.51:567][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.12.10-05.57.51:567][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.12.10-05.57.51:567][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.12.10-05.57.51:567][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.12.10-05.57.51:567][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.12.10-05.57.51:567][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.12.10-05.57.51:567][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.12.10-05.57.51:567][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.12.10-05.57.51:567][  0]LogInit: Selected Device Profile: [Windows]
+[2020.12.10-05.57.51:567][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.12.10-05.57.51:567][  0]LogHAL: Display: Platform has ~ 8 GB [8460451840 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.12.10-05.57.51:568][  0]LogInit: Going up to parent DeviceProfile []
+[2020.12.10-05.57.51:568][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.12.10-05.57.51:568][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.12.10-05.57.51:569][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Engine.ini]
+[2020.12.10-05.57.51:570][  0]LogInit: Computer: DESKTOP-DO80R7R
+[2020.12.10-05.57.51:570][  0]LogInit: User: USER
+[2020.12.10-05.57.51:570][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.12.10-05.57.51:570][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.12.10-05.57.51:570][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.12.10-05.57.51:570][  0]LogMemory: Platform Memory Stats for Windows
+[2020.12.10-05.57.51:570][  0]LogMemory: Process Physical Memory: 114.30 MB used, 114.31 MB peak
+[2020.12.10-05.57.51:570][  0]LogMemory: Process Virtual Memory: 96.27 MB used, 96.27 MB peak
+[2020.12.10-05.57.51:570][  0]LogMemory: Physical Memory: 3007.96 MB used,  5060.55 MB free, 8068.52 MB total
+[2020.12.10-05.57.51:570][  0]LogMemory: Virtual Memory: 5144.55 MB used,  134212584.00 MB free, 134217728.00 MB total
+[2020.12.10-05.57.51:576][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.12.10-05.57.51:634][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.12.10-05.57.51:637][  0]LogInit: Using OS detected language (en-US).
+[2020.12.10-05.57.51:637][  0]LogInit: Using OS detected locale (en-GB).
+[2020.12.10-05.57.51:639][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.12.10-05.57.51:826][  0]LogInit: Setting process to per monitor DPI aware
+[2020.12.10-05.57.51:865][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.12.10-05.57.51:865][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.12.10-05.57.52:337][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.12.10-05.57.52:337][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.12.10-05.57.52:337][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.12.10-05.57.52:337][  0]LogD3D11RHI: D3D11 adapters:
+[2020.12.10-05.57.52:913][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2020.12.10-05.57.52:914][  0]LogD3D11RHI:       4055/0/4034 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.12.10-05.57.52:928][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2020.12.10-05.57.52:928][  0]LogD3D11RHI:       128/0/4034 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.12.10-05.57.52:931][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.12.10-05.57.52:931][  0]LogD3D11RHI:       0/0/4034 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.12.10-05.57.52:931][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.12.10-05.57.52:937][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.12.10-05.57.52:937][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2020.12.10-05.57.52:937][  0]LogWindows: EnumDisplayDevices:
+[2020.12.10-05.57.52:937][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2020.12.10-05.57.52:938][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.12.10-05.57.52:938][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.12.10-05.57.52:938][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.12.10-05.57.52:938][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2020.12.10-05.57.52:938][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.12.10-05.57.52:938][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.12.10-05.57.52:938][  0]LogRHI: Texture pool is 2839 MB (70% of 4055 MB)
+[2020.12.10-05.57.52:984][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.12.10-05.57.52:999][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.12.10-05.57.52:999][  0]LogD3D11RHI: Async texture creation enabled
+[2020.12.10-05.57.53:023][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.12.10-05.57.53:361][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.12.10-05.57.53:418][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.12.10-05.57.53:418][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.12.10-05.57.53:418][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.12.10-05.57.53:418][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.12.10-05.57.53:418][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.12.10-05.57.53:418][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.12.10-05.57.53:418][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.12.10-05.57.53:418][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.12.10-05.57.53:418][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.12.10-05.57.53:418][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.12.10-05.57.53:472][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.12.10-05.57.53:472][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.12.10-05.57.53:592][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.12.10-05.57.53:631][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.12.10-05.57.53:660][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.12.10-05.57.53:670][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.12.10-05.57.53:683][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.12.10-05.57.53:711][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.12.10-05.57.53:732][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.12.10-05.57.53:818][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.12.10-05.57.53:818][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.12.10-05.57.53:861][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.12.10-05.57.53:861][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.12.10-05.57.53:871][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.12.10-05.57.53:882][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.12.10-05.57.53:891][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.12.10-05.57.53:900][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.12.10-05.57.53:900][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.12.10-05.57.53:908][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.12.10-05.57.53:966][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Intermediate/Shaders/WorkingDirectory/11652/).
+[2020.12.10-05.57.53:966][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/USER/AppData/Local/Temp/UnrealShaderWorkingDir/95DFACD94AFA117F89C15CA3623E7778/'.
+[2020.12.10-05.57.53:966][  0]LogXGEController: Cleaning working directory: C:/Users/USER/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.12.10-05.57.53:967][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.12.10-05.57.53:967][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.12.10-05.57.53:967][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.12.10-05.57.54:809][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.12.10-05.57.54:879][  0]LogDerivedDataCache: Loaded boot cache 0.07s 76MB C:/Users/USER/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.12.10-05.57.54:879][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/USER/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.12.10-05.57.54:879][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.12.10-05.57.54:879][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.12.10-05.57.54:879][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.12.10-05.57.54:879][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.12.10-05.57.54:891][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.12.10-05.57.54:891][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.12.10-05.57.54:891][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.12.10-05.57.54:893][  0]LogDerivedDataCache: Using Local data cache path C:/Users/USER/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.12.10-05.57.54:893][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.12.10-05.57.54:893][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.12.10-05.57.54:952][  0]LogSlate: Using FreeType 2.10.0
+[2020.12.10-05.57.54:952][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.12.10-05.57.54:982][  0]LogAssetRegistry: FAssetRegistry took 0.0027 seconds to start up
+[2020.12.10-05.57.55:230][  0]LogInit: Selected Device Profile: [Windows]
+[2020.12.10-05.57.55:486][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.12.10-05.57.55:486][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.12.10-05.57.55:486][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.12.10-05.57.55:486][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.12.10-05.57.55:486][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.12.10-05.57.55:513][  0]LogNetVersion: BattleChess_Game 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 631773850)
+[2020.12.10-05.58.02:108][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000229D079D800), frame # 0
+[2020.12.10-05.58.02:108][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000229D06D07C0), frame # 0
+[2020.12.10-05.58.02:110][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000229D06E5C00), frame # 0
+[2020.12.10-05.58.02:200][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.040089 seconds
+[2020.12.10-05.58.02:205][  0]LogUObjectArray: 15925 objects as part of root set at end of initial load.
+[2020.12.10-05.58.02:205][  0]LogUObjectAllocator: 3977056 out of 0 bytes used by permanent object pool.
+[2020.12.10-05.58.02:205][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.12.10-05.58.03:387][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.12.10-05.58.03:391][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.12.10-05.58.04:194][  0]SourceControl: Source control is disabled
+[2020.12.10-05.58.04:194][  0]SourceControl: Source control is disabled
+[2020.12.10-05.58.04:197][  0]SourceControl: Source control is disabled
+[2020.12.10-05.58.04:292][  0]SourceControl: Source control is disabled
+[2020.12.10-05.58.04:301][  0]SourceControl: Source control is disabled
+[2020.12.10-05.58.06:253][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.12.10-05.58.06:273][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.12.10-05.58.06:273][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.12.10-05.58.06:318][  0]LogOcInput: OculusInput pre-init called
+[2020.12.10-05.58.06:949][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.12.10-05.58.06:949][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.12.10-05.58.07:193][  0]LogEngine: Initializing Engine...
+[2020.12.10-05.58.07:194][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.12.10-05.58.07:194][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.12.10-05.58.07:195][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.12.10-05.58.07:570][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.12.10-05.58.07:577][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.12.10-05.58.07:577][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000229D7EC3C00), frame # 0
+[2020.12.10-05.58.07:577][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000229D7ED7240), frame # 0
+[2020.12.10-05.58.07:606][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.10-05.58.07:606][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.10-05.58.07:606][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.10-05.58.07:606][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.10-05.58.07:606][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.10-05.58.07:606][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.10-05.58.07:606][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.10-05.58.07:606][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.10-05.58.07:607][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.10-05.58.07:607][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.10-05.58.07:621][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.10-05.58.07:621][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.12.10-05.58.07:762][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.12.10-05.58.07:763][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.10-05.58.07:865][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.10-05.58.07:865][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.10-05.58.07:866][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.10-05.58.07:867][  0]LogInit: FAudioDevice initialized.
+[2020.12.10-05.58.07:867][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.12.10-05.58.08:233][  0]LogDerivedDataCache: Saved boot cache 0.37s 76MB C:/Users/USER/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.12.10-05.58.08:234][  0]LogInit: Texture streaming: Enabled
+[2020.12.10-05.58.08:377][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.12.10-05.58.08:377][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={01AEBB16-4A98-04A5-AF29-508EBB1AF079}
+[2020.12.10-05.58.08:377][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.12.10-05.58.08:379][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.12.10-05.58.08:560][  0]LogInit: Transaction tracking system initialized
+[2020.12.10-05.58.09:061][  0]BlueprintLog: New page: Editor Load
+[2020.12.10-05.58.09:888][  0]LocalizationService: Localization service is disabled
+[2020.12.10-05.58.12:778][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.12.10-05.58.12:778][  0]LogCook: Display: Mobile HDR setting 1
+[2020.12.10-05.58.13:334][  0]LogFileCache: Scanning file cache for directory 'D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/' took 0.03s
+[2020.12.10-05.58.15:832][  0]SourceControl: Source control is disabled
+[2020.12.10-05.58.15:832][  0]LogUnrealEdMisc: Loading editor; pre map load, took 25.688
+[2020.12.10-05.58.15:845][  0]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.12.10-05.58.15:845][  0]LightingResults: New page: Lighting Build
+[2020.12.10-05.58.15:858][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.12.10-05.58.15:858][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.10-05.58.15:858][  0]MapCheck: New page: Map Check
+[2020.12.10-05.58.15:858][  0]LightingResults: New page: Lighting Build
+[2020.12.10-05.58.15:869][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000229D7EC3C00), frame # 0
+[2020.12.10-05.58.15:869][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000229D7ED7240), frame # 0
+[2020.12.10-05.58.15:870][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.12.10-05.58.15:967][  0]LogProperty: Error: FStructProperty::Serialize Loading: Property 'StructProperty /Game/Blueprints/AllLevels/PlayerSaveGame.PlayerSaveGame_C:S_PlayerInfo'. Unknown structure.
+[2020.12.10-05.58.15:967][  0]LogClass: Warning: Property S_PlayerInfo of S_PlayerInfo has a struct type mismatch (tag STRUCT_REINST_PlayerInfo_0 != prop FallbackStruct) in package:  ../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/AllLevels/PlayerSaveGame.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2020.12.10-05.58.16:114][  0]LogProperty: Error: FStructProperty::Serialize Loading: Property 'StructProperty /Game/UI/MainMenu/OptionMenu.OptionMenu_C:PlayerInfo'. Unknown structure.
+[2020.12.10-05.58.16:156][  0]LogClass: Warning: Property PlayerInfo of PlayerInfo has a struct type mismatch (tag STRUCT_REINST_PlayerInfo_0 != prop FallbackStruct) in package:  ../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/MainMenu/OptionMenu.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2020.12.10-05.58.16:222][  0]LogClass: Warning: Property S_PlayerInfo of S_PlayerInfo has a struct type mismatch (tag FallbackStruct != prop PlayerInfo) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2020.12.10-05.58.16:222][  0]LogClass: Warning: Property PlayerInfo of PlayerInfo has a struct type mismatch (tag FallbackStruct != prop PlayerInfo) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2020.12.10-05.58.16:236][  0]LogAIModule: Creating AISystem for world MainMenu
+[2020.12.10-05.58.16:237][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000229C7B4DE00), frame # 0
+[2020.12.10-05.58.16:237][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000229C79811C0), frame # 0
+[2020.12.10-05.58.16:237][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.12.10-05.58.16:260][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.12.10-05.58.16:261][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.12.10-05.58.16:261][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.142ms to complete.
+[2020.12.10-05.58.16:261][  0]LogFileHelpers: Loading map 'MainMenu' took 0.416
+[2020.12.10-05.58.16:965][  0]LogUnrealEdMisc: Total Editor Startup Time, took 26.821
+[2020.12.10-05.58.17:502][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.10-05.58.17:510][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.10-05.58.17:520][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.10-05.58.17:528][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.10-05.58.17:551][  0]LogCollectionManager: Loaded 0 collections in 0.001668 seconds
+[2020.12.10-05.58.17:667][  0]LogFileCache: Scanning file cache for directory 'D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Collections/' took 0.00s
+[2020.12.10-05.58.17:667][  0]LogFileCache: Scanning file cache for directory 'D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Developers/USER/Collections/' took 0.00s
+[2020.12.10-05.58.17:667][  0]LogFileCache: Scanning file cache for directory 'D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Collections/' took 0.00s
+[2020.12.10-05.58.17:667][  0]LogContentBrowser: Native class hierarchy populated in 0.0186 seconds. Added 3430 classes and 825 folders.
+[2020.12.10-05.58.17:787][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.12.10-05.58.18:853][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.12.10-05.58.18:854][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2020.12.10-05.58.19:215][  0]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.12.10-05.58.19:219][  0]LogSlate: Took 0.000836 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.12.10-05.58.19:250][  0]LogSlate: Took 0.025892 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.12.10-05.58.19:658][  0]LogRenderer: Reallocating scene render targets to support 936x432 Format 10 NumSamples 1 (Frame:1).
+[2020.12.10-05.58.19:918][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.12.10-05.58.19:918][  0]LogLoad: (Engine Initialization) Total time: 29.77 seconds
+[2020.12.10-05.58.19:918][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.12.10-05.58.20:014][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.12.10-05.58.20:075][  0]LogSlate: Took 0.027761 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.12.10-05.58.20:119][  1]LogAssetRegistry: Asset discovery search completed in 25.1376 seconds
+[2020.12.10-05.58.20:124][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2020.12.10-05.58.24:494][253]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.12.10-05.58.24:513][253]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/MainMenu.MainMenu
+[2020.12.10-05.58.24:525][253]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2020.12.10-05.58.24:531][253]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.12.10-05.58.24:532][253]LightingResults: New page: Lighting Build
+[2020.12.10-05.58.24:532][253]LoadErrors: New page: Loading map: MainMenu.umap
+[2020.12.10-05.58.24:534][253]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2020.12.10-05.58.24:534][253]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.10-05.58.24:534][253]MapCheck: New page: Map Check
+[2020.12.10-05.58.24:534][253]LightingResults: New page: Lighting Build
+[2020.12.10-05.58.24:543][253]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000229C7B4DE00), frame # 253
+[2020.12.10-05.58.24:543][253]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000229C79811C0), frame # 253
+[2020.12.10-05.58.24:545][253]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.12.10-05.58.24:554][253]LogAIModule: Creating AISystem for world MainMenu
+[2020.12.10-05.58.24:554][253]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000229C7979C00), frame # 253
+[2020.12.10-05.58.24:554][253]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000229C7981440), frame # 253
+[2020.12.10-05.58.24:622][253]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.12.10-05.58.24:633][253]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.12.10-05.58.24:662][253]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.12.10-05.58.24:662][253]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.074ms to complete.
+[2020.12.10-05.58.24:662][253]LogFileHelpers: Loading map 'MainMenu' took 0.131
+[2020.12.10-05.58.32:846][724]LogProperty: Error: FStructProperty::Serialize Loading: Property 'StructProperty /Game/UI/Lobby/ConnectedPlayer.ConnectedPlayer_C:PlayerInfo'. Unknown structure.
+[2020.12.10-05.58.32:846][724]LogClass: Warning: Property PlayerInfo of PlayerInfo has a struct type mismatch (tag STRUCT_REINST_PlayerInfo_0 != prop FallbackStruct) in package:  ../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/ConnectedPlayer.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2020.12.10-05.58.34:628][724]LogClass: Warning: Property PlayerInfo of PlayerInfo has a struct type mismatch (tag FallbackStruct != prop PlayerInfo) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2020.12.10-05.58.35:647][724]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
 Script call stack:
 	Function /Game/ParagonSerath/Characters/Heroes/Serath/Serath_AnimBlueprint.Serath_AnimBlueprint_C:BlueprintUpdateAnimation
 	Function /Game/ParagonSerath/Characters/Heroes/Serath/Serath_AnimBlueprint.Serath_AnimBlueprint_C:ExecuteUbergraph_Serath_AnimBlueprint
 
-[2020.11.20-05.47.14:959][102]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Lobby.Lobby
-[2020.11.20-05.47.15:438][102]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
-[2020.11.20-05.47.15:508][102]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Lobby.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.11.20-05.47.15:546][102]LightingResults: New page: Lighting Build
-[2020.11.20-05.47.15:596][102]LoadErrors: New page: Loading map: Lobby.umap
-[2020.11.20-05.47.15:694][102]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
-[2020.11.20-05.47.15:941][102]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.20-05.47.16:093][102]MapCheck: New page: Map Check
-[2020.11.20-05.47.16:093][102]LightingResults: New page: Lighting Build
-[2020.11.20-05.47.16:300][102]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019B1F7A1300), frame # 5102
-[2020.11.20-05.47.16:300][102]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019B206B9600), frame # 5102
-[2020.11.20-05.47.16:303][102]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
-[2020.11.20-05.47.17:382][102]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+[2020.12.10-05.58.35:660][724]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Lobby.Lobby
+[2020.12.10-05.58.35:679][724]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2020.12.10-05.58.35:685][724]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Lobby.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.12.10-05.58.35:685][724]LightingResults: New page: Lighting Build
+[2020.12.10-05.58.35:685][724]LoadErrors: New page: Loading map: Lobby.umap
+[2020.12.10-05.58.35:692][724]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2020.12.10-05.58.35:692][724]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.10-05.58.35:692][724]MapCheck: New page: Map Check
+[2020.12.10-05.58.35:692][724]LightingResults: New page: Lighting Build
+[2020.12.10-05.58.35:706][724]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000229C7981440), frame # 724
+[2020.12.10-05.58.35:706][724]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000229C7979C00), frame # 724
+[2020.12.10-05.58.35:708][724]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2020.12.10-05.58.35:716][724]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
 Script call stack:
 	Function /Game/ParagonSerath/Characters/Heroes/Serath/Serath_AnimBlueprint.Serath_AnimBlueprint_C:BlueprintUpdateAnimation
 	Function /Game/ParagonSerath/Characters/Heroes/Serath/Serath_AnimBlueprint.Serath_AnimBlueprint_C:ExecuteUbergraph_Serath_AnimBlueprint
 
-[2020.11.20-05.47.18:396][102]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.11.20-05.47.18:396][102]LogAIModule: Creating AISystem for world Lobby
-[2020.11.20-05.47.18:396][102]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019B21080C00), frame # 5102
-[2020.11.20-05.47.18:406][102]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019B1AB06D40), frame # 5102
-[2020.11.20-05.47.18:803][102]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
-[2020.11.20-05.47.18:854][102]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.11.20-05.47.18:854][102]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.097ms to complete.
-[2020.11.20-05.47.18:854][102]LogFileHelpers: Loading map 'Lobby' took 3.396
-[2020.11.20-05.47.30:388][682]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Capture_01.Capture_01
-[2020.11.20-05.47.30:411][682]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
-[2020.11.20-05.47.30:413][682]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Capture_01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.11.20-05.47.30:413][682]LightingResults: New page: Lighting Build
-[2020.11.20-05.47.30:413][682]LoadErrors: New page: Loading map: Capture_01.umap
-[2020.11.20-05.47.30:451][682]LogWorld: UWorld::CleanupWorld for Lobby, bSessionEnded=true, bCleanupResources=true
-[2020.11.20-05.47.30:451][682]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.20-05.47.30:451][682]MapCheck: New page: Map Check
-[2020.11.20-05.47.30:451][682]LightingResults: New page: Lighting Build
-[2020.11.20-05.47.30:503][682]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019B1AB06D40), frame # 5682
-[2020.11.20-05.47.30:503][682]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019B21080C00), frame # 5682
-[2020.11.20-05.47.30:525][682]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
-[2020.11.20-05.47.30:757][682]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.11.20-05.47.30:757][682]LogAIModule: Creating AISystem for world Capture_01
-[2020.11.20-05.47.30:757][682]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019B13645800), frame # 5682
-[2020.11.20-05.47.30:758][682]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019B1FFB3880), frame # 5682
-[2020.11.20-05.47.30:782][682]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
-[2020.11.20-05.47.30:837][682]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.11.20-05.47.30:837][682]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.11ms to complete.
-[2020.11.20-05.47.30:837][682]LogFileHelpers: Loading map 'Capture_01' took 0.424
-[2020.11.20-05.47.34:997][877]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/MainMenu.MainMenu
-[2020.11.20-05.47.35:026][877]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
-[2020.11.20-05.47.35:028][877]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.11.20-05.47.35:028][877]LightingResults: New page: Lighting Build
-[2020.11.20-05.47.35:029][877]LoadErrors: New page: Loading map: MainMenu.umap
-[2020.11.20-05.47.35:029][877]LogWorld: UWorld::CleanupWorld for Capture_01, bSessionEnded=true, bCleanupResources=true
-[2020.11.20-05.47.35:029][877]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.20-05.47.35:030][877]MapCheck: New page: Map Check
-[2020.11.20-05.47.35:030][877]LightingResults: New page: Lighting Build
-[2020.11.20-05.47.35:057][877]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019B1FFB3880), frame # 5877
-[2020.11.20-05.47.35:057][877]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019B13645800), frame # 5877
-[2020.11.20-05.47.35:061][877]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
-[2020.11.20-05.47.35:166][877]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.11.20-05.47.35:166][877]LogAIModule: Creating AISystem for world MainMenu
-[2020.11.20-05.47.35:166][877]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019B93BDAC00), frame # 5877
-[2020.11.20-05.47.35:166][877]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019B1FFB1D00), frame # 5877
-[2020.11.20-05.47.35:192][877]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
-[2020.11.20-05.47.35:247][877]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.11.20-05.47.35:248][877]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.108ms to complete.
-[2020.11.20-05.47.35:248][877]LogFileHelpers: Loading map 'MainMenu' took 0.219
-[2020.11.20-05.49.01:123][251]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.11.20-05.49.01:123][251]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.11.20-05.49.09:943][761]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Capture_01.Capture_01
-[2020.11.20-05.49.09:973][761]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
-[2020.11.20-05.49.09:975][761]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Capture_01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.11.20-05.49.09:975][761]LightingResults: New page: Lighting Build
-[2020.11.20-05.49.09:976][761]LoadErrors: New page: Loading map: Capture_01.umap
-[2020.11.20-05.49.09:976][761]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
-[2020.11.20-05.49.09:976][761]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.20-05.49.09:977][761]MapCheck: New page: Map Check
-[2020.11.20-05.49.09:977][761]LightingResults: New page: Lighting Build
-[2020.11.20-05.49.10:000][761]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019B1FFB1D00), frame # 6761
-[2020.11.20-05.49.10:000][761]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019B93BDAC00), frame # 6761
-[2020.11.20-05.49.10:003][761]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
-[2020.11.20-05.49.10:094][761]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.11.20-05.49.10:094][761]LogAIModule: Creating AISystem for world Capture_01
-[2020.11.20-05.49.10:094][761]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019B1AC38400), frame # 6761
-[2020.11.20-05.49.10:094][761]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019B226EED40), frame # 6761
-[2020.11.20-05.49.10:121][761]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
-[2020.11.20-05.49.10:176][761]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.11.20-05.49.10:178][761]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.253ms to complete.
-[2020.11.20-05.49.10:178][761]LogFileHelpers: Loading map 'Capture_01' took 0.203
-[2020.11.20-05.49.12:721][805]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/AreanaTest.AreanaTest
-[2020.11.20-05.49.12:752][805]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
-[2020.11.20-05.49.12:754][805]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/AreanaTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.11.20-05.49.12:754][805]LightingResults: New page: Lighting Build
-[2020.11.20-05.49.12:754][805]LoadErrors: New page: Loading map: AreanaTest.umap
-[2020.11.20-05.49.12:755][805]LogWorld: UWorld::CleanupWorld for Capture_01, bSessionEnded=true, bCleanupResources=true
-[2020.11.20-05.49.12:755][805]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.20-05.49.12:755][805]MapCheck: New page: Map Check
-[2020.11.20-05.49.12:755][805]LightingResults: New page: Lighting Build
-[2020.11.20-05.49.12:778][805]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019B226EED40), frame # 6805
-[2020.11.20-05.49.12:778][805]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019B1AC38400), frame # 6805
-[2020.11.20-05.49.12:781][805]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
-[2020.11.20-05.49.13:246][805]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.11.20-05.49.13:246][805]LogAIModule: Creating AISystem for world AreanaTest
-[2020.11.20-05.49.13:246][805]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019B861E9800), frame # 6805
-[2020.11.20-05.49.13:247][805]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019B225A0E00), frame # 6805
-[2020.11.20-05.49.13:274][805]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
-[2020.11.20-05.49.13:323][805]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.11.20-05.49.13:323][805]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.093ms to complete.
-[2020.11.20-05.49.13:323][805]LogFileHelpers: Loading map 'AreanaTest' took 0.570
-[2020.11.20-05.49.19:165][121]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/MainMenu.MainMenu
-[2020.11.20-05.49.19:191][121]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
-[2020.11.20-05.49.19:194][121]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.11.20-05.49.19:194][121]LightingResults: New page: Lighting Build
-[2020.11.20-05.49.19:194][121]LoadErrors: New page: Loading map: MainMenu.umap
-[2020.11.20-05.49.19:196][121]LogWorld: UWorld::CleanupWorld for AreanaTest, bSessionEnded=true, bCleanupResources=true
-[2020.11.20-05.49.19:196][121]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.20-05.49.19:196][121]MapCheck: New page: Map Check
-[2020.11.20-05.49.19:196][121]LightingResults: New page: Lighting Build
-[2020.11.20-05.49.19:222][121]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019B225A0E00), frame # 7121
-[2020.11.20-05.49.19:222][121]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019B861E9800), frame # 7121
-[2020.11.20-05.49.19:226][121]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
-[2020.11.20-05.49.19:328][121]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.11.20-05.49.19:329][121]LogAIModule: Creating AISystem for world MainMenu
-[2020.11.20-05.49.19:329][121]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019B83114800), frame # 7121
-[2020.11.20-05.49.19:329][121]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019B22956E80), frame # 7121
-[2020.11.20-05.49.19:357][121]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
-[2020.11.20-05.49.19:421][121]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.11.20-05.49.19:421][121]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.128ms to complete.
-[2020.11.20-05.49.19:421][121]LogFileHelpers: Loading map 'MainMenu' took 0.228
-[2020.11.20-05.50.13:223][420]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.11.20-05.50.13:223][420]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.11.20-05.50.20:420][713]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2020.11.20-05.50.52:176][975]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/TravelMap.TravelMap
-[2020.11.20-05.50.52:200][975]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
-[2020.11.20-05.50.54:112][975]LogSlate: Window 'Save Content' being destroyed
-[2020.11.20-05.50.55:321][975]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2020.11.20-05.50.55:578][975]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
-[2020.11.20-05.51.00:656][975]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/MainMenu64E8B6A646FAE12A164B35A4E9AADC01.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/MainMenu.umap'
-[2020.11.20-05.51.01:914][975]LogFileHelpers: Saving map 'MainMenu' took 7.097
-[2020.11.20-05.51.01:914][975]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu_BuiltData" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/MainMenu_BuiltData.uasset" SILENT=true
-[2020.11.20-05.51.01:959][975]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/MainMenu_BuiltData4BE70EEC49639FF6F8E7F2956FE405BB.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/MainMenu_BuiltData.uasset'
-[2020.11.20-05.51.01:960][975]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/TravelMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.11.20-05.51.01:961][975]LightingResults: New page: Lighting Build
-[2020.11.20-05.51.01:961][975]LoadErrors: New page: Loading map: TravelMap.umap
-[2020.11.20-05.51.01:961][975]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
-[2020.11.20-05.51.01:961][975]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.20-05.51.01:961][975]MapCheck: New page: Map Check
-[2020.11.20-05.51.01:961][975]LightingResults: New page: Lighting Build
-[2020.11.20-05.51.01:982][975]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019B22956E80), frame # 8975
-[2020.11.20-05.51.01:983][975]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019B83114800), frame # 8975
-[2020.11.20-05.51.01:985][975]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
-[2020.11.20-05.51.02:078][975]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.11.20-05.51.02:078][975]LogAIModule: Creating AISystem for world TravelMap
-[2020.11.20-05.51.02:078][975]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019B1B5B9A00), frame # 8975
-[2020.11.20-05.51.02:078][975]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019B225A1E40), frame # 8975
-[2020.11.20-05.51.02:107][975]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
-[2020.11.20-05.51.02:170][975]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.11.20-05.51.02:171][975]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.114ms to complete.
-[2020.11.20-05.51.02:171][975]LogFileHelpers: Loading map 'TravelMap' took 0.211
-[2020.11.20-05.51.02:349][975]AssetCheck: New page: Asset Save: multiple assets
-[2020.11.20-05.51.02:350][975]LogContentValidation: Display: Validating World /Game/Maps/MainMenu.MainMenu
-[2020.11.20-05.51.02:356][975]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/MainMenu_BuiltData.MainMenu_BuiltData
-[2020.11.20-05.51.03:610][ 40]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2020.11.20-05.51.17:030][806]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
-[2020.11.20-05.51.18:104][806]LogSlate: Window 'Save Content' being destroyed
-[2020.11.20-05.51.18:170][806]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TravelMap" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/TravelMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2020.11.20-05.51.18:293][806]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
-[2020.11.20-05.51.18:325][806]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/TravelMap2D7F17534C583D9815FA33873D5D8BF3.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/TravelMap.umap'
-[2020.11.20-05.51.18:470][806]LogFileHelpers: Saving map 'TravelMap' took 0.301
-[2020.11.20-05.51.18:502][806]AssetCheck: New page: Asset Save: TravelMap
-[2020.11.20-05.51.18:502][806]LogContentValidation: Display: Validating World /Game/Maps/TravelMap.TravelMap
-[2020.11.20-05.51.19:679][873]LogTemp: Repeating last play command: Standalone Game
-[2020.11.20-05.51.19:740][873]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
-[2020.11.20-05.51.54:043][788]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
-[2020.11.20-05.51.55:647][884]LogTemp: Repeating last play command: Standalone Game
-[2020.11.20-05.51.55:704][884]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
-[2020.11.20-05.52.41:637][625]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
-[2020.11.20-05.55.42:543][ 49]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/TravelMap.TravelMap
-[2020.11.20-05.55.42:676][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
-[2020.11.20-05.55.42:691][ 49]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/TravelMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.11.20-05.55.42:692][ 49]LightingResults: New page: Lighting Build
-[2020.11.20-05.55.42:692][ 49]LoadErrors: New page: Loading map: TravelMap.umap
-[2020.11.20-05.55.42:693][ 49]LogWorld: UWorld::CleanupWorld for TravelMap, bSessionEnded=true, bCleanupResources=true
-[2020.11.20-05.55.42:693][ 49]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.20-05.55.42:694][ 49]MapCheck: New page: Map Check
-[2020.11.20-05.55.42:694][ 49]LightingResults: New page: Lighting Build
-[2020.11.20-05.55.42:789][ 49]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019B225A1E40), frame # 14049
-[2020.11.20-05.55.42:789][ 49]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019B1B5B9A00), frame # 14049
-[2020.11.20-05.55.42:804][ 49]LogUObjectHash: Compacting FUObjectHashTables data took  13.76ms
-[2020.11.20-05.55.42:899][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   9.07ms
-[2020.11.20-05.55.42:969][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   7.96ms
-[2020.11.20-05.55.42:982][ 49]LogAIModule: Creating AISystem for world TravelMap
-[2020.11.20-05.55.42:983][ 49]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019B53422200), frame # 14049
-[2020.11.20-05.55.42:983][ 49]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019B225A1E40), frame # 14049
-[2020.11.20-05.55.43:495][ 49]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.11.20-05.55.43:584][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   9.20ms
-[2020.11.20-05.55.43:774][ 49]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.11.20-05.55.43:813][ 49]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 38.352ms to complete.
-[2020.11.20-05.55.43:813][ 49]LogFileHelpers: Loading map 'TravelMap' took 1.123
-[2020.11.20-05.55.48:638][143]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Capture_01.Capture_01
-[2020.11.20-05.55.48:790][143]LogUObjectHash: Compacting FUObjectHashTables data took  12.45ms
-[2020.11.20-05.55.48:794][143]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Capture_01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.11.20-05.55.48:799][143]LightingResults: New page: Lighting Build
-[2020.11.20-05.55.48:799][143]LoadErrors: New page: Loading map: Capture_01.umap
-[2020.11.20-05.55.48:800][143]LogWorld: UWorld::CleanupWorld for TravelMap, bSessionEnded=true, bCleanupResources=true
-[2020.11.20-05.55.48:801][143]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.20-05.55.48:802][143]MapCheck: New page: Map Check
-[2020.11.20-05.55.48:802][143]LightingResults: New page: Lighting Build
-[2020.11.20-05.55.48:886][143]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019B225A1E40), frame # 14143
-[2020.11.20-05.55.48:886][143]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019B53422200), frame # 14143
-[2020.11.20-05.55.48:900][143]LogUObjectHash: Compacting FUObjectHashTables data took  14.21ms
-[2020.11.20-05.55.49:441][143]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.11.20-05.55.49:442][143]LogAIModule: Creating AISystem for world Capture_01
-[2020.11.20-05.55.49:442][143]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019B1BC44600), frame # 14143
-[2020.11.20-05.55.49:443][143]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019B225A34C0), frame # 14143
-[2020.11.20-05.55.49:532][143]LogUObjectHash: Compacting FUObjectHashTables data took  10.74ms
-[2020.11.20-05.55.49:757][143]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.11.20-05.55.49:804][143]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 45.654ms to complete.
-[2020.11.20-05.55.49:804][143]LogFileHelpers: Loading map 'Capture_01' took 1.010
-[2020.11.20-05.56.07:836][370]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/MainMenu.MainMenu
-[2020.11.20-05.56.07:974][370]LogUObjectHash: Compacting FUObjectHashTables data took  19.71ms
-[2020.11.20-05.56.12:594][370]LogSlate: Window 'Save Content' being destroyed
-[2020.11.20-05.56.12:663][370]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Capture_01" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Capture_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2020.11.20-05.56.12:784][370]LogUObjectHash: Compacting FUObjectHashTables data took   6.48ms
-[2020.11.20-05.56.13:232][370]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Capture_01B7A780534FE8D2CF4266909727756EE8.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Capture_01.umap'
-[2020.11.20-05.56.13:405][370]LogFileHelpers: Saving map 'Capture_01' took 0.744
-[2020.11.20-05.56.13:406][370]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Capture_01_BuiltData" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Capture_01_BuiltData.uasset" SILENT=true
-[2020.11.20-05.56.13:841][370]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Capture_01_BuiltDataBCDB986049F9D08510B8E7B52B30D733.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Capture_01_BuiltData.uasset'
-[2020.11.20-05.56.13:853][370]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.11.20-05.56.13:854][370]LightingResults: New page: Lighting Build
-[2020.11.20-05.56.13:854][370]LoadErrors: New page: Loading map: MainMenu.umap
-[2020.11.20-05.56.13:862][370]LogWorld: UWorld::CleanupWorld for Capture_01, bSessionEnded=true, bCleanupResources=true
-[2020.11.20-05.56.13:862][370]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.20-05.56.13:863][370]MapCheck: New page: Map Check
-[2020.11.20-05.56.13:863][370]LightingResults: New page: Lighting Build
-[2020.11.20-05.56.13:973][370]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019B225A34C0), frame # 14370
-[2020.11.20-05.56.13:974][370]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019B1BC44600), frame # 14370
-[2020.11.20-05.56.13:996][370]LogUObjectHash: Compacting FUObjectHashTables data took  21.19ms
-[2020.11.20-05.56.14:428][370]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.11.20-05.56.14:428][370]LogAIModule: Creating AISystem for world MainMenu
-[2020.11.20-05.56.14:428][370]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019B90A23400), frame # 14370
-[2020.11.20-05.56.14:429][370]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019B225A2E80), frame # 14370
-[2020.11.20-05.56.14:503][370]LogUObjectHash: Compacting FUObjectHashTables data took   8.90ms
-[2020.11.20-05.56.14:865][370]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.11.20-05.56.14:873][370]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 7.287ms to complete.
-[2020.11.20-05.56.14:873][370]LogFileHelpers: Loading map 'MainMenu' took 1.020
-[2020.11.20-05.56.15:613][370]AssetCheck: New page: Asset Save: multiple assets
-[2020.11.20-05.56.15:614][370]LogContentValidation: Display: Validating World /Game/Maps/Capture_01.Capture_01
-[2020.11.20-05.56.15:784][370]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Capture_01_BuiltData.Capture_01_BuiltData
-[2020.11.20-05.58.55:921][956]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.11.20-05.58.55:921][956]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.11.20-06.00.14:786][411]LogSlate: Window 'Project Settings' being destroyed
-[2020.11.20-06.00.14:798][411]LogSlate: Window 'Project Settings' being destroyed
-[2020.11.20-06.01.05:147][709]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/MainMenu.MainMenu
-[2020.11.20-06.01.05:321][709]LogUObjectHash: Compacting FUObjectHashTables data took   5.53ms
-[2020.11.20-06.01.05:325][709]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.11.20-06.01.05:325][709]LightingResults: New page: Lighting Build
-[2020.11.20-06.01.05:325][709]LoadErrors: New page: Loading map: MainMenu.umap
-[2020.11.20-06.01.05:325][709]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
-[2020.11.20-06.01.05:326][709]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.20-06.01.05:326][709]MapCheck: New page: Map Check
-[2020.11.20-06.01.05:326][709]LightingResults: New page: Lighting Build
-[2020.11.20-06.01.05:418][709]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019B225A2E80), frame # 16709
-[2020.11.20-06.01.05:418][709]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019B90A23400), frame # 16709
-[2020.11.20-06.01.05:423][709]LogUObjectHash: Compacting FUObjectHashTables data took   4.39ms
-[2020.11.20-06.01.05:454][709]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
-[2020.11.20-06.01.05:478][709]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
-[2020.11.20-06.01.05:497][709]LogAIModule: Creating AISystem for world MainMenu
-[2020.11.20-06.01.05:497][709]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019B92C1AE00), frame # 16709
-[2020.11.20-06.01.05:497][709]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019B2258A200), frame # 16709
-[2020.11.20-06.01.05:603][709]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.11.20-06.01.05:631][709]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
-[2020.11.20-06.01.05:692][709]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.11.20-06.01.05:692][709]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.094ms to complete.
-[2020.11.20-06.01.05:692][709]LogFileHelpers: Loading map 'MainMenu' took 0.368
-[2020.11.20-06.01.06:317][734]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2020.11.20-06.01.21:022][576]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
-[2020.11.20-06.01.22:142][576]LogSlate: Window 'Save Content' being destroyed
-[2020.11.20-06.01.22:184][576]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2020.11.20-06.01.22:216][576]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
-[2020.11.20-06.01.22:266][576]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/MainMenuF2EDDFDF4D12FEF8485CACA2FC22BE91.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/MainMenu.umap'
-[2020.11.20-06.01.22:355][576]LogFileHelpers: Saving map 'MainMenu' took 0.171
-[2020.11.20-06.01.22:355][576]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu_BuiltData" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/MainMenu_BuiltData.uasset" SILENT=true
-[2020.11.20-06.01.22:481][576]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/MainMenu_BuiltDataF8616E9F49245B36BACAE8ACF3B69B93.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/MainMenu_BuiltData.uasset'
-[2020.11.20-06.01.22:500][576]AssetCheck: New page: Asset Save: multiple assets
-[2020.11.20-06.01.22:500][576]LogContentValidation: Display: Validating World /Game/Maps/MainMenu.MainMenu
-[2020.11.20-06.01.22:500][576]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/MainMenu_BuiltData.MainMenu_BuiltData
-[2020.11.20-06.01.23:363][619]LogTemp: Repeating last play command: Standalone Game
-[2020.11.20-06.01.23:417][619]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
-[2020.11.20-06.02.17:093][503]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
-[2020.11.20-06.02.18:452][503]LogSlate: Window 'Save Content' being destroyed
-[2020.11.20-06.02.18:492][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2020.11.20-06.02.18:534][503]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
-[2020.11.20-06.02.18:563][503]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/MainMenuE49A141E43F79F3CEC42BEBBB393AE6E.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/MainMenu.umap'
-[2020.11.20-06.02.18:618][503]LogFileHelpers: Saving map 'MainMenu' took 0.126
-[2020.11.20-06.02.18:618][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu_BuiltData" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/MainMenu_BuiltData.uasset" SILENT=true
-[2020.11.20-06.02.18:641][503]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/MainMenu_BuiltData4109298A467F2D0E59FC189D8A9581E6.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/MainMenu_BuiltData.uasset'
-[2020.11.20-06.02.18:662][503]AssetCheck: New page: Asset Save: multiple assets
-[2020.11.20-06.02.18:662][503]LogContentValidation: Display: Validating World /Game/Maps/MainMenu.MainMenu
-[2020.11.20-06.02.18:662][503]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/MainMenu_BuiltData.MainMenu_BuiltData
-[2020.11.20-06.02.20:083][582]LogTemp: Repeating last play command: Standalone Game
-[2020.11.20-06.02.20:130][582]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
-[2020.11.20-06.02.59:546][912]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/TravelMap.TravelMap
-[2020.11.20-06.02.59:581][912]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
-[2020.11.20-06.02.59:583][912]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/TravelMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.11.20-06.02.59:583][912]LightingResults: New page: Lighting Build
-[2020.11.20-06.02.59:583][912]LoadErrors: New page: Loading map: TravelMap.umap
-[2020.11.20-06.02.59:584][912]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
-[2020.11.20-06.02.59:584][912]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.20-06.02.59:584][912]MapCheck: New page: Map Check
-[2020.11.20-06.02.59:584][912]LightingResults: New page: Lighting Build
-[2020.11.20-06.02.59:615][912]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019B2258A200), frame # 18912
-[2020.11.20-06.02.59:616][912]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019B92C1AE00), frame # 18912
-[2020.11.20-06.02.59:621][912]LogUObjectHash: Compacting FUObjectHashTables data took   5.08ms
-[2020.11.20-06.02.59:763][912]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.11.20-06.02.59:763][912]LogAIModule: Creating AISystem for world TravelMap
-[2020.11.20-06.02.59:763][912]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019B91643A00), frame # 18912
-[2020.11.20-06.02.59:763][912]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019B11059580), frame # 18912
-[2020.11.20-06.02.59:795][912]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
-[2020.11.20-06.02.59:866][912]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.11.20-06.02.59:867][912]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.12ms to complete.
-[2020.11.20-06.02.59:867][912]LogFileHelpers: Loading map 'TravelMap' took 0.284
-[2020.11.20-06.03.03:234][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
-[2020.11.20-06.03.04:093][ 74]LogSlate: Window 'Save Content' being destroyed
-[2020.11.20-06.03.04:132][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TravelMap" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/TravelMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2020.11.20-06.03.04:160][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
-[2020.11.20-06.03.04:196][ 74]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/TravelMap24A9AD064F6255E53802248C52603F9D.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/TravelMap.umap'
-[2020.11.20-06.03.04:269][ 74]LogFileHelpers: Saving map 'TravelMap' took 0.137
-[2020.11.20-06.03.04:287][ 74]AssetCheck: New page: Asset Save: TravelMap
-[2020.11.20-06.03.04:287][ 74]LogContentValidation: Display: Validating World /Game/Maps/TravelMap.TravelMap
-[2020.11.20-06.03.30:884][176]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.11.20-06.03.30:885][176]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.11.20-06.03.40:417][533]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+[2020.12.10-05.58.36:201][724]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.12.10-05.58.36:201][724]LogAIModule: Creating AISystem for world Lobby
+[2020.12.10-05.58.36:202][724]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002298B382800), frame # 724
+[2020.12.10-05.58.36:202][724]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002298C1FAE80), frame # 724
+[2020.12.10-05.58.36:218][724]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2020.12.10-05.58.36:245][724]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.12.10-05.58.36:245][724]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.084ms to complete.
+[2020.12.10-05.58.36:245][724]LogFileHelpers: Loading map 'Lobby' took 0.560
+[2020.12.10-05.58.38:500][833]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/MainMenu.MainMenu
+[2020.12.10-05.58.38:512][833]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2020.12.10-05.58.38:516][833]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.12.10-05.58.38:516][833]LightingResults: New page: Lighting Build
+[2020.12.10-05.58.38:516][833]LoadErrors: New page: Loading map: MainMenu.umap
+[2020.12.10-05.58.38:541][833]LogWorld: UWorld::CleanupWorld for Lobby, bSessionEnded=true, bCleanupResources=true
+[2020.12.10-05.58.38:541][833]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.10-05.58.38:541][833]MapCheck: New page: Map Check
+[2020.12.10-05.58.38:541][833]LightingResults: New page: Lighting Build
+[2020.12.10-05.58.38:554][833]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002298C1FAE80), frame # 833
+[2020.12.10-05.58.38:554][833]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002298B382800), frame # 833
+[2020.12.10-05.58.38:555][833]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.12.10-05.58.38:622][833]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.12.10-05.58.38:622][833]LogAIModule: Creating AISystem for world MainMenu
+[2020.12.10-05.58.38:622][833]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002298B18BE00), frame # 833
+[2020.12.10-05.58.38:622][833]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000229E02C6FC0), frame # 833
+[2020.12.10-05.58.38:635][833]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.12.10-05.58.38:663][833]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.12.10-05.58.38:663][833]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.076ms to complete.
+[2020.12.10-05.58.38:663][833]LogFileHelpers: Loading map 'MainMenu' took 0.147
+[2020.12.10-05.58.40:075][906]LogTemp: Repeating last play command: Standalone Game
+[2020.12.10-05.58.40:102][906]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2020.12.10-06.00.30:544][111]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Lobby/LobbyGM.LobbyGM
+[2020.12.10-06.00.31:089][111]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 125 classes and 0 folders.
+[2020.12.10-06.00.32:833][111]LogSlate: Took 0.027222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.12.10-06.00.33:193][112]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.12.10-06.00.36:060][254]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Lobby/LobbyPC.LobbyPC
+[2020.12.10-06.02.21:832][126]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Lobby/PlayerButton.PlayerButton
+[2020.12.10-06.02.31:579][595]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Lobby/ConnectedPlayer.ConnectedPlayer
+[2020.12.10-06.04.05:143][584]BlueprintLog: New page: Compile ConnectedPlayer
+[2020.12.10-06.04.05:250][584]LogUObjectHash: Compacting FUObjectHashTables data took   5.77ms
+[2020.12.10-06.04.05:357][584]LogSlate: Took 0.026106 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.12.10-06.04.05:891][606]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/ConnectedPlayer" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/ConnectedPlayer.uasset" SILENT=true
+[2020.12.10-06.04.05:924][606]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/ConnectedPlayerFFE089AA4B3815F742207FA0BB6ACF64.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/ConnectedPlayer.uasset'
+[2020.12.10-06.04.05:944][606]AssetCheck: New page: Asset Save: ConnectedPlayer
+[2020.12.10-06.04.05:944][606]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Lobby/ConnectedPlayer.ConnectedPlayer
+[2020.12.10-06.04.25:364][622]LogUObjectHash: Compacting FUObjectHashTables data took   5.15ms
+[2020.12.10-06.04.26:815][622]LogSlate: Window 'Save Content' being destroyed
+[2020.12.10-06.04.26:845][622]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/ConnectedPlayer" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/ConnectedPlayer.uasset" SILENT=true
+[2020.12.10-06.04.26:876][622]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/ConnectedPlayer9C57B86446683DBDB8E39CA2C81E60C0.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/ConnectedPlayer.uasset'
+[2020.12.10-06.04.26:893][622]AssetCheck: New page: Asset Save: ConnectedPlayer
+[2020.12.10-06.04.26:893][622]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Lobby/ConnectedPlayer.ConnectedPlayer
+[2020.12.10-06.04.28:858][739]LogTemp: Repeating last play command: Standalone Game
+[2020.12.10-06.04.28:916][739]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2020.12.10-06.05.30:389][576]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/ConnectedPlayer" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/ConnectedPlayer.uasset" SILENT=true
+[2020.12.10-06.05.30:420][576]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/ConnectedPlayer4C4760854CD780C669102891BAC042D6.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/ConnectedPlayer.uasset'
+[2020.12.10-06.05.30:443][576]AssetCheck: New page: Asset Save: ConnectedPlayer
+[2020.12.10-06.05.30:443][576]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Lobby/ConnectedPlayer.ConnectedPlayer
+[2020.12.10-06.06.53:008][538]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Lobby/LobbyMenu.LobbyMenu
+[2020.12.10-06.10.02:865][452]BlueprintLog: New page: Compile ConnectedPlayer
+[2020.12.10-06.10.02:941][452]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2020.12.10-06.10.03:456][472]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/ConnectedPlayer" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/ConnectedPlayer.uasset" SILENT=true
+[2020.12.10-06.10.03:483][472]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/ConnectedPlayer6F94FB4D432FFE77757A6E85B559E506.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/ConnectedPlayer.uasset'
+[2020.12.10-06.10.03:500][472]AssetCheck: New page: Asset Save: ConnectedPlayer
+[2020.12.10-06.10.03:500][472]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Lobby/ConnectedPlayer.ConnectedPlayer
+[2020.12.10-06.10.21:927][451]BlueprintLog: New page: Compile ConnectedPlayer
+[2020.12.10-06.10.21:996][451]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
+[2020.12.10-06.10.22:536][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/ConnectedPlayer" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/ConnectedPlayer.uasset" SILENT=true
+[2020.12.10-06.10.22:559][475]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/ConnectedPlayerAFC5155F4F7BE9D9F78041BAF1AA9908.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/ConnectedPlayer.uasset'
+[2020.12.10-06.10.22:578][475]AssetCheck: New page: Asset Save: ConnectedPlayer
+[2020.12.10-06.10.22:578][475]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Lobby/ConnectedPlayer.ConnectedPlayer
+[2020.12.10-06.10.31:127][971]LogTemp: Repeating last play command: Standalone Game
+[2020.12.10-06.10.31:186][971]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
+[2020.12.10-06.11.51:042][344]LogSlate: Took 0.054537 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.12.10-06.12.42:845][842]BlueprintLog: New page: Compile ConnectedPlayer
+[2020.12.10-06.12.42:910][842]LogUObjectHash: Compacting FUObjectHashTables data took   4.31ms
+[2020.12.10-06.12.43:501][861]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/ConnectedPlayer" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/ConnectedPlayer.uasset" SILENT=true
+[2020.12.10-06.12.43:534][861]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/ConnectedPlayer9EDB2E034B0F7595DA115AB534E8A71F.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/ConnectedPlayer.uasset'
+[2020.12.10-06.12.43:557][861]AssetCheck: New page: Asset Save: ConnectedPlayer
+[2020.12.10-06.12.43:557][861]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Lobby/ConnectedPlayer.ConnectedPlayer
+[2020.12.10-06.16.53:144][375]LogUObjectHash: Compacting FUObjectHashTables data took   4.36ms
+[2020.12.10-06.16.53:146][375]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainMenu' took 0.050
+[2020.12.10-06.16.53:147][375]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Lobby/LobbyPC] ([1] browsable assets)...
+[2020.12.10-06.16.53:147][375]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Lobby/LobbyPC]
+[2020.12.10-06.16.53:218][375]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyPC_Auto13A94A83B48BB8F2C915F9DA44014C78E.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Autosaves/Game/Blueprints/Lobby/LobbyPC_Auto1.uasset'
+[2020.12.10-06.16.53:263][375]LogFileHelpers: Auto-saving content packages took 0.116
+[2020.12.10-06.18.03:060][ 11]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/Blueprints/AllLevels/PlayerInfo.PlayerInfo
+[2020.12.10-06.18.14:059][615]LogSlate: Took 0.033544 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.12.10-06.18.17:243][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AllLevels/PlayerInfo" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/AllLevels/PlayerInfo.uasset" SILENT=true
+[2020.12.10-06.18.17:261][783]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/PlayerInfo1018C9B14D447BE6EE9EDE849A7FB1FE.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/AllLevels/PlayerInfo.uasset'
+[2020.12.10-06.18.17:333][783]AssetCheck: New page: Asset Save: PlayerInfo
+[2020.12.10-06.18.17:333][783]LogContentValidation: Display: Validating UserDefinedStruct /Game/Blueprints/AllLevels/PlayerInfo.PlayerInfo
+[2020.12.10-06.18.18:128][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AllLevels/PlayerInfo" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/AllLevels/PlayerInfo.uasset" SILENT=true
+[2020.12.10-06.18.18:142][826]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/PlayerInfo6819AA9340BFB5A1F2CBDC8A124F31FC.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/AllLevels/PlayerInfo.uasset'
+[2020.12.10-06.18.18:160][826]AssetCheck: New page: Asset Save: PlayerInfo
+[2020.12.10-06.18.18:160][826]LogContentValidation: Display: Validating UserDefinedStruct /Game/Blueprints/AllLevels/PlayerInfo.PlayerInfo
+[2020.12.10-06.18.21:892][ 27]BlueprintLog: New page: Compile LobbyMenu
+[2020.12.10-06.18.21:976][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   4.35ms
+[2020.12.10-06.18.22:744][ 58]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2020.12.10-06.18.22:836][ 58]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyMenuD834D16F4269E241CC88A9BE7B9E5A8F.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/LobbyMenu.uasset'
+[2020.12.10-06.18.22:855][ 58]AssetCheck: New page: Asset Save: LobbyMenu
+[2020.12.10-06.18.22:855][ 58]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Lobby/LobbyMenu.LobbyMenu
+[2020.12.10-06.18.24:588][131]BlueprintLog: New page: Compile LobbyPC
+[2020.12.10-06.18.24:709][131]LogUObjectHash: Compacting FUObjectHashTables data took   4.08ms
+[2020.12.10-06.18.25:390][153]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyPC.uasset" SILENT=true
+[2020.12.10-06.18.25:461][153]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyPC25648F204C6D58986B029DB96F0BD93A.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyPC.uasset'
+[2020.12.10-06.18.25:568][153]AssetCheck: New page: Asset Save: LobbyPC
+[2020.12.10-06.18.25:568][153]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Lobby/LobbyPC.LobbyPC
+[2020.12.10-06.18.27:004][212]BlueprintLog: New page: Compile LobbyGM
+[2020.12.10-06.18.27:148][212]LogUObjectHash: Compacting FUObjectHashTables data took   4.01ms
+[2020.12.10-06.18.28:059][244]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyGM" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyGM.uasset" SILENT=true
+[2020.12.10-06.18.28:176][244]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyGMCA48BAEA45AE0D783CE780B057588A8A.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyGM.uasset'
+[2020.12.10-06.18.28:192][244]AssetCheck: New page: Asset Save: LobbyGM
+[2020.12.10-06.18.28:192][244]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Lobby/LobbyGM.LobbyGM
+[2020.12.10-06.18.31:771][411]BlueprintLog: New page: Compile ConnectedPlayer
+[2020.12.10-06.18.31:841][411]LogUObjectHash: Compacting FUObjectHashTables data took   4.29ms
+[2020.12.10-06.18.33:871][507]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/ConnectedPlayer" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/ConnectedPlayer.uasset" SILENT=true
+[2020.12.10-06.18.33:930][507]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/ConnectedPlayer9C73A7D843CA807AFE37449414242FFB.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/ConnectedPlayer.uasset'
+[2020.12.10-06.18.33:951][507]AssetCheck: New page: Asset Save: ConnectedPlayer
+[2020.12.10-06.18.33:951][507]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Lobby/ConnectedPlayer.ConnectedPlayer
+[2020.12.10-06.20.56:598][552]BlueprintLog: New page: Compile LobbyPC
+[2020.12.10-06.20.56:741][552]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
+[2020.12.10-06.20.57:705][587]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyPC" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyPC.uasset" SILENT=true
+[2020.12.10-06.20.57:779][587]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyPC990BBD914C150E23FD9AAC80FB9B3792.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyPC.uasset'
+[2020.12.10-06.20.57:799][587]AssetCheck: New page: Asset Save: LobbyPC
+[2020.12.10-06.20.57:800][587]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Lobby/LobbyPC.LobbyPC
+[2020.12.10-06.21.42:308][846]BlueprintLog: New page: Compile ConnectedPlayer
+[2020.12.10-06.21.42:382][846]LogUObjectHash: Compacting FUObjectHashTables data took   4.48ms
+[2020.12.10-06.21.42:999][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/ConnectedPlayer" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/ConnectedPlayer.uasset" SILENT=true
+[2020.12.10-06.21.43:025][873]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/ConnectedPlayer3F48878E4269DB0283E21B95A35324F9.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/ConnectedPlayer.uasset'
+[2020.12.10-06.21.43:041][873]AssetCheck: New page: Asset Save: ConnectedPlayer
+[2020.12.10-06.21.43:041][873]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Lobby/ConnectedPlayer.ConnectedPlayer
+[2020.12.10-06.23.08:821][485]BlueprintLog: New page: Compile ConnectedPlayer
+[2020.12.10-06.23.08:886][485]LogUObjectHash: Compacting FUObjectHashTables data took   4.46ms
+[2020.12.10-06.23.09:421][508]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/ConnectedPlayer" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/ConnectedPlayer.uasset" SILENT=true
+[2020.12.10-06.23.09:450][508]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/ConnectedPlayer78C48A334154ABF7396F93B410507E6C.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/ConnectedPlayer.uasset'
+[2020.12.10-06.23.09:470][508]AssetCheck: New page: Asset Save: ConnectedPlayer
+[2020.12.10-06.23.09:470][508]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Lobby/ConnectedPlayer.ConnectedPlayer
+[2020.12.10-06.23.16:338][848]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/ConnectedPlayer" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/ConnectedPlayer.uasset" SILENT=true
+[2020.12.10-06.23.16:370][848]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/ConnectedPlayer43380CA7424AF676FA725F9EA82D20ED.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/ConnectedPlayer.uasset'
+[2020.12.10-06.23.16:390][848]AssetCheck: New page: Asset Save: ConnectedPlayer
+[2020.12.10-06.23.16:390][848]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Lobby/ConnectedPlayer.ConnectedPlayer
+[2020.12.10-06.23.24:177][237]BlueprintLog: New page: Compile ConnectedPlayer
+[2020.12.10-06.23.24:237][237]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2020.12.10-06.23.24:935][262]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/ConnectedPlayer" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/ConnectedPlayer.uasset" SILENT=true
+[2020.12.10-06.23.24:964][262]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/ConnectedPlayerB2F333114A9EE974F1C1CCAD8B0BF0A7.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/ConnectedPlayer.uasset'
+[2020.12.10-06.23.24:981][262]AssetCheck: New page: Asset Save: ConnectedPlayer
+[2020.12.10-06.23.24:981][262]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Lobby/ConnectedPlayer.ConnectedPlayer
+[2020.12.10-06.24.07:825][600]BlueprintLog: New page: Compile ConnectedPlayer
+[2020.12.10-06.24.07:892][600]LogUObjectHash: Compacting FUObjectHashTables data took   4.51ms
+[2020.12.10-06.24.08:345][618]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/ConnectedPlayer" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/ConnectedPlayer.uasset" SILENT=true
+[2020.12.10-06.24.08:377][618]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/ConnectedPlayer862D970B441822D81A62B2B7EBAC0051.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/ConnectedPlayer.uasset'
+[2020.12.10-06.24.08:397][618]AssetCheck: New page: Asset Save: ConnectedPlayer
+[2020.12.10-06.24.08:397][618]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Lobby/ConnectedPlayer.ConnectedPlayer
+[2020.12.10-06.24.18:969][169]BlueprintLog: New page: Compile ConnectedPlayer
+[2020.12.10-06.24.19:047][169]LogUObjectHash: Compacting FUObjectHashTables data took   4.76ms
+[2020.12.10-06.24.19:579][188]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/ConnectedPlayer" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/ConnectedPlayer.uasset" SILENT=true
+[2020.12.10-06.24.19:621][188]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/ConnectedPlayer78BE475D47BBB35560211E9D4C1E3112.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/ConnectedPlayer.uasset'
+[2020.12.10-06.24.19:647][188]AssetCheck: New page: Asset Save: ConnectedPlayer
+[2020.12.10-06.24.19:647][188]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Lobby/ConnectedPlayer.ConnectedPlayer
+[2020.12.10-06.25.01:479][699]LogSlate: Window 'Color Picker' being destroyed
+[2020.12.10-06.25.07:998][770]LogSlate: Window 'Color Picker' being destroyed
+[2020.12.10-06.25.16:043][822]LogSlate: Window 'Color Picker' being destroyed
+[2020.12.10-06.25.17:920][919]BlueprintLog: New page: Compile ConnectedPlayer
+[2020.12.10-06.25.17:993][919]LogUObjectHash: Compacting FUObjectHashTables data took   4.61ms
+[2020.12.10-06.25.18:486][939]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/ConnectedPlayer" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/ConnectedPlayer.uasset" SILENT=true
+[2020.12.10-06.25.18:520][939]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/ConnectedPlayer1FADFF3D48815F7749E21D9C103C48B3.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/ConnectedPlayer.uasset'
+[2020.12.10-06.25.18:573][939]AssetCheck: New page: Asset Save: ConnectedPlayer
+[2020.12.10-06.25.18:573][939]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Lobby/ConnectedPlayer.ConnectedPlayer
+[2020.12.10-06.25.21:737][ 83]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/ConnectedPlayer" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/ConnectedPlayer.uasset" SILENT=true
+[2020.12.10-06.25.21:765][ 83]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/ConnectedPlayerB82311AB4B615F2D60C93F9FA6B9FEFE.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/Lobby/ConnectedPlayer.uasset'
+[2020.12.10-06.25.21:782][ 83]AssetCheck: New page: Asset Save: ConnectedPlayer
+[2020.12.10-06.25.21:782][ 83]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Lobby/ConnectedPlayer.ConnectedPlayer
+[2020.12.10-06.25.30:742][594]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
 Script call stack:
 	Function /Game/ParagonSerath/Characters/Heroes/Serath/Serath_AnimBlueprint.Serath_AnimBlueprint_C:BlueprintUpdateAnimation
 	Function /Game/ParagonSerath/Characters/Heroes/Serath/Serath_AnimBlueprint.Serath_AnimBlueprint_C:ExecuteUbergraph_Serath_AnimBlueprint
 
-[2020.11.20-06.03.40:433][533]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Lobby.Lobby
-[2020.11.20-06.03.40:467][533]LogUObjectHash: Compacting FUObjectHashTables data took   4.05ms
-[2020.11.20-06.03.40:469][533]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Lobby.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.11.20-06.03.40:469][533]LightingResults: New page: Lighting Build
-[2020.11.20-06.03.40:470][533]LoadErrors: New page: Loading map: Lobby.umap
-[2020.11.20-06.03.40:470][533]LogWorld: UWorld::CleanupWorld for TravelMap, bSessionEnded=true, bCleanupResources=true
-[2020.11.20-06.03.40:470][533]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.20-06.03.40:470][533]MapCheck: New page: Map Check
-[2020.11.20-06.03.40:470][533]LightingResults: New page: Lighting Build
-[2020.11.20-06.03.40:499][533]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019B11059580), frame # 19533
-[2020.11.20-06.03.40:499][533]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019B91643A00), frame # 19533
-[2020.11.20-06.03.40:502][533]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
-[2020.11.20-06.03.40:509][533]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+[2020.12.10-06.25.30:749][594]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Lobby.Lobby
+[2020.12.10-06.25.30:793][594]LogUObjectHash: Compacting FUObjectHashTables data took   4.15ms
+[2020.12.10-06.25.32:328][594]LogSlate: Window 'Save Content' being destroyed
+[2020.12.10-06.25.32:404][594]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/PlayerSaveGameA34F45C44112C7581EAA588E53E90C95.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/AllLevels/PlayerSaveGame.uasset'
+[2020.12.10-06.25.32:405][594]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyGM" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyGM.uasset" SILENT=true
+[2020.12.10-06.25.32:484][594]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/LobbyGM7CC600A84BDBA0C6E58BD29187B1794A.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Lobby/LobbyGM.uasset'
+[2020.12.10-06.25.32:486][594]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu/OptionMenu" FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/MainMenu/OptionMenu.uasset" SILENT=true
+[2020.12.10-06.25.32:580][594]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/OptionMenuC5E9953D4828A9B78C28F982FEC8D566.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/MainMenu/OptionMenu.uasset'
+[2020.12.10-06.25.32:581][594]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/Lobby.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.12.10-06.25.32:582][594]LightingResults: New page: Lighting Build
+[2020.12.10-06.25.32:585][594]LoadErrors: New page: Loading map: Lobby.umap
+[2020.12.10-06.25.32:586][594]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2020.12.10-06.25.32:586][594]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.10-06.25.32:586][594]MapCheck: New page: Map Check
+[2020.12.10-06.25.32:586][594]LightingResults: New page: Lighting Build
+[2020.12.10-06.25.32:627][594]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000229E02C6FC0), frame # 75594
+[2020.12.10-06.25.32:627][594]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002298B18BE00), frame # 75594
+[2020.12.10-06.25.32:631][594]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2020.12.10-06.25.32:639][594]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
 Script call stack:
 	Function /Game/ParagonSerath/Characters/Heroes/Serath/Serath_AnimBlueprint.Serath_AnimBlueprint_C:BlueprintUpdateAnimation
 	Function /Game/ParagonSerath/Characters/Heroes/Serath/Serath_AnimBlueprint.Serath_AnimBlueprint_C:ExecuteUbergraph_Serath_AnimBlueprint
 
-[2020.11.20-06.03.41:014][533]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.11.20-06.03.41:014][533]LogAIModule: Creating AISystem for world Lobby
-[2020.11.20-06.03.41:014][533]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019B1C655E00), frame # 19533
-[2020.11.20-06.03.41:014][533]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019B865D3D80), frame # 19533
-[2020.11.20-06.03.41:048][533]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
-[2020.11.20-06.03.41:104][533]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.11.20-06.03.41:104][533]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.112ms to complete.
-[2020.11.20-06.03.41:104][533]LogFileHelpers: Loading map 'Lobby' took 0.634
-[2020.11.20-06.03.42:412][587]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/MainMenu.MainMenu
-[2020.11.20-06.03.42:441][587]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
-[2020.11.20-06.03.42:442][587]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.11.20-06.03.42:442][587]LightingResults: New page: Lighting Build
-[2020.11.20-06.03.42:443][587]LoadErrors: New page: Loading map: MainMenu.umap
-[2020.11.20-06.03.42:471][587]LogWorld: UWorld::CleanupWorld for Lobby, bSessionEnded=true, bCleanupResources=true
-[2020.11.20-06.03.42:471][587]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.20-06.03.42:471][587]MapCheck: New page: Map Check
-[2020.11.20-06.03.42:471][587]LightingResults: New page: Lighting Build
-[2020.11.20-06.03.42:494][587]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019B865D3D80), frame # 19587
-[2020.11.20-06.03.42:494][587]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019B1C655E00), frame # 19587
-[2020.11.20-06.03.42:497][587]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
-[2020.11.20-06.03.42:607][587]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.11.20-06.03.42:608][587]LogAIModule: Creating AISystem for world MainMenu
-[2020.11.20-06.03.42:608][587]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019B1CB5EE00), frame # 19587
-[2020.11.20-06.03.42:608][587]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019B22B9D940), frame # 19587
-[2020.11.20-06.03.42:638][587]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
-[2020.11.20-06.03.42:708][587]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.11.20-06.03.42:708][587]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.108ms to complete.
-[2020.11.20-06.03.42:708][587]LogFileHelpers: Loading map 'MainMenu' took 0.266
-[2020.11.20-06.03.43:507][623]LogTemp: Repeating last play command: Standalone Game
-[2020.11.20-06.03.43:562][623]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
-[2020.11.20-06.04.34:916][  1]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.11.20-06.04.34:916][  1]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.11.20-06.04.39:716][191]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Characters/PushHitBoxBP.PushHitBoxBP
-[2020.11.20-06.07.25:609][351]BlueprintLog: New page: Compile PushHitBoxBP
-[2020.11.20-06.07.25:723][351]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
-[2020.11.20-06.07.25:867][351]LogSlate: Took 0.014830 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2020.11.20-06.07.26:499][372]LogSavePackage: Moving '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/PushHitBoxBPC087FD5E43F8B61BBAE4C9A4E96835C1.tmp' to '../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/Characters/PushHitBoxBP.uasset'
-[2020.11.20-06.07.26:531][372]AssetCheck: New page: Asset Save: PushHitBoxBP
-[2020.11.20-06.07.26:531][372]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Characters/PushHitBoxBP.PushHitBoxBP
-[2020.11.20-06.07.52:344][770]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.11.20-06.07.52:344][770]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.11.20-06.07.53:656][827]LogSlate: Window 'PushHitBoxBP' being destroyed
-[2020.11.20-06.07.53:669][827]LogSlate: Window 'PushHitBoxBP' being destroyed
-[2020.11.20-06.07.53:671][827]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
-[2020.11.20-06.07.53:671][827]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.20-06.07.55:360][907]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
+[2020.12.10-06.25.33:142][594]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.12.10-06.25.33:142][594]LogAIModule: Creating AISystem for world Lobby
+[2020.12.10-06.25.33:142][594]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022A23984A00), frame # 75594
+[2020.12.10-06.25.33:142][594]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022A14BB8540), frame # 75594
+[2020.12.10-06.25.33:186][594]LogUObjectHash: Compacting FUObjectHashTables data took   3.96ms
+[2020.12.10-06.25.33:215][594]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.12.10-06.25.33:215][594]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.084ms to complete.
+[2020.12.10-06.25.33:215][594]LogFileHelpers: Loading map 'Lobby' took 0.634
+[2020.12.10-06.25.33:299][594]AssetCheck: New page: Asset Save: multiple assets
+[2020.12.10-06.25.33:299][594]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/AllLevels/PlayerSaveGame.PlayerSaveGame
+[2020.12.10-06.25.33:299][594]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Lobby/LobbyGM.LobbyGM
+[2020.12.10-06.25.33:299][594]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/MainMenu/OptionMenu.OptionMenu
+[2020.12.10-06.25.37:159][809]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/MainMenu.MainMenu
+[2020.12.10-06.25.37:201][809]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2020.12.10-06.25.37:202][809]Cmd: MAP LOAD FILE="../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.12.10-06.25.37:203][809]LightingResults: New page: Lighting Build
+[2020.12.10-06.25.37:203][809]LoadErrors: New page: Loading map: MainMenu.umap
+[2020.12.10-06.25.37:203][809]LogWorld: UWorld::CleanupWorld for Lobby, bSessionEnded=true, bCleanupResources=true
+[2020.12.10-06.25.37:203][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.10-06.25.37:204][809]MapCheck: New page: Map Check
+[2020.12.10-06.25.37:204][809]LightingResults: New page: Lighting Build
+[2020.12.10-06.25.37:241][809]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022A14BB8540), frame # 75809
+[2020.12.10-06.25.37:241][809]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022A23984A00), frame # 75809
+[2020.12.10-06.25.37:244][809]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2020.12.10-06.25.37:329][809]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.12.10-06.25.37:330][809]LogAIModule: Creating AISystem for world MainMenu
+[2020.12.10-06.25.37:330][809]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000229F8553800), frame # 75809
+[2020.12.10-06.25.37:330][809]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022A4BA4EFC0), frame # 75809
+[2020.12.10-06.25.37:369][809]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2020.12.10-06.25.37:400][809]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.12.10-06.25.37:401][809]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.073ms to complete.
+[2020.12.10-06.25.37:401][809]LogFileHelpers: Loading map 'MainMenu' took 0.198
+[2020.12.10-06.25.38:344][861]LogTemp: Repeating last play command: Standalone Game
+[2020.12.10-06.25.38:398][861]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2020.12.10-06.28.04:461][523]LogSlate: Window 'LobbyMenu' being destroyed
+[2020.12.10-06.28.04:466][523]LogSlate: Window 'LobbyMenu' being destroyed
+[2020.12.10-06.28.04:489][523]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.12.10-06.28.04:489][523]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.10-06.28.04:670][523]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.12.10-06.28.04:670][523]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.12.10-06.28.04:670][523]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.10-06.28.04:843][523]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.12.10-06.28.04:843][523]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.10-06.28.04:848][523]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.12.10-06.28.04:848][523]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.10-06.28.04:961][523]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.12.10-06.28.04:961][523]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.10-06.28.04:983][523]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.12.10-06.28.04:983][523]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.10-06.28.05:074][523]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.12.10-06.28.05:074][523]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.10-06.28.05:082][523]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.12.10-06.28.05:082][523]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.10-06.28.05:715][553]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2020.12.10-06.28.07:456][650]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
