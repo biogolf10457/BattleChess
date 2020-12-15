@@ -1,8 +1,8 @@
-﻿Log file open, 12/14/20 15:42:50
+﻿Log file open, 12/15/20 11:23:10
 LogInit: Display: Running engine for game: BattleChess_Game
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.344628
+LogStats: Stats thread started at 0.246653
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +7:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -137,23 +137,22 @@ LogInit:  - BufferSize = 65536
 LogSteamShared: Display: Loading Steam SDK 1.47
 LogSteamShared: Steam SDK Loaded!
 LogOnline: OSS: Creating online subsystem instance for: Steam
-LogOnline: Warning: STEAM: Steam API disabled!
 LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
 LogOnline: OSS: Unable to create OnlineSubsystem module Steam
 LogOnline: OSS: Creating online subsystem instance for: NULL
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
 LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
-LogInit: Build: ++UE4+Release-4.25-CL-13942748
-LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
 LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
 LogInit: Net CL: 13144385
-LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
-LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
 LogInit: Compiled with Visual C++: 19.24.28315.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.25
-LogInit: Command Line:  127.0.0.1:17777 -game -PIEVIACONSOLE -Multiprocess GameUserSettingsINI=D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/PIEGameUserSettings1.ini -MultiprocessSaveConfig -MultiprocessOSS -messaging -SessionName="Play in Standalone Game" -windowed -ResX=1280 -ResY=720
-LogInit: Base Directory: D:/Program Files (x86)/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Command Line: 
+LogInit: Base Directory: D:/GAME/Epic Games/UE_4.25/Engine/Binaries/Win64/
 LogInit: Allocator: TBB
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 26
@@ -184,7 +183,7 @@ LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 3
 LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
 LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
 LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
-LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Engine.ini]
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Saved/Config/Windows/Engine.ini]
 LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
 LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
 LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
@@ -202,858 +201,753 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.12.14-08.42.51:184][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
-[2020.12.14-08.42.51:184][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.12.14-08.42.51:184][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Engine.ini]
-[2020.12.14-08.42.51:184][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.12.14-08.42.51:184][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Engine.ini]
-[2020.12.14-08.42.51:184][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Engine.ini]
-[2020.12.14-08.42.51:184][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.12.14-08.42.51:184][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.12.14-08.42.51:184][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.12.14-08.42.51:184][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.12.14-08.42.51:184][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.12.14-08.42.51:184][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.12.14-08.42.51:184][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.12.14-08.42.51:184][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.12.14-08.42.51:185][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.12.14-08.42.51:185][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.12.14-08.42.51:185][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.12.14-08.42.51:185][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.12.14-08.42.51:185][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.12.14-08.42.51:185][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.12.14-08.42.51:185][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Engine.ini]
-[2020.12.14-08.42.51:185][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.12.14-08.42.51:185][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.12.14-08.42.51:185][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.12.14-08.42.51:185][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.12.14-08.42.51:185][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.12.14-08.42.51:185][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.12.14-08.42.51:185][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.12.14-08.42.51:185][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.12.14-08.42.51:185][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.12.14-08.42.51:185][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.12.14-08.42.51:185][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.12.14-08.42.51:185][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.12.14-08.42.51:185][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.12.14-08.42.51:185][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Engine.ini]
-[2020.12.14-08.42.51:185][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Engine.ini]
-[2020.12.14-08.42.51:191][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
-[2020.12.14-08.42.51:191][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.12.14-08.42.51:191][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.12.14-08.42.51:191][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
-[2020.12.14-08.42.51:191][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.12.14-08.42.51:191][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
-[2020.12.14-08.42.51:192][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.12.14-08.42.51:192][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.12.14-08.42.51:192][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.12.14-08.42.51:192][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.12.14-08.42.51:192][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.12.14-08.42.51:192][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.12.14-08.42.51:192][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.12.14-08.42.51:192][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.12.14-08.42.51:192][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.12.14-08.42.51:192][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.12.14-08.42.51:192][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.12.14-08.42.51:192][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.12.14-08.42.51:192][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.12.14-08.42.51:192][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.12.14-08.42.51:192][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.12.14-08.42.51:192][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.12.14-08.42.51:192][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.12.14-08.42.51:192][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.12.14-08.42.51:192][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
-[2020.12.14-08.42.51:192][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.12.14-08.42.51:192][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.12.14-08.42.51:192][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.12.14-08.42.51:192][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.12.14-08.42.51:192][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.12.14-08.42.51:192][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.12.14-08.42.51:192][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.12.14-08.42.51:192][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.12.14-08.42.51:192][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.12.14-08.42.51:192][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.12.14-08.42.51:192][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.12.14-08.42.51:192][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.12.14-08.42.51:192][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.12.14-08.42.51:193][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.12.14-08.42.51:193][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.12.14-08.42.51:193][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.12.14-08.42.51:193][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.12.14-08.42.51:193][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.12.14-08.42.51:193][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.12.14-08.42.51:193][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.12.14-08.42.51:193][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.12.14-08.42.51:193][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.12.14-08.42.51:193][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.12.14-08.42.51:193][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.12.14-08.42.51:193][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.12.14-08.42.51:193][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.12.14-08.42.51:193][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.12.14-08.42.51:193][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.12.14-08.42.51:193][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.12.14-08.42.51:193][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.12.14-08.42.51:193][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
-[2020.12.14-08.42.51:193][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.12.14-08.42.51:193][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.12.14-08.42.51:193][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.12.14-08.42.51:193][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.12.14-08.42.51:193][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.12.14-08.42.51:193][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.12.14-08.42.51:193][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.12.14-08.42.51:193][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.12.14-08.42.51:193][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.12.14-08.42.51:193][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
-[2020.12.14-08.42.51:193][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.12.14-08.42.51:193][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.12.14-08.42.51:193][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.12.14-08.42.51:194][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.12.14-08.42.51:194][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.12.14-08.42.51:194][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.12.14-08.42.51:194][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.12.14-08.42.51:194][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.12.14-08.42.51:194][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.12.14-08.42.51:194][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.12.14-08.42.51:194][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.12.14-08.42.51:194][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.12.14-08.42.51:194][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.12.14-08.42.51:194][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.12.14-08.42.51:194][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.12.14-08.42.51:194][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.12.14-08.42.51:194][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.12.14-08.42.51:194][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.12.14-08.42.51:194][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.12.14-08.42.51:194][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.12.14-08.42.51:194][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.12.14-08.42.51:194][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.12.14-08.42.51:194][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.12.14-08.42.51:194][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.12.14-08.42.51:194][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.12.14-08.42.51:194][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.12.14-08.42.51:194][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
-[2020.12.14-08.42.51:194][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.12.14-08.42.51:194][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.12.14-08.42.51:194][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
-[2020.12.14-08.42.51:194][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.12.14-08.42.51:194][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.12.14-08.42.51:195][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.12.14-08.42.51:195][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.12.14-08.42.51:195][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.12.14-08.42.51:195][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.12.14-08.42.51:195][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.12.14-08.42.51:195][  0]LogInit: Selected Device Profile: [Windows]
-[2020.12.14-08.42.51:195][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.12.14-08.42.51:195][  0]LogHAL: Display: Platform has ~ 8 GB [8460451840 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.12.14-08.42.51:195][  0]LogInit: Going up to parent DeviceProfile []
-[2020.12.14-08.42.51:195][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
-[2020.12.14-08.42.51:195][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.12.14-08.42.51:195][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.12.14-08.42.51:195][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
-[2020.12.14-08.42.51:195][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.12.14-08.42.51:195][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
-[2020.12.14-08.42.51:195][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.12.14-08.42.51:195][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.12.14-08.42.51:195][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.12.14-08.42.51:195][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.12.14-08.42.51:195][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.12.14-08.42.51:195][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.12.14-08.42.51:195][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.12.14-08.42.51:195][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.12.14-08.42.51:195][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.12.14-08.42.51:196][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.12.14-08.42.51:196][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.12.14-08.42.51:196][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.12.14-08.42.51:196][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.12.14-08.42.51:196][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.12.14-08.42.51:196][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.12.14-08.42.51:196][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.12.14-08.42.51:196][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.12.14-08.42.51:196][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.12.14-08.42.51:196][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
-[2020.12.14-08.42.51:196][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.12.14-08.42.51:196][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.12.14-08.42.51:196][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.12.14-08.42.51:196][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.12.14-08.42.51:196][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.12.14-08.42.51:196][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.12.14-08.42.51:196][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.12.14-08.42.51:196][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.12.14-08.42.51:196][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.12.14-08.42.51:196][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.12.14-08.42.51:196][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.12.14-08.42.51:196][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.12.14-08.42.51:196][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.12.14-08.42.51:196][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.12.14-08.42.51:196][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.12.14-08.42.51:196][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.12.14-08.42.51:196][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.12.14-08.42.51:196][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.12.14-08.42.51:196][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.12.14-08.42.51:196][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.12.14-08.42.51:196][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.12.14-08.42.51:196][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.12.14-08.42.51:196][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.12.14-08.42.51:196][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.12.14-08.42.51:196][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.12.14-08.42.51:196][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.12.14-08.42.51:196][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.12.14-08.42.51:197][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
-[2020.12.14-08.42.51:198][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.12.14-08.42.51:198][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.12.14-08.42.51:198][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.12.14-08.42.51:198][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.12.14-08.42.51:198][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.12.14-08.42.51:198][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.12.14-08.42.51:198][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.12.14-08.42.51:198][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.12.14-08.42.51:198][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.12.14-08.42.51:198][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.12.14-08.42.51:198][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2020.12.14-08.42.51:198][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Config/Windows/Engine.ini]
-[2020.12.14-08.42.51:198][  0]LogInit: Computer: DESKTOP-DO80R7R
-[2020.12.14-08.42.51:198][  0]LogInit: User: USER
-[2020.12.14-08.42.51:198][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.12.14-08.42.51:198][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.12.14-08.42.51:198][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2020.12.14-08.42.51:198][  0]LogMemory: Platform Memory Stats for Windows
-[2020.12.14-08.42.51:199][  0]LogMemory: Process Physical Memory: 114.23 MB used, 114.24 MB peak
-[2020.12.14-08.42.51:199][  0]LogMemory: Process Virtual Memory: 96.10 MB used, 96.10 MB peak
-[2020.12.14-08.42.51:199][  0]LogMemory: Physical Memory: 5223.98 MB used,  2844.54 MB free, 8068.52 MB total
-[2020.12.14-08.42.51:199][  0]LogMemory: Virtual Memory: 5144.55 MB used,  134212584.00 MB free, 134217728.00 MB total
-[2020.12.14-08.42.51:209][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.12.14-08.42.51:297][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2020.12.14-08.42.51:298][  0]LogInit: Using OS detected language (en-US).
-[2020.12.14-08.42.51:298][  0]LogInit: Using OS detected locale (en-GB).
-[2020.12.14-08.42.51:300][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.12.14-08.42.51:764][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.12.14-08.42.51:764][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.12.14-08.42.51:842][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.12.14-08.42.51:842][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.12.14-08.42.51:842][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.12.14-08.42.51:843][  0]LogD3D11RHI: D3D11 adapters:
-[2020.12.14-08.42.51:959][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
-[2020.12.14-08.42.51:959][  0]LogD3D11RHI:       4055/0/4034 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.12.14-08.42.51:970][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2020.12.14-08.42.51:970][  0]LogD3D11RHI:       128/0/4034 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2020.12.14-08.42.51:974][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.12.14-08.42.51:974][  0]LogD3D11RHI:       0/0/4034 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.12.14-08.42.51:974][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.12.14-08.42.51:984][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.12.14-08.42.51:984][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
-[2020.12.14-08.42.51:984][  0]LogWindows: EnumDisplayDevices:
-[2020.12.14-08.42.51:984][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
-[2020.12.14-08.42.51:984][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2020.12.14-08.42.51:985][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2020.12.14-08.42.51:985][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2020.12.14-08.42.51:985][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
-[2020.12.14-08.42.51:985][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2020.12.14-08.42.51:985][  0]LogD3D11RHI:      Driver Date: Unknown
-[2020.12.14-08.42.51:985][  0]LogRHI: Texture pool is 2839 MB (70% of 4055 MB)
-[2020.12.14-08.42.52:045][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.12.14-08.42.52:045][  0]LogD3D11RHI: Async texture creation enabled
-[2020.12.14-08.42.52:071][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.12.14-08.42.52:650][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.12.14-08.42.52:653][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.12.14-08.42.52:662][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.12.14-08.42.52:672][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.12.14-08.42.52:672][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.12.14-08.42.52:677][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.12.14-08.42.52:703][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Intermediate/Shaders/WorkingDirectory/17452/).
-[2020.12.14-08.42.52:704][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/USER/AppData/Local/Temp/UnrealShaderWorkingDir/FDAB03C84B3CD4AA5A47F4B5DB9834AE/'.
-[2020.12.14-08.42.52:704][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.12.14-08.42.52:704][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.12.14-08.42.52:704][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.12.14-08.42.53:901][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.12.14-08.42.53:982][  0]LogDerivedDataCache: Loaded boot cache 0.08s 76MB C:/Users/USER/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.12.14-08.42.53:982][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/USER/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2020.12.14-08.42.53:982][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.12.14-08.42.53:982][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.12.14-08.42.53:982][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.12.14-08.42.53:982][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.12.14-08.42.53:997][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.12.14-08.42.53:997][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.12.14-08.42.53:997][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.12.14-08.42.53:999][  0]LogDerivedDataCache: Using Local data cache path C:/Users/USER/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.12.14-08.42.53:999][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.12.14-08.42.53:999][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.12.14-08.42.54:074][  0]LogSlate: Using FreeType 2.10.0
-[2020.12.14-08.42.54:075][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.12.14-08.42.54:244][  0]LogInit: Using OS detected language (en-US).
-[2020.12.14-08.42.54:244][  0]LogInit: Using OS detected locale (en-GB).
-[2020.12.14-08.42.54:244][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
-[2020.12.14-08.42.54:244][  0]LogTextLocalizationManager: No localization for 'en-GB' exists, so 'en' will be used for the locale.
-[2020.12.14-08.42.54:244][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
-[2020.12.14-08.42.54:244][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
-[2020.12.14-08.42.54:246][  0]LogTextLocalizationManager: Compacting localization data took   0.00ms
-[2020.12.14-08.42.54:252][  0]LogAssetRegistry: FAssetRegistry took 0.0044 seconds to start up
-[2020.12.14-08.42.54:543][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.000883 seconds
-[2020.12.14-08.42.54:605][  0]LogInit: Selected Device Profile: [Windows]
-[2020.12.14-08.42.54:733][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.12.14-08.42.54:733][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.12.14-08.42.54:733][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.12.14-08.42.54:733][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.12.14-08.42.54:733][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.12.14-08.42.54:749][  0]LogNetVersion: BattleChess_Game 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 631773850)
-[2020.12.14-08.42.55:064][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001D9A8673880), frame # 0
-[2020.12.14-08.42.55:064][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D9A86796C0), frame # 0
-[2020.12.14-08.42.55:065][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D9A86D4C00), frame # 0
-[2020.12.14-08.42.55:166][  0]LogCollectionManager: Loaded 0 collections in 0.002092 seconds
-[2020.12.14-08.42.55:168][  0]LogFileCache: Scanning file cache for directory 'D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Saved/Collections/' took 0.00s
-[2020.12.14-08.42.55:168][  0]LogFileCache: Scanning file cache for directory 'D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Developers/USER/Collections/' took 0.00s
-[2020.12.14-08.42.55:168][  0]LogFileCache: Scanning file cache for directory 'D:/Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Collections/' took 0.00s
-[2020.12.14-08.42.55:168][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
-[2020.12.14-08.42.55:228][  0]LogMoviePlayer: Initializing movie player
-[2020.12.14-08.42.55:405][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.12.14-08.42.55:410][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.12.14-08.42.55:458][  0]SourceControl: Source control is disabled
-[2020.12.14-08.42.55:458][  0]SourceControl: Source control is disabled
-[2020.12.14-08.42.55:468][  0]SourceControl: Source control is disabled
-[2020.12.14-08.42.55:596][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.12.14-08.42.55:615][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.12.14-08.42.55:615][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.12.14-08.42.55:670][  0]LogOcInput: OculusInput pre-init called
-[2020.12.14-08.42.55:685][  0]LogUObjectArray: 19072 objects as part of root set at end of initial load.
-[2020.12.14-08.42.55:686][  0]LogUObjectAllocator: 5026912 out of 0 bytes used by permanent object pool.
-[2020.12.14-08.42.55:686][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.12.14-08.42.55:739][  0]LogEngine: Initializing Engine...
-[2020.12.14-08.42.55:741][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.12.14-08.42.55:741][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2020.12.14-08.42.55:742][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.12.14-08.42.55:893][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.12.14-08.42.55:900][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.12.14-08.42.55:900][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.12.14-08.42.55:900][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.12.14-08.42.55:900][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.12.14-08.42.55:900][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.12.14-08.42.55:900][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.12.14-08.42.55:900][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.12.14-08.42.55:900][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.12.14-08.42.55:901][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.12.14-08.42.55:901][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.12.14-08.42.55:924][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.12.14-08.42.55:924][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.12.14-08.42.56:053][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2020.12.14-08.42.56:061][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.12.14-08.42.56:062][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.12.14-08.42.56:062][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.12.14-08.42.56:063][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.12.14-08.42.56:065][  0]LogInit: FAudioDevice initialized.
-[2020.12.14-08.42.56:066][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.12.14-08.42.56:068][  0]LogInit: Texture streaming: Enabled
-[2020.12.14-08.42.56:143][  0]LogProperty: Error: FStructProperty::Serialize Loading: Property 'StructProperty /Game/UI/MainMenu/OptionMenu.OptionMenu_C:PlayerInfo'. Unknown structure.
-[2020.12.14-08.42.56:143][  0]LogProperty: Error: FStructProperty::Serialize Loading: Property 'StructProperty /Game/Blueprints/AllLevels/PlayerSaveGame.PlayerSaveGame_C:S_PlayerInfo'. Unknown structure.
-[2020.12.14-08.42.56:143][  0]LogClass: Warning: Property S_PlayerInfo of S_PlayerInfo has a struct type mismatch (tag STRUCT_REINST_PlayerInfo_0 != prop FallbackStruct) in package:  ../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/Blueprints/AllLevels/PlayerSaveGame.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
-[2020.12.14-08.42.56:171][  0]LogClass: Warning: Property PlayerInfo of PlayerInfo has a struct type mismatch (tag STRUCT_REINST_PlayerInfo_0 != prop FallbackStruct) in package:  ../../../../../../Abiogolf/IT_KMITL/BattleChess/BattleChess_Game/Content/UI/MainMenu/OptionMenu.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
-[2020.12.14-08.42.56:254][  0]LogClass: Warning: Property S_PlayerInfo of S_PlayerInfo has a struct type mismatch (tag FallbackStruct != prop PlayerInfo) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
-[2020.12.14-08.42.56:255][  0]LogClass: Warning: Property PlayerInfo of PlayerInfo has a struct type mismatch (tag FallbackStruct != prop PlayerInfo) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
-[2020.12.14-08.42.56:268][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.14-08.42.56:270][  0]LogInit: Display: Game Engine Initialized.
-[2020.12.14-08.42.56:270][  0]LogNiagaraEditor: Warning: GEditor isn't valid! Particle reset commands will not work for Niagara components!
-[2020.12.14-08.42.56:311][  0]LogInit: Display: Starting Game.
-[2020.12.14-08.42.56:311][  0]LogNet: Browse: 127.0.0.1:17777/Game/Maps/MainMenu?Name=Player
-[2020.12.14-08.42.56:311][  0]LogOnline: OSS: Creating online subsystem instance for: STEAM
-[2020.12.14-08.42.56:311][  0]LogOnline: Warning: STEAM: Steam API disabled!
-[2020.12.14-08.42.56:311][  0]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2020.12.14-08.42.56:312][  0]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
-[2020.12.14-08.42.56:312][  0]LogNet: Created socket for bind address: 0.0.0.0 on port 0
-[2020.12.14-08.42.56:312][  0]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2020.12.14-08.42.56:312][  0]LogNet: Game client on port 17777, rate 10000
-[2020.12.14-08.42.56:339][  0]LogLoad: (Engine Initialization) Total time: 7.30 seconds
-[2020.12.14-08.42.56:339][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.12.14-08.42.56:343][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.12.14-08.42.56:351][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.14-08.43.03:347][271]LogHandshake: SendChallengeResponse. Timestamp: 0.734797, Cookie: 065152202145011229221037135234186197237144127002052054181052
-[2020.12.14-08.43.03:355][273]LogNetVersion: BattleChess_Game 1.0.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2426702381)
-[2020.12.14-08.43.03:355][273]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_0, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2020.12.14-08.43.03:364][275]LogNet: Welcomed by server (Level: /Game/Maps/Lobby, Game: /Game/Blueprints/Lobby/LobbyGM.LobbyGM_C)
-[2020.12.14-08.43.03:364][275]LogLoad: LoadMap: 127.0.0.1:17777/Game/Maps/Lobby?Name=Player?game=/Game/Blueprints/Lobby/LobbyGM.LobbyGM_C
-[2020.12.14-08.43.03:364][275]LogWorld: BeginTearingDown for /Temp/Untitled_0
-[2020.12.14-08.43.03:365][275]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.12.14-08.43.03:365][275]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.14-08.43.03:385][275]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
-[2020.12.14-08.43.07:839][275]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
-Script call stack:
-	Function /Game/ParagonSerath/Characters/Heroes/Serath/Serath_AnimBlueprint.Serath_AnimBlueprint_C:BlueprintUpdateAnimation
-	Function /Game/ParagonSerath/Characters/Heroes/Serath/Serath_AnimBlueprint.Serath_AnimBlueprint_C:ExecuteUbergraph_Serath_AnimBlueprint
-
-[2020.12.14-08.43.07:860][275]LogWorld: Bringing World /Game/Maps/Lobby.Lobby up for play (max tick rate 0) at 2020.12.14-15.43.07
-[2020.12.14-08.43.07:861][275]LogWorld: Bringing up level for play took: 0.031359
-[2020.12.14-08.43.07:864][275]LogSlate: Took 0.000375 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.12.14-08.43.07:869][275]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
-[2020.12.14-08.43.07:869][275]LogLoad: Took 4.504297 seconds to LoadMap(/Game/Maps/Lobby)
-[2020.12.14-08.43.07:871][275]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
-[2020.12.14-08.43.12:557][729]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
-[2020.12.14-08.43.12:558][729]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
-[2020.12.14-08.43.14:806][749]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSerath/Characters/Heroes/Serath/Animations/LevelStart_Montage.LevelStart_Montage'
-[2020.12.14-08.43.18:329][993]PIE: Warning: LobbyMenu_C_0
-[2020.12.14-08.43.20:722][297]PIE: Warning: CharacterSelect
-[2020.12.14-08.43.23:232][618]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
-Script call stack:
-	Function /Game/ParagonSerath/Characters/Heroes/Serath/Serath_AnimBlueprint.Serath_AnimBlueprint_C:BlueprintUpdateAnimation
-	Function /Game/ParagonSerath/Characters/Heroes/Serath/Serath_AnimBlueprint.Serath_AnimBlueprint_C:ExecuteUbergraph_Serath_AnimBlueprint
-
-[2020.12.14-08.43.25:563][852]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSerath/Characters/Heroes/Serath/Animations/LevelStart_Montage.LevelStart_Montage'
-[2020.12.14-08.43.28:736][ 88]LogOnlineSession: Warning: OSS: Can't destroy a null online session (GameSession)
-[2020.12.14-08.43.36:352][597]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor 0_Base_C_3. Function pushed will not be processed.
-[2020.12.14-08.43.38:237][624]LogScript: Warning: Script Msg: Divide by zero detected: 179.999969 / 0
-Script call stack:
-	Function /Game/ParagonSerath/Characters/Heroes/Serath/Serath_AnimBlueprint.Serath_AnimBlueprint_C:BlueprintUpdateAnimation
-	Function /Game/ParagonSerath/Characters/Heroes/Serath/Serath_AnimBlueprint.Serath_AnimBlueprint_C:ExecuteUbergraph_Serath_AnimBlueprint
-
-[2020.12.14-08.43.38:249][624]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor SerathPlayerCharacter_C_1. Function pushed will not be processed.
-[2020.12.14-08.43.40:552][682]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSerath/Characters/Heroes/Serath/Animations/LevelStart_Montage.LevelStart_Montage'
-[2020.12.14-08.43.47:247][900]LogScript: Warning: Script Msg: Divide by zero detected: 179.999969 / 0
-Script call stack:
-	Function /Game/Blueprints/Characters/Knight_AnimBlueprint.Knight_AnimBlueprint_C:BlueprintUpdateAnimation
-	Function /Game/Blueprints/Characters/Knight_AnimBlueprint.Knight_AnimBlueprint_C:ExecuteUbergraph_Knight_AnimBlueprint
-
-[2020.12.14-08.43.47:254][900]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Knight_C_0. Function pushed will not be processed.
-[2020.12.14-08.43.50:024][996]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/LevelStart_Montage.LevelStart_Montage'
-[2020.12.14-08.43.53:034][ 16]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Knight_C_0. Function pushed will not be processed.
-[2020.12.14-08.43.53:399][ 18]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Knight_C_0. Function pushed will not be processed.
-[2020.12.14-08.43.55:693][ 50]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Knight_C_0. Function pushed will not be processed.
-[2020.12.14-08.43.56:979][ 68]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Knight_C_0. Function pushed will not be processed.
-[2020.12.14-08.43.57:362][ 69]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsGreystone_Player_Character
-	ANS_Malee_Greystone_C /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/Attack_PrimaryB_Montage.Attack_PrimaryB_Montage:ANS_Malee_Greystone_C_0
-	Function /Game/ANS_Malee_Greystone.ANS_Malee_Greystone_C:Received_NotifyBegin:0076
-[2020.12.14-08.43.57:362][ 69]LogScript: Warning: Script call stack:
-	Function /Game/ANS_Malee_Greystone.ANS_Malee_Greystone_C:Received_NotifyBegin
-
-[2020.12.14-08.43.57:362][ 69]LogScript: Warning: Accessed None
-	ANS_Malee_Greystone_C /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/Attack_PrimaryB_Montage.Attack_PrimaryB_Montage:ANS_Malee_Greystone_C_0
-	Function /Game/ANS_Malee_Greystone.ANS_Malee_Greystone_C:Received_NotifyBegin:008B
-[2020.12.14-08.43.57:362][ 69]LogScript: Warning: Script call stack:
-	Function /Game/ANS_Malee_Greystone.ANS_Malee_Greystone_C:Received_NotifyBegin
-
-[2020.12.14-08.43.57:395][ 70]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsGreystone_Player_Character
-	ANS_Malee_Greystone_C /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/Attack_PrimaryB_Montage.Attack_PrimaryB_Montage:ANS_Malee_Greystone_C_0
-	Function /Game/ANS_Malee_Greystone.ANS_Malee_Greystone_C:Received_NotifyEnd:0076
-[2020.12.14-08.43.57:395][ 70]LogScript: Warning: Script call stack:
-	Function /Game/ANS_Malee_Greystone.ANS_Malee_Greystone_C:Received_NotifyEnd
-
-[2020.12.14-08.43.57:395][ 70]LogScript: Warning: Accessed None
-	ANS_Malee_Greystone_C /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/Attack_PrimaryB_Montage.Attack_PrimaryB_Montage:ANS_Malee_Greystone_C_0
-	Function /Game/ANS_Malee_Greystone.ANS_Malee_Greystone_C:Received_NotifyEnd:008B
-[2020.12.14-08.43.57:395][ 70]LogScript: Warning: Script call stack:
-	Function /Game/ANS_Malee_Greystone.ANS_Malee_Greystone_C:Received_NotifyEnd
-
-[2020.12.14-08.43.57:798][ 72]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Knight_C_0. Function pushed will not be processed.
-[2020.12.14-08.43.58:215][ 74]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Knight_C_0. Function pushed will not be processed.
-[2020.12.14-08.43.59:643][ 81]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsGreystone_Player_Character
-	ANS_Malee_Greystone_C /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/Attack_PrimaryB_Montage.Attack_PrimaryB_Montage:ANS_Malee_Greystone_C_0
-	Function /Game/ANS_Malee_Greystone.ANS_Malee_Greystone_C:Received_NotifyBegin:0076
-[2020.12.14-08.43.59:643][ 81]LogScript: Warning: Script call stack:
-	Function /Game/ANS_Malee_Greystone.ANS_Malee_Greystone_C:Received_NotifyBegin
-
-[2020.12.14-08.43.59:643][ 81]LogScript: Warning: Accessed None
-	ANS_Malee_Greystone_C /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/Attack_PrimaryB_Montage.Attack_PrimaryB_Montage:ANS_Malee_Greystone_C_0
-	Function /Game/ANS_Malee_Greystone.ANS_Malee_Greystone_C:Received_NotifyBegin:008B
-[2020.12.14-08.43.59:643][ 81]LogScript: Warning: Script call stack:
-	Function /Game/ANS_Malee_Greystone.ANS_Malee_Greystone_C:Received_NotifyBegin
-
-[2020.12.14-08.43.59:842][ 82]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Knight_C_0. Function pushed will not be processed.
-[2020.12.14-08.43.59:844][ 82]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsGreystone_Player_Character
-	ANS_Malee_Greystone_C /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/Attack_PrimaryB_Montage.Attack_PrimaryB_Montage:ANS_Malee_Greystone_C_0
-	Function /Game/ANS_Malee_Greystone.ANS_Malee_Greystone_C:Received_NotifyEnd:0076
-[2020.12.14-08.43.59:844][ 82]LogScript: Warning: Script call stack:
-	Function /Game/ANS_Malee_Greystone.ANS_Malee_Greystone_C:Received_NotifyEnd
-
-[2020.12.14-08.43.59:844][ 82]LogScript: Warning: Accessed None
-	ANS_Malee_Greystone_C /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/Attack_PrimaryB_Montage.Attack_PrimaryB_Montage:ANS_Malee_Greystone_C_0
-	Function /Game/ANS_Malee_Greystone.ANS_Malee_Greystone_C:Received_NotifyEnd:008B
-[2020.12.14-08.43.59:844][ 82]LogScript: Warning: Script call stack:
-	Function /Game/ANS_Malee_Greystone.ANS_Malee_Greystone_C:Received_NotifyEnd
-
-[2020.12.14-08.44.00:663][ 86]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Knight_C_0. Function pushed will not be processed.
-[2020.12.14-08.44.03:343][101]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Knight_C_0. Function pushed will not be processed.
-[2020.12.14-08.44.04:019][113]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Knight_C_0. Function pushed will not be processed.
-[2020.12.14-08.44.04:166][124]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsGreystone_Player_Character
-	ANS_Malee_Greystone_C /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/Attack_PrimaryB_Montage.Attack_PrimaryB_Montage:ANS_Malee_Greystone_C_0
-	Function /Game/ANS_Malee_Greystone.ANS_Malee_Greystone_C:Received_NotifyBegin:0076
-[2020.12.14-08.44.04:166][124]LogScript: Warning: Script call stack:
-	Function /Game/ANS_Malee_Greystone.ANS_Malee_Greystone_C:Received_NotifyBegin
-
-[2020.12.14-08.44.04:166][124]LogScript: Warning: Accessed None
-	ANS_Malee_Greystone_C /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/Attack_PrimaryB_Montage.Attack_PrimaryB_Montage:ANS_Malee_Greystone_C_0
-	Function /Game/ANS_Malee_Greystone.ANS_Malee_Greystone_C:Received_NotifyBegin:008B
-[2020.12.14-08.44.04:166][124]LogScript: Warning: Script call stack:
-	Function /Game/ANS_Malee_Greystone.ANS_Malee_Greystone_C:Received_NotifyBegin
-
-[2020.12.14-08.44.04:191][126]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Knight_C_0. Function pushed will not be processed.
-[2020.12.14-08.44.04:247][130]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsGreystone_Player_Character
-	ANS_Malee_Greystone_C /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/Attack_PrimaryB_Montage.Attack_PrimaryB_Montage:ANS_Malee_Greystone_C_0
-	Function /Game/ANS_Malee_Greystone.ANS_Malee_Greystone_C:Received_NotifyEnd:0076
-[2020.12.14-08.44.04:247][130]LogScript: Warning: Script call stack:
-	Function /Game/ANS_Malee_Greystone.ANS_Malee_Greystone_C:Received_NotifyEnd
-
-[2020.12.14-08.44.04:247][130]LogScript: Warning: Accessed None
-	ANS_Malee_Greystone_C /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/Attack_PrimaryB_Montage.Attack_PrimaryB_Montage:ANS_Malee_Greystone_C_0
-	Function /Game/ANS_Malee_Greystone.ANS_Malee_Greystone_C:Received_NotifyEnd:008B
-[2020.12.14-08.44.04:248][130]LogScript: Warning: Script call stack:
-	Function /Game/ANS_Malee_Greystone.ANS_Malee_Greystone_C:Received_NotifyEnd
-
-[2020.12.14-08.44.04:848][169]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Knight_C_0. Function pushed will not be processed.
-[2020.12.14-08.44.04:850][169]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Knight_C_0. Function pushed will not be processed.
-[2020.12.14-08.44.05:682][173]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Knight_C_0. Function pushed will not be processed.
-[2020.12.14-08.44.06:919][179]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Knight_C_0. Function pushed will not be processed.
-[2020.12.14-08.44.07:528][182]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Knight_C_0. Function pushed will not be processed.
-[2020.12.14-08.44.07:528][182]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsGreystone_Player_Character
-	ANS_Malee_Greystone_C /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/Attack_PrimaryB_Montage.Attack_PrimaryB_Montage:ANS_Malee_Greystone_C_0
-	Function /Game/ANS_Malee_Greystone.ANS_Malee_Greystone_C:Received_NotifyBegin:0076
-[2020.12.14-08.44.07:529][182]LogScript: Warning: Script call stack:
-	Function /Game/ANS_Malee_Greystone.ANS_Malee_Greystone_C:Received_NotifyBegin
-
-[2020.12.14-08.44.07:529][182]LogScript: Warning: Accessed None
-	ANS_Malee_Greystone_C /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/Attack_PrimaryB_Montage.Attack_PrimaryB_Montage:ANS_Malee_Greystone_C_0
-	Function /Game/ANS_Malee_Greystone.ANS_Malee_Greystone_C:Received_NotifyBegin:008B
-[2020.12.14-08.44.07:529][182]LogScript: Warning: Script call stack:
-	Function /Game/ANS_Malee_Greystone.ANS_Malee_Greystone_C:Received_NotifyBegin
-
-[2020.12.14-08.44.07:736][183]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Knight_C_0. Function pushed will not be processed.
-[2020.12.14-08.44.07:739][183]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsGreystone_Player_Character
-	ANS_Malee_Greystone_C /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/Attack_PrimaryB_Montage.Attack_PrimaryB_Montage:ANS_Malee_Greystone_C_0
-	Function /Game/ANS_Malee_Greystone.ANS_Malee_Greystone_C:Received_NotifyEnd:0076
-[2020.12.14-08.44.07:739][183]LogScript: Warning: Script call stack:
-	Function /Game/ANS_Malee_Greystone.ANS_Malee_Greystone_C:Received_NotifyEnd
-
-[2020.12.14-08.44.07:739][183]LogScript: Warning: Accessed None
-	ANS_Malee_Greystone_C /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/Attack_PrimaryB_Montage.Attack_PrimaryB_Montage:ANS_Malee_Greystone_C_0
-	Function /Game/ANS_Malee_Greystone.ANS_Malee_Greystone_C:Received_NotifyEnd:008B
-[2020.12.14-08.44.07:739][183]LogScript: Warning: Script call stack:
-	Function /Game/ANS_Malee_Greystone.ANS_Malee_Greystone_C:Received_NotifyEnd
-
-[2020.12.14-08.44.12:779][377]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Knight_C_0. Function pushed will not be processed.
-[2020.12.14-08.44.13:844][469]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Knight_C_0. Function pushed will not be processed.
-[2020.12.14-08.44.14:867][557]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Knight_C_0. Function pushed will not be processed.
-[2020.12.14-08.44.15:888][645]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Knight_C_0. Function pushed will not be processed.
-[2020.12.14-08.44.17:313][769]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Knight_C_0. Function pushed will not be processed.
-[2020.12.14-08.44.19:205][933]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Knight_C_0. Function pushed will not be processed.
-[2020.12.14-08.44.20:382][ 37]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Knight_C_0. Function pushed will not be processed.
-[2020.12.14-08.44.21:614][144]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Knight_C_0. Function pushed will not be processed.
-[2020.12.14-08.44.21:879][166]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Knight_C_0. Function pushed will not be processed.
-[2020.12.14-08.44.23:015][262]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Knight_C_0. Function pushed will not be processed.
-[2020.12.14-08.44.23:169][275]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Knight_C_0. Function pushed will not be processed.
-[2020.12.14-08.44.26:011][525]LogWindowsDesktop: Alt-F4 pressed!
-[2020.12.14-08.44.26:034][525]LogSlate: Window 'BattleChess_Game (64-bit Development PCD3D_SM5) ' being destroyed
-[2020.12.14-08.44.26:111][525]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.12.14-08.44.26:166][525]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.14-08.44.26:166][525]LogEngine: All Windows Closed
-[2020.12.14-08.44.26:166][525]LogWindows: FPlatformMisc::RequestExit(0)
-[2020.12.14-08.44.26:166][525]LogCore: Engine exit requested (reason: Win RequestExit)
-[2020.12.14-08.44.26:227][526]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
-[2020.12.14-08.44.26:346][526]LogAudio: Display: Shutting down audio device while 2 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
-[2020.12.14-08.44.26:479][526]LogInit: Display: PreExit Game.
-[2020.12.14-08.44.26:635][526]LogWorld: BeginTearingDown for /Game/Maps/Lobby
-[2020.12.14-08.44.26:648][526]LogNet: World NetDriver shutdown IpNetDriver_0 [GameNetDriver]
-[2020.12.14-08.44.26:648][526]LogNet: DestroyNamedNetDriver IpNetDriver_0 [GameNetDriver]
-[2020.12.14-08.44.26:648][526]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: NO, PC: LobbyPC_C_0, Owner: LobbyPC_C_0, UniqueId: NULL:DESKTOP-DO80R7R-AA0A23544D2E17835C533C80A1688EAA, Channels: 15, Time: 2020.12.14-08.44.26
-[2020.12.14-08.44.26:648][526]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: NO, PC: LobbyPC_C_0, Owner: LobbyPC_C_0, UniqueId: NULL:DESKTOP-DO80R7R-AA0A23544D2E17835C533C80A1688EAA
-[2020.12.14-08.44.26:698][526]LogExit: GameNetDriver IpNetDriver_0 shut down
-[2020.12.14-08.44.26:698][526]LogOnlineSession: Warning: OSS: Can't destroy a null online session (GameSession)
-[2020.12.14-08.44.26:700][526]LogWorld: UWorld::CleanupWorld for Lobby, bSessionEnded=true, bCleanupResources=true
-[2020.12.14-08.44.26:701][526]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.14-08.44.26:870][526]LogExit: Preparing to exit.
-[2020.12.14-08.44.27:479][526]LogMoviePlayer: Shutting down movie player
-[2020.12.14-08.44.28:179][526]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.14-08.44.28:255][526]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
-[2020.12.14-08.44.28:354][526]LogExit: Game engine shut down
-[2020.12.14-08.44.29:238][526]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (000001D9A8673880), frame # 7526
-[2020.12.14-08.44.29:238][526]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D9A86796C0), frame # 7526
-[2020.12.14-08.44.29:248][526]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D9A86D4C00), frame # 7526
-[2020.12.14-08.44.30:088][526]LogExit: Object subsystem successfully closed.
-[2020.12.14-08.44.30:339][526]LogShaderCompilers: Display: Shaders left to compile 0
-[2020.12.14-08.44.31:375][526]LogModuleManager: Shutting down and abandoning module GameplayDebugger (502)
-[2020.12.14-08.44.31:409][526]LogModuleManager: Shutting down and abandoning module Voice (500)
-[2020.12.14-08.44.31:432][526]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
-[2020.12.14-08.44.31:432][526]LogModuleManager: Shutting down and abandoning module SequenceRecorder (494)
-[2020.12.14-08.44.31:432][526]LogModuleManager: Shutting down and abandoning module AutomationController (492)
-[2020.12.14-08.44.31:432][526]LogModuleManager: Shutting down and abandoning module AutomationWorker (490)
-[2020.12.14-08.44.31:473][526]LogModuleManager: Shutting down and abandoning module OculusMR (488)
-[2020.12.14-08.44.31:517][526]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
-[2020.12.14-08.44.31:517][526]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (484)
-[2020.12.14-08.44.31:517][526]LogModuleManager: Shutting down and abandoning module WebMMedia (482)
-[2020.12.14-08.44.31:527][526]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (480)
-[2020.12.14-08.44.31:527][526]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (478)
-[2020.12.14-08.44.31:527][526]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
-[2020.12.14-08.44.31:527][526]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (474)
-[2020.12.14-08.44.31:527][526]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (472)
-[2020.12.14-08.44.31:527][526]LogModuleManager: Shutting down and abandoning module PlanarCut (470)
-[2020.12.14-08.44.31:541][526]LogModuleManager: Shutting down and abandoning module CharacterAI (468)
-[2020.12.14-08.44.31:541][526]LogModuleManager: Shutting down and abandoning module SessionServices (466)
-[2020.12.14-08.44.31:541][526]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (464)
-[2020.12.14-08.44.31:541][526]LogModuleManager: Shutting down and abandoning module LiveCoding (462)
-[2020.12.14-08.44.31:597][526]LogModuleManager: Shutting down and abandoning module LevelSequence (460)
-[2020.12.14-08.44.31:597][526]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (458)
-[2020.12.14-08.44.31:597][526]LogModuleManager: Shutting down and abandoning module MovieScene (456)
-[2020.12.14-08.44.31:597][526]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (454)
-[2020.12.14-08.44.31:609][526]LogModuleManager: Shutting down and abandoning module PortalServices (452)
-[2020.12.14-08.44.31:609][526]LogModuleManager: Shutting down and abandoning module PortalRpc (450)
-[2020.12.14-08.44.31:609][526]LogModuleManager: Shutting down and abandoning module MessagingRpc (448)
-[2020.12.14-08.44.31:609][526]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (446)
-[2020.12.14-08.44.31:609][526]LogModuleManager: Shutting down and abandoning module AudioMixerCore (445)
-[2020.12.14-08.44.31:609][526]LogModuleManager: Shutting down and abandoning module ProfilerService (442)
-[2020.12.14-08.44.31:681][526]LogModuleManager: Shutting down and abandoning module TaskGraph (440)
-[2020.12.14-08.44.31:697][526]LogModuleManager: Shutting down and abandoning module Synthesis (438)
-[2020.12.14-08.44.31:714][526]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (436)
-[2020.12.14-08.44.31:714][526]LogModuleManager: Shutting down and abandoning module OculusInput (434)
-[2020.12.14-08.44.31:714][526]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (432)
-[2020.12.14-08.44.31:714][526]LogModuleManager: Shutting down and abandoning module GooglePAD (430)
-[2020.12.14-08.44.31:714][526]LogModuleManager: Shutting down and abandoning module EditableMesh (428)
-[2020.12.14-08.44.31:726][526]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (426)
-[2020.12.14-08.44.31:726][526]LogModuleManager: Shutting down and abandoning module CableComponent (424)
-[2020.12.14-08.44.31:734][526]LogModuleManager: Shutting down and abandoning module AudioCapture (422)
-[2020.12.14-08.44.31:734][526]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (421)
-[2020.12.14-08.44.31:744][526]LogModuleManager: Shutting down and abandoning module AssetTags (418)
-[2020.12.14-08.44.31:744][526]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (416)
-[2020.12.14-08.44.31:744][526]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (414)
-[2020.12.14-08.44.31:744][526]LogModuleManager: Shutting down and abandoning module AppleImageUtils (412)
-[2020.12.14-08.44.31:744][526]LogModuleManager: Shutting down and abandoning module AndroidPermission (410)
-[2020.12.14-08.44.31:744][526]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (408)
-[2020.12.14-08.44.31:756][526]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (406)
-[2020.12.14-08.44.31:764][526]LogModuleManager: Shutting down and abandoning module TemplateSequence (404)
-[2020.12.14-08.44.31:764][526]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (402)
-[2020.12.14-08.44.31:775][526]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (400)
-[2020.12.14-08.44.31:775][526]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (398)
-[2020.12.14-08.44.31:775][526]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (397)
-[2020.12.14-08.44.31:776][526]LogModuleManager: Shutting down and abandoning module MediaCompositing (394)
-[2020.12.14-08.44.31:776][526]LogModuleManager: Shutting down and abandoning module ImgMedia (392)
-[2020.12.14-08.44.31:776][526]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (390)
-[2020.12.14-08.44.31:776][526]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (388)
-[2020.12.14-08.44.31:776][526]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (386)
-[2020.12.14-08.44.31:776][526]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (384)
-[2020.12.14-08.44.31:776][526]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (382)
-[2020.12.14-08.44.31:784][526]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (380)
-[2020.12.14-08.44.31:818][526]LogModuleManager: Shutting down and abandoning module MeshConversion (378)
-[2020.12.14-08.44.31:838][526]LogModuleManager: Shutting down and abandoning module DynamicMesh (376)
-[2020.12.14-08.44.31:852][526]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (374)
-[2020.12.14-08.44.31:856][526]LogModuleManager: Shutting down and abandoning module GeometricObjects (372)
-[2020.12.14-08.44.31:861][526]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (370)
-[2020.12.14-08.44.31:861][526]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (369)
-[2020.12.14-08.44.31:874][526]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (366)
-[2020.12.14-08.44.31:874][526]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (365)
-[2020.12.14-08.44.31:874][526]LogModuleManager: Shutting down and abandoning module GeometryCache (362)
-[2020.12.14-08.44.31:874][526]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (361)
-[2020.12.14-08.44.31:874][526]LogModuleManager: Shutting down and abandoning module ChaosNiagara (358)
-[2020.12.14-08.44.31:874][526]LogModuleManager: Shutting down and abandoning module ChaosCloth (356)
-[2020.12.14-08.44.31:880][526]LogModuleManager: Shutting down and abandoning module BackChannel (354)
-[2020.12.14-08.44.31:888][526]LogModuleManager: Shutting down and abandoning module AutomationUtils (352)
-[2020.12.14-08.44.31:888][526]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (350)
-[2020.12.14-08.44.31:896][526]LogModuleManager: Shutting down and abandoning module HotReload (349)
-[2020.12.14-08.44.31:896][526]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (346)
-[2020.12.14-08.44.31:897][526]LogModuleManager: Shutting down and abandoning module UObjectPlugin (344)
-[2020.12.14-08.44.31:897][526]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (342)
-[2020.12.14-08.44.31:936][526]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (340)
-[2020.12.14-08.44.31:936][526]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (338)
-[2020.12.14-08.44.31:968][526]LogModuleManager: Shutting down and abandoning module SourceControl (337)
-[2020.12.14-08.44.31:981][526]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (334)
-[2020.12.14-08.44.31:981][526]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (332)
-[2020.12.14-08.44.31:981][526]LogModuleManager: Shutting down and abandoning module SoundFields (330)
-[2020.12.14-08.44.31:981][526]LogModuleManager: Shutting down and abandoning module SignificanceManager (328)
-[2020.12.14-08.44.31:981][526]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (326)
-[2020.12.14-08.44.31:981][526]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (324)
-[2020.12.14-08.44.31:994][526]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (320)
-[2020.12.14-08.44.31:994][526]LogModuleManager: Shutting down and abandoning module ActorSequence (318)
-[2020.12.14-08.44.31:994][526]LogModuleManager: Shutting down and abandoning module UdpMessaging (316)
-[2020.12.14-08.44.32:095][526]LogModuleManager: Shutting down and abandoning module TcpMessaging (314)
-[2020.12.14-08.44.32:239][526]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (312)
-[2020.12.14-08.44.32:239][526]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (310)
-[2020.12.14-08.44.32:239][526]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (308)
-[2020.12.14-08.44.32:239][526]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (306)
-[2020.12.14-08.44.32:239][526]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (304)
-[2020.12.14-08.44.32:253][526]LogMagicLeapPlanes: Planes tracker already destroyed.
-[2020.12.14-08.44.32:253][526]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (302)
-[2020.12.14-08.44.32:253][526]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (300)
-[2020.12.14-08.44.32:253][526]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (298)
-[2020.12.14-08.44.32:253][526]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (296)
-[2020.12.14-08.44.32:253][526]LogModuleManager: Shutting down and abandoning module MagicLeapController (294)
-[2020.12.14-08.44.32:266][526]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2020.12.14-08.44.32:266][526]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (292)
-[2020.12.14-08.44.32:297][526]LogModuleManager: Shutting down and abandoning module MagicLeapAR (290)
-[2020.12.14-08.44.32:297][526]LogModuleManager: Shutting down and abandoning module AugmentedReality (289)
-[2020.12.14-08.44.32:297][526]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (286)
-[2020.12.14-08.44.32:297][526]LogModuleManager: Shutting down and abandoning module Niagara (284)
-[2020.12.14-08.44.32:310][526]LogModuleManager: Shutting down and abandoning module SignalProcessing (283)
-[2020.12.14-08.44.32:310][526]LogModuleManager: Shutting down and abandoning module NiagaraEditor (281)
-[2020.12.14-08.44.32:340][526]LogModuleManager: Shutting down and abandoning module NiagaraCore (278)
-[2020.12.14-08.44.32:340][526]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
-[2020.12.14-08.44.32:350][526]LogModuleManager: Shutting down and abandoning module FacialAnimation (274)
-[2020.12.14-08.44.32:350][526]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (272)
-[2020.12.14-08.44.32:358][526]LogModuleManager: Shutting down and abandoning module TreeMap (271)
-[2020.12.14-08.44.32:366][526]LogModuleManager: Shutting down and abandoning module AnimationSharing (268)
-[2020.12.14-08.44.32:366][526]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (266)
-[2020.12.14-08.44.32:366][526]LogModuleManager: Shutting down and abandoning module Paper2D (264)
-[2020.12.14-08.44.32:366][526]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (262)
-[2020.12.14-08.44.32:396][526]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (260)
-[2020.12.14-08.44.32:411][526]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (258)
-[2020.12.14-08.44.32:411][526]LogModuleManager: Shutting down and abandoning module PacketHandler (256)
-[2020.12.14-08.44.32:411][526]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (254)
-[2020.12.14-08.44.32:411][526]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (252)
-[2020.12.14-08.44.32:411][526]LogModuleManager: Shutting down and abandoning module MediaAssets (250)
-[2020.12.14-08.44.32:411][526]LogModuleManager: Shutting down and abandoning module Overlay (248)
-[2020.12.14-08.44.32:411][526]LogModuleManager: Shutting down and abandoning module OverlayEditor (247)
-[2020.12.14-08.44.32:411][526]LogModuleManager: Shutting down and abandoning module VREditor (244)
-[2020.12.14-08.44.32:430][526]LogModuleManager: Shutting down and abandoning module StringTableEditor (242)
-[2020.12.14-08.44.32:440][526]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (240)
-[2020.12.14-08.44.32:440][526]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (238)
-[2020.12.14-08.44.32:480][526]LogModuleManager: Shutting down and abandoning module FunctionalTesting (236)
-[2020.12.14-08.44.32:490][526]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (234)
-[2020.12.14-08.44.32:501][526]LogModuleManager: Shutting down and abandoning module UMG (232)
-[2020.12.14-08.44.32:501][526]LogModuleManager: Shutting down and abandoning module UMGEditor (231)
-[2020.12.14-08.44.32:501][526]LogModuleManager: Shutting down and abandoning module Sequencer (230)
-[2020.12.14-08.44.32:511][526]LogModuleManager: Shutting down and abandoning module MessageLog (227)
-[2020.12.14-08.44.32:511][526]LogModuleManager: Shutting down and abandoning module MaterialEditor (225)
-[2020.12.14-08.44.32:565][526]LogModuleManager: Shutting down and abandoning module ContentBrowser (224)
-[2020.12.14-08.44.32:565][526]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (223)
-[2020.12.14-08.44.32:565][526]LogModuleManager: Shutting down and abandoning module CollectionManager (221)
-[2020.12.14-08.44.32:591][526]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (220)
-[2020.12.14-08.44.32:591][526]LogModuleManager: Shutting down and abandoning module SlateReflector (212)
-[2020.12.14-08.44.32:805][526]LogModuleManager: Shutting down and abandoning module Slate (210)
-[2020.12.14-08.44.32:805][526]LogModuleManager: Shutting down and abandoning module SlateCore (208)
-[2020.12.14-08.44.32:805][526]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (206)
-[2020.12.14-08.44.32:805][526]LogModuleManager: Shutting down and abandoning module EditorStyle (204)
-[2020.12.14-08.44.32:806][526]LogModuleManager: Shutting down and abandoning module UnrealEd (202)
-[2020.12.14-08.44.32:806][526]LogModuleManager: Shutting down and abandoning module MRMesh (200)
-[2020.12.14-08.44.32:806][526]LogModuleManager: Shutting down and abandoning module Messaging (198)
-[2020.12.14-08.44.32:807][526]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
-[2020.12.14-08.44.32:807][526]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
-[2020.12.14-08.44.32:807][526]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
-[2020.12.14-08.44.32:833][526]LogModuleManager: Shutting down and abandoning module Networking (190)
-[2020.12.14-08.44.32:833][526]LogModuleManager: Shutting down and abandoning module Core (188)
-[2020.12.14-08.44.32:833][526]LogModuleManager: Shutting down and abandoning module MovieSceneTools (186)
-[2020.12.14-08.44.32:833][526]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
-[2020.12.14-08.44.32:833][526]LogModuleManager: Shutting down and abandoning module MeshBuilder (182)
-[2020.12.14-08.44.32:847][526]LogModuleManager: Shutting down and abandoning module MeshUtilities (180)
-[2020.12.14-08.44.32:899][526]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (179)
-[2020.12.14-08.44.32:965][526]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (178)
-[2020.12.14-08.44.32:965][526]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (177)
-[2020.12.14-08.44.33:004][526]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (175)
-[2020.12.14-08.44.33:148][526]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (173)
-[2020.12.14-08.44.33:485][526]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (171)
-[2020.12.14-08.44.33:521][526]LogModuleManager: Shutting down and abandoning module MaterialBaking (167)
-[2020.12.14-08.44.33:528][526]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (162)
-[2020.12.14-08.44.33:528][526]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (160)
-[2020.12.14-08.44.33:534][526]LogModuleManager: Shutting down and abandoning module DerivedDataCache (158)
-[2020.12.14-08.44.33:534][526]LogModuleManager: Shutting down and abandoning module XGEController (156)
-[2020.12.14-08.44.33:534][526]LogModuleManager: Shutting down and abandoning module TargetPlatform (154)
-[2020.12.14-08.44.33:540][526]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (153)
-[2020.12.14-08.44.33:550][526]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (151)
-[2020.12.14-08.44.33:562][526]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (149)
-[2020.12.14-08.44.33:568][526]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (147)
-[2020.12.14-08.44.33:568][526]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (145)
-[2020.12.14-08.44.33:610][526]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (143)
-[2020.12.14-08.44.33:610][526]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (141)
-[2020.12.14-08.44.33:610][526]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (139)
-[2020.12.14-08.44.33:621][526]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (137)
-[2020.12.14-08.44.33:629][526]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (135)
-[2020.12.14-08.44.33:629][526]LogModuleManager: Shutting down and abandoning module ImageWrapper (134)
-[2020.12.14-08.44.33:629][526]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (131)
-[2020.12.14-08.44.33:629][526]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (129)
-[2020.12.14-08.44.33:635][526]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (127)
-[2020.12.14-08.44.33:635][526]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (125)
-[2020.12.14-08.44.33:638][526]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (123)
-[2020.12.14-08.44.33:639][526]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (121)
-[2020.12.14-08.44.33:639][526]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (119)
-[2020.12.14-08.44.33:639][526]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (117)
-[2020.12.14-08.44.33:639][526]LogModuleManager: Shutting down and abandoning module InputCore (114)
-[2020.12.14-08.44.33:639][526]LogModuleManager: Shutting down and abandoning module Settings (112)
-[2020.12.14-08.44.33:639][526]LogModuleManager: Shutting down and abandoning module PhysXCooking (110)
-[2020.12.14-08.44.33:639][526]LogModuleManager: Shutting down and abandoning module ChaosSolvers (108)
-[2020.12.14-08.44.33:647][526]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (107)
-[2020.12.14-08.44.33:647][526]LogModuleManager: Shutting down and abandoning module Chaos (104)
-[2020.12.14-08.44.33:647][526]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (102)
-[2020.12.14-08.44.33:660][526]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (101)
-[2020.12.14-08.44.33:673][526]LogModuleManager: Shutting down and abandoning module AVEncoder (100)
-[2020.12.14-08.44.33:681][526]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (96)
-[2020.12.14-08.44.33:712][526]LogModuleManager: Shutting down and abandoning module SteamVRInput (94)
-[2020.12.14-08.44.33:712][526]LogModuleManager: Shutting down and abandoning module SteamVR (92)
-[2020.12.14-08.44.33:712][526]LogHMD: Freeing OpenVRDLLHandle.
-[2020.12.14-08.44.33:712][526]LogModuleManager: Shutting down and abandoning module OculusHMD (90)
-[2020.12.14-08.44.33:712][526]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (88)
-[2020.12.14-08.44.33:712][526]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (86)
-[2020.12.14-08.44.33:712][526]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (84)
-[2020.12.14-08.44.33:712][526]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (80)
-[2020.12.14-08.44.33:882][526]LogModuleManager: Shutting down and abandoning module SteamShared (74)
-[2020.12.14-08.44.33:882][526]LogSteamShared: Freeing the Steam Loaded Modules...
-[2020.12.14-08.44.33:902][526]LogModuleManager: Shutting down and abandoning module XMPP (71)
-[2020.12.14-08.44.33:953][526]LogModuleManager: Shutting down and abandoning module WebSockets (70)
-[2020.12.14-08.44.34:017][526]LogModuleManager: Shutting down and abandoning module HTTP (67)
-[2020.12.14-08.44.34:040][526]LogModuleManager: Shutting down and abandoning module SSL (66)
-[2020.12.14-08.44.34:062][526]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
-[2020.12.14-08.44.34:332][526]LogModuleManager: Shutting down and abandoning module Media (61)
-[2020.12.14-08.44.34:333][526]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
-[2020.12.14-08.44.34:333][526]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
-[2020.12.14-08.44.34:346][526]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
-[2020.12.14-08.44.34:346][526]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
-[2020.12.14-08.44.34:346][526]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
-[2020.12.14-08.44.34:347][526]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
-[2020.12.14-08.44.34:347][526]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
-[2020.12.14-08.44.34:354][526]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
-[2020.12.14-08.44.34:368][526]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
-[2020.12.14-08.44.34:368][526]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
-[2020.12.14-08.44.34:368][526]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
-[2020.12.14-08.44.34:384][526]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
-[2020.12.14-08.44.34:384][526]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
-[2020.12.14-08.44.34:421][526]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
-[2020.12.14-08.44.34:432][526]LogModuleManager: Shutting down and abandoning module RenderCore (30)
-[2020.12.14-08.44.34:432][526]LogModuleManager: Shutting down and abandoning module Landscape (28)
-[2020.12.14-08.44.34:432][526]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
-[2020.12.14-08.44.34:445][526]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
-[2020.12.14-08.44.34:478][526]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
-[2020.12.14-08.44.34:478][526]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
-[2020.12.14-08.44.34:514][526]LogModuleManager: Shutting down and abandoning module Renderer (18)
-[2020.12.14-08.44.34:557][526]LogModuleManager: Shutting down and abandoning module Engine (16)
-[2020.12.14-08.44.34:557][526]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
-[2020.12.14-08.44.34:557][526]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
-[2020.12.14-08.44.34:565][526]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
-[2020.12.14-08.44.34:565][526]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
-[2020.12.14-08.44.34:575][526]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
-[2020.12.14-08.44.34:586][526]LogModuleManager: Shutting down and abandoning module PakFile (4)
-[2020.12.14-08.44.34:605][526]LogModuleManager: Shutting down and abandoning module RSA (3)
-[2020.12.14-08.44.34:742][526]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
-[2020.12.14-08.44.34:743][526]LogD3D11RHI: Shutdown
-[2020.12.14-08.44.34:743][526]LogD3D11RHI: CleanupD3DDevice
-[2020.12.14-08.44.34:999][526]LogExit: Exiting.
-[2020.12.14-08.44.35:012][526]Log file closed, 12/14/20 15:44:35
+[2020.12.15-04.23.10:926][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.12.15-04.23.10:926][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.12.15-04.23.10:926][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Saved/Config/Windows/Engine.ini]
+[2020.12.15-04.23.10:926][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.12.15-04.23.10:926][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Saved/Config/Windows/Engine.ini]
+[2020.12.15-04.23.10:926][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Saved/Config/Windows/Engine.ini]
+[2020.12.15-04.23.10:926][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.12.15-04.23.10:926][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.12.15-04.23.10:926][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.12.15-04.23.10:926][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.12.15-04.23.10:926][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.12.15-04.23.10:926][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.12.15-04.23.10:926][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.12.15-04.23.10:926][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.12.15-04.23.10:926][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.12.15-04.23.10:926][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.12.15-04.23.10:926][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.12.15-04.23.10:926][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.12.15-04.23.10:926][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.12.15-04.23.10:926][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.12.15-04.23.10:926][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Saved/Config/Windows/Engine.ini]
+[2020.12.15-04.23.10:926][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.12.15-04.23.10:926][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.12.15-04.23.10:926][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.12.15-04.23.10:926][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.12.15-04.23.10:926][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.12.15-04.23.10:926][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.12.15-04.23.10:926][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.12.15-04.23.10:926][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.12.15-04.23.10:926][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.12.15-04.23.10:926][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.12.15-04.23.10:926][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.12.15-04.23.10:926][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.12.15-04.23.10:926][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.12.15-04.23.10:926][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Saved/Config/Windows/Engine.ini]
+[2020.12.15-04.23.10:926][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Saved/Config/Windows/Engine.ini]
+[2020.12.15-04.23.10:928][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-04.23.10:928][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.12.15-04.23.10:928][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.12.15-04.23.10:928][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-04.23.10:928][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.12.15-04.23.10:928][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-04.23.10:928][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.12.15-04.23.10:928][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.12.15-04.23.10:928][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.12.15-04.23.10:928][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.12.15-04.23.10:928][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.12.15-04.23.10:928][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.12.15-04.23.10:928][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.12.15-04.23.10:928][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.12.15-04.23.10:928][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.12.15-04.23.10:928][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.12.15-04.23.10:928][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.12.15-04.23.10:928][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.12.15-04.23.10:928][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.12.15-04.23.10:928][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.12.15-04.23.10:928][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.12.15-04.23.10:928][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.12.15-04.23.10:928][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.12.15-04.23.10:928][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.12.15-04.23.10:928][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-04.23.10:928][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.12.15-04.23.10:928][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.12.15-04.23.10:928][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.12.15-04.23.10:928][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.12.15-04.23.10:929][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.12.15-04.23.10:929][  0]LogInit: Selected Device Profile: [Windows]
+[2020.12.15-04.23.10:929][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.12.15-04.23.10:929][  0]LogHAL: Display: Platform has ~ 8 GB [8424574976 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.12.15-04.23.10:930][  0]LogInit: Going up to parent DeviceProfile []
+[2020.12.15-04.23.10:930][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.12.15-04.23.10:930][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.12.15-04.23.10:931][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.12.15-04.23.10:931][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.12.15-04.23.10:931][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.12.15-04.23.10:931][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.12.15-04.23.10:931][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.12.15-04.23.10:931][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.12.15-04.23.10:931][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.12.15-04.23.10:931][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.12.15-04.23.10:931][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.12.15-04.23.10:931][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.12.15-04.23.10:931][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-04.23.10:931][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.12.15-04.23.10:931][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.12.15-04.23.10:931][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-04.23.10:931][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.12.15-04.23.10:931][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.12.15-04.23.10:931][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.12.15-04.23.10:931][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.12.15-04.23.10:931][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.12.15-04.23.10:931][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.12.15-04.23.10:931][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.12.15-04.23.10:931][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.12.15-04.23.10:935][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.12.15-04.23.10:935][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.12.15-04.23.10:935][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.12.15-04.23.10:935][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Saved/Config/Windows/Engine.ini]
+[2020.12.15-04.23.10:936][  0]LogInit: Computer: LAPTOP-83JLS1JF
+[2020.12.15-04.23.10:936][  0]LogInit: User: Garfield
+[2020.12.15-04.23.10:936][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.12.15-04.23.10:936][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.12.15-04.23.10:936][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
+[2020.12.15-04.23.10:936][  0]LogMemory: Platform Memory Stats for Windows
+[2020.12.15-04.23.10:936][  0]LogMemory: Process Physical Memory: 116.09 MB used, 116.10 MB peak
+[2020.12.15-04.23.10:936][  0]LogMemory: Process Virtual Memory: 96.07 MB used, 96.07 MB peak
+[2020.12.15-04.23.10:936][  0]LogMemory: Physical Memory: 5826.67 MB used,  2207.63 MB free, 8034.30 MB total
+[2020.12.15-04.23.10:936][  0]LogMemory: Virtual Memory: 5146.30 MB used,  134212584.00 MB free, 134217728.00 MB total
+[2020.12.15-04.23.10:941][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.12.15-04.23.10:983][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.12.15-04.23.10:984][  0]LogInit: Using OS detected language (en-US).
+[2020.12.15-04.23.10:984][  0]LogInit: Using OS detected locale (en-US).
+[2020.12.15-04.23.10:986][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.12.15-04.23.11:197][  0]LogInit: Setting process to per monitor DPI aware
+[2020.12.15-04.23.11:235][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.12.15-04.23.11:235][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.12.15-04.23.13:691][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.12.15-04.23.13:691][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.12.15-04.23.13:691][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.12.15-04.23.13:691][  0]LogD3D11RHI: D3D11 adapters:
+[2020.12.15-04.23.13:797][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2020.12.15-04.23.13:797][  0]LogD3D11RHI:       6052/0/4017 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.12.15-04.23.13:806][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2020.12.15-04.23.13:806][  0]LogD3D11RHI:       128/0/4017 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.12.15-04.23.13:808][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.12.15-04.23.13:808][  0]LogD3D11RHI:       0/0/4017 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.12.15-04.23.13:808][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.12.15-04.23.13:813][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.12.15-04.23.13:814][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2020.12.15-04.23.13:814][  0]LogWindows: EnumDisplayDevices:
+[2020.12.15-04.23.13:814][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2020.12.15-04.23.13:814][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.12.15-04.23.13:814][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.12.15-04.23.13:815][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2020.12.15-04.23.13:815][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2020.12.15-04.23.13:815][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2020.12.15-04.23.13:815][  0]LogD3D11RHI:   Driver Version: 457.30 (internal:27.21.14.5730, unified:457.30)
+[2020.12.15-04.23.13:815][  0]LogD3D11RHI:      Driver Date: 11-6-2020
+[2020.12.15-04.23.13:815][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2020.12.15-04.23.13:880][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.12.15-04.23.13:881][  0]LogD3D11RHI: Async texture creation enabled
+[2020.12.15-04.23.13:881][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.12.15-04.23.13:901][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.12.15-04.23.14:534][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.12.15-04.23.14:554][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.12.15-04.23.14:554][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.12.15-04.23.14:554][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.12.15-04.23.14:554][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.12.15-04.23.14:554][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.12.15-04.23.14:554][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.12.15-04.23.14:554][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.12.15-04.23.14:554][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.12.15-04.23.14:554][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.12.15-04.23.14:554][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.12.15-04.23.14:583][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.12.15-04.23.14:583][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.12.15-04.23.14:600][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.12.15-04.23.14:608][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.12.15-04.23.14:616][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.12.15-04.23.14:624][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.12.15-04.23.14:631][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.12.15-04.23.14:641][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.12.15-04.23.14:649][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.12.15-04.23.14:675][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.12.15-04.23.14:675][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.12.15-04.23.14:689][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.12.15-04.23.14:689][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.12.15-04.23.14:697][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.12.15-04.23.14:705][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.12.15-04.23.14:713][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.12.15-04.23.14:721][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.12.15-04.23.14:721][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.12.15-04.23.14:726][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.12.15-04.23.14:771][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Intermediate/Shaders/WorkingDirectory/9372/).
+[2020.12.15-04.23.14:772][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Garfield/AppData/Local/Temp/UnrealShaderWorkingDir/3213E44C444A2B171DF5D099EE3E0881/'.
+[2020.12.15-04.23.14:772][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.12.15-04.23.14:772][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.12.15-04.23.14:772][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.12.15-04.23.17:530][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.12.15-04.23.17:592][  0]LogDerivedDataCache: Loaded boot cache 0.06s 75MB C:/Users/Garfield/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.12.15-04.23.17:592][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Garfield/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.12.15-04.23.17:592][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.12.15-04.23.17:592][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.12.15-04.23.17:592][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.12.15-04.23.17:592][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.12.15-04.23.17:647][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.12.15-04.23.17:647][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.12.15-04.23.17:647][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.12.15-04.23.17:649][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Garfield/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.12.15-04.23.17:649][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.12.15-04.23.17:649][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.12.15-04.23.17:698][  0]LogSlate: Using FreeType 2.10.0
+[2020.12.15-04.23.17:698][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.12.15-04.23.17:723][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
+[2020.12.15-04.23.17:972][  0]LogInit: Selected Device Profile: [Windows]
+[2020.12.15-04.23.18:071][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.12.15-04.23.18:071][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.12.15-04.23.18:071][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.12.15-04.23.18:071][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.12.15-04.23.18:071][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.12.15-04.23.18:083][  0]LogNetVersion: BattleChess_Game 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 631773850)
+[2020.12.15-04.23.18:489][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000017F63B71380), frame # 0
+[2020.12.15-04.23.18:489][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017F63ABEAC0), frame # 0
+[2020.12.15-04.23.18:490][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017F63AF6600), frame # 0
+[2020.12.15-04.23.18:627][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.130162 seconds
+[2020.12.15-04.23.18:631][  0]LogUObjectArray: 15925 objects as part of root set at end of initial load.
+[2020.12.15-04.23.18:631][  0]LogUObjectAllocator: 3977056 out of 0 bytes used by permanent object pool.
+[2020.12.15-04.23.18:631][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.12.15-04.23.18:950][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.12.15-04.23.18:953][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.12.15-04.23.18:987][  0]LogLinker: Warning: Failed to load '/Game/FirstPersonBP/FirstPersonOverview': Can't find file.
+[2020.12.15-04.23.18:987][  0]LogLinker: Warning: Failed to load '/Game/FirstPersonBP/FirstPersonOverview': Can't find file.
+[2020.12.15-04.23.18:987][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2020.12.15-04.23.19:040][  0]SourceControl: Source control is disabled
+[2020.12.15-04.23.19:040][  0]SourceControl: Source control is disabled
+[2020.12.15-04.23.19:043][  0]SourceControl: Source control is disabled
+[2020.12.15-04.23.19:045][  0]SourceControl: Source control is disabled
+[2020.12.15-04.23.19:053][  0]SourceControl: Source control is disabled
+[2020.12.15-04.23.19:246][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.12.15-04.23.19:261][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.12.15-04.23.19:261][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.12.15-04.23.19:300][  0]LogOcInput: OculusInput pre-init called
+[2020.12.15-04.23.19:308][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.12.15-04.23.19:308][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.12.15-04.23.19:360][  0]LogEngine: Initializing Engine...
+[2020.12.15-04.23.19:361][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.12.15-04.23.19:361][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.12.15-04.23.19:362][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.12.15-04.23.19:485][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.12.15-04.23.19:493][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.12.15-04.23.19:493][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017F67818800), frame # 0
+[2020.12.15-04.23.19:493][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017F6780E980), frame # 0
+[2020.12.15-04.23.19:513][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.15-04.23.19:513][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.15-04.23.19:513][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.15-04.23.19:513][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.15-04.23.19:513][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.15-04.23.19:513][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.15-04.23.19:513][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.15-04.23.19:513][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.15-04.23.19:513][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.15-04.23.19:513][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.15-04.23.19:521][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.15-04.23.19:521][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.12.15-04.23.19:566][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.12.15-04.23.19:570][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.15-04.23.19:572][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.15-04.23.19:572][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.15-04.23.19:573][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.15-04.23.19:574][  0]LogInit: FAudioDevice initialized.
+[2020.12.15-04.23.19:574][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.12.15-04.23.19:812][  0]LogDerivedDataCache: Saved boot cache 0.24s 75MB C:/Users/Garfield/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.12.15-04.23.19:819][  0]LogInit: Texture streaming: Enabled
+[2020.12.15-04.23.19:834][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.12.15-04.23.19:834][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.12.15-04.23.19:837][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.12.15-04.23.19:899][  0]LogInit: Transaction tracking system initialized
+[2020.12.15-04.23.19:914][  0]BlueprintLog: New page: Editor Load
+[2020.12.15-04.23.19:963][  0]LocalizationService: Localization service is disabled
+[2020.12.15-04.23.20:086][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.12.15-04.23.20:086][  0]LogCook: Display: Mobile HDR setting 1
+[2020.12.15-04.23.20:188][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Content/' took 0.04s
+[2020.12.15-04.23.20:386][  0]SourceControl: Source control is disabled
+[2020.12.15-04.23.20:386][  0]LogUnrealEdMisc: Loading editor; pre map load, took 12.283
+[2020.12.15-04.23.20:386][  0]Cmd: MAP LOAD FILE="C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.12.15-04.23.20:389][  0]LightingResults: New page: Lighting Build
+[2020.12.15-04.23.20:390][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-04.23.20:390][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-04.23.20:390][  0]MapCheck: New page: Map Check
+[2020.12.15-04.23.20:390][  0]LightingResults: New page: Lighting Build
+[2020.12.15-04.23.20:399][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017F67818800), frame # 0
+[2020.12.15-04.23.20:399][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017F6780E980), frame # 0
+[2020.12.15-04.23.20:400][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.12.15-04.23.20:427][  0]LogProperty: Error: FStructProperty::Serialize Loading: Property 'StructProperty /Game/Blueprints/AllLevels/PlayerSaveGame.PlayerSaveGame_C:S_PlayerInfo'. Unknown structure.
+[2020.12.15-04.23.20:427][  0]LogClass: Warning: Property S_PlayerInfo of S_PlayerInfo has a struct type mismatch (tag STRUCT_REINST_PlayerInfo_0 != prop FallbackStruct) in package:  C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Content/Blueprints/AllLevels/PlayerSaveGame.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2020.12.15-04.23.20:494][  0]LogClass: Warning: Property S_PlayerInfo of S_PlayerInfo has a struct type mismatch (tag FallbackStruct != prop PlayerInfo) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2020.12.15-04.23.20:507][  0]LogAIModule: Creating AISystem for world MainMenu
+[2020.12.15-04.23.20:507][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017F57FD6400), frame # 0
+[2020.12.15-04.23.20:507][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017F580E5080), frame # 0
+[2020.12.15-04.23.20:508][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.12.15-04.23.20:518][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2020.12.15-04.23.20:519][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.12.15-04.23.20:519][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.172ms to complete.
+[2020.12.15-04.23.20:519][  0]LogFileHelpers: Loading map 'MainMenu' took 0.132
+[2020.12.15-04.23.20:521][  0]LogUnrealEdMisc: Total Editor Startup Time, took 12.417
+[2020.12.15-04.23.20:636][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.15-04.23.20:642][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.15-04.23.20:648][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.15-04.23.20:655][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.15-04.23.20:662][  0]LogCollectionManager: Loaded 0 collections in 0.002234 seconds
+[2020.12.15-04.23.20:674][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Saved/Collections/' took 0.00s
+[2020.12.15-04.23.20:674][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Content/Developers/Garfield/Collections/' took 0.00s
+[2020.12.15-04.23.20:674][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Content/Collections/' took 0.00s
+[2020.12.15-04.23.20:674][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 3430 classes and 825 folders.
+[2020.12.15-04.23.20:677][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2020.12.15-04.23.20:719][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2020.12.15-04.23.20:721][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 2 classes and 0 folders.
+[2020.12.15-04.23.20:800][  0]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.12.15-04.23.20:802][  0]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.12.15-04.23.20:812][  0]LogSlate: Took 0.005131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.12.15-04.23.20:874][  0]LogRenderer: Reallocating scene render targets to support 964x432 Format 10 NumSamples 1 (Frame:1).
+[2020.12.15-04.23.21:112][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2020.12.15-04.23.21:112][  0]LogLoad: (Engine Initialization) Total time: 13.01 seconds
+[2020.12.15-04.23.21:112][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.12.15-04.23.21:179][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.12.15-04.23.21:231][  1]LogAssetRegistry: Asset discovery search completed in 3.5089 seconds
+[2020.12.15-04.23.21:235][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2020.12.15-04.23.22:218][ 48]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.12.15-04.23.25:223][222]LogSlate: Took 0.000094 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.12.15-04.23.35:087][811]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/MainMenu/HostMenu.HostMenu
+[2020.12.15-04.23.35:289][811]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 125 classes and 0 folders.
+[2020.12.15-04.23.36:472][811]LogSlate: Took 0.028316 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.12.15-04.23.39:597][962]LogSlate: Took 0.106390 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.12.15-04.25.44:928][952]BlueprintLog: New page: Compile HostMenu
+[2020.12.15-04.25.45:005][952]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2020.12.15-04.25.45:138][952]LogSlate: Took 0.029648 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.12.15-04.25.46:001][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu/HostMenu" FILE="C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Content/UI/MainMenu/HostMenu.uasset" SILENT=true
+[2020.12.15-04.25.46:063][993]LogSavePackage: Moving 'C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Saved/HostMenuB7BA07D7425186A4AD42FF9EC9CE26EE.tmp' to 'C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Content/UI/MainMenu/HostMenu.uasset'
+[2020.12.15-04.25.46:081][993]AssetCheck: New page: Asset Save: HostMenu
+[2020.12.15-04.25.46:081][993]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/MainMenu/HostMenu.HostMenu
+[2020.12.15-04.25.55:290][511]LogEditorTransaction: Undo Add Widget
+[2020.12.15-04.26.40:139][ 37]LogEditorTransaction: Undo Set Vector Property
+[2020.12.15-04.28.04:904][867]BlueprintLog: New page: Compile HostMenu
+[2020.12.15-04.28.04:951][867]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2020.12.15-04.28.06:284][931]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu/HostMenu" FILE="C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Content/UI/MainMenu/HostMenu.uasset" SILENT=true
+[2020.12.15-04.28.06:337][931]LogSavePackage: Moving 'C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Saved/HostMenu9D3EF35F44E033FA5009E49CCFD9DC81.tmp' to 'C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Content/UI/MainMenu/HostMenu.uasset'
+[2020.12.15-04.28.06:351][931]AssetCheck: New page: Asset Save: HostMenu
+[2020.12.15-04.28.06:351][931]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/MainMenu/HostMenu.HostMenu
+[2020.12.15-04.28.22:449][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu/HostMenu" FILE="C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Content/UI/MainMenu/HostMenu.uasset" SILENT=true
+[2020.12.15-04.28.22:501][866]LogSavePackage: Moving 'C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Saved/HostMenu6CF433164316969584A152B9A66A4CCA.tmp' to 'C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Content/UI/MainMenu/HostMenu.uasset'
+[2020.12.15-04.28.22:514][866]AssetCheck: New page: Asset Save: HostMenu
+[2020.12.15-04.28.22:514][866]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/MainMenu/HostMenu.HostMenu
+[2020.12.15-04.28.25:841][960]LogSlate: Window 'HostMenu' being destroyed
+[2020.12.15-04.28.25:847][960]LogSlate: Window 'HostMenu' being destroyed
+[2020.12.15-04.28.25:854][960]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-04.28.25:854][960]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-04.28.25:884][960]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-04.28.25:884][960]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-04.28.46:656][250]LogTexture: Display: Building textures: T_Eye_Tearduct__normals2 (BC5, 2048X2048)
+[2020.12.15-04.28.46:798][250]LogTexture: Display: Building textures: T_TeethAndTongue_D2 (AutoDXT, 1024X1024)
+[2020.12.15-04.28.46:798][250]LogTexture: Display: Building textures: T_Greystone_ToughlookWeaponMask4 (AutoDXT, 4096X4096)
+[2020.12.15-04.28.46:798][250]LogTexture: Display: Building textures: T_Greystone_HairEffects_MASK (AutoDXT, 4096X4096)
+[2020.12.15-04.28.46:798][250]LogTexture: Display: Building textures: T_Greystone_ToughSwordOcclusionDemo (AutoDXT, 4096X4096)
+[2020.12.15-04.28.46:798][250]LogTexture: Display: Building textures: T_Greystone_ToughSwordNormalDemo (BC5, 4096X4096)
+[2020.12.15-04.28.46:798][250]LogTexture: Display: Building textures: T_Greystone_M_legs_EMask (AutoDXT, 4096X4096)
+[2020.12.15-04.28.46:798][250]LogTexture: Display: Building textures: T_Greystone_Legs_Mask02 (AutoDXT, 4096X4096)
+[2020.12.15-04.28.46:798][250]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.12.15-04.28.46:798][250]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.12.15-04.28.46:798][250]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.12.15-04.28.46:798][250]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.12.15-04.28.46:798][250]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.12.15-04.28.46:798][250]LogTexture: Display: Building textures: T_Greystone_Legs_Mask01 (AutoDXT, 4096X4096)
+[2020.12.15-04.28.46:798][250]LogTexture: Display: Building textures: T_Greystone_Legs_Cloth_normals (BC5, 4096X4096)
+[2020.12.15-04.28.46:798][250]LogTexture: Display: Building textures: T_Greystone_Legs_Cloth_RGB (AutoDXT, 4096X4096)
+[2020.12.15-04.28.46:798][250]LogTexture: Display: Building textures: T_Rock_StoneMask (AutoDXT, 4096X4096)
+[2020.12.15-04.28.46:798][250]LogTexture: Display: Building textures: T_Greystone_Rabbit_HairColor (AutoDXT, 1024X1024)
+[2020.12.15-04.28.47:783][250]LogTexture: Display: Building textures: T_Greystone_ToughlookTorsoIDMask4 (AutoDXT, 4096X4096)
+[2020.12.15-04.28.47:783][250]LogTexture: Display: Building textures: T_AnimalHairSet01_Opacity (G8, 2048X2048)
+[2020.12.15-04.28.49:376][250]LogTexture: Display: Building textures: T_Greystone_SwordShieldFurHair_RGB (AutoDXT, 4096X4096)
+[2020.12.15-04.28.49:574][250]LogTexture: Display: Building textures: T_Greystone_SwordShieldFurHair_normals (BC5, 4096X4096)
+[2020.12.15-04.28.49:574][250]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.12.15-04.28.49:581][250]LogTexture: Display: Building textures: T_AnimalHairSet01_Depth (G8, 2048X2048)
+[2020.12.15-04.28.50:921][250]LogTexture: Display: Building textures: T_TilingBone (AutoDXT, 1024X1024)
+[2020.12.15-04.28.50:921][250]LogTexture: Display: Building textures: T_AnimalHairSet01_Root (G8, 2048X2048)
+[2020.12.15-04.28.51:414][250]LogTexture: Display: Building textures: T_AnimalHairSet01_ID (G8, 2048X2048)
+[2020.12.15-04.28.52:424][250]LogMaterial: Display: Missing cached shader map for material M_HairSheet_Master2, compiling. 
+[2020.12.15-04.28.55:504][250]LogTexture: Display: Building textures: T_Metal_Patina_N (BC5, 2048X2048)
+[2020.12.15-04.28.55:504][250]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 235
+[2020.12.15-04.28.55:684][250]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 225
+[2020.12.15-04.28.55:684][250]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 215
+[2020.12.15-04.28.55:684][250]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 205
+[2020.12.15-04.28.55:684][250]LogTexture: Display: Building textures: T_Dark_Leather_N (BC5, 2048X2048)
+[2020.12.15-04.28.55:684][250]LogTexture: Display: Building textures: T_leather_02 (AutoDXT, 4096X4096)
+[2020.12.15-04.28.55:684][250]LogTexture: Display: Building textures: T_Greystone_Head_Torso_RGB (AutoDXT, 4096X4096)
+[2020.12.15-04.29.33:936][250]LogTexture: Display: Building textures: T_Greystone_TorsoLeg_JAGMasks (AutoDXT, 4096X4096)
+[2020.12.15-04.29.33:936][250]LogTexture: Display: Building textures: T_Rubber_2_N (BC5, 2048X2048)
+[2020.12.15-04.29.33:936][250]LogTexture: Display: Building textures: T_UnpleasentGrime_D (AutoDXT, 2048X2048)
+[2020.12.15-04.29.33:936][250]LogTexture: Display: Building textures: T_HeavyFabric02_N (BC5, 2048X2048)
+[2020.12.15-04.29.33:936][250]LogTexture: Display: Building textures: T_HeavyFabric02 (AutoDXT, 2048X2048)
+[2020.12.15-04.29.33:936][250]LogTexture: Display: Building textures: T_EyeIrisBaseColor_Example_6 (AutoDXT, 512X512)
+[2020.12.15-04.29.33:936][250]LogTexture: Display: Building textures: T_Greystone_Head_Torso_Mask02 (AutoDXT, 4096X4096)
+[2020.12.15-04.29.33:936][250]LogTexture: Display: Building textures: T_Greystone_Head_Torso_Mask01 (AutoDXT, 4096X4096)
+[2020.12.15-04.29.33:936][250]LogTexture: Display: Building textures: T_Greystone_M_Flesh_Arms_EMask (AutoDXT, 4096X4096)
+[2020.12.15-04.29.33:936][250]LogTexture: Display: Building textures: T_ML_Gold_Metal01 (AutoDXT, 2048X2048)
+[2020.12.15-04.29.33:936][250]LogTexture: Display: Building textures: T_Plasma_Greystone_Seamless (AutoDXT, 1024X1024)
+[2020.12.15-04.29.33:936][250]LogTexture: Display: Building textures: T_Greystone_M_Torso_EMask (AutoDXT, 4096X4096)
+[2020.12.15-04.29.33:936][250]LogTexture: Display: Building textures: T_Gray_Flat_Black (AutoDXT, 2048X2048)
+[2020.12.15-04.29.33:936][250]LogTexture: Display: Building textures: T_Greystone_ToughlookArmMask4 (AutoDXT, 4096X4096)
+[2020.12.15-04.29.33:936][250]LogTexture: Display: Building textures: T_Greystone_ToughlookArmMask3 (AutoDXT, 2048X2048)
+[2020.12.15-04.29.33:936][250]LogTexture: Display: Building textures: T_Greystone_ToughlookArmMask2 (AutoDXT, 2048X2048)
+[2020.12.15-04.29.33:936][250]LogTexture: Display: Building textures: T_Greystone_ToughlookArmMask1 (AutoDXT, 2048X2048)
+[2020.12.15-04.29.33:936][250]LogTexture: Display: Building textures: T_Greystone_ToughlookArmMask (AutoDXT, 2048X2048)
+[2020.12.15-04.29.33:936][250]LogTexture: Display: Building textures: T_Greystone_ToughArmsOcclusionlDemo (AutoDXT, 4096X4096)
+[2020.12.15-04.29.33:936][250]LogTexture: Display: Building textures: T_PillPattern_N (BC5, 1024X1024)
+[2020.12.15-04.29.33:936][250]LogTexture: Display: Building textures: T_ML_PlasticPattern05_N (BC5, 2048X2048)
+[2020.12.15-04.29.33:936][250]LogTexture: Display: Building textures: T_ML_LatexTech_ClearCoat_Roughness (AutoDXT, 1024X1024)
+[2020.12.15-04.29.33:936][250]LogTexture: Display: Building textures: T_ML_LatexTech (AutoDXT, 1024X1024)
+[2020.12.15-04.29.33:936][250]LogTexture: Display: Building textures: T_Greystone_ToughArmsNormalDemo (BC5, 4096X4096)
+[2020.12.15-04.29.33:937][250]LogTexture: Display: Building textures: T_HipsKneesFeet_RGB1_M (AutoDXT, 4096X4096)
+[2020.12.15-04.29.33:937][250]LogTexture: Display: Building textures: T_Heart_PatternMask2 (AutoDXT, 2048X2048)
+[2020.12.15-04.29.33:937][250]LogTexture: Display: Building textures: T_Greystone_Head_Torso_normals (BC5, 4096X4096)
+[2020.12.15-04.29.43:596][250]LogTexture: Display: Building textures: T_ChestThighForearmMace_RGB1_Tech_M (AutoDXT, 4096X4096)
+[2020.12.15-04.29.43:596][250]LogTexture: Display: Building textures: T_ChestThighForearmMace_Holy_normals (BC5, 4096X4096)
+[2020.12.15-04.29.43:597][250]LogTexture: Display: Building textures: T_Chest_UnHoly_RGB1_M (AutoDXT, 4096X4096)
+[2020.12.15-04.29.43:597][250]LogTexture: Display: Building textures: T_Serath_Intermediate_M (AutoDXT, 4096X4096)
+[2020.12.15-04.29.43:597][250]LogTexture: Display: Building textures: T_Greystone_ToughlookWeaponMask3 (AutoDXT, 2048X2048)
+[2020.12.15-04.29.43:597][250]LogTexture: Display: Building textures: T_Greystone_ToughlookWeaponMask2 (AutoDXT, 4096X4096)
+[2020.12.15-04.29.43:597][250]LogTexture: Display: Building textures: T_Greystone_ToughlookWeaponMask1 (AutoDXT, 2048X2048)
+[2020.12.15-04.29.43:612][250]LogTexture: Display: Building textures: T_Greystone_ToughlookWeaponMask (AutoDXT, 2048X2048)
+[2020.12.15-04.29.43:612][250]LogTexture: Display: Building textures: T_Greystone_UV1_ScratchNormal (BC5, 4096X4096)
+[2020.12.15-04.29.43:612][250]LogTexture: Display: Building textures: T_Dark_Leather2_desat (AutoDXT, 2048X2048)
+[2020.12.15-04.30.00:580][250]LogTexture: Display: Building textures: T_MarbleVein_D (AutoDXT, 4096X4096)
+[2020.12.15-04.30.00:732][250]LogTexture: Display: Building textures: T_RockTextureTile_000_D (AutoDXT, 4096X4096)
+[2020.12.15-04.30.00:732][250]LogTexture: Display: Building textures: T_Greystone_Belt_Chainmall_Hammer_RGB (AutoDXT, 4096X4096)
+[2020.12.15-04.30.00:732][250]LogTexture: Display: Building textures: T_Metal_Scratched (AutoDXT, 4096X4096)
+[2020.12.15-04.30.00:732][250]LogTexture: Display: Building textures: T_Greystone_ShoulderArms_RGB (AutoDXT, 4096X4096)
+[2020.12.15-04.30.00:732][250]LogTexture: Display: Building textures: T_Greystone_ShoulderArms_normals (BC5, 4096X4096)
+[2020.12.15-04.30.00:732][250]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.12.15-04.30.00:735][250]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.12.15-04.30.00:735][250]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 195
+[2020.12.15-04.30.00:735][250]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.12.15-04.30.00:735][250]LogTexture: Display: Building textures: T_Greystone_ShoulderArms_Mask02 (AutoDXT, 4096X4096)
+[2020.12.15-04.30.00:735][250]LogTexture: Display: Building textures: T_Greystone_ShoulderArms_Mask01 (AutoDXT, 4096X4096)
+[2020.12.15-04.30.00:735][250]LogTexture: Display: Building textures: T_Greystone_Fbx_Default_Material_7_EMask (AutoDXT, 4096X4096)
+[2020.12.15-04.30.09:531][250]LogTexture: Display: Building textures: T_Greystone_arms_EMask (AutoDXT, 4096X4096)
+[2020.12.15-04.30.09:531][250]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 185
+[2020.12.15-04.30.09:531][250]LogTexture: Display: Building textures: T_TilingRock_A_D (AutoDXT, 2048X2048)
+[2020.12.15-04.30.23:426][250]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.12.15-04.30.23:426][250]LogTexture: Display: Building textures: T_spiritplane_arcs (AutoDXT, 2048X2048)
+[2020.12.15-04.30.23:426][250]LogTexture: Display: Building textures: T_filter_clouds (AutoDXT, 2048X2048)
+[2020.12.15-04.30.23:426][250]LogTexture: Display: Building textures: T_OldWeave_COLOR (AutoDXT, 1024X1024)
+[2020.12.15-04.30.23:426][250]LogTexture: Display: Building textures: T_Vert_Gradient_Soft (AutoDXT, 32X1024)
+[2020.12.15-04.30.23:851][250]LogTexture: Display: Building textures: T_Smoke_01 (AutoDXT, 1024X1024)
+[2020.12.15-04.30.23:851][250]LogTexture: Display: Building textures: T_HadriansWall_RockFaceTiling_N (BC5, 2048X2048)
+[2020.12.15-04.30.25:179][250]LogTexture: Display: Building textures: T_CloudSmoke_WispInk_Chromashift_Tile (AutoDXT, 1024X1024)
+[2020.12.15-04.30.29:703][250]LogTexture: Display: Building textures: T_Greystone_M_Flesh_head_EMask (AutoDXT, 4096X4096)
+[2020.12.15-04.30.29:703][250]LogTexture: Display: Building textures: T_Greystone_Head_Torso_Spec (AutoDXT, 4096X4096)
+[2020.12.15-04.30.29:703][250]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 175
+[2020.12.15-04.30.29:704][250]LogTexture: Display: Building textures: T_Greystone_Head_Torso_Color (AutoDXT, 4096X4096)
+[2020.12.15-04.30.29:704][250]LogMaterial: Display: Missing cached shader map for material M_Greystone_Torso, compiling. 
+[2020.12.15-04.30.30:635][250]LogTexture: Display: Building textures: T_Greystone_ToughLegsNormalDemo (BC5, 4096X4096)
+[2020.12.15-04.30.30:636][250]LogTexture: Display: Building textures: T_Greystone_Shield_Mask01 (AutoDXT, 4096X4096)
+[2020.12.15-04.30.36:340][250]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.12.15-04.30.36:410][250]LogTexture: Display: Building textures: T_RoughMetal01_N (BC5, 2048X2048)
+[2020.12.15-04.30.36:414][250]LogTexture: Display: Building textures: T_ML_Fabric_Blue_Medium_N (BC5, 1024X1024)
+[2020.12.15-04.30.36:414][250]LogTexture: Display: Building textures: T_Greystone_ToughlookTorsoIDMask5 (AutoDXT, 2048X2048)
+[2020.12.15-04.30.36:414][250]LogTexture: Display: Building textures: T_Greystone_ToughlookTorsoIDMask3 (AutoDXT, 2048X2048)
+[2020.12.15-04.30.36:414][250]LogTexture: Display: Building textures: T_Greystone_ToughlookTorsoIDMask2 (AutoDXT, 4096X4096)
+[2020.12.15-04.30.36:414][250]LogTexture: Display: Building textures: T_Greystone_ToughlookTorsoIDMask (AutoDXT, 4096X4096)
+[2020.12.15-04.30.36:414][250]LogTexture: Display: Building textures: T_Greystone_M_shield_EMask (AutoDXT, 4096X4096)
+[2020.12.15-04.30.56:141][250]LogTexture: Display: Building textures: T_EyeIrisBaseColor_Example_7 (AutoDXT, 512X512)
+[2020.12.15-04.30.56:141][250]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 257
+[2020.12.15-04.30.56:141][250]LogTexture: Display: Building textures: T_Metal_Aged_N (BC5, 2048X2048)
+[2020.12.15-04.30.56:141][250]LogTexture: Display: Building textures: T_gold_01 (AutoDXT, 512X512)
+[2020.12.15-04.30.56:141][250]LogTexture: Display: Building textures: T_Greystone_ToughTorsoOcclusionDemo (AutoDXT, 4096X4096)
+[2020.12.15-04.30.56:141][250]LogTexture: Display: Building textures: T_ML_FineRubber_N (BC5, 2048X2048)
+[2020.12.15-04.30.56:142][250]LogTexture: Display: Building textures: T_Hair_MediumLength_Roots (AutoDXT, 2048X2048)
+[2020.12.15-04.30.56:142][250]LogTexture: Display: Building textures: T_Greystone_ToughlookTorsoMask (AutoDXT, 4096X4096)
+[2020.12.15-04.30.56:142][250]LogTexture: Display: Building textures: T_Hair_MediumLength_Opacity (AutoDXT, 2048X2048)
+[2020.12.15-04.30.56:142][250]LogTexture: Display: Building textures: T_Hair_MediumLength_ID (AutoDXT, 2048X2048)
+[2020.12.15-04.30.56:142][250]LogTexture: Display: Building textures: T_Hair_MediumLength_Depth (AutoDXT, 2048X2048)
+[2020.12.15-04.30.56:142][250]LogTexture: Display: Building textures: T_Greystone_Torso_Mask1 (AutoDXT, 4096X4096)
+[2020.12.15-04.30.56:142][250]LogTexture: Display: Building textures: T_Greystone_ToughlookLegMask3 (AutoDXT, 4096X4096)
+[2020.12.15-04.30.56:143][250]LogTexture: Display: Building textures: T_Greystone_ToughlookLegMask1 (AutoDXT, 2048X2048)
+[2020.12.15-04.30.56:143][250]LogTexture: Display: Building textures: T_Greystone_ToughlookLegMask2 (AutoDXT, 4096X4096)
+[2020.12.15-04.30.56:143][250]LogTexture: Display: Building textures: T_Greystone_ToughlookLegMask (AutoDXT, 2048X2048)
+[2020.12.15-04.30.56:143][250]LogTexture: Display: Building textures: T_GreystoneHair_Flow (BGRA8, 1024X1024)
+[2020.12.15-04.30.56:143][250]LogTexture: Display: Building textures: T_FemaleHairSet02_Opacity (AutoDXT, 2048X2048)
+[2020.12.15-04.30.56:143][250]LogTexture: Display: Building textures: T_FemaleHairSet02_Roots (AutoDXT, 2048X2048)
+[2020.12.15-04.30.56:143][250]LogTexture: Display: Building textures: T_FemaleHairSet02_ID (AutoDXT, 2048X2048)
+[2020.12.15-04.30.56:143][250]LogTexture: Display: Building textures: T_Greystone_ToughLegsOcclusionDemo (AutoDXT, 4096X4096)
+[2020.12.15-04.30.56:143][250]LogMaterial: Display: Missing cached shader map for material M_Greystone_shield, compiling. 
+[2020.12.15-04.30.58:946][250]LogTexture: Display: Building textures: T_EyeScleraBaseColor_Example_3 (AutoDXT, 2048X2048)
+[2020.12.15-04.30.58:946][250]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 339
+[2020.12.15-04.30.58:946][250]LogTexture: Display: Building textures: T_Greystone_ToughTorsoNormalDemo (BC5, 4096X4096)
+[2020.12.15-04.31.04:133][250]LogTexture: Display: Building textures: T_GreystoneTigerPeltFurMask (AutoDXT, 4096X4096)
+[2020.12.15-04.31.04:133][250]LogTexture: Display: Building textures: T_Greystone_Tough_StoneMask (AutoDXT, 512X512)
+[2020.12.15-04.31.04:133][250]LogTexture: Display: Building textures: T_Greystone_Novaborn_Head_Spc (AutoDXT, 4096X4096)
+[2020.12.15-04.31.04:133][250]LogTexture: Display: Building textures: T_Greystone_Novaborn_Head_RGB (AutoDXT, 4096X4096)
+[2020.12.15-04.31.04:133][250]LogTexture: Display: Building textures: T_Greystone_Novaborn_Head_co (AutoDXT, 4096X4096)
+[2020.12.15-04.31.04:133][250]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 329
+[2020.12.15-04.31.04:133][250]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 319
+[2020.12.15-04.31.04:133][250]LogTexture: Display: Building textures: T_ML_Fabric_Dirty (AutoDXT, 1024X1024)
+[2020.12.15-04.31.08:793][250]LogTexture: Display: Building textures: T_Greystone_SwordShieldFurHair_JAGMasks (AutoDXT, 4096X4096)
+[2020.12.15-04.31.08:793][250]LogTexture: Display: Building textures: T_Greystone_Eye_D (AutoDXT, 2048X2048)
+[2020.12.15-04.31.08:793][250]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 309
+[2020.12.15-04.31.08:793][250]LogTexture: Display: Building textures: T_FemaleHairSet02_Depth (AutoDXT, 2048X2048)
+[2020.12.15-04.31.08:793][250]LogTexture: Display: Building textures: T_hardmetal2_D (AutoDXT, 2048X2048)
+[2020.12.15-04.31.17:036][250]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 299
+[2020.12.15-04.31.17:037][250]LogTexture: Display: Building textures: T_ML_Aluminum01 (AutoDXT, 2048X2048)
+[2020.12.15-04.31.23:712][250]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 289
+[2020.12.15-04.31.23:712][250]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 279
+[2020.12.15-04.31.23:712][250]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 269
+[2020.12.15-04.31.23:712][250]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 259
+[2020.12.15-04.31.23:712][250]LogTexture: Display: Building textures: T_Metal_Aged_D (AutoDXT, 2048X2048)
+[2020.12.15-04.31.26:404][250]LogMaterial: Display: Missing cached shader map for material M_Greystone_ToughTorso, compiling. 
+[2020.12.15-04.31.27:540][250]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 249
+[2020.12.15-04.31.27:540][250]LogMaterial: Display: Missing cached shader map for material M_EyeRefractive, compiling. 
+[2020.12.15-04.31.28:775][250]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 552
+[2020.12.15-04.31.28:775][250]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 542
+[2020.12.15-04.31.28:775][250]LogMaterial: Display: Missing cached shader map for material M_TearDuct_2, compiling. 
+[2020.12.15-04.31.32:926][250]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 532
+[2020.12.15-04.31.32:926][250]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 743
+[2020.12.15-04.31.32:926][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonSerath/Characters/Heroes/Serath/Animations/Idle.Idle
+[2020.12.15-04.31.32:926][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/AimOffsets/Idle_AO_LD.Idle_AO_LD
+[2020.12.15-04.31.32:926][250]LogMaterial: Display: Missing cached shader map for material M_Greystone_Torso_WhiteTiger, compiling. 
+[2020.12.15-04.31.34:011][250]LogTexture: Display: Building textures: T_Synthetic_Leather01_D (AutoDXT, 2048X2048)
+[2020.12.15-04.31.36:816][250]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 825
+[2020.12.15-04.31.36:816][250]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 815
+[2020.12.15-04.31.36:816][250]LogMaterial: Display: Missing cached shader map for material M_Greystone_arms, compiling. 
+[2020.12.15-04.31.37:126][250]LogSkeletalMesh: Building Skeletal Mesh Greystone...
+[2020.12.15-04.31.40:592][250]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 897
+[2020.12.15-04.31.40:592][250]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 887
+[2020.12.15-04.31.40:592][250]LogSkeletalMesh: Built Skeletal Mesh [3.43s] /Game/ParagonGreystone/Characters/Heroes/Greystone/Meshes/Greystone.Greystone
+[2020.12.15-04.31.40:598][250]LogSkeletalMesh: Building Skeletal Mesh Greystone_WhiteTiger...
+[2020.12.15-04.31.41:185][250]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 877
+[2020.12.15-04.31.41:185][250]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 867
+[2020.12.15-04.31.41:185][250]LogSkeletalMesh: Built Skeletal Mesh [0.59s] /Game/ParagonGreystone/Characters/Heroes/Greystone/Skins/WhiteTiger/Meshes/Greystone_WhiteTiger.Greystone_WhiteTiger
+[2020.12.15-04.31.41:736][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/AimOffsets/Idle_AO_LU.Idle_AO_LU
+[2020.12.15-04.31.41:736][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/AimOffsets/Idle_AO_RU.Idle_AO_RU
+[2020.12.15-04.31.41:736][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/AimOffsets/Idle_AO_CU.Idle_AO_CU
+[2020.12.15-04.31.41:736][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/AimOffsets/Idle_AO_RC.Idle_AO_RC
+[2020.12.15-04.31.41:736][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonSerath/Characters/Heroes/Serath/Animations/Idle_AO_CD.Idle_AO_CD
+[2020.12.15-04.31.41:736][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/AimOffsets/Idle_AO_RD.Idle_AO_RD
+[2020.12.15-04.31.41:736][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/AimOffsets/Idle_AO_LC.Idle_AO_LC
+[2020.12.15-04.31.41:736][250]LogMaterial: Display: Missing cached shader map for material M_Greystone_Flesh_head, compiling. 
+[2020.12.15-04.31.42:627][250]LogTexture: Display: Building textures: T_Rubber_2 (AutoDXT, 2048X2048)
+[2020.12.15-04.31.45:434][250]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 949
+[2020.12.15-04.31.45:434][250]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 939
+[2020.12.15-04.31.45:434][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonSerath/Characters/Heroes/Serath/Animations/Jog_Fwd_Circle_Left.Jog_Fwd_Circle_Left
+[2020.12.15-04.31.45:434][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonSerath/Characters/Heroes/Serath/Animations/Jog_Fwd_Circle_Right.Jog_Fwd_Circle_Right
+[2020.12.15-04.31.45:434][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/Jump_Start.Jump_Start
+[2020.12.15-04.31.45:434][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonSerath/Characters/Heroes/Serath/Animations/Jog_Fwd_Uphill.Jog_Fwd_Uphill
+[2020.12.15-04.31.45:434][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonSerath/Characters/Heroes/Serath/Animations/Jump_Land.Jump_Land
+[2020.12.15-04.31.45:434][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonSerath/Characters/Heroes/Serath/Animations/Jog_Fwd_Downhill.Jog_Fwd_Downhill
+[2020.12.15-04.31.45:434][250]LogMaterial: Display: Missing cached shader map for material M_Greystone_legs_WhiteTiger, compiling. 
+[2020.12.15-04.31.45:828][250]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1021
+[2020.12.15-04.31.45:828][250]LogMaterial: Display: Missing cached shader map for material M_Greystone_RockHair, compiling. 
+[2020.12.15-04.31.46:024][250]LogMaterial: Display: Missing cached shader map for material M_Greystone_legs, compiling. 
+[2020.12.15-04.31.46:672][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonSerath/Characters/Heroes/Serath/Animations/Jump_Recovery_Additive.Jump_Recovery_Additive
+[2020.12.15-04.31.46:672][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonSerath/Characters/Heroes/Serath/Animations/Jump_Start.Jump_Start
+[2020.12.15-04.31.46:672][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonSerath/Characters/Heroes/Serath/Animations/Jog_Fwd.Jog_Fwd
+[2020.12.15-04.31.46:672][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/Idle.Idle
+[2020.12.15-04.31.46:672][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/LevelStart.LevelStart
+[2020.12.15-04.31.46:672][250]LogMaterial: Display: Missing cached shader map for material M_Greystone_Flesh_Arms, compiling. 
+[2020.12.15-04.31.46:978][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/Jog_Fwd_Start.Jog_Fwd_Start
+[2020.12.15-04.31.46:978][250]LogSkeletalMesh: Building Skeletal Mesh SerathValentine...
+[2020.12.15-04.31.47:885][250]LogSkeletalMesh: Built Skeletal Mesh [0.91s] /Game/ParagonSerath/Characters/Heroes/Serath/Skins/Tier1/Serath_Val/Meshes/SerathValentine.SerathValentine
+[2020.12.15-04.31.49:675][250]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1293
+[2020.12.15-04.31.49:675][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonSerath/Characters/Heroes/Serath/Animations/Idle_AO_LU.Idle_AO_LU
+[2020.12.15-04.31.49:675][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/AimOffsets/Idle_AO_CC.Idle_AO_CC
+[2020.12.15-04.31.49:675][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/AimOffsets/Idle_AO_CD.Idle_AO_CD
+[2020.12.15-04.31.49:676][250]LogTexture: Display: Building textures: T_RoughMetal01 (AutoDXT, 2048X2048)
+[2020.12.15-04.31.52:718][250]LogMaterial: Display: Missing cached shader map for material M_Greystone_ToughLegs, compiling. 
+[2020.12.15-04.31.53:226][250]LogTexture: Display: Building textures: T_PillPattern_D (AutoDXT, 1024X1024)
+[2020.12.15-04.31.54:077][250]LogMaterial: Display: Missing cached shader map for material M_Serath_Silk_V17, compiling. 
+[2020.12.15-04.31.55:375][250]LogTexture: Display: Building textures: T_GoldFabric02 (AutoDXT, 2048X2048)
+[2020.12.15-04.31.59:246][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonSerath/Characters/Heroes/Serath/Animations/Level_Start.Level_Start
+[2020.12.15-04.31.59:246][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonSerath/Characters/Heroes/Serath/Animations/Jog_Fwd_Start.Jog_Fwd_Start
+[2020.12.15-04.31.59:246][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonSerath/Characters/Heroes/Serath/Animations/Jog_Fwd_Stop.Jog_Fwd_Stop
+[2020.12.15-04.31.59:246][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonSerath/Characters/Heroes/Serath/Animations/Jump_Apex.Jump_Apex
+[2020.12.15-04.31.59:246][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/Jump_Apex.Jump_Apex
+[2020.12.15-04.31.59:246][250]LogMaterial: Display: Missing cached shader map for material M_Serath_Holy_Feet_V17, compiling. 
+[2020.12.15-04.31.59:481][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/Jump_Land.Jump_Land
+[2020.12.15-04.31.59:481][250]LogMaterial: Display: Missing cached shader map for material M_Serath_Hips_V17, compiling. 
+[2020.12.15-04.31.59:750][250]LogMaterial: Display: Missing cached shader map for material M_Serath_Head_V17, compiling. 
+[2020.12.15-04.32.00:366][250]LogMaterial: Display: Missing cached shader map for material M_Serath_ChestV17, compiling. 
+[2020.12.15-04.32.00:636][250]LogMaterial: Display: Missing cached shader map for material TransparentWall_2, compiling. 
+[2020.12.15-04.32.00:885][250]LogMaterial: Display: Missing cached shader map for material TransparentWall_1, compiling. 
+[2020.12.15-04.32.02:418][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/Attack_PrimaryA.Attack_PrimaryA
+[2020.12.15-04.32.02:418][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonSerath/Characters/Heroes/Serath/Animations/Idle_AO_RC.Idle_AO_RC
+[2020.12.15-04.32.02:418][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonSerath/Characters/Heroes/Serath/Animations/Idle_AO_RD.Idle_AO_RD
+[2020.12.15-04.32.02:418][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonSerath/Characters/Heroes/Serath/Animations/Idle_AO_RU.Idle_AO_RU
+[2020.12.15-04.32.02:418][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonSerath/Characters/Heroes/Serath/Animations/Idle_AO_CU.Idle_AO_CU
+[2020.12.15-04.32.02:418][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonSerath/Characters/Heroes/Serath/Animations/Idle_AO_LC.Idle_AO_LC
+[2020.12.15-04.32.02:418][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonSerath/Characters/Heroes/Serath/Animations/Idle_AO_LD.Idle_AO_LD
+[2020.12.15-04.32.02:418][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/Jump_Recovery_Additive.Jump_Recovery_Additive
+[2020.12.15-04.32.02:419][250]LogMaterial: Display: Missing cached shader map for material M_Greystone_ToughArms, compiling. 
+[2020.12.15-04.32.03:207][250]LogMaterial: Display: Missing cached shader map for material M_HairSheet_Master2, compiling. 
+[2020.12.15-04.32.03:684][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/Jog_Fwd_Stop.Jog_Fwd_Stop
+[2020.12.15-04.32.03:684][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/Attack_PrimaryC.Attack_PrimaryC
+[2020.12.15-04.32.03:684][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/Jog_Downhill_Fwd.Jog_Downhill_Fwd
+[2020.12.15-04.32.03:684][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/Jog_Fwd.Jog_Fwd
+[2020.12.15-04.32.03:687][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/Jog_Fwd_Circle_Right.Jog_Fwd_Circle_Right
+[2020.12.15-04.32.03:687][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/Jog_Fwd_Circle_Left.Jog_Fwd_Circle_Left
+[2020.12.15-04.32.03:688][250]LogMaterial: Display: Missing cached shader map for material M_Greystone_ToughSword, compiling. 
+[2020.12.15-04.32.04:157][250]LogMaterial: Display: Missing cached shader map for material M_Greystone_shield_WhiteTiger, compiling. 
+[2020.12.15-04.32.04:901][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/Jog_Uphill_Fwd.Jog_Uphill_Fwd
+[2020.12.15-04.32.04:901][250]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2766
+[2020.12.15-04.32.04:901][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/Death.Death
+[2020.12.15-04.32.04:901][250]LogMaterial: Display: Missing cached shader map for material M_HairSheet_Master2, compiling. 
+[2020.12.15-04.32.05:110][250]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonSerath/Characters/Heroes/Serath/Animations/Idle_AO_CC.Idle_AO_CC
+[2020.12.15-04.32.05:110][250]LogMaterial: Display: Missing cached shader map for material M_Greystone_arms_WhiteTiger, compiling. 
+[2020.12.15-04.32.05:211][250]LogMaterial: Display: Missing cached shader map for material M_Greystone_Tough_head_skin, compiling. 
+[2020.12.15-04.32.05:290][250]LogSkeletalMesh: Building Skeletal Mesh Greystone_Tough...
+[2020.12.15-04.32.05:880][250]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3175
+[2020.12.15-04.32.05:880][250]LogSkeletalMesh: Built Skeletal Mesh [0.59s] /Game/ParagonGreystone/Characters/Heroes/Greystone/Skins/Tough/Meshes/Greystone_Tough.Greystone_Tough
