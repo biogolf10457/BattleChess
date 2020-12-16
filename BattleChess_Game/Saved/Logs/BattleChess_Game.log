@@ -766,3 +766,92 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.12.16-13.04.49:496][ 21]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2020.12.16-13.04.49:525][ 21]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
 [2020.12.16-13.04.49:525][ 21]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-13.10.32:820][968]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/MainMenu/OptionMenu.OptionMenu
+[2020.12.16-13.10.44:883][619]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu/OptionMenu" FILE="C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Content/UI/MainMenu/OptionMenu.uasset" SILENT=true
+[2020.12.16-13.10.45:285][619]LogSavePackage: Moving 'C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Saved/OptionMenu7D64EC4A4A9253ADBB8B44B05F7421C0.tmp' to 'C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Content/UI/MainMenu/OptionMenu.uasset'
+[2020.12.16-13.10.45:302][619]AssetCheck: New page: Asset Save: OptionMenu
+[2020.12.16-13.10.45:302][619]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/MainMenu/OptionMenu.OptionMenu
+[2020.12.16-13.10.54:497][137]BlueprintLog: New page: Compile OptionMenu
+[2020.12.16-13.10.54:575][137]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2020.12.16-13.11.17:895][486]LogEditorTransaction: Undo Move Anchor
+[2020.12.16-13.11.20:491][612]LogEditorTransaction: Undo Move Anchor
+[2020.12.16-13.11.31:817][243]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu/OptionMenu" FILE="C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Content/UI/MainMenu/OptionMenu.uasset" SILENT=true
+[2020.12.16-13.11.31:880][243]LogSavePackage: Moving 'C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Saved/OptionMenu0459E703475F7533B40CD4989F660A12.tmp' to 'C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Content/UI/MainMenu/OptionMenu.uasset'
+[2020.12.16-13.11.31:896][243]AssetCheck: New page: Asset Save: OptionMenu
+[2020.12.16-13.11.31:896][243]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/MainMenu/OptionMenu.OptionMenu
+[2020.12.16-13.12.00:931][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu/OptionMenu" FILE="C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Content/UI/MainMenu/OptionMenu.uasset" SILENT=true
+[2020.12.16-13.12.01:008][893]LogSavePackage: Moving 'C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Saved/OptionMenu826620464291ADA94B2CC6871701D7BC.tmp' to 'C:/Users/Garfield/Documents/GitHub/BattleChess/BattleChess_Game/Content/UI/MainMenu/OptionMenu.uasset'
+[2020.12.16-13.12.01:031][893]AssetCheck: New page: Asset Save: OptionMenu
+[2020.12.16-13.12.01:031][893]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/MainMenu/OptionMenu.OptionMenu
+[2020.12.16-13.12.02:679][981]BlueprintLog: New page: Compile OptionMenu
+[2020.12.16-13.12.02:744][981]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2020.12.16-13.12.06:679][201]LogSlate: Window 'OptionMenu' being destroyed
+[2020.12.16-13.12.06:690][201]LogSlate: Window 'OptionMenu' being destroyed
+[2020.12.16-13.12.06:698][201]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.12.16-13.12.06:698][201]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-13.12.06:726][201]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.12.16-13.12.06:726][201]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-13.12.09:601][362]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/MainMenu/ServerMenu.ServerMenu
+[2020.12.16-13.12.21:399][917]LogSlate: Window 'ServerMenu' being destroyed
+[2020.12.16-13.12.21:407][917]LogSlate: Window 'ServerMenu' being destroyed
+[2020.12.16-13.12.21:416][917]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.12.16-13.12.21:416][917]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-13.12.21:422][917]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.12.16-13.12.21:422][917]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-13.12.28:813][351]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/AllLevels/ChatWindow.ChatWindow
+[2020.12.16-13.12.30:521][423]LogSlate: Window 'ChatWindow' being destroyed
+[2020.12.16-13.12.30:533][423]LogSlate: Window 'ChatWindow' being destroyed
+[2020.12.16-13.12.30:539][423]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.12.16-13.12.30:540][423]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-13.12.30:574][423]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.12.16-13.12.30:574][423]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-13.12.39:488][702]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Lobby/CharacterSelect.CharacterSelect
+[2020.12.16-13.13.01:318][928]LogSlate: Window 'CharacterSelect' being destroyed
+[2020.12.16-13.13.01:330][928]LogSlate: Window 'CharacterSelect' being destroyed
+[2020.12.16-13.13.01:339][928]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.12.16-13.13.01:339][928]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-13.13.01:343][928]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.12.16-13.13.01:343][928]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-13.13.03:764][ 63]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Lobby/ConnectedPlayer.ConnectedPlayer
+[2020.12.16-13.13.10:118][412]LogSlate: Window 'ConnectedPlayer' being destroyed
+[2020.12.16-13.13.10:130][412]LogSlate: Window 'ConnectedPlayer' being destroyed
+[2020.12.16-13.13.10:137][412]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.12.16-13.13.10:137][412]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-13.13.10:143][412]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.12.16-13.13.10:143][412]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-13.13.12:115][517]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Lobby/GameSetting.GameSetting
+[2020.12.16-13.13.45:208][363]LogSlate: Window 'GameSetting' being destroyed
+[2020.12.16-13.13.45:215][363]LogSlate: Window 'GameSetting' being destroyed
+[2020.12.16-13.13.45:218][363]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.12.16-13.13.45:218][363]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-13.13.45:260][363]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.12.16-13.13.45:260][363]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-13.13.47:179][467]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Lobby/LobbyMenu.LobbyMenu
+[2020.12.16-13.16.01:606][736]LogEditorTransaction: Undo Set Vector Property
+[2020.12.16-13.17.05:345][212]LogRHI: Error: Present Fail Count 1
+[2020.12.16-13.17.05:345][212]LogRHI: Error: SyncInterval 0
+[2020.12.16-13.17.05:345][212]LogRHI: Error: SwapChainDesc.BufferDesc.Width 46
+[2020.12.16-13.17.05:345][212]LogRHI: Error: SwapChainDesc.BufferDesc.Height 71
+[2020.12.16-13.17.05:345][212]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2020.12.16-13.17.05:345][212]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2020.12.16-13.17.05:345][212]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2020.12.16-13.17.05:345][212]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2020.12.16-13.17.05:345][212]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2020.12.16-13.17.05:345][212]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2020.12.16-13.17.05:345][212]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2020.12.16-13.17.05:345][212]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2020.12.16-13.17.05:345][212]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2020.12.16-13.17.05:345][212]LogRHI: Error: SwapChainDesc.OutputWindow 00000000005C044A
+[2020.12.16-13.17.05:345][212]LogRHI: Error: SwapChainDesc.Windowed true
+[2020.12.16-13.17.05:345][212]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2020.12.16-13.17.05:345][212]LogRHI: Error: SwapChainDesc.Flags 2050
+[2020.12.16-13.17.05:412][212]LogD3D11RHI: Error: Result failed 
+ at D:/Build/++UE4/Sync/Engine/Source/Runtime/Windows/D3D11RHI/Private/D3D11Query.cpp:348 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DRIVER_INTERNAL_ERROR
+[2020.12.16-13.17.05:412][212]LogD3D11RHI: [Aftermath] GDynamicRHI=0000024D29F320C0, GDX11NVAfterMathEnabled=0, Result=0xFFFFFFFF, bDeviceActive=0
+[2020.12.16-13.17.05:412][212]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2020.12.16-13.18.05:423][212]LogWindows: FPlatformMisc::RequestExit(0)
+[2020.12.16-13.18.05:423][212]LogCore: Engine exit requested (reason: Win RequestExit)
+[2020.12.16-13.18.05:423][212]LogWindows: FPlatformMisc::RequestExit(1)
+[2020.12.16-13.18.05:423][212]LogCore: Engine exit requested (reason: Win RequestExit; note: exit was already requested)
+[2020.12.16-13.18.05:428][212]Log file closed, 12/16/20 20:18:05
