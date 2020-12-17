@@ -57,3 +57,9 @@ BattleChess_Game/Saved/SaveGames/PlayerSettingsSave.sav
 *.ini~merged
 *.log
 *.sav
+BattleChess_Game/Intermediate/CachedAssetRegistry.bin
+BattleChess_Game/Saved/AutoScreenshot.png
+BattleChess_Game/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+BattleChess_Game/Saved/Logs/BattleChess_Game.log
+BattleChess_Game/Saved/Logs/BattleChess_Game_2.log
+BattleChess_Game/Saved/Logs/BattleChess_Game_3.log
