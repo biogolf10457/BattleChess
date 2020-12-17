@@ -1,7 +1,7 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\Garfield\\Documents\\GitHub\\BattleChess\\BattleChess_Game\\Intermediate\\Source\\BattleChess_Game.Build.cs",
-		"C:\\Users\\Garfield\\Documents\\GitHub\\BattleChess\\BattleChess_Game\\Intermediate\\Source\\BattleChess_Game.Target.cs"
+		"D:\\BattleChess\\BattleChess_Game\\Intermediate\\Source\\BattleChess_Game.Build.cs",
+		"D:\\BattleChess\\BattleChess_Game\\Intermediate\\Source\\BattleChess_Game.Target.cs"
 	],
-	"EngineVersion": "4.25.4"
+	"EngineVersion": "4.25.3"
 }
