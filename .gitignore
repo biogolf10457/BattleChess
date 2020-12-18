@@ -64,3 +64,6 @@ BattleChess_Game/Saved/Logs/BattleChess_Game.log
 BattleChess_Game/Saved/Logs/BattleChess_Game_2.log
 BattleChess_Game/Saved/Logs/BattleChess_Game_3.log
 BattleChess_Game/Saved/AutoScreenshot.png
+BattleChess_Game/Binaries/Win64/BattleChess_Game.exe
+BattleChess_Game/Binaries/Win64/BattleChess_Game.pdb
+BattleChess_Game/Intermediate/Build/Win64/BattleChess_Game/Development/Core/SharedPCH.Core.h.pch
